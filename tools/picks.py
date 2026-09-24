@@ -49,14 +49,18 @@ def score(c):
 
 
 def select(cands, n):
-    """Vetted Pro sellers first; other sellers who pass the bar only fill the slots left over."""
+    """Vetted Pro sellers first; other sellers who pass the bar only fill the slots left over.
+
+    Within each group, sellers whose cover is a designed promo image ("designed": true, set by
+    Claude after looking at the covers) come before sellers whose cover is a raw video frame.
+    """
     seen, pool = set(), []
     for c in cands:
         if c.get("user") in seen or not c.get("url") or not eligible(c):
             continue
         seen.add(c["user"])
         pool.append(dict(c, level=level_of(c), score=score(c)))
-    pool.sort(key=lambda c: (c["level"] == "Vetted Pro", c["score"]), reverse=True)
+    pool.sort(key=lambda c: (c["level"] == "Vetted Pro", bool(c.get("designed")), c["score"]), reverse=True)
     chosen = pool[:n]
     for i, c in enumerate(chosen, 1):
         c["rank"] = i
@@ -80,7 +84,8 @@ def cmd_select(args):
     for c in chosen:
         reviews = f'{c["reviews"]:,}{"+" if c.get("reviews_plus") else ""}'
         print(f'  #{c["rank"]:<2} {c["score"]:>5}  {c["rating"]}★ {reviews:>7}  {c["level"] or "-":<10} '
-              f'${c.get("price") or "?":<5} {"budget " if c["budget"] else ""}{c["seller"]}')
+              f'${c.get("price") or "?":<5} {"designed " if c.get("designed") else ""}'
+              f'{"budget " if c["budget"] else ""}{c["seller"]}')
 
 
 def cmd_add(args):
@@ -117,7 +122,8 @@ def cmd_add(args):
             "photo": p.get("photo", ""),
             # The gig's cover image URL. Always stored; build.py shows it only when
             # site.json "show_gig_images" is true (after checking the affiliate terms).
-            "gig_image": p.get("gig_image") or p.get("image", ""),
+            # Only designed promo covers are kept; raw video frames are dropped.
+            "gig_image": (p.get("gig_image") or p.get("image", "")) if p.get("designed") else "",
         })
     # utf-8-sig so the file opens correctly in Excel.
     with open(GIGS, "w", encoding="utf-8-sig", newline="") as f:

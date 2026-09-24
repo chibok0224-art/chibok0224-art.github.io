@@ -49,6 +49,18 @@ their phone through Chrome Remote Desktop. Do not email them about it: sending m
 approval each time, which they cannot give while away.
 Keep at least 5 seconds between Fiverr page loads, and read only the pages this procedure needs.
 
+## 1b. Review the covers (designed promo image or raw video frame?)
+
+The user wants only **designed promo images** on cards: a cover laid out as an advert, with a
+title or text, graphics or several panels (e.g. "UGC SPOKESPERSON", "Create studio quality UGC
+videos"). A raw frame grabbed from a video (a person mid-sentence, maybe with a subtitle) does not count.
+
+Build a numbered contact sheet of the eligible candidates' `image` URLs (a small HTML grid served
+next to the local preview, `referrerpolicy="no-referrer"` on each img), screenshot it, and judge each
+cover by eye. Add `"designed": true` or `false` to every candidate in `candidates.json`.
+`picks.py select` then ranks designed-cover sellers first within Vetted Pro (and within the others),
+and `picks.py add` keeps a cover only when it is designed; the rest get the initials avatar.
+
 ## 2. Rank
 
 ```
