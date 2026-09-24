@@ -663,6 +663,11 @@ def main():
         if release:
             sys.exit(1)
 
+    # Gig cover images are collected with the picks but only shown once the affiliate terms allow it.
+    if not site.get("show_gig_images"):
+        for g in gigs:
+            g["gig_image"] = ""
+
     shown = [g for g in gigs if g["status"] == "live" or not release]
     draft = any(g["status"] != "live" for g in shown)
     by_page = {}

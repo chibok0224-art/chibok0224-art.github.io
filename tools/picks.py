@@ -115,8 +115,9 @@ def cmd_add(args):
             "affiliate_url": "",
             # Only a photo the seller has allowed us to use, saved under static/img/sellers/.
             "photo": p.get("photo", ""),
-            # The gig's cover image URL, only once the affiliate terms allow showing it.
-            "gig_image": p.get("gig_image", ""),
+            # The gig's cover image URL. Always stored; build.py shows it only when
+            # site.json "show_gig_images" is true (after checking the affiliate terms).
+            "gig_image": p.get("gig_image") or p.get("image", ""),
         })
     # utf-8-sig so the file opens correctly in Excel.
     with open(GIGS, "w", encoding="utf-8-sig", newline="") as f:

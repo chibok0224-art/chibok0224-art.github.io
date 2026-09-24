@@ -28,6 +28,8 @@ const out=[]; for (const c of document.querySelectorAll('.gig-wrapper[data-gig-i
     reviews:revRaw.toLowerCase().includes('k')?Math.round(parseFloat(revRaw)*1000):parseInt(revRaw.replace(/,/g,''))||null,
     reviews_plus:revRaw.includes('+'), price:parseFloat(((t.match(/From\s+US\$\s?([\d,.]+)/)||[])[1]||'').replace(/,/g,''))||null,
     badges:['Vetted Pro','Top Rated','Level 2','Level 1',"Fiverr's Choice"].filter(b=>t.includes(b)),
+    image:(()=>{const i=a.querySelector('img'); const s=i&&(i.currentSrc||i.src||i.dataset.src)||'';
+      return s.includes('fiverr-res.cloudinary.com')?s:'';})(),
     url:'https://www.fiverr.com'+href}); }
 JSON.stringify(out)
 ```
@@ -101,11 +103,18 @@ rating, reviews, level, price, best_for), and the live URL.
 
 ## Gig cover images
 
-Cards can show the gig's own cover image (the seller's advertising image) as a banner: put its
-`fiverr-res.cloudinary.com/...` address in the pick's `gig_image`. It is hotlinked, not copied.
-Only fill it once the user has confirmed the Fiverr affiliate terms allow showing gig images, and
-use addresses the user copied from Fiverr. Do not scrape images automatically: many covers show
-faces, and automated collection of those is blocked.
+Cards can show the gig's own cover image (the seller's advertising image) as a banner. The listing
+snippet above already returns each card's cover address as `image` (a `fiverr-res.cloudinary.com`
+URL), so no extra page loads are needed; `tools/picks.py add` stores it as `gig_image`. It is
+hotlinked, never downloaded.
+
+The build shows these banners only when `content/site.json` has `"show_gig_images": true`. Leave it
+false until the user has confirmed the Fiverr affiliate terms allow showing gig images; turning it on
+later makes every stored image appear at once.
+
+If the auto-mode safety check refuses to read image addresses (covers often show the seller's face),
+do not work around it: save the picks without images and tell the user they can copy the cover
+addresses by right-click and send them to you.
 
 ## Rules
 
