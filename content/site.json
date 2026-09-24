@@ -1,10 +1,19 @@
 {
   "name": "GigCompass",
   "tagline": "Find the right Fiverr freelancer for any job",
-  "description": "A guide to every Fiverr service category, with hiring checklists and hand-picked sellers with proven track records.",
+  "description": "A guide to every Fiverr service category, with hiring checklists and shortlists of top-rated sellers with proven track records.",
   "base_url": "https://chibok0224-art.github.io",
   "language": "en",
   "contact_email": "",
-  "affiliate_link_template": "",
+  "affiliate": {
+    "bta": "",
+    "link": "https://go.fiverr.com/visit/?bta={bta}&brand={brand}&landingPage={url}",
+    "landing_page_encode_times": 1,
+    "brands": {
+      "marketplace": "fiverrmarketplace",
+      "pro": "fp",
+      "logomaker": "logomaker"
+    }
+  },
   "updated": "2026-09-25"
 }

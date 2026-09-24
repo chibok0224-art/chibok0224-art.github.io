@@ -23,11 +23,14 @@ GitHub 에 push 하면 GitHub Actions 가 `python build.py --release` 로 빌드
 
 | 경로 | 내용 |
 |---|---|
-| `content/site.json` | 사이트 이름, 주소, **제휴 링크 틀**(`affiliate_link_template`) |
+| `content/site.json` | 사이트 이름, 주소, **제휴 ID**(`affiliate.bta`) |
 | `content/taxonomy/<대분류>.json` | 대분류 → 그룹 → 서비스 목록 (Fiverr 카테고리 그대로) |
 | `content/pages/<대분류>/<서비스>/` | 우리가 쓴 가이드: `page.json`(제목·소개·FAQ) + `guide.html`(본문) |
 | `content/gigs.csv` | 추천 판매자. 한 줄에 한 명, `page` 열로 서비스에 연결 |
 | `tools/import_taxonomy.py` | Fiverr 카테고리 목록을 taxonomy 파일로 저장 |
+| `tools/picks.py` | 추천 판매자 순위 매기기(select), gigs.csv 에 넣기(add) |
+| `tools/category_art.py` | 대분류 카드 일러스트(SVG) 생성 |
+| `.claude/skills/gigcompass-picks/` | 추천 판매자 자동 선정 절차 (Claude Code 스킬) |
 | `static/` | CSS, 검색 스크립트, 아이콘 |
 | `dist/` | 결과물. 직접 고치지 않는다 (git 에도 안 올림) |
 
@@ -39,11 +42,29 @@ python build.py --release    # 공개용: live 판매자만. 오류가 있으면
 python -m http.server 8080 --directory dist   # http://localhost:8080 에서 미리보기
 ```
 
-## 제휴 링크 틀
+## 제휴 링크 (딥링크)
 
-Fiverr 어필리에이트 승인 후, 대시보드에서 아무 Fiverr 주소로 딥링크를 하나 만들어 보고
-그 모양에 맞춰 `affiliate_link_template` 을 채운다. 원래 Fiverr 주소가 들어갈 자리는 `{url}` 로 쓴다.
-그러면 사이트의 **모든** 카테고리 링크가 한 번에 제휴 링크가 된다. 비어 있으면 일반 Fiverr 링크다.
+Fiverr 딥링크는 모두 같은 모양이다:
+`https://go.fiverr.com/visit/?bta=<제휴 ID>&brand=<상품>&landingPage=<Fiverr 주소>`
+
+`content/site.json` 의 `affiliate.bta` 에 대시보드의 제휴 ID 만 넣으면 사이트의 **모든** Fiverr 링크
+(카테고리 420개, 추천 판매자 버튼, Logo Maker 버튼)가 자동으로 딥링크가 된다. 비어 있으면 일반 Fiverr 링크다.
+
+- `brand` 는 자동으로 고른다: Vetted Pro 판매자 → `fp`, Logo Maker → `logomaker`, 나머지 → `fiverrmarketplace`
+- `landing_page_encode_times`: 대시보드가 만든 실제 딥링크의 `landingPage` 가 `https%3A` 로 시작하면 1, `https%253A` 면 2
+
+가이드 본문(guide.html)에서는 `{{fiverr:/주소|버튼 문구}}` 라고 쓰면 딥링크 버튼이 된다.
+
+## 추천 판매자 자동 선정 (스킬)
+
+Claude Code 에서 "Logo Design 추천 판매자 채워줘" 처럼 말하면 `.claude/skills/gigcompass-picks` 가 돈다.
+
+1. Fiverr 목록 페이지를 읽는다
+2. `tools/picks.py select` 가 기준(평점 4.8·리뷰 100개 이상, 또는 Vetted Pro 4.7 이상)으로 거르고 순위를 매긴다
+3. 상위 긱 페이지를 읽고 카드 문구를 우리 말로 쓴다
+4. `tools/picks.py add` 가 gigs.csv 에 넣는다 → 빌드·게시
+
+Fiverr 봇 확인("It needs a human touch")이 뜨면 멈추고 사용자에게 풀어 달라고 한다.
 
 ## gigs.csv 열
 
@@ -57,7 +78,8 @@ Fiverr 어필리에이트 승인 후, 대시보드에서 아무 Fiverr 주소로
 | `rating`, `reviews`, `level`, `starting_price` | 평점, 리뷰 수, 등급, 시작 가격(달러 숫자만) |
 | `checked` | 위 숫자를 확인한 날짜 `YYYY-MM-DD`. 120일이 지나면 빌드가 경고한다 |
 | `why`, `watch_out` | 추천 이유(우리 말로), 솔직한 단점 |
-| `affiliate_url` | 그 판매자 긱의 제휴 딥링크 |
+| `gig_url` | 판매자 긱의 **일반** Fiverr 주소. 빌드가 딥링크로 바꾼다 |
+| `affiliate_url` | (선택) 직접 만든 딥링크. 있으면 gig_url 대신 쓴다 |
 
 엑셀로 편집하면 저장할 때 **"CSV UTF-8"** 형식을 고른다.
 

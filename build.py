@@ -112,10 +112,14 @@ def check_gigs(gigs, services):
             errors.append(f"{where}: page '{g['page']}' has no guide in content/pages")
         if g["status"] != "live":
             continue
-        for field in ("id", "name", "best_for", "why", "affiliate_url", "checked"):
+        for field in ("id", "name", "best_for", "why", "checked"):
             if not g.get(field):
                 errors.append(f"{where}: missing '{field}'")
-        if g["affiliate_url"] and "fiverr" not in g["affiliate_url"].lower():
+        if not (g.get("gig_url") or g.get("affiliate_url")):
+            errors.append(f"{where}: needs gig_url (plain Fiverr gig address)")
+        if g.get("gig_url") and not g["gig_url"].startswith("https://www.fiverr.com/"):
+            errors.append(f"{where}: gig_url must start with https://www.fiverr.com/")
+        if g.get("affiliate_url") and "fiverr" not in g["affiliate_url"].lower():
             errors.append(f"{where}: affiliate_url does not look like a Fiverr link")
         if g["rating"] is not None and not 0 <= g["rating"] <= 5:
             errors.append(f"{where}: rating must be 0-5")
@@ -132,22 +136,49 @@ def check_gigs(gigs, services):
 # ---------- links ----------
 
 class Links:
-    """Builds outbound Fiverr links. With an affiliate template set, every category link earns."""
+    """Builds outbound Fiverr links as affiliate deep links once site.json has our affiliate id (bta).
+
+    A deep link is https://go.fiverr.com/visit/?bta=<id>&brand=<product>&landingPage=<encoded url>.
+    brand picks the commission plan: Fiverr Pro gigs use "pro", Logo Maker pages use "logomaker",
+    everything else "marketplace". Without a bta, links are plain Fiverr URLs.
+    """
 
     def __init__(self, site):
-        self.template = site.get("affiliate_link_template", "").strip()
+        aff = site.get("affiliate", {})
+        self.bta = str(aff.get("bta", "")).strip()
+        self.pattern = aff.get("link", "")
+        self.encode_times = int(aff.get("landing_page_encode_times", 1))
+        self.brands = aff.get("brands", {})
 
-    def fiverr(self, path):
-        url = FIVERR + path
-        return self.template.replace("{url}", quote(url, safe="")) if self.template else url
+    @property
+    def active(self):
+        return bool(self.bta and self.pattern)
+
+    def brand_for(self, url, pro=False):
+        if "/logo-maker" in url:
+            return "logomaker"
+        return "pro" if pro else "marketplace"
+
+    def deep(self, url, pro=False):
+        """url: a full https://www.fiverr.com/... address, or a path starting with '/'."""
+        if url.startswith("/"):
+            url = FIVERR + url
+        if not self.active:
+            return url
+        landing = url
+        for _ in range(self.encode_times):
+            landing = quote(landing, safe="")
+        brand = self.brands.get(self.brand_for(url, pro), self.brands.get("marketplace", ""))
+        return (self.pattern.replace("{bta}", quote(self.bta, safe=""))
+                .replace("{brand}", brand).replace("{url}", landing))
 
     @property
     def rel(self):
-        return "sponsored nofollow noopener" if self.template else "nofollow noopener"
+        return "sponsored nofollow noopener" if self.active else "nofollow noopener"
 
     def a(self, path, label, cls=""):
         c = f' class="{cls}"' if cls else ""
-        return f'<a{c} href="{esc(self.fiverr(path))}" rel="{self.rel}" target="_blank">{label}</a>'
+        return f'<a{c} href="{esc(self.deep(path))}" rel="{self.rel}" target="_blank">{label}</a>'
 
 
 FIVERR_TAG = re.compile(r"\{\{fiverr:(/[^|}]*)\|([^}]+)\}\}")
@@ -250,14 +281,22 @@ def stats_line(g):
     return " · ".join(parts)
 
 
-def gig_cta(g, label):
-    if not g.get("affiliate_url"):
-        return '<span class="btn btn-off">Affiliate link missing</span>'
-    return (f'<a class="btn" href="{esc(g["affiliate_url"])}" rel="sponsored nofollow noopener" '
-            f'target="_blank">{label}</a>')
+def is_pro(g):
+    return "pro" in g.get("level", "").lower()
 
 
-def gig_card(g, i):
+def gig_cta(g, links, label):
+    """A hand-made affiliate_url wins; otherwise the gig's plain Fiverr URL becomes a deep link."""
+    if g.get("affiliate_url"):
+        href, rel = g["affiliate_url"], "sponsored nofollow noopener"
+    elif g.get("gig_url"):
+        href, rel = links.deep(g["gig_url"], pro=is_pro(g)), links.rel
+    else:
+        return '<span class="btn btn-off">Gig link missing</span>'
+    return f'<a class="btn" href="{esc(href)}" rel="{rel}" target="_blank">{label}</a>'
+
+
+def gig_card(g, i, links):
     stats = stats_line(g) or "Rating, level and price go here"
     gig = f'<p class="gig-title">“{esc(g["gig_title"])}”</p>' if g.get("gig_title") else ""
     watch = f'<p class="watch"><strong>Keep in mind:</strong> {esc(g["watch_out"])}</p>' if g.get("watch_out") else ""
@@ -277,11 +316,11 @@ def gig_card(g, i):
   <p>{esc(g.get("why", ""))}</p>
   {watch}
   {checked}
-  {gig_cta(g, f'See {esc(g["name"])} on Fiverr →')}
+  {gig_cta(g, links, f'See {esc(g["name"])} on Fiverr →')}
 </article>"""
 
 
-def gig_row(g):
+def gig_row(g, links):
     cls = "row" + (" placeholder" if g["status"] != "live" else "")
     search = " ".join(g.get(k, "") for k in ("name", "best_for", "gig_title", "level")).lower()
     return f"""<li class="{cls}" id="{esc(g['id'])}" data-search="{esc(search)}" data-rank="{g['rank']}"
@@ -292,7 +331,7 @@ def gig_row(g):
     <p class="stats">{stats_line(g)}</p>
     <p class="row-why">{esc(g.get("why", ""))}</p>
   </div>
-  {gig_cta(g, "View gig →")}
+  {gig_cta(g, links, "View gig →")}
 </li>"""
 
 
@@ -315,7 +354,7 @@ def service_page(site, links, svc, gigs, draft):
                       for g in featured)
         more_link = f'<li><a href="#more">{len(more)} more options</a></li>' if more else ""
         picks_html = (f'<nav class="toc"><p>Our top picks</p><ol>{toc}{more_link}</ol></nav>'
-                      f'<section class="picks">{"".join(gig_card(g, i) for i, g in enumerate(featured, 1))}</section>')
+                      f'<section class="picks">{"".join(gig_card(g, i, links) for i, g in enumerate(featured, 1))}</section>')
     else:
         picks_html = ('<p class="empty">We are finalizing our shortlist for this service. '
                       'Until then, the guide below walks you through how to evaluate sellers yourself.</p>')
@@ -335,7 +374,7 @@ def service_page(site, links, svc, gigs, draft):
   <span id="more-count" class="muted"></span>
 </div>"""
         more_html = (f'<section class="more"><h2 id="more">More {esc(svc["name"])} sellers worth a look</h2>'
-                     f'{tools}<ul id="more-list" class="rows">{"".join(gig_row(g) for g in more)}</ul></section>')
+                     f'{tools}<ul id="more-list" class="rows">{"".join(gig_row(g, links) for g in more)}</ul></section>')
 
     related = [s for g in top["groups"] if g["name"] == svc["group"] for s in g["subs"] if s is not svc]
     related_html = ""
@@ -475,8 +514,8 @@ def home_page(site, tops, pages, draft):
 <h2>How we pick</h2>
 <ul>
   <li><strong>Track record first.</strong> Typically 100+ reviews with a 4.8+ average, or Fiverr Pro verification.</li>
-  <li><strong>Portfolio reviewed by hand.</strong> We look at the actual work, not just the star rating.</li>
-  <li><strong>Clear packages.</strong> Deliverables, revisions and usage rights must be spelled out.</li>
+  <li><strong>Gig pages checked.</strong> We look at what each package includes, delivery times and revisions.</li>
+  <li><strong>Honest notes.</strong> Every pick lists a limitation when we find one.</li>
   <li><strong>Dated and re-checked.</strong> Every pick shows when we last checked it.</li>
 </ul>
 <p><a href="/how-we-pick/">Read our full method →</a></p>
@@ -492,16 +531,16 @@ def text_page(site, *, slug, title, description, body_html, draft):
 
 
 HOW_WE_PICK = """
-<p>Every freelancer on this site is chosen by us. Sellers cannot pay to be listed or to move up a list.</p>
+<p>Sellers cannot pay to be listed or to move up a list. Our picks follow fixed, public rules, applied the same way in every category.</p>
 <h2>Our criteria</h2>
 <ul>
-  <li><strong>Public track record.</strong> As a rule, at least 100 reviews with an average of 4.8 or higher, or Fiverr Pro verification. We read recent reviews, not only the average.</li>
-  <li><strong>Portfolio quality.</strong> We review the seller's sample work ourselves and judge whether it fits the use case we list them for.</li>
-  <li><strong>Clear scope.</strong> The gig must state what is delivered, how many revisions are included, and, where relevant, what usage rights you get.</li>
-  <li><strong>Recent activity.</strong> Sellers should be actively delivering orders.</li>
+  <li><strong>Public track record.</strong> An average rating of 4.8 or higher from at least 100 reviews, or Fiverr's own Vetted Pro verification with a rating of 4.7 or higher.</li>
+  <li><strong>Ranking.</strong> Among sellers who pass, we rank by rating first, then by the number of reviews, then by Fiverr's seller level. One affordable option is included when one qualifies.</li>
+  <li><strong>Gig check.</strong> For our top picks we read the gig page: what each package includes, delivery times, revisions and, where relevant, usage rights. Each pick's summary is written from that, in our own words.</li>
+  <li><strong>Limitations.</strong> When a gig has a catch, such as source files only in the top package, we say so on the pick.</li>
 </ul>
 <h2>What we do not claim</h2>
-<p>Unless a pick says otherwise, we have not personally ordered from that seller. Our picks are based on their public track record and our review of their portfolio. Ratings, prices and availability change, so each pick shows the date we last checked it. Always confirm the details on the gig page before ordering.</p>
+<p>We have not personally ordered from the sellers we list, and we do not judge creative taste for you. Our picks are a shortlist based on public track record and what each gig offers. Ratings, prices and availability change, so each pick shows the date we last checked it. Always look at the seller's portfolio and confirm the details on the gig page before ordering.</p>
 <h2>How we make money</h2>
 <p>We are members of the Fiverr affiliate program. If you hire through our links, Fiverr may pay us a commission. You pay the same price. This never decides who we list.</p>
 """
@@ -564,8 +603,8 @@ def main():
     e, w = check_gigs(gigs, services)
     errors += e
     warnings += w
-    if not links.template:
-        warnings.append("affiliate_link_template is empty in site.json: Fiverr links are plain (no commission)")
+    if not links.active:
+        warnings.append("affiliate.bta is empty in site.json: Fiverr links are plain (no commission)")
     for t in tops:
         if not (STATIC / "img" / "cat" / f'{t["slug"]}.svg').exists():
             warnings.append(f'no card image for {t["slug"]}: add it to tools/category_art.py and run it')
