@@ -336,7 +336,7 @@ def hi_res(url):
 def gig_card(g, i, links):
     gig = f'<p class="gig-title">“{esc(g["gig_title"])}”</p>' if g.get("gig_title") else ""
     watch = f'<p class="watch"><strong>Keep in mind:</strong> {esc(g["watch_out"])}</p>' if g.get("watch_out") else ""
-    checked = (f'<p class="checked">Checked on Fiverr on {esc(g["checked"])}. Ratings and prices change, '
+    checked = (f'<p class="checked">Checked on {esc(g["checked"])}. Ratings and prices change, '
                'so confirm on the gig page.</p>' if g.get("checked") else "")
     if g["rating"] is not None:
         reviews = f'{g["reviews"]:,} reviews' if g["reviews"] is not None else ""
@@ -505,7 +505,7 @@ def top_page(site, links, top, draft):
 {crumbs((top["name"], None))}
 <div class="top-head">
   <div>
-    <h1>{esc(top["name"])} services on Fiverr</h1>
+    <h1>{esc(top["name"])} services</h1>
     {DISCLOSURE_NOTE}
     <p class="lead">{esc(top["intro"])}</p>
   </div>
@@ -518,9 +518,9 @@ def top_page(site, links, top, draft):
 <p class="browse">{browse}</p>
 </article>"""
     schema = {"@context": "https://schema.org", "@graph": [
-        {"@type": "CollectionPage", "name": f'{top["name"]} services on Fiverr', "description": top["blurb"]},
+        {"@type": "CollectionPage", "name": f'{top["name"]} services', "description": top["blurb"]},
         breadcrumb_schema(site, [(top["name"], f'/{top["slug"]}/')])]}
-    return page(site, title=f'{top["name"]} Services on Fiverr: Every Specialty, Explained | {site["name"]}',
+    return page(site, title=f'{top["name"]} Services: Every Specialty, Explained | {site["name"]}',
                 description=f'{top["blurb"]} Browse {count} {top["name"]} services and read our hiring guides.',
                 path=f'/{top["slug"]}/', body=body, schema=schema, draft=draft)
 
@@ -533,12 +533,12 @@ def services_page(site, links, services, draft):
     body = f"""<article class="article">
 {crumbs(("All services", None))}
 <h1>All services A–Z</h1>
-<p class="lead">Every Fiverr service we track, in one list. Start typing to filter.</p>
+<p class="lead">Every freelance service we track, in one list. Start typing to filter.</p>
 {filter_box("#az", "Logo, UGC, voice over, SEO…", "az-count")}
 <ul id="az" class="az">{rows}</ul>
 </article>"""
-    return page(site, title=f'All Fiverr Services A–Z | {site["name"]}',
-                description="Every Fiverr service category in one searchable list, with our hiring guides where available.",
+    return page(site, title=f'All Freelance Services A–Z | {site["name"]}',
+                description="Every freelance service category in one searchable list, with our hiring guides where available.",
                 path="/services/", body=body, draft=draft)
 
 
@@ -564,7 +564,7 @@ def home_page(site, tops, pages, draft):
               "url": site["base_url"].rstrip("/") + "/", "description": site["description"]}
     body = f"""<section class="hero">
 <h1>{esc(site["tagline"])}</h1>
-<p>Fiverr has hundreds of service categories and thousands of sellers in each. We map every category, explain what to check before you hire, and shortlist sellers with a long, public track record.</p>
+<p>Freelance marketplaces list hundreds of service categories and thousands of sellers in each. We map every category, explain what to check before you hire, and shortlist sellers with a long, public track record.</p>
 <p><a class="btn" href="/services/">Search all services</a></p>
 </section>
 <section>
@@ -578,7 +578,7 @@ def home_page(site, tops, pages, draft):
 <section class="method">
 <h2>How we pick</h2>
 <ul>
-  <li><strong>Vetted Pro first.</strong> Sellers vetted by Fiverr's Pro program come first; others need 100+ reviews with a 4.8+ average.</li>
+  <li><strong>Vetted Pro first.</strong> Pro-vetted sellers come first; others need 100+ reviews with a 4.8+ average.</li>
   <li><strong>Gig pages checked.</strong> We look at what each package includes, delivery times and revisions.</li>
   <li><strong>Honest notes.</strong> Every pick lists a limitation when we find one.</li>
   <li><strong>Dated and re-checked.</strong> Every pick shows when we last checked it.</li>
@@ -599,8 +599,8 @@ HOW_WE_PICK = """
 <p>Sellers cannot pay to be listed or to move up a list. Our picks follow fixed, public rules, applied the same way in every category.</p>
 <h2>Our criteria</h2>
 <ul>
-  <li><strong>Public track record.</strong> An average rating of 4.8 or higher from at least 100 reviews, or Fiverr's own Vetted Pro verification with a rating of 4.7 or higher.</li>
-  <li><strong>Vetted Pro first.</strong> We start with sellers Fiverr has vetted for its Pro program, ranked by rating and then by the number of reviews. Other top-rated sellers fill the list only when there are not enough qualifying Pro sellers.</li>
+  <li><strong>Public track record.</strong> An average rating of 4.8 or higher from at least 100 reviews, or Vetted Pro verification with a rating of 4.7 or higher.</li>
+  <li><strong>Vetted Pro first.</strong> We start with sellers vetted for the marketplace's Pro program, ranked by rating and then by the number of reviews. Other top-rated sellers fill the list only when there are not enough qualifying Pro sellers.</li>
   <li><strong>Gig check.</strong> For our top picks we read the gig page: what each package includes, delivery times, revisions and, where relevant, usage rights. Each pick's summary is written from that, in our own words.</li>
   <li><strong>Limitations.</strong> When a gig has a catch, such as source files only in the top package, we say so on the pick.</li>
 </ul>
@@ -709,7 +709,7 @@ def main():
         write(f'{svc["path"]}/index.html', service_page(site, links, svc, by_page.get(svc["path"], []), draft))
     write("how-we-pick/index.html", text_page(
         site, slug="how-we-pick", title="How we pick freelancers",
-        description="The criteria we use to choose the Fiverr freelancers we recommend.",
+        description="The criteria we use to choose the freelancers we recommend.",
         body_html=HOW_WE_PICK, draft=draft))
     write("disclosure/index.html", text_page(
         site, slug="disclosure", title="Affiliate disclosure",

@@ -130,6 +130,10 @@ addresses by right-click and send them to you.
 
 ## Rules
 
+- Don't name Fiverr in titles, guide text or card text (`best_for`, `why`, `watch_out`): write "Pro-vetted",
+  "the marketplace", "reviews" instead. The site states the affiliation in its footer, its disclosure
+  pages and the short commission note at the top of each page, and the buttons and link legend say where
+  a link goes ("View … on Fiverr ↗"). Keep those.
 - No copied seller text or portfolio galleries on our site. Stats, our summary, the gig cover image
   (when allowed, see above) and a link only.
 - Ratings and prices change: every row carries `checked`, and the build warns after 120 days.
