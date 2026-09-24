@@ -14,6 +14,7 @@ the rest link straight to Fiverr (through the affiliate link template, once it i
 """
 import csv
 import datetime as dt
+import hashlib
 import html
 import json
 import re
@@ -31,6 +32,17 @@ STALE_DAYS = 120  # warn when a gig's rating/price was last checked longer ago t
 FIVERR = "https://www.fiverr.com"
 
 esc = html.escape
+
+
+def asset_version():
+    """Short hash of the CSS and JS, appended to their URLs so browsers fetch new versions after a change."""
+    h = hashlib.sha1()
+    for name in ("style.css", "site.js"):
+        h.update((STATIC / name).read_bytes())
+    return h.hexdigest()[:8]
+
+
+ASSET_V = asset_version()
 
 
 def load(path):
@@ -222,8 +234,8 @@ def page(site, *, title, description, path, body, schema=None, draft=False):
 <meta property="og:site_name" content="{esc(site['name'])}">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/style.css">
-<script src="/site.js" defer></script>
+<link rel="stylesheet" href="/style.css?v={ASSET_V}">
+<script src="/site.js?v={ASSET_V}" defer></script>
 {ld}
 </head>
 <body>
@@ -316,6 +328,11 @@ def badges(g):
     return f'<span class="{cls}">{esc(level)}</span>'
 
 
+def hi_res(url):
+    """Listing cards use Fiverr's small 330x220 transform; ask its CDN for the 680px version instead."""
+    return url.replace("t_gig_cards_web", "t_main1,q_auto,f_auto")
+
+
 def gig_card(g, i, links):
     gig = f'<p class="gig-title">“{esc(g["gig_title"])}”</p>' if g.get("gig_title") else ""
     watch = f'<p class="watch"><strong>Keep in mind:</strong> {esc(g["watch_out"])}</p>' if g.get("watch_out") else ""
@@ -333,7 +350,7 @@ def gig_card(g, i, links):
     side_photo = (f'<img class="pick-photo" src="{esc(photo)}" alt="{esc(g["name"])}" '
                   'loading="lazy" decoding="async">' if photo else "")
     # gig_image: the gig's own cover image (landscape), shown as a banner across the card.
-    banner = (f'<img class="pick-banner" src="{esc(g["gig_image"])}" alt="{esc(g.get("gig_title") or g["name"])}" '
+    banner = (f'<img class="pick-banner" src="{esc(hi_res(g["gig_image"]))}" alt="{esc(g.get("gig_title") or g["name"])}" '
               'loading="lazy" decoding="async" referrerpolicy="no-referrer">' if g.get("gig_image") else "")
     cls = "pick" + (" placeholder" if g["status"] != "live" else "") + (" has-banner" if banner else "")
     return f"""<article class="{cls}" id="{esc(g['id'])}">
