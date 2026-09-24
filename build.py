@@ -350,8 +350,14 @@ def gig_card(g, i, links):
     side_photo = (f'<img class="pick-photo" src="{esc(photo)}" alt="{esc(g["name"])}" '
                   'loading="lazy" decoding="async">' if photo else "")
     # gig_image: the gig's own cover image (landscape), shown as a banner across the card.
-    banner = (f'<img class="pick-banner" src="{esc(hi_res(g["gig_image"]))}" alt="{esc(g.get("gig_title") or g["name"])}" '
-              'loading="lazy" decoding="async" referrerpolicy="no-referrer">' if g.get("gig_image") else "")
+    # Covers come in any shape, vertical video frames included. Show the whole image (never crop a face)
+    # and fill the rest of the 16:9 frame with a blurred copy of it.
+    banner = ""
+    if g.get("gig_image"):
+        src = esc(hi_res(g["gig_image"]))
+        banner = (f'<div class="pick-banner" style="--img:url(\'{src}\')">'
+                  f'<img src="{src}" alt="{esc(g.get("gig_title") or g["name"])}" '
+                  'loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>')
     cls = "pick" + (" placeholder" if g["status"] != "live" else "") + (" has-banner" if banner else "")
     return f"""<article class="{cls}" id="{esc(g['id'])}">
   {banner}
