@@ -60,11 +60,22 @@ h3 { font-size: 20px; margin: 0; line-height: 1.3; }
 
 .disclosure-note { background: var(--accent-soft); border-radius: var(--radius); padding: 10px 14px; font-size: 14px; margin: 0 0 20px; }
 
-.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
-.card { display: block; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; text-decoration: none; color: var(--text); transition: border-color .15s; }
-.card:hover { border-color: var(--accent); }
-.card p { color: var(--muted); font-size: 15px; margin: 8px 0 12px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; }
+.card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: var(--text); transition: border-color .15s, transform .15s, box-shadow .15s; }
+.card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 10px 24px rgba(0, 0, 0, .08); }
+.card-art { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+.card-body { padding: 16px 18px 18px; display: flex; flex-direction: column; flex: 1; }
+.card h3 { font-size: 18px; }
+.card p { color: var(--muted); font-size: 15px; margin: 8px 0 12px; flex: 1; }
 .card span { color: var(--accent); font-weight: 600; font-size: 15px; }
+.card .eyebrow { flex: 0; margin: 0 0 4px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.guide-card h3 { margin-bottom: 12px; flex: 1; }
+@media (prefers-reduced-motion: reduce) { .card, .card:hover { transition: none; transform: none; } }
+
+.top-head { display: flex; gap: 28px; align-items: center; }
+.top-head > div { flex: 1; min-width: 0; }
+.top-art { flex: none; width: 300px; height: auto; border-radius: var(--radius); border: 1px solid var(--line); }
+@media (max-width: 720px) { .top-head { flex-direction: column-reverse; align-items: stretch; } .top-art { width: 100%; } }
 
 .method ul, .prose ul { padding-left: 20px; }
 .method li, .guide li { margin-bottom: 8px; }

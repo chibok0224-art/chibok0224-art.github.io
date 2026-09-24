@@ -390,9 +390,14 @@ def top_page(site, links, top, draft):
     browse = links.a(top["fiverr_path"], f'Browse all {esc(top["name"])} on Fiverr →', "btn btn-ghost")
     body = f"""<article class="article wide">
 {crumbs((top["name"], None))}
-<h1>{esc(top["name"])} services on Fiverr</h1>
-{DISCLOSURE_NOTE}
-<p class="lead">{esc(top["intro"])}</p>
+<div class="top-head">
+  <div>
+    <h1>{esc(top["name"])} services on Fiverr</h1>
+    {DISCLOSURE_NOTE}
+    <p class="lead">{esc(top["intro"])}</p>
+  </div>
+  {art(top, "top-art")}
+</div>
 <p class="muted">{count} services · {guides} with our hiring guide · <span class="badge">Guide</span> = our picks and checklist, <span class="ext">↗</span> = opens Fiverr</p>
 {filter_box("#groups", f"Find a {top['name']} service", "groups-count")}
 <div id="groups" class="groups">{groups_html}</div>
@@ -424,18 +429,24 @@ def services_page(site, links, services, draft):
                 path="/services/", body=body, draft=draft)
 
 
+def art(top, cls="card-art"):
+    return (f'<img class="{cls}" src="/img/cat/{top["slug"]}.svg" alt="" width="320" height="180" '
+            'loading="lazy" decoding="async">')
+
+
 def home_page(site, tops, pages, draft):
     cards = ""
     for t in tops:
         count = sum(len(g["subs"]) for g in t["groups"])
         guides = sum(1 for g in t["groups"] for s in g["subs"] if s["page"])
         meta = f"{count} services" + (f" · {guides} guide{'s' if guides != 1 else ''}" if guides else "")
-        cards += (f'<a class="card" href="/{t["slug"]}/"><h3>{esc(t["name"])}</h3>'
-                  f'<p>{esc(t["blurb"])}</p><span>{meta} →</span></a>')
+        cards += (f'<a class="card" href="/{t["slug"]}/">{art(t)}<div class="card-body">'
+                  f'<h3>{esc(t["name"])}</h3><p>{esc(t["blurb"])}</p><span>{meta} →</span></div></a>')
     latest = sorted(pages, key=lambda p: p["updated"], reverse=True)[:12]
     latest_html = "".join(
-        f'<li><a href="/{p["service"]["path"]}/">{esc(p["h1"])}</a> '
-        f'<span class="muted">· {esc(p["service"]["top"]["name"])}</span></li>' for p in latest)
+        f'<a class="card guide-card" href="/{p["service"]["path"]}/">{art(p["service"]["top"])}'
+        f'<div class="card-body"><p class="eyebrow">{esc(p["service"]["top"]["name"])}</p>'
+        f'<h3>{esc(p["h1"])}</h3><span>Read the guide →</span></div></a>' for p in latest)
     schema = {"@context": "https://schema.org", "@type": "WebSite", "name": site["name"],
               "url": site["base_url"].rstrip("/") + "/", "description": site["description"]}
     body = f"""<section class="hero">
@@ -449,7 +460,7 @@ def home_page(site, tops, pages, draft):
 </section>
 <section>
 <h2>Latest hiring guides</h2>
-<ul class="latest">{latest_html}</ul>
+<div class="cards">{latest_html}</div>
 </section>
 <section class="method">
 <h2>How we pick</h2>
@@ -546,6 +557,9 @@ def main():
     warnings += w
     if not links.template:
         warnings.append("affiliate_link_template is empty in site.json: Fiverr links are plain (no commission)")
+    for t in tops:
+        if not (STATIC / "img" / "cat" / f'{t["slug"]}.svg').exists():
+            warnings.append(f'no card image for {t["slug"]}: add it to tools/category_art.py and run it')
     unverified = [s["path"] for s in services.values() if s.get("unverified")]
     if unverified:
         warnings.append(f"fiverr_path not verified for: {', '.join(unverified)}")
