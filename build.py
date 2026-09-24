@@ -16,6 +16,7 @@ import csv
 import datetime as dt
 import html
 import json
+import re
 import shutil
 import sys
 from collections import Counter
@@ -147,6 +148,14 @@ class Links:
     def a(self, path, label, cls=""):
         c = f' class="{cls}"' if cls else ""
         return f'<a{c} href="{esc(self.fiverr(path))}" rel="{self.rel}" target="_blank">{label}</a>'
+
+
+FIVERR_TAG = re.compile(r"\{\{fiverr:(/[^|}]*)\|([^}]+)\}\}")
+
+
+def expand_fiverr_links(text, links):
+    """Guides write {{fiverr:/path|Label}}; it becomes an outbound link through the affiliate template."""
+    return FIVERR_TAG.sub(lambda m: links.a(m.group(1), esc(m.group(2)), "btn btn-ghost"), text)
 
 
 def service_link(s, links, *, badge=True):
@@ -366,7 +375,7 @@ def service_page(site, links, svc, gigs, draft):
 {more_html}
 <p class="browse">{browse}</p>
 <section class="guide">
-{pg["guide_html"]}
+{expand_fiverr_links(pg["guide_html"], links)}
 </section>
 {faq_section}
 {related_html}
