@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """Build the static site from content/ into dist/.
 
-    python build.py            preview build: draft gigs are shown (dashed, with a DRAFT banner)
-    python build.py --release  public build: only live gigs; stops if a live gig has errors
+    python build.py            preview build: draft gigs are shown (dashed, with a PREVIEW banner)
+    python build.py --release  public build: only live gigs; stops on any content error
 
-All gigs live in content/gigs.csv (one row per gig, UTF-8). Editorial text per
-category lives in content/categories/<slug>/category.json + guide.html.
+Content model (mirrors Fiverr):
+    content/taxonomy/<top>.json          top category -> groups -> services (every Fiverr subcategory)
+    content/pages/<top>/<service>/       our hiring guide for one service: page.json + guide.html
+    content/gigs.csv                     recommended sellers, one row each, keyed by page "<top>/<service>"
+
+Every service is listed on its category hub. Services with a guide get their own page;
+the rest link straight to Fiverr (through the affiliate link template, once it is set).
 """
 import csv
 import datetime as dt
@@ -15,27 +20,52 @@ import shutil
 import sys
 from collections import Counter
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent
 CONTENT = ROOT / "content"
 STATIC = ROOT / "static"
 DIST = ROOT / "dist"
 STALE_DAYS = 120  # warn when a gig's rating/price was last checked longer ago than this
+FIVERR = "https://www.fiverr.com"
 
 esc = html.escape
 
 
 def load(path):
-    return json.loads(path.read_text(encoding="utf-8"))
+    return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
-def load_categories():
-    cats = []
-    for meta in sorted((CONTENT / "categories").glob("*/category.json")):
-        cat = load(meta)
-        cat["guide_html"] = (meta.parent / "guide.html").read_text(encoding="utf-8")
-        cats.append(cat)
-    return sorted(cats, key=lambda c: c.get("order", 99))
+# ---------- content loading ----------
+
+def load_taxonomy():
+    """Return (tops, services). Each service dict gets 'top', 'group' and 'path' added."""
+    tops, services = [], {}
+    for f in sorted((CONTENT / "taxonomy").glob("*.json")):
+        top = load(f)
+        for group in top["groups"]:
+            for s in group["subs"]:
+                s["top"], s["group"] = top, group["name"]
+                s["path"] = f'{top["slug"]}/{s["slug"]}'
+                s["page"] = None
+                services[s["path"]] = s
+        tops.append(top)
+    return sorted(tops, key=lambda t: t.get("order", 99)), services
+
+
+def load_pages(services, errors):
+    pages = []
+    for meta in sorted((CONTENT / "pages").glob("*/*/page.json")):
+        key = f"{meta.parent.parent.name}/{meta.parent.name}"
+        if key not in services:
+            errors.append(f"content/pages/{key}: no such service in content/taxonomy")
+            continue
+        page = load(meta)
+        page["guide_html"] = (meta.parent / "guide.html").read_text(encoding="utf-8")
+        page["service"] = services[key]
+        services[key]["page"] = page
+        pages.append(page)
+    return pages
 
 
 def _num(value, kind):
@@ -43,9 +73,9 @@ def _num(value, kind):
     return kind(value) if value else None
 
 
-def load_gigs():
+def load_gigs(errors):
     """Read gigs.csv. utf-8-sig so the file also opens cleanly when saved by Excel as 'CSV UTF-8'."""
-    gigs, errors = [], []
+    gigs = []
     with open(CONTENT / "gigs.csv", encoding="utf-8-sig", newline="") as f:
         for line_no, row in enumerate(csv.DictReader(f), start=2):
             row = {k: (v or "").strip() for k, v in row.items() if k}
@@ -62,23 +92,23 @@ def load_gigs():
             row["status"] = row.get("status", "").lower() or "draft"
             row["line"] = line_no
             gigs.append(row)
-    return gigs, errors
+    return gigs
 
 
-def check_gigs(gigs, cats):
+def check_gigs(gigs, services):
     """Errors block a release build; warnings are only printed."""
     errors, warnings = [], []
-    slugs = {c["slug"] for c in cats}
     for gid, n in Counter(g["id"] for g in gigs).items():
         if n > 1:
-            errors.append(f"duplicate id '{gid}' ({n} rows)")
+            errors.append(f"gigs.csv: duplicate id '{gid}' ({n} rows)")
     today = dt.date.today()
     for g in gigs:
-        where = f"line {g['line']} ({g['id'] or 'no id'})"
+        where = f"gigs.csv line {g['line']} ({g['id'] or 'no id'})"
         if g["status"] not in ("live", "draft"):
             errors.append(f"{where}: status must be 'live' or 'draft'")
-        if g["category"] not in slugs:
-            errors.append(f"{where}: unknown category '{g['category']}'")
+        svc = services.get(g["page"])
+        if not svc or not svc["page"]:
+            errors.append(f"{where}: page '{g['page']}' has no guide in content/pages")
         if g["status"] != "live":
             continue
         for field in ("id", "name", "best_for", "why", "affiliate_url", "checked"):
@@ -98,11 +128,39 @@ def check_gigs(gigs, cats):
     return errors, warnings
 
 
+# ---------- links ----------
+
+class Links:
+    """Builds outbound Fiverr links. With an affiliate template set, every category link earns."""
+
+    def __init__(self, site):
+        self.template = site.get("affiliate_link_template", "").strip()
+
+    def fiverr(self, path):
+        url = FIVERR + path
+        return self.template.replace("{url}", quote(url, safe="")) if self.template else url
+
+    @property
+    def rel(self):
+        return "sponsored nofollow noopener" if self.template else "nofollow noopener"
+
+    def a(self, path, label, cls=""):
+        c = f' class="{cls}"' if cls else ""
+        return f'<a{c} href="{esc(self.fiverr(path))}" rel="{self.rel}" target="_blank">{label}</a>'
+
+
+def service_link(s, links, *, badge=True):
+    """Our guide if we have one, otherwise straight to Fiverr."""
+    if s["page"]:
+        tag = ' <span class="badge">Guide</span>' if badge else ""
+        return f'<a href="/{s["path"]}/">{esc(s["name"])}</a>{tag}'
+    return links.a(s["fiverr_path"], f'{esc(s["name"])} <span class="ext">↗</span>', "out")
+
+
 # ---------- layout ----------
 
-def page(site, cats, *, title, description, path, body, schema=None, draft=False):
+def page(site, *, title, description, path, body, schema=None, draft=False):
     url = site["base_url"].rstrip("/") + path
-    nav = "".join(f'<a href="/{c["slug"]}/">{esc(c["nav_title"])}</a>' for c in cats[:4])
     banner = ('<div class="draft">PREVIEW: draft gigs are shown. The public build hides them.</div>'
               if draft else "")
     ld = (f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>'
@@ -125,6 +183,7 @@ def page(site, cats, *, title, description, path, body, schema=None, draft=False
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/style.css">
+<script src="/site.js" defer></script>
 {ld}
 </head>
 <body>
@@ -132,7 +191,7 @@ def page(site, cats, *, title, description, path, body, schema=None, draft=False
 <header class="site-header">
   <div class="wrap bar">
     <a class="logo" href="/"><img src="/favicon.svg" alt="" width="24" height="24">{esc(site['name'])}</a>
-    <nav>{nav}<a href="/how-we-pick/">How we pick</a></nav>
+    <nav><a href="/#categories">Categories</a><a href="/services/">All services A–Z</a><a href="/how-we-pick/">How we pick</a></nav>
   </div>
 </header>
 <main class="wrap">
@@ -150,9 +209,23 @@ def page(site, cats, *, title, description, path, body, schema=None, draft=False
 """
 
 
-def disclosure_note():
-    return ('<p class="disclosure-note">We may earn a commission if you hire through links on this page, '
-            'at no extra cost to you. <a href="/how-we-pick/">How we choose picks</a>.</p>')
+def crumbs(*parts):
+    """parts: (label, href or None) pairs."""
+    out = ['<a href="/">Home</a>']
+    for label, href in parts:
+        out.append(f'<a href="{href}">{esc(label)}</a>' if href else esc(label))
+    return f'<p class="crumbs">{" › ".join(out)}</p>'
+
+
+def breadcrumb_schema(site, items):
+    base = site["base_url"].rstrip("/")
+    return {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": i, "name": name, "item": base + href}
+        for i, (name, href) in enumerate([("Home", "/")] + items, 1)]}
+
+
+DISCLOSURE_NOTE = ('<p class="disclosure-note">We may earn a commission if you hire through links on this page, '
+                   'at no extra cost to you. <a href="/how-we-pick/">How we choose picks</a>.</p>')
 
 
 # ---------- gig rendering ----------
@@ -168,7 +241,7 @@ def stats_line(g):
     return " · ".join(parts)
 
 
-def cta(g, label):
+def gig_cta(g, label):
     if not g.get("affiliate_url"):
         return '<span class="btn btn-off">Affiliate link missing</span>'
     return (f'<a class="btn" href="{esc(g["affiliate_url"])}" rel="sponsored nofollow noopener" '
@@ -195,12 +268,11 @@ def gig_card(g, i):
   <p>{esc(g.get("why", ""))}</p>
   {watch}
   {checked}
-  {cta(g, f'See {esc(g["name"])} on Fiverr →')}
+  {gig_cta(g, f'See {esc(g["name"])} on Fiverr →')}
 </article>"""
 
 
 def gig_row(g):
-    """Compact entry for the long list below the featured cards. data-* attrs drive filter/sort."""
     cls = "row" + (" placeholder" if g["status"] != "live" else "")
     search = " ".join(g.get(k, "") for k in ("name", "best_for", "gig_title", "level")).lower()
     return f"""<li class="{cls}" id="{esc(g['id'])}" data-search="{esc(search)}" data-rank="{g['rank']}"
@@ -211,42 +283,23 @@ def gig_row(g):
     <p class="stats">{stats_line(g)}</p>
     <p class="row-why">{esc(g.get("why", ""))}</p>
   </div>
-  {cta(g, "View gig →")}
+  {gig_cta(g, "View gig →")}
 </li>"""
 
 
-LIST_SCRIPT = """<script>
-(() => {
-  const list = document.getElementById('more-list');
-  const q = document.getElementById('more-q');
-  const sort = document.getElementById('more-sort');
-  const count = document.getElementById('more-count');
-  const rows = [...list.children];
-  function apply() {
-    const term = q.value.trim().toLowerCase();
-    const key = sort.value;
-    const dir = key === 'price' || key === 'rank' ? 1 : -1;
-    rows.sort((a, b) => dir * (a.dataset[key] - b.dataset[key]));
-    let shown = 0;
-    for (const r of rows) {
-      const hit = !term || r.dataset.search.includes(term);
-      r.hidden = !hit;
-      if (hit) shown++;
-      list.appendChild(r);
-    }
-    count.textContent = shown + ' of ' + rows.length;
-  }
-  q.addEventListener('input', apply);
-  sort.addEventListener('change', apply);
-  apply();
-})();
-</script>"""
+def filter_box(target, placeholder, count_id):
+    return (f'<div class="list-tools"><input type="search" data-filter="{target}" data-count="#{count_id}" '
+            f'placeholder="{esc(placeholder)}" aria-label="Filter"><span id="{count_id}" class="muted"></span></div>')
 
 
-def category_page(site, cats, cat, gigs, draft):
-    n = cat.get("featured_count", 5)
+# ---------- pages ----------
+
+def service_page(site, links, svc, gigs, draft):
+    pg, top = svc["page"], svc["top"]
+    n = pg.get("featured_count", 5)
     featured, more = gigs[:n], gigs[n:]
-    url = f'{site["base_url"].rstrip("/")}/{cat["slug"]}/'
+    url = f'{site["base_url"].rstrip("/")}/{svc["path"]}/'
+    browse = links.a(svc["fiverr_path"], f'Browse all {esc(svc["name"])} gigs on Fiverr →', "btn btn-ghost")
 
     if featured:
         toc = "".join(f'<li><a href="#{esc(g["id"])}">{esc(g.get("best_for") or g["name"])}</a></li>'
@@ -255,17 +308,16 @@ def category_page(site, cats, cat, gigs, draft):
         picks_html = (f'<nav class="toc"><p>Our top picks</p><ol>{toc}{more_link}</ol></nav>'
                       f'<section class="picks">{"".join(gig_card(g, i) for i, g in enumerate(featured, 1))}</section>')
     else:
-        picks_html = ('<p class="empty">We are finalizing our shortlist for this category. '
-                      'Until then, the guide below walks you through how we evaluate sellers.</p>')
+        picks_html = ('<p class="empty">We are finalizing our shortlist for this service. '
+                      'Until then, the guide below walks you through how to evaluate sellers yourself.</p>')
 
     more_html = ""
     if more:
         tools = ""
-        script = ""
         if len(more) > 6:
-            tools = """<div class="list-tools">
-  <input id="more-q" type="search" placeholder="Filter by name or specialty" aria-label="Filter">
-  <select id="more-sort" aria-label="Sort">
+            tools = f"""<div class="list-tools">
+  <input type="search" data-filter="#more-list" data-count="#more-count" placeholder="Filter by name or specialty" aria-label="Filter">
+  <select data-sort="#more-list" aria-label="Sort">
     <option value="rank">Our ranking</option>
     <option value="rating">Highest rated</option>
     <option value="reviews">Most reviews</option>
@@ -273,21 +325,31 @@ def category_page(site, cats, cat, gigs, draft):
   </select>
   <span id="more-count" class="muted"></span>
 </div>"""
-            script = LIST_SCRIPT
-        more_html = (f'<section class="more"><h2 id="more">More {esc(cat["card_title"])} worth a look</h2>'
-                     f'{tools}<ul id="more-list" class="rows">{"".join(gig_row(g) for g in more)}</ul>{script}</section>')
+        more_html = (f'<section class="more"><h2 id="more">More {esc(svc["name"])} sellers worth a look</h2>'
+                     f'{tools}<ul id="more-list" class="rows">{"".join(gig_row(g) for g in more)}</ul></section>')
+
+    related = [s for g in top["groups"] if g["name"] == svc["group"] for s in g["subs"] if s is not svc]
+    related_html = ""
+    if related:
+        items = "".join(f"<li>{service_link(s, links)}</li>" for s in related)
+        related_html = (f'<section class="related"><h2>Related in {esc(svc["group"])}</h2>'
+                        f'<ul class="sub-list">{items}</ul></section>')
 
     faq_html = "".join(f'<details><summary>{esc(f["q"])}</summary><p>{esc(f["a"])}</p></details>'
-                       for f in cat["faq"])
+                       for f in pg.get("faq", []))
+    faq_section = f'<section class="faq"><h2 id="faq">FAQ</h2>{faq_html}</section>' if faq_html else ""
+
     graph = [
-        {"@type": "Article", "headline": cat["title"], "description": cat["description"],
-         "dateModified": cat["updated"], "mainEntityOfPage": url,
+        {"@type": "Article", "headline": pg["title"], "description": pg["description"],
+         "dateModified": pg["updated"], "mainEntityOfPage": url,
          "author": {"@type": "Organization", "name": site["name"]},
          "publisher": {"@type": "Organization", "name": site["name"]}},
-        {"@type": "FAQPage", "mainEntity": [
-            {"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
-            for f in cat["faq"]]},
+        breadcrumb_schema(site, [(top["name"], f'/{top["slug"]}/'), (svc["name"], f'/{svc["path"]}/')]),
     ]
+    if pg.get("faq"):
+        graph.append({"@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
+            for f in pg["faq"]]})
     live = [g for g in gigs if g["status"] == "live"]
     if live:
         graph.append({"@type": "ItemList", "itemListElement": [
@@ -295,48 +357,99 @@ def category_page(site, cats, cat, gigs, draft):
             for i, g in enumerate(live, 1)]})
 
     body = f"""<article class="article">
-<p class="crumbs"><a href="/">Home</a> › {esc(cat.get("group", ""))} › {esc(cat["nav_title"])}</p>
-<h1>{esc(cat["h1"])}</h1>
-<p class="updated">Updated {esc(cat["updated"])}</p>
-{disclosure_note()}
-<p class="lead">{esc(cat["intro"])}</p>
+{crumbs((top["name"], f'/{top["slug"]}/'), (svc["group"], None))}
+<h1>{esc(pg["h1"])}</h1>
+<p class="updated">Updated {esc(pg["updated"])}</p>
+{DISCLOSURE_NOTE}
+<p class="lead">{esc(pg["intro"])}</p>
 {picks_html}
 {more_html}
+<p class="browse">{browse}</p>
 <section class="guide">
-{cat["guide_html"]}
+{pg["guide_html"]}
 </section>
-<section class="faq">
-<h2 id="faq">FAQ</h2>
-{faq_html}
-</section>
+{faq_section}
+{related_html}
 </article>"""
-    return page(site, cats, title=cat["title"], description=cat["description"],
-                path=f'/{cat["slug"]}/', body=body,
-                schema={"@context": "https://schema.org", "@graph": graph}, draft=draft)
+    return page(site, title=pg["title"], description=pg["description"], path=f'/{svc["path"]}/',
+                body=body, schema={"@context": "https://schema.org", "@graph": graph}, draft=draft)
 
 
-def home_page(site, cats, gigs_by_cat, draft):
-    groups = {}
-    for c in cats:
-        groups.setdefault(c.get("group", "Other"), []).append(c)
-    sections = ""
-    for group, members in groups.items():
-        cards = ""
-        for c in members:
-            n = len(gigs_by_cat.get(c["slug"], []))
-            label = f"See {n} picks →" if n else "Read the hiring guide →"
-            cards += (f'<a class="card" href="/{c["slug"]}/"><h3>{esc(c["card_title"])}</h3>'
-                      f'<p>{esc(c["card_blurb"])}</p><span>{label}</span></a>')
-        sections += f'<h2>{esc(group)}</h2><div class="cards">{cards}</div>'
+def top_page(site, links, top, draft):
+    groups_html = ""
+    for i, g in enumerate(top["groups"]):
+        items = "".join(
+            f'<li data-search="{esc((s["name"] + " " + g["name"]).lower())}">{service_link(s, links)}</li>'
+            for s in g["subs"])
+        groups_html += (f'<section class="group" data-group id="g{i}"><h2>{esc(g["name"])}</h2>'
+                        f'<ul class="sub-list">{items}</ul></section>')
+    count = sum(len(g["subs"]) for g in top["groups"])
+    guides = sum(1 for g in top["groups"] for s in g["subs"] if s["page"])
+    partial = ('<p class="muted">We are still adding services to this category.</p>'
+               if top.get("partial") else "")
+    browse = links.a(top["fiverr_path"], f'Browse all {esc(top["name"])} on Fiverr →', "btn btn-ghost")
+    body = f"""<article class="article wide">
+{crumbs((top["name"], None))}
+<h1>{esc(top["name"])} services on Fiverr</h1>
+{DISCLOSURE_NOTE}
+<p class="lead">{esc(top["intro"])}</p>
+<p class="muted">{count} services · {guides} with our hiring guide · <span class="badge">Guide</span> = our picks and checklist, <span class="ext">↗</span> = opens Fiverr</p>
+{filter_box("#groups", f"Find a {top['name']} service", "groups-count")}
+<div id="groups" class="groups">{groups_html}</div>
+{partial}
+<p class="browse">{browse}</p>
+</article>"""
+    schema = {"@context": "https://schema.org", "@graph": [
+        {"@type": "CollectionPage", "name": f'{top["name"]} services on Fiverr', "description": top["blurb"]},
+        breadcrumb_schema(site, [(top["name"], f'/{top["slug"]}/')])]}
+    return page(site, title=f'{top["name"]} Services on Fiverr: Every Specialty, Explained | {site["name"]}',
+                description=f'{top["blurb"]} Browse {count} {top["name"]} services and read our hiring guides.',
+                path=f'/{top["slug"]}/', body=body, schema=schema, draft=draft)
+
+
+def services_page(site, links, services, draft):
+    rows = "".join(
+        f'<li data-search="{esc((s["name"] + " " + s["group"] + " " + s["top"]["name"]).lower())}">'
+        f'{service_link(s, links)} <span class="muted">· {esc(s["top"]["name"])}</span></li>'
+        for s in sorted(services.values(), key=lambda s: s["name"].lower()))
+    body = f"""<article class="article">
+{crumbs(("All services", None))}
+<h1>All services A–Z</h1>
+<p class="lead">Every Fiverr service we track, in one list. Start typing to filter.</p>
+{filter_box("#az", "Logo, UGC, voice over, SEO…", "az-count")}
+<ul id="az" class="az">{rows}</ul>
+</article>"""
+    return page(site, title=f'All Fiverr Services A–Z | {site["name"]}',
+                description="Every Fiverr service category in one searchable list, with our hiring guides where available.",
+                path="/services/", body=body, draft=draft)
+
+
+def home_page(site, tops, pages, draft):
+    cards = ""
+    for t in tops:
+        count = sum(len(g["subs"]) for g in t["groups"])
+        guides = sum(1 for g in t["groups"] for s in g["subs"] if s["page"])
+        meta = f"{count} services" + (f" · {guides} guide{'s' if guides != 1 else ''}" if guides else "")
+        cards += (f'<a class="card" href="/{t["slug"]}/"><h3>{esc(t["name"])}</h3>'
+                  f'<p>{esc(t["blurb"])}</p><span>{meta} →</span></a>')
+    latest = sorted(pages, key=lambda p: p["updated"], reverse=True)[:12]
+    latest_html = "".join(
+        f'<li><a href="/{p["service"]["path"]}/">{esc(p["h1"])}</a> '
+        f'<span class="muted">· {esc(p["service"]["top"]["name"])}</span></li>' for p in latest)
     schema = {"@context": "https://schema.org", "@type": "WebSite", "name": site["name"],
               "url": site["base_url"].rstrip("/") + "/", "description": site["description"]}
     body = f"""<section class="hero">
 <h1>{esc(site["tagline"])}</h1>
-<p>Fiverr has thousands of marketing freelancers. We shortlist the ones with a long, public track record, and explain what to check before you hire, so you can order with confidence.</p>
+<p>Fiverr has hundreds of service categories and thousands of sellers in each. We map every category, explain what to check before you hire, and shortlist sellers with a long, public track record.</p>
+<p><a class="btn" href="/services/">Search all services</a></p>
 </section>
 <section>
-{sections}
-<p class="muted">More categories are on the way.</p>
+<h2 id="categories">Browse by category</h2>
+<div class="cards">{cards}</div>
+</section>
+<section>
+<h2>Latest hiring guides</h2>
+<ul class="latest">{latest_html}</ul>
 </section>
 <section class="method">
 <h2>How we pick</h2>
@@ -348,13 +461,13 @@ def home_page(site, cats, gigs_by_cat, draft):
 </ul>
 <p><a href="/how-we-pick/">Read our full method →</a></p>
 </section>"""
-    return page(site, cats, title=f'{site["name"]}: {site["tagline"]}',
+    return page(site, title=f'{site["name"]}: {site["tagline"]}',
                 description=site["description"], path="/", body=body, schema=schema, draft=draft)
 
 
-def text_page(site, cats, *, slug, title, description, body_html, draft):
+def text_page(site, *, slug, title, description, body_html, draft):
     body = f'<article class="article prose"><h1>{esc(title)}</h1>{body_html}</article>'
-    return page(site, cats, title=f'{title} | {site["name"]}', description=description,
+    return page(site, title=f'{title} | {site["name"]}', description=description,
                 path=f"/{slug}/", body=body, draft=draft)
 
 
@@ -375,7 +488,7 @@ HOW_WE_PICK = """
 
 DISCLOSURE = """
 <p>This site contains affiliate links. If you click a link to Fiverr and then make a purchase, we may receive a commission from Fiverr. This costs you nothing extra.</p>
-<p>Affiliate links are the buttons that take you to a gig on Fiverr. Commissions help us keep the site running, but they do not affect which freelancers we recommend. Sellers cannot pay for placement.</p>
+<p>Links that take you to Fiverr, including category links and seller buttons, may be affiliate links. Commissions help us keep the site running, but they do not affect which freelancers we recommend. Sellers cannot pay for placement.</p>
 <p>This site is independent and is not affiliated with, sponsored by, or endorsed by Fiverr. “Fiverr” is a trademark of its owner and is used here only to describe the services we link to.</p>
 """
 
@@ -387,12 +500,14 @@ PRIVACY = """
 """
 
 NOT_FOUND = """<section class="hero"><h1>Page not found</h1>
-<p>That page does not exist. <a href="/">Go to the home page</a>.</p></section>"""
+<p>That page does not exist. <a href="/">Go to the home page</a> or <a href="/services/">search all services</a>.</p></section>"""
 
 
-def sitemap(site, cats):
+def sitemap(site, tops, pages):
     base = site["base_url"].rstrip("/")
-    entries = [("/", site["updated"])] + [(f'/{c["slug"]}/', c["updated"]) for c in cats]
+    entries = [("/", site["updated"]), ("/services/", site["updated"])]
+    entries += [(f'/{t["slug"]}/', t.get("source_checked", site["updated"])) for t in tops]
+    entries += [(f'/{p["service"]["path"]}/', p["updated"]) for p in pages]
     entries += [(f"/{s}/", site["updated"]) for s in ("how-we-pick", "disclosure", "privacy")]
     urls = "".join(f"<url><loc>{base}{p}</loc><lastmod>{d}</lastmod></url>" for p, d in entries)
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -421,55 +536,66 @@ def write(rel, text):
 def main():
     release = "--release" in sys.argv
     site = load(CONTENT / "site.json")
-    cats = load_categories()
-    gigs, errors = load_gigs()
-    check_errors, warnings = check_gigs(gigs, cats)
-    errors += check_errors
+    links = Links(site)
+    errors, warnings = [], []
+    tops, services = load_taxonomy()
+    pages = load_pages(services, errors)
+    gigs = load_gigs(errors)
+    e, w = check_gigs(gigs, services)
+    errors += e
+    warnings += w
+    if not links.template:
+        warnings.append("affiliate_link_template is empty in site.json: Fiverr links are plain (no commission)")
+    unverified = [s["path"] for s in services.values() if s.get("unverified")]
+    if unverified:
+        warnings.append(f"fiverr_path not verified for: {', '.join(unverified)}")
 
-    for w in warnings:
-        print("  warning:", w)
+    for msg in warnings:
+        print("  warning:", msg)
     if errors:
-        print("Fix these in content/gigs.csv:")
-        for e in errors:
-            print("  -", e)
+        print("Fix these first:")
+        for msg in errors:
+            print("  -", msg)
         if release:
             sys.exit(1)
 
     shown = [g for g in gigs if g["status"] == "live" or not release]
     draft = any(g["status"] != "live" for g in shown)
-    gigs_by_cat = {}
+    by_page = {}
     for g in sorted(shown, key=lambda g: (g["rank"], g["name"].lower())):
-        gigs_by_cat.setdefault(g["category"], []).append(g)
+        by_page.setdefault(g["page"], []).append(g)
 
     clean_dist()
     shutil.copytree(STATIC, DIST, dirs_exist_ok=True)
 
-    write("index.html", home_page(site, cats, gigs_by_cat, draft))
-    for cat in cats:
-        write(f'{cat["slug"]}/index.html',
-              category_page(site, cats, cat, gigs_by_cat.get(cat["slug"], []), draft))
+    write("index.html", home_page(site, tops, pages, draft))
+    write("services/index.html", services_page(site, links, services, draft))
+    for top in tops:
+        write(f'{top["slug"]}/index.html', top_page(site, links, top, draft))
+    for pg in pages:
+        svc = pg["service"]
+        write(f'{svc["path"]}/index.html', service_page(site, links, svc, by_page.get(svc["path"], []), draft))
     write("how-we-pick/index.html", text_page(
-        site, cats, slug="how-we-pick", title="How we pick freelancers",
+        site, slug="how-we-pick", title="How we pick freelancers",
         description="The criteria we use to choose the Fiverr freelancers we recommend.",
         body_html=HOW_WE_PICK, draft=draft))
     write("disclosure/index.html", text_page(
-        site, cats, slug="disclosure", title="Affiliate disclosure",
+        site, slug="disclosure", title="Affiliate disclosure",
         description="How this site earns money through Fiverr affiliate links.",
         body_html=DISCLOSURE, draft=draft))
     write("privacy/index.html", text_page(
-        site, cats, slug="privacy", title="Privacy policy",
+        site, slug="privacy", title="Privacy policy",
         description="What data this site collects (none) and how affiliate links work.",
         body_html=PRIVACY, draft=draft))
-    write("404.html", page(site, cats, title=f'Page not found | {site["name"]}',
+    write("404.html", page(site, title=f'Page not found | {site["name"]}',
                            description="Page not found.", path="/404", body=NOT_FOUND, draft=draft))
-    write("sitemap.xml", sitemap(site, cats))
+    write("sitemap.xml", sitemap(site, tops, pages))
     write("robots.txt", f'User-agent: *\nAllow: /\n\nSitemap: {site["base_url"].rstrip("/")}/sitemap.xml\n')
     (DIST / ".nojekyll").write_text("", encoding="utf-8")
 
     live = sum(g["status"] == "live" for g in gigs)
-    mode = "release" if release else "preview"
-    print(f"Built ({mode}): {len(cats)} categories, {live} live gigs, "
-          f"{len(gigs) - live} draft gigs {'hidden' if release else 'shown'} -> {DIST}")
+    print(f"Built ({'release' if release else 'preview'}): {len(tops)} categories, {len(services)} services, "
+          f"{len(pages)} guides, {live} live gigs -> {DIST}")
 
 
 if __name__ == "__main__":

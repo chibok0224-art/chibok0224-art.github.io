@@ -1,0 +1,22 @@
+{
+  "slug": "video-animation",
+  "name": "Video & Animation",
+  "order": 4,
+  "fiverr_path": "/categories/video-animation",
+  "partial": true,
+  "blurb": "Video editing, explainer and animated videos, UGC ads and social video.",
+  "intro": "Video & Animation covers everything from quick social clips to full animated explainers. We are still mapping this category; the services below already have our hiring guides.",
+  "groups": [
+    {
+      "name": "Social & Marketing Videos",
+      "subs": [
+        {
+          "slug": "ugc-videos",
+          "name": "UGC Videos",
+          "fiverr_path": "/categories/video-animation/ugc-videos",
+          "unverified": true
+        }
+      ]
+    }
+  ]
+}

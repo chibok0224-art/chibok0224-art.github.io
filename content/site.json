@@ -1,9 +1,10 @@
-﻿{
+{
   "name": "GigCompass",
-  "tagline": "Hand-picked freelancers for marketing that actually converts",
-  "description": "Independent picks of proven Fiverr freelancers for UGC videos and marketing, with plain-English hiring guides.",
+  "tagline": "Find the right Fiverr freelancer for any job",
+  "description": "A guide to every Fiverr service category, with hiring checklists and hand-picked sellers with proven track records.",
   "base_url": "https://chibok0224-art.github.io",
   "language": "en",
   "contact_email": "",
-  "updated": "2026-09-24"
+  "affiliate_link_template": "",
+  "updated": "2026-09-25"
 }

@@ -1,0 +1,391 @@
+{
+  "slug": "graphics-design",
+  "name": "Graphics & Design",
+  "order": 1,
+  "fiverr_path": "/categories/graphics-design",
+  "source_checked": "2026-09-25",
+  "blurb": "Logos, brand identity, web and app design, illustration, print and packaging.",
+  "intro": "Graphics & Design is the largest area of Fiverr, from a one-off logo to a full brand system. Below is every design specialty, grouped the way Fiverr groups them. Where we have written a hiring guide, you will find our picks and what to check before ordering.",
+  "groups": [
+    {
+      "name": "Logo & Brand Identity",
+      "subs": [
+        {
+          "slug": "logo-design",
+          "name": "Logo Design",
+          "fiverr_path": "/categories/graphics-design/creative-logo-design"
+        },
+        {
+          "slug": "brand-style-guides",
+          "name": "Brand Style Guides",
+          "fiverr_path": "/categories/graphics-design/brand-style-guides"
+        },
+        {
+          "slug": "business-cards-and-stationery",
+          "name": "Business Cards & Stationery",
+          "fiverr_path": "/categories/graphics-design/sample-business-cards-design"
+        },
+        {
+          "slug": "fonts-and-typography",
+          "name": "Fonts & Typography",
+          "fiverr_path": "/categories/graphics-design/fonts-typography"
+        },
+        {
+          "slug": "art-direction",
+          "name": "Art Direction",
+          "fiverr_path": "/categories/graphics-design/art-direction"
+        }
+      ]
+    },
+    {
+      "name": "Web & App Design",
+      "subs": [
+        {
+          "slug": "website-design",
+          "name": "Website Design",
+          "fiverr_path": "/categories/graphics-design/website-design"
+        },
+        {
+          "slug": "app-design",
+          "name": "App Design",
+          "fiverr_path": "/categories/graphics-design/app-design"
+        },
+        {
+          "slug": "ux-design",
+          "name": "UX Design",
+          "fiverr_path": "/categories/graphics-design/ux-design"
+        },
+        {
+          "slug": "landing-page-design",
+          "name": "Landing Page Design",
+          "fiverr_path": "/categories/graphics-design/landing-page-design"
+        },
+        {
+          "slug": "icon-design",
+          "name": "Icon Design",
+          "fiverr_path": "/categories/graphics-design/icon-design"
+        }
+      ]
+    },
+    {
+      "name": "Art & Illustration",
+      "subs": [
+        {
+          "slug": "illustration",
+          "name": "Illustration",
+          "fiverr_path": "/categories/graphics-design/digital-illustration"
+        },
+        {
+          "slug": "ai-artists",
+          "name": "AI Artists",
+          "fiverr_path": "/categories/graphics-design/ai-art-prompt"
+        },
+        {
+          "slug": "ai-generated-character-design",
+          "name": "AI Generated Character Design",
+          "fiverr_path": "/categories/graphics-design/ai-avatar-design"
+        },
+        {
+          "slug": "childrens-book-illustration",
+          "name": "Children's Book Illustration",
+          "fiverr_path": "/categories/graphics-design/children-book-illustration"
+        },
+        {
+          "slug": "comic-illustration",
+          "name": "Comic Illustration",
+          "fiverr_path": "/categories/graphics-design/comic-illustration"
+        },
+        {
+          "slug": "cartoon-illustration",
+          "name": "Cartoon Illustration",
+          "fiverr_path": "/categories/graphics-design/cartoon-illustration"
+        },
+        {
+          "slug": "portraits-and-caricatures",
+          "name": "Portraits & Caricatures",
+          "fiverr_path": "/categories/graphics-design/portraits-and-caricatures"
+        },
+        {
+          "slug": "pattern-design",
+          "name": "Pattern Design",
+          "fiverr_path": "/categories/graphics-design/pattern-design"
+        },
+        {
+          "slug": "tattoo-design",
+          "name": "Tattoo Design",
+          "fiverr_path": "/categories/graphics-design/tattoo-design"
+        },
+        {
+          "slug": "storyboards",
+          "name": "Storyboards",
+          "fiverr_path": "/categories/graphics-design/storyboards"
+        },
+        {
+          "slug": "nft-art",
+          "name": "NFT Art",
+          "fiverr_path": "/categories/graphics-design/nft"
+        }
+      ]
+    },
+    {
+      "name": "Architecture & Building Design",
+      "subs": [
+        {
+          "slug": "architecture-and-interior-design",
+          "name": "Architecture & Interior Design",
+          "fiverr_path": "/categories/graphics-design/architectural-design-services"
+        },
+        {
+          "slug": "landscape-design",
+          "name": "Landscape Design",
+          "fiverr_path": "/categories/graphics-design/landscape-design"
+        },
+        {
+          "slug": "building-engineering",
+          "name": "Building Engineering",
+          "fiverr_path": "/categories/graphics-design/building-engineering"
+        },
+        {
+          "slug": "lighting-design",
+          "name": "Lighting Design",
+          "fiverr_path": "/categories/graphics-design/lighting-design"
+        },
+        {
+          "slug": "building-information-modeling",
+          "name": "Building Information Modeling",
+          "fiverr_path": "/categories/graphics-design/bim-services"
+        }
+      ]
+    },
+    {
+      "name": "Product & Gaming",
+      "subs": [
+        {
+          "slug": "industrial-and-product-design",
+          "name": "Industrial & Product Design",
+          "fiverr_path": "/categories/graphics-design/product-design-services"
+        },
+        {
+          "slug": "character-modeling",
+          "name": "Character Modeling",
+          "fiverr_path": "/categories/graphics-design/character-modeling"
+        },
+        {
+          "slug": "game-art",
+          "name": "Game Art",
+          "fiverr_path": "/categories/graphics-design/game-art"
+        },
+        {
+          "slug": "graphics-for-streamers",
+          "name": "Graphics for Streamers",
+          "fiverr_path": "/categories/graphics-design/graphics-for-streamers"
+        },
+        {
+          "slug": "twitch-store",
+          "name": "Twitch Store",
+          "fiverr_path": "/categories/graphics-design/twitch"
+        },
+        {
+          "slug": "trade-booth-design",
+          "name": "Trade Booth Design",
+          "fiverr_path": "/categories/graphics-design/booth-design"
+        }
+      ]
+    },
+    {
+      "name": "Visual Design",
+      "subs": [
+        {
+          "slug": "image-editing",
+          "name": "Image Editing",
+          "fiverr_path": "/categories/graphics-design/image-editing"
+        },
+        {
+          "slug": "presentation-design",
+          "name": "Presentation Design",
+          "fiverr_path": "/categories/graphics-design/presentations-design"
+        },
+        {
+          "slug": "infographic-design",
+          "name": "Infographic Design",
+          "fiverr_path": "/categories/graphics-design/infographics-design"
+        },
+        {
+          "slug": "vector-tracing",
+          "name": "Vector Tracing",
+          "fiverr_path": "/categories/graphics-design/vector-tracing"
+        },
+        {
+          "slug": "resume-design",
+          "name": "Resume Design",
+          "fiverr_path": "/categories/graphics-design/resume-design"
+        }
+      ]
+    },
+    {
+      "name": "Print Design",
+      "subs": [
+        {
+          "slug": "flyer-design",
+          "name": "Flyer Design",
+          "fiverr_path": "/categories/graphics-design/flyer-design"
+        },
+        {
+          "slug": "brochure-design",
+          "name": "Brochure Design",
+          "fiverr_path": "/categories/graphics-design/brochure-design"
+        },
+        {
+          "slug": "poster-design",
+          "name": "Poster Design",
+          "fiverr_path": "/categories/graphics-design/poster-design"
+        },
+        {
+          "slug": "catalog-design",
+          "name": "Catalog Design",
+          "fiverr_path": "/categories/graphics-design/catalog-design"
+        },
+        {
+          "slug": "menu-design",
+          "name": "Menu Design",
+          "fiverr_path": "/categories/graphics-design/menu-design"
+        },
+        {
+          "slug": "invitation-design",
+          "name": "Invitation Design",
+          "fiverr_path": "/categories/graphics-design/invitations"
+        }
+      ]
+    },
+    {
+      "name": "Packaging & Covers",
+      "subs": [
+        {
+          "slug": "packaging-and-label-design",
+          "name": "Packaging & Label Design",
+          "fiverr_path": "/categories/graphics-design/product-packaging-design"
+        },
+        {
+          "slug": "book-design",
+          "name": "Book Design",
+          "fiverr_path": "/categories/graphics-design/book-design"
+        },
+        {
+          "slug": "book-covers",
+          "name": "Book Covers",
+          "fiverr_path": "/categories/graphics-design/cover"
+        },
+        {
+          "slug": "album-cover-design",
+          "name": "Album Cover Design",
+          "fiverr_path": "/categories/graphics-design/album-cover-design"
+        },
+        {
+          "slug": "podcast-cover-art",
+          "name": "Podcast Cover Art",
+          "fiverr_path": "/categories/graphics-design/podcast-cover-art"
+        },
+        {
+          "slug": "car-wraps",
+          "name": "Car Wraps",
+          "fiverr_path": "/categories/graphics-design/car-wrap-design"
+        }
+      ]
+    },
+    {
+      "name": "3D Design",
+      "subs": [
+        {
+          "slug": "3d-architecture",
+          "name": "3D Architecture",
+          "fiverr_path": "/categories/graphics-design/rendering-modeling"
+        },
+        {
+          "slug": "3d-industrial-design",
+          "name": "3D Industrial Design",
+          "fiverr_path": "/categories/graphics-design/3d-modeling-rendering"
+        },
+        {
+          "slug": "3d-fashion-and-garment",
+          "name": "3D Fashion & Garment",
+          "fiverr_path": "/categories/graphics-design/3d-garments"
+        },
+        {
+          "slug": "3d-landscape",
+          "name": "3D Landscape",
+          "fiverr_path": "/categories/graphics-design/3d-modeling-rendering"
+        },
+        {
+          "slug": "3d-jewelry-design",
+          "name": "3D Jewelry Design",
+          "fiverr_path": "/categories/graphics-design/3d-modeling-rendering"
+        }
+      ]
+    },
+    {
+      "name": "Marketing Design",
+      "subs": [
+        {
+          "slug": "social-media-design",
+          "name": "Social Media Design",
+          "fiverr_path": "/categories/graphics-design/social-media-design"
+        },
+        {
+          "slug": "thumbnails-design",
+          "name": "Thumbnails Design",
+          "fiverr_path": "/categories/graphics-design/thumbnails-design"
+        },
+        {
+          "slug": "email-design",
+          "name": "Email Design",
+          "fiverr_path": "/categories/graphics-design/email-design"
+        },
+        {
+          "slug": "web-banners",
+          "name": "Web Banners",
+          "fiverr_path": "/categories/graphics-design/banner-ads"
+        },
+        {
+          "slug": "signage-design",
+          "name": "Signage Design",
+          "fiverr_path": "/categories/graphics-design/signage-design"
+        }
+      ]
+    },
+    {
+      "name": "Fashion & Merchandise",
+      "subs": [
+        {
+          "slug": "t-shirts-and-merchandise",
+          "name": "T-Shirts & Merchandise",
+          "fiverr_path": "/categories/graphics-design/t-shirts"
+        },
+        {
+          "slug": "fashion-design",
+          "name": "Fashion Design",
+          "fiverr_path": "/categories/graphics-design/fashion-design"
+        },
+        {
+          "slug": "jewelry-design",
+          "name": "Jewelry Design",
+          "fiverr_path": "/categories/graphics-design/jewelry-design"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "subs": [
+        {
+          "slug": "design-consultation",
+          "name": "Design Consultation",
+          "fiverr_path": "/categories/graphics-design/design-advice"
+        },
+        {
+          "slug": "other",
+          "name": "Other",
+          "fiverr_path": "/categories/graphics-design/graphics-services"
+        }
+      ]
+    }
+  ]
+}

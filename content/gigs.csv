@@ -1,4 +1,4 @@
-id,category,status,rank,name,best_for,gig_title,rating,reviews,level,starting_price,checked,why,watch_out,affiliate_url
-ugc-pick-1,ugc-video-creators,draft,1,Pick #1 (add a real seller),Best overall for product demos,,,,,,,"Two or three sentences in our own words: what stood out in the portfolio, who this creator suits, what the package includes.","One honest limitation, e.g. longer delivery time or product must be shipped.",
-ugc-pick-2,ugc-video-creators,draft,2,Pick #2 (add a real seller),Best for apps and SaaS,,,,,,,,,
-ugc-pick-3,ugc-video-creators,draft,3,Pick #3 (add a real seller),Best budget pick for testing hooks,,,,,,,,,
+id,page,status,rank,name,best_for,gig_title,rating,reviews,level,starting_price,checked,why,watch_out,affiliate_url
+ugc-pick-1,video-animation/ugc-videos,draft,1,Pick #1 (add a real seller),Best overall for product demos,,,,,,,"Two or three sentences in our own words: what stood out in the portfolio, who this creator suits, what the package includes.","One honest limitation, e.g. longer delivery time or product must be shipped.",
+ugc-pick-2,video-animation/ugc-videos,draft,2,Pick #2 (add a real seller),Best for apps and SaaS,,,,,,,,,
+ugc-pick-3,video-animation/ugc-videos,draft,3,Pick #3 (add a real seller),Best budget pick for testing hooks,,,,,,,,,
