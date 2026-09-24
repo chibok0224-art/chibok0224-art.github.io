@@ -274,8 +274,6 @@ def stats_line(g):
     parts = []
     if g["rating"] is not None and g["reviews"] is not None:
         parts.append(f'<span class="stars">★ {g["rating"]:.1f}</span> ({g["reviews"]:,} reviews)')
-    if g.get("level"):
-        parts.append(esc(g["level"]))
     if g["starting_price"] is not None:
         parts.append(f'From ${g["starting_price"]:,.0f}')
     return " · ".join(parts)
@@ -296,27 +294,70 @@ def gig_cta(g, links, label):
     return f'<a class="btn" href="{esc(href)}" rel="{rel}" target="_blank">{label}</a>'
 
 
+def avatar(name, size=""):
+    """A colored initial, like Fiverr shows for sellers without a photo. We never copy seller photos."""
+    name = (name or "?").strip()
+    hue = sum(ord(ch) for ch in name) * 37 % 360
+    cls = f"avatar {size}".strip()
+    return f'<span class="{cls}" style="--h:{hue}" aria-hidden="true">{esc(name[:1].upper())}</span>'
+
+
+def stars(rating):
+    """Five stars, filled to the rating. The number itself is always printed next to it."""
+    pct = max(0, min(100, (rating or 0) / 5 * 100))
+    return f'<span class="star-bar" style="--pct:{pct:.0f}%" role="img" aria-label="{rating:.1f} out of 5"></span>'
+
+
+def badges(g):
+    level = g.get("level", "")
+    if not level:
+        return ""
+    cls = "pill pro" if is_pro(g) else "pill"
+    return f'<span class="{cls}">{esc(level)}</span>'
+
+
 def gig_card(g, i, links):
-    stats = stats_line(g) or "Rating, level and price go here"
     gig = f'<p class="gig-title">“{esc(g["gig_title"])}”</p>' if g.get("gig_title") else ""
     watch = f'<p class="watch"><strong>Keep in mind:</strong> {esc(g["watch_out"])}</p>' if g.get("watch_out") else ""
     checked = (f'<p class="checked">Checked on Fiverr on {esc(g["checked"])}. Ratings and prices change, '
                'so confirm on the gig page.</p>' if g.get("checked") else "")
-    cls = "pick" + (" placeholder" if g["status"] != "live" else "")
+    if g["rating"] is not None:
+        reviews = f'{g["reviews"]:,} reviews' if g["reviews"] is not None else ""
+        score = (f'<div class="score"><strong>{g["rating"]:.1f}</strong>{stars(g["rating"])}'
+                 f'<span>{reviews}</span></div>')
+    else:
+        score = '<div class="score empty"><span>Rating goes here</span></div>'
+    price = f'<p class="price">From <strong>${g["starting_price"]:,.0f}</strong></p>' if g["starting_price"] is not None else ""
+    # photo: only an image the seller has allowed us to use, stored under static/img/sellers/.
+    photo = g.get("photo", "")
+    side_photo = (f'<img class="pick-photo" src="{esc(photo)}" alt="{esc(g["name"])}" '
+                  'loading="lazy" decoding="async">' if photo else "")
+    # gig_image: the gig's own cover image (landscape), shown as a banner across the card.
+    banner = (f'<img class="pick-banner" src="{esc(g["gig_image"])}" alt="{esc(g.get("gig_title") or g["name"])}" '
+              'loading="lazy" decoding="async" referrerpolicy="no-referrer">' if g.get("gig_image") else "")
+    cls = "pick" + (" placeholder" if g["status"] != "live" else "") + (" has-banner" if banner else "")
     return f"""<article class="{cls}" id="{esc(g['id'])}">
-  <div class="pick-head">
-    <span class="rank">#{i}</span>
-    <div>
-      <p class="best-for">{esc(g.get("best_for", ""))}</p>
-      <h3>{esc(g["name"])}</h3>
-      {gig}
-      <p class="stats">{stats}</p>
+  {banner}
+  <div class="pick-main">
+    <p class="best-for"><span class="rank">#{i}</span>{esc(g.get("best_for", ""))}</p>
+    <div class="who">
+      {"" if photo else avatar(g["name"])}
+      <div>
+        <h3>{esc(g["name"])}</h3>
+        {badges(g)}
+      </div>
     </div>
+    {gig}
+    <p class="why">{esc(g.get("why", ""))}</p>
+    {watch}
+    <div class="pick-actions">{gig_cta(g, links, f'View {esc(g["name"])} on Fiverr ↗')}</div>
+    {checked}
   </div>
-  <p>{esc(g.get("why", ""))}</p>
-  {watch}
-  {checked}
-  {gig_cta(g, links, f'See {esc(g["name"])} on Fiverr →')}
+  <aside class="pick-side{" has-photo" if photo else ""}">
+    {side_photo}
+    {score}
+    {price}
+  </aside>
 </article>"""
 
 
@@ -325,8 +366,9 @@ def gig_row(g, links):
     search = " ".join(g.get(k, "") for k in ("name", "best_for", "gig_title", "level")).lower()
     return f"""<li class="{cls}" id="{esc(g['id'])}" data-search="{esc(search)}" data-rank="{g['rank']}"
     data-rating="{g['rating'] or 0}" data-reviews="{g['reviews'] or 0}" data-price="{g['starting_price'] or 0}">
+  {f'<img class="avatar sm" src="{esc(g["photo"])}" alt="" loading="lazy">' if g.get("photo") else avatar(g["name"], "sm")}
   <div class="row-main">
-    <h3>{esc(g["name"])}</h3>
+    <h3>{esc(g["name"])} {badges(g)}</h3>
     <p class="best-for">{esc(g.get("best_for", ""))}</p>
     <p class="stats">{stats_line(g)}</p>
     <p class="row-why">{esc(g.get("why", ""))}</p>

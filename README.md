@@ -81,6 +81,8 @@ Fiverr 봇 확인("It needs a human touch")이 뜨면 멈추고 사용자에게 
 | `why`, `watch_out` | 추천 이유(우리 말로), 솔직한 단점 |
 | `gig_url` | 판매자 긱의 **일반** Fiverr 주소. 빌드가 딥링크로 바꾼다 |
 | `affiliate_url` | (선택) 직접 만든 딥링크. 있으면 gig_url 대신 쓴다 |
+| `gig_image` | (선택) 긱 대표 이미지 주소(`https://fiverr-res.cloudinary.com/...`). 카드 위 배너로 나온다. **제휴 약관에서 허용을 확인한 뒤에만** 채운다 |
+| `photo` | (선택) 판매자가 사용을 허락한 사진. `static/img/sellers/` 에 두고 `/img/sellers/파일명` 으로 적는다. 없으면 이니셜 아바타 |
 
 엑셀로 편집하면 저장할 때 **"CSV UTF-8"** 형식을 고른다.
 

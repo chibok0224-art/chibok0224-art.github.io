@@ -99,9 +99,18 @@ git add -A && git commit -m "Picks: <service>" && git push
 Report to the user in Korean: how many candidates, how many passed the bar, the final list (name,
 rating, reviews, level, price, best_for), and the live URL.
 
+## Gig cover images
+
+Cards can show the gig's own cover image (the seller's advertising image) as a banner: put its
+`fiverr-res.cloudinary.com/...` address in the pick's `gig_image`. It is hotlinked, not copied.
+Only fill it once the user has confirmed the Fiverr affiliate terms allow showing gig images, and
+use addresses the user copied from Fiverr. Do not scrape images automatically: many covers show
+faces, and automated collection of those is blocked.
+
 ## Rules
 
-- No seller photos, portfolio images or copied text on our site. Stats, our summary and a link only.
+- No copied seller text or portfolio galleries on our site. Stats, our summary, the gig cover image
+  (when allowed, see above) and a link only.
 - Ratings and prices change: every row carries `checked`, and the build warns after 120 days.
   Re-running this skill for a page refreshes it.
 - One or two services per session. Fiverr may block heavier browsing.

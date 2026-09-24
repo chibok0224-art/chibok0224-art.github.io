@@ -20,7 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 GIGS = ROOT / "content" / "gigs.csv"
 FIELDS = ["id", "page", "status", "rank", "name", "best_for", "gig_title", "rating", "reviews", "level",
-          "starting_price", "checked", "why", "watch_out", "gig_url", "affiliate_url"]
+          "starting_price", "checked", "why", "watch_out", "gig_url", "affiliate_url", "photo", "gig_image"]
 
 # Same bar as the site's "How we pick" page.
 MIN_RATING = 4.8
@@ -113,6 +113,10 @@ def cmd_add(args):
             "watch_out": p.get("watch_out", ""),
             "gig_url": p["url"],
             "affiliate_url": "",
+            # Only a photo the seller has allowed us to use, saved under static/img/sellers/.
+            "photo": p.get("photo", ""),
+            # The gig's cover image URL, only once the affiliate terms allow showing it.
+            "gig_image": p.get("gig_image", ""),
         })
     # utf-8-sig so the file opens correctly in Excel.
     with open(GIGS, "w", encoding="utf-8-sig", newline="") as f:
