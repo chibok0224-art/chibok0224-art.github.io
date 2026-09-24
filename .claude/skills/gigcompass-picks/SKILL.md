@@ -41,6 +41,10 @@ cards to `candidates.json`. Stop after page 2; other sellers then fill the remai
 
 **Bot check.** If the page title is "It needs a human touch", stop. Never press or solve it. Bring that
 tab to the front and ask the user to hold the button, then continue after they say it passed.
+The user may be away from the PC: also send a PushNotification such as
+"GigCompass: Fiverr bot check needs you (hold the button in the browser pane)". They can pass it from
+their phone through Chrome Remote Desktop. Do not email them about it: sending mail needs their
+approval each time, which they cannot give while away.
 Keep at least 5 seconds between Fiverr page loads, and read only the pages this procedure needs.
 
 ## 2. Rank
