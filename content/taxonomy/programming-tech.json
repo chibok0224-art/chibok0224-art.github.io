@@ -1,0 +1,271 @@
+{
+  "slug": "programming-tech",
+  "name": "Programming & Tech",
+  "order": 2,
+  "fiverr_path": "/categories/programming-tech",
+  "source_checked": "2026-09-25",
+  "blurb": "Websites, web and mobile apps, WordPress and Shopify, AI development, DevOps and cybersecurity.",
+  "intro": "Programming & Tech covers everything from fixing a WordPress bug to building a full web app. Below is every development specialty, grouped the way Fiverr groups them. Where we have written a hiring guide, you will find our picks and what to check before ordering.",
+  "groups": [
+    {
+      "name": "Websites",
+      "subs": [
+        {
+          "slug": "website-development",
+          "name": "Website Development",
+          "fiverr_path": "/categories/programming-tech/website-development"
+        },
+        {
+          "slug": "website-maintenance",
+          "name": "Website Maintenance",
+          "fiverr_path": "/categories/programming-tech/website-maintenance"
+        },
+        {
+          "slug": "wordpress",
+          "name": "WordPress",
+          "fiverr_path": "/categories/programming-tech/wordpress-development"
+        },
+        {
+          "slug": "shopify",
+          "name": "Shopify",
+          "fiverr_path": "/categories/programming-tech/shopify-development"
+        },
+        {
+          "slug": "custom-websites",
+          "name": "Custom Websites",
+          "fiverr_path": "/categories/programming-tech/custom-websites-development"
+        }
+      ]
+    },
+    {
+      "name": "Application Development",
+      "subs": [
+        {
+          "slug": "full-stack-web-apps",
+          "name": "Full Stack Web Apps",
+          "fiverr_path": "/categories/programming-tech/web-application"
+        },
+        {
+          "slug": "desktop-applications",
+          "name": "Desktop Applications",
+          "fiverr_path": "/categories/programming-tech/desktop-applications"
+        },
+        {
+          "slug": "game-development",
+          "name": "Game Development",
+          "fiverr_path": "/categories/programming-tech/game-development"
+        },
+        {
+          "slug": "chatbot-development",
+          "name": "Chatbot Development",
+          "fiverr_path": "/categories/programming-tech/chatbots"
+        },
+        {
+          "slug": "browser-extensions",
+          "name": "Browser Extensions",
+          "fiverr_path": "/categories/programming-tech/browser-extension"
+        }
+      ]
+    },
+    {
+      "name": "Software Development",
+      "subs": [
+        {
+          "slug": "software-development",
+          "name": "Software Development",
+          "fiverr_path": "/categories/programming-tech/software-development"
+        },
+        {
+          "slug": "ai-development",
+          "name": "AI Development",
+          "fiverr_path": "/categories/programming-tech/ai-coding"
+        },
+        {
+          "slug": "apis-and-integrations",
+          "name": "APIs & Integrations",
+          "fiverr_path": "/categories/programming-tech/api-integrations"
+        },
+        {
+          "slug": "scripting",
+          "name": "Scripting",
+          "fiverr_path": "/categories/programming-tech/scripting"
+        },
+        {
+          "slug": "plugins-development",
+          "name": "Plugins Development",
+          "fiverr_path": "/categories/programming-tech/plugins-development"
+        }
+      ]
+    },
+    {
+      "name": "Mobile Apps",
+      "subs": [
+        {
+          "slug": "mobile-app-development",
+          "name": "Mobile App Development",
+          "fiverr_path": "/categories/programming-tech/mobile-app-services"
+        },
+        {
+          "slug": "cross-platform-apps",
+          "name": "Cross-platform Apps",
+          "fiverr_path": "/categories/programming-tech/custom-app"
+        },
+        {
+          "slug": "android-app-development",
+          "name": "Android App Development",
+          "fiverr_path": "/categories/programming-tech/android-development"
+        },
+        {
+          "slug": "ios-app-development",
+          "name": "iOS App Development",
+          "fiverr_path": "/categories/programming-tech/ios-development"
+        },
+        {
+          "slug": "mobile-app-maintenance",
+          "name": "Mobile App Maintenance",
+          "fiverr_path": "/categories/programming-tech/mobile-app-maintenance"
+        }
+      ]
+    },
+    {
+      "name": "Website Platforms",
+      "subs": [
+        {
+          "slug": "wix",
+          "name": "Wix",
+          "fiverr_path": "/categories/programming-tech/wix-development"
+        },
+        {
+          "slug": "webflow",
+          "name": "Webflow",
+          "fiverr_path": "/categories/programming-tech/webflow-development"
+        },
+        {
+          "slug": "godaddy",
+          "name": "GoDaddy",
+          "fiverr_path": "/categories/programming-tech/godaddy-development"
+        },
+        {
+          "slug": "squarespace",
+          "name": "Squarespace",
+          "fiverr_path": "/categories/programming-tech/squarespace-development"
+        },
+        {
+          "slug": "woocommerce",
+          "name": "WooCommerce",
+          "fiverr_path": "/categories/programming-tech/woocommerce-development"
+        }
+      ]
+    },
+    {
+      "name": "Vibe Coding",
+      "subs": [
+        {
+          "slug": "development-and-mvp",
+          "name": "Development & MVP",
+          "fiverr_path": "/categories/programming-tech/Development-MVP"
+        },
+        {
+          "slug": "troubleshooting-and-improvements",
+          "name": "Troubleshooting & Improvements",
+          "fiverr_path": "/categories/programming-tech/troubleshooting-improvements"
+        },
+        {
+          "slug": "deployments-and-devops",
+          "name": "Deployments & DevOps",
+          "fiverr_path": "/categories/programming-tech/deployments-devOps"
+        },
+        {
+          "slug": "consultation-and-training",
+          "name": "Consultation & Training",
+          "fiverr_path": "/categories/programming-tech/consultation-training"
+        }
+      ]
+    },
+    {
+      "name": "Support & Cybersecurity",
+      "subs": [
+        {
+          "slug": "support-and-it",
+          "name": "Support & IT",
+          "fiverr_path": "/categories/programming-tech/support-it-services"
+        },
+        {
+          "slug": "devops-engineering",
+          "name": "DevOps Engineering",
+          "fiverr_path": "/categories/programming-tech/devops"
+        },
+        {
+          "slug": "cybersecurity",
+          "name": "Cybersecurity",
+          "fiverr_path": "/categories/programming-tech/cybersecurity-data-protection"
+        },
+        {
+          "slug": "development-for-streamers",
+          "name": "Development for Streamers",
+          "fiverr_path": "/categories/programming-tech/development-for-streamers"
+        },
+        {
+          "slug": "convert-files",
+          "name": "Convert Files",
+          "fiverr_path": "/categories/programming-tech/file-conversion-services"
+        }
+      ]
+    },
+    {
+      "name": "Blockchain & Cryptocurrency",
+      "subs": [
+        {
+          "slug": "blockchain-development-and-solutions",
+          "name": "Blockchain Development & Solutions",
+          "fiverr_path": "/categories/programming-tech/blockchain-cryptocurrency"
+        },
+        {
+          "slug": "decentralized-apps-dapps",
+          "name": "Decentralized Apps (dApps)",
+          "fiverr_path": "/categories/programming-tech/decentralized-application"
+        },
+        {
+          "slug": "coin-design-and-tokenization",
+          "name": "Coin Design & Tokenization",
+          "fiverr_path": "/categories/programming-tech/coin-design-tokenization"
+        },
+        {
+          "slug": "blockchain-security-and-auditing",
+          "name": "Blockchain Security & Auditing",
+          "fiverr_path": "/categories/programming-tech/security-audits"
+        },
+        {
+          "slug": "exchange-platforms",
+          "name": "Exchange Platforms",
+          "fiverr_path": "/categories/programming-tech/cryptocurrency-trading-platforms"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "subs": [
+        {
+          "slug": "electronics-engineering",
+          "name": "Electronics Engineering",
+          "fiverr_path": "/categories/programming-tech/electronics-engineering"
+        },
+        {
+          "slug": "qa-and-review",
+          "name": "QA & Review",
+          "fiverr_path": "/categories/programming-tech/qa-services"
+        },
+        {
+          "slug": "user-testing",
+          "name": "User Testing",
+          "fiverr_path": "/categories/programming-tech/user-testing-services"
+        },
+        {
+          "slug": "online-coding-lessons",
+          "name": "Online Coding Lessons",
+          "fiverr_path": "/categories/programming-tech/online-coding-lessons"
+        }
+      ]
+    }
+  ]
+}

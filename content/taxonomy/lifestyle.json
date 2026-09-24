@@ -1,0 +1,211 @@
+{
+  "slug": "lifestyle",
+  "name": "Personal Growth",
+  "order": 10,
+  "fiverr_path": "/categories/lifestyle",
+  "source_checked": "2026-09-25",
+  "blurb": "Tutoring, language lessons, coaching, fitness and meal plans, gaming and hobbies.",
+  "intro": "Personal Growth covers lessons, coaching and hobby services, from language tutors to workout plans and game coaching. Below is every service in this area, grouped the way Fiverr groups them.",
+  "groups": [
+    {
+      "name": "Self Improvement",
+      "subs": [
+        {
+          "slug": "online-tutoring",
+          "name": "Online Tutoring",
+          "fiverr_path": "/categories/lifestyle/online-tutoring"
+        },
+        {
+          "slug": "language-lessons",
+          "name": "Language Lessons",
+          "fiverr_path": "/categories/lifestyle/language-lessons"
+        },
+        {
+          "slug": "career-counseling",
+          "name": "Career Counseling",
+          "fiverr_path": "/categories/lifestyle/career-counseling"
+        },
+        {
+          "slug": "life-coaching",
+          "name": "Life Coaching",
+          "fiverr_path": "/categories/lifestyle/life-coaching"
+        }
+      ]
+    },
+    {
+      "name": "Leisure & Hobbies",
+      "subs": [
+        {
+          "slug": "spirituality-guidance",
+          "name": "Spirituality Guidance",
+          "fiverr_path": "/categories/lifestyle/astrology-psychics"
+        },
+        {
+          "slug": "astrology",
+          "name": "Astrology",
+          "fiverr_path": "/categories/lifestyle/astrology"
+        },
+        {
+          "slug": "arts-and-crafts",
+          "name": "Arts & Crafts",
+          "fiverr_path": "/categories/lifestyle/arts-crafts-gifts"
+        },
+        {
+          "slug": "cosplay-creation",
+          "name": "Cosplay Creation",
+          "fiverr_path": "/categories/lifestyle/cosplay-creation"
+        },
+        {
+          "slug": "puzzle-and-game-creation",
+          "name": "Puzzle & Game Creation",
+          "fiverr_path": "/categories/lifestyle/puzzle-game-creation"
+        },
+        {
+          "slug": "traveling",
+          "name": "Traveling",
+          "fiverr_path": "/categories/lifestyle/traveling"
+        },
+        {
+          "slug": "collectibles",
+          "name": "Collectibles",
+          "fiverr_path": "/categories/lifestyle/collectibles"
+        },
+        {
+          "slug": "tabletop-games",
+          "name": "Tabletop Games",
+          "fiverr_path": "/categories/lifestyle/tabletop-games"
+        }
+      ]
+    },
+    {
+      "name": "Gaming",
+      "subs": [
+        {
+          "slug": "game-coaching",
+          "name": "Game Coaching",
+          "fiverr_path": "/categories/lifestyle/game-coaching"
+        },
+        {
+          "slug": "esports-management-and-strategy",
+          "name": "eSports Management & Strategy",
+          "fiverr_path": "/categories/lifestyle/esports-management-strategy"
+        },
+        {
+          "slug": "game-matchmaking",
+          "name": "Game Matchmaking",
+          "fiverr_path": "/categories/lifestyle/game-matchmaking"
+        },
+        {
+          "slug": "ingame-creation",
+          "name": "Ingame Creation",
+          "fiverr_path": "/categories/lifestyle/ingame-creation"
+        },
+        {
+          "slug": "game-testing-and-feedback",
+          "name": "Game Testing & Feedback",
+          "fiverr_path": "/categories/lifestyle/game-testing"
+        },
+        {
+          "slug": "game-recordings-and-guides",
+          "name": "Game Recordings & Guides",
+          "fiverr_path": "/categories/lifestyle/gameplay-recording"
+        }
+      ]
+    },
+    {
+      "name": "Wellness & Fitness",
+      "subs": [
+        {
+          "slug": "fitness-lessons",
+          "name": "Fitness Lessons",
+          "fiverr_path": "/categories/lifestyle/fitness-lessons"
+        },
+        {
+          "slug": "workout-plans",
+          "name": "Workout Plans",
+          "fiverr_path": "/categories/lifestyle/workout-plans"
+        },
+        {
+          "slug": "sports-review-and-consultation",
+          "name": "Sports Review & Consultation",
+          "fiverr_path": "/categories/lifestyle/sports-review-and-consultation"
+        },
+        {
+          "slug": "recipe-creation",
+          "name": "Recipe Creation",
+          "fiverr_path": "/categories/lifestyle/recipe-creation"
+        },
+        {
+          "slug": "meal-plans",
+          "name": "Meal Plans",
+          "fiverr_path": "/categories/lifestyle/meal-plans"
+        },
+        {
+          "slug": "guided-meditation",
+          "name": "Guided Meditation",
+          "fiverr_path": "/categories/lifestyle/guided-meditation"
+        },
+        {
+          "slug": "nutrition-coaching",
+          "name": "Nutrition Coaching",
+          "fiverr_path": "/categories/lifestyle/nutrition-coaching"
+        },
+        {
+          "slug": "mindfulness-coaching",
+          "name": "Mindfulness Coaching",
+          "fiverr_path": "/categories/lifestyle/mindfulness-coaching"
+        }
+      ]
+    },
+    {
+      "name": "Fashion & Style",
+      "subs": [
+        {
+          "slug": "modeling-and-acting",
+          "name": "Modeling & Acting",
+          "fiverr_path": "/categories/lifestyle/modeling-acting"
+        },
+        {
+          "slug": "styling-and-beauty",
+          "name": "Styling & Beauty",
+          "fiverr_path": "/categories/lifestyle/personal-stylists"
+        },
+        {
+          "slug": "trend-forecasting",
+          "name": "Trend Forecasting",
+          "fiverr_path": "/categories/lifestyle/trend-forecasting"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "subs": [
+        {
+          "slug": "embroidery-digitizing",
+          "name": "Embroidery Digitizing",
+          "fiverr_path": "/categories/lifestyle/embroidery-digitizing"
+        },
+        {
+          "slug": "greeting-cards-and-videos",
+          "name": "Greeting Cards & Videos",
+          "fiverr_path": "/categories/lifestyle/greeting-cards-videos-online"
+        },
+        {
+          "slug": "cosmetics-formulation",
+          "name": "Cosmetics Formulation",
+          "fiverr_path": "/categories/lifestyle/formulation"
+        },
+        {
+          "slug": "family-and-genealogy",
+          "name": "Family & Genealogy",
+          "fiverr_path": "/categories/lifestyle/family-genealogy"
+        },
+        {
+          "slug": "other",
+          "name": "Other",
+          "fiverr_path": "/categories/lifestyle/lifestyle-services"
+        }
+      ]
+    }
+  ]
+}

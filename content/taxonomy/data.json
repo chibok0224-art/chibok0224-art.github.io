@@ -1,0 +1,131 @@
+{
+  "slug": "data",
+  "name": "Data",
+  "order": 12,
+  "fiverr_path": "/categories/data",
+  "source_checked": "2026-09-25",
+  "blurb": "Data entry and scraping, analytics and dashboards, machine learning and data engineering.",
+  "intro": "Data services range from simple data entry to machine learning models. Below is every data specialty, grouped the way Fiverr groups them, with our hiring guides where available.",
+  "groups": [
+    {
+      "name": "Data Science & ML",
+      "subs": [
+        {
+          "slug": "data-science-and-ml",
+          "name": "Data Science & ML",
+          "fiverr_path": "/categories/data/data-science"
+        },
+        {
+          "slug": "machine-learning",
+          "name": "Machine Learning",
+          "fiverr_path": "/categories/data/machine-learning"
+        },
+        {
+          "slug": "computer-vision",
+          "name": "Computer Vision",
+          "fiverr_path": "/categories/data/computer-vision"
+        },
+        {
+          "slug": "nlp",
+          "name": "NLP",
+          "fiverr_path": "/categories/data/text-analysis-nlp"
+        },
+        {
+          "slug": "deep-learning",
+          "name": "Deep Learning",
+          "fiverr_path": "/categories/data/deep-learning"
+        },
+        {
+          "slug": "generative-models",
+          "name": "Generative Models",
+          "fiverr_path": "/categories/data/ai-models"
+        }
+      ]
+    },
+    {
+      "name": "Data Collection",
+      "subs": [
+        {
+          "slug": "data-entry",
+          "name": "Data Entry",
+          "fiverr_path": "/categories/data/data-entry"
+        },
+        {
+          "slug": "data-scraping",
+          "name": "Data Scraping",
+          "fiverr_path": "/categories/data/data-mining"
+        },
+        {
+          "slug": "data-typing",
+          "name": "Data Typing",
+          "fiverr_path": "/categories/data/data-typing"
+        },
+        {
+          "slug": "data-formatting",
+          "name": "Data Formatting",
+          "fiverr_path": "/categories/data/data-formatting"
+        },
+        {
+          "slug": "data-cleaning",
+          "name": "Data Cleaning",
+          "fiverr_path": "/categories/data/data-cleaning"
+        },
+        {
+          "slug": "data-enrichment",
+          "name": "Data Enrichment",
+          "fiverr_path": "/categories/data/data-enrichment"
+        }
+      ]
+    },
+    {
+      "name": "Data Analysis",
+      "subs": [
+        {
+          "slug": "data-visualization",
+          "name": "Data Visualization",
+          "fiverr_path": "/categories/data/data-visualization"
+        },
+        {
+          "slug": "data-tagging-and-annotation",
+          "name": "Data Tagging & Annotation",
+          "fiverr_path": "/categories/data/data-labeling-annotation"
+        },
+        {
+          "slug": "data-analytics",
+          "name": "Data Analytics",
+          "fiverr_path": "/categories/data/data-analytics"
+        },
+        {
+          "slug": "dashboards",
+          "name": "Dashboards",
+          "fiverr_path": "/categories/data/dashboards"
+        }
+      ]
+    },
+    {
+      "name": "Data Management",
+      "subs": [
+        {
+          "slug": "data-processing",
+          "name": "Data Processing",
+          "fiverr_path": "/categories/data/data-processing"
+        },
+        {
+          "slug": "data-engineering",
+          "name": "Data Engineering",
+          "fiverr_path": "/categories/data/data-engineering"
+        },
+        {
+          "slug": "databases",
+          "name": "Databases",
+          "fiverr_path": "/categories/data/databases"
+        },
+        {
+          "slug": "data-governance-and-protection",
+          "name": "Data Governance & Protection",
+          "fiverr_path": "/categories/data/data-governance"
+        }
+      ]
+    }
+  ]
+}

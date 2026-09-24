@@ -1,0 +1,226 @@
+{
+  "slug": "writing-translation",
+  "name": "Writing & Translation",
+  "order": 5,
+  "fiverr_path": "/categories/writing-translation",
+  "source_checked": "2026-09-25",
+  "blurb": "Blog posts, website copy, ad and sales copy, book writing, editing, translation and transcription.",
+  "intro": "Writing & Translation covers content that ranks, copy that sells, books, resumes and translation into almost any language. Below is every writing specialty, grouped the way Fiverr groups them, with our hiring guides where available.",
+  "groups": [
+    {
+      "name": "Content Writing",
+      "subs": [
+        {
+          "slug": "articles-and-blog-posts",
+          "name": "Articles & Blog Posts",
+          "fiverr_path": "/categories/writing-translation/articles-blogposts"
+        },
+        {
+          "slug": "content-strategy",
+          "name": "Content Strategy",
+          "fiverr_path": "/categories/writing-translation/content-strategy"
+        },
+        {
+          "slug": "website-content",
+          "name": "Website Content",
+          "fiverr_path": "/categories/writing-translation/website-content"
+        },
+        {
+          "slug": "scriptwriting",
+          "name": "Scriptwriting",
+          "fiverr_path": "/categories/writing-translation/script-writing"
+        },
+        {
+          "slug": "creative-writing",
+          "name": "Creative Writing",
+          "fiverr_path": "/categories/writing-translation/creative-writing"
+        },
+        {
+          "slug": "podcast-writing",
+          "name": "Podcast Writing",
+          "fiverr_path": "/categories/writing-translation/podcast"
+        },
+        {
+          "slug": "speechwriting",
+          "name": "Speechwriting",
+          "fiverr_path": "/categories/writing-translation/speech-writing"
+        },
+        {
+          "slug": "research-and-summaries",
+          "name": "Research & Summaries",
+          "fiverr_path": "/categories/writing-translation/research-summaries"
+        }
+      ]
+    },
+    {
+      "name": "Editing & Critique",
+      "subs": [
+        {
+          "slug": "proofreading-and-editing",
+          "name": "Proofreading & Editing",
+          "fiverr_path": "/categories/writing-translation/proofreading-editing"
+        },
+        {
+          "slug": "academic-support",
+          "name": "Academic Support",
+          "fiverr_path": "/categories/writing-translation/academic-support"
+        },
+        {
+          "slug": "ai-content-editing",
+          "name": "AI Content Editing",
+          "fiverr_path": "/categories/writing-translation/ai-content-editing"
+        },
+        {
+          "slug": "writing-advice",
+          "name": "Writing Advice",
+          "fiverr_path": "/categories/writing-translation/writing-tips-and-advice"
+        }
+      ]
+    },
+    {
+      "name": "Book & eBook Publishing",
+      "subs": [
+        {
+          "slug": "book-and-ebook-writing",
+          "name": "Book & eBook Writing",
+          "fiverr_path": "/categories/writing-translation/book-and-ebook-writing"
+        },
+        {
+          "slug": "book-editing",
+          "name": "Book Editing",
+          "fiverr_path": "/categories/writing-translation/book-editing"
+        },
+        {
+          "slug": "beta-reading",
+          "name": "Beta Reading",
+          "fiverr_path": "/categories/writing-translation/beta-reader"
+        }
+      ]
+    },
+    {
+      "name": "Translation & Transcription",
+      "subs": [
+        {
+          "slug": "translation",
+          "name": "Translation",
+          "fiverr_path": "/categories/writing-translation/quality-translation-services"
+        },
+        {
+          "slug": "localization",
+          "name": "Localization",
+          "fiverr_path": "/categories/writing-translation/localization"
+        },
+        {
+          "slug": "transcription",
+          "name": "Transcription",
+          "fiverr_path": "/categories/writing-translation/transcription"
+        },
+        {
+          "slug": "interpretation",
+          "name": "Interpretation",
+          "fiverr_path": "/categories/writing-translation/interpretation"
+        }
+      ]
+    },
+    {
+      "name": "Business & Marketing Copy",
+      "subs": [
+        {
+          "slug": "brand-voice-and-tone",
+          "name": "Brand Voice & Tone",
+          "fiverr_path": "/categories/writing-translation/tone-of-voice"
+        },
+        {
+          "slug": "business-names-and-slogans",
+          "name": "Business Names & Slogans",
+          "fiverr_path": "/categories/writing-translation/business-names-and-slogans"
+        },
+        {
+          "slug": "case-studies",
+          "name": "Case Studies",
+          "fiverr_path": "/categories/writing-translation/case-study-writing"
+        },
+        {
+          "slug": "product-descriptions",
+          "name": "Product Descriptions",
+          "fiverr_path": "/categories/writing-translation/product-description"
+        },
+        {
+          "slug": "ad-copy",
+          "name": "Ad Copy",
+          "fiverr_path": "/categories/writing-translation/ad-copy"
+        },
+        {
+          "slug": "sales-copy",
+          "name": "Sales Copy",
+          "fiverr_path": "/categories/writing-translation/sales-copy"
+        },
+        {
+          "slug": "email-copy",
+          "name": "Email Copy",
+          "fiverr_path": "/categories/writing-translation/email-copy"
+        },
+        {
+          "slug": "social-media-copywriting",
+          "name": "Social Media Copywriting",
+          "fiverr_path": "/categories/writing-translation/social-media-copywriting"
+        },
+        {
+          "slug": "press-releases",
+          "name": "Press Releases",
+          "fiverr_path": "/categories/writing-translation/writing-press-releases"
+        },
+        {
+          "slug": "ux-writing",
+          "name": "UX Writing",
+          "fiverr_path": "/categories/writing-translation/ux-writing"
+        }
+      ]
+    },
+    {
+      "name": "Career Writing",
+      "subs": [
+        {
+          "slug": "resume-writing",
+          "name": "Resume Writing",
+          "fiverr_path": "/categories/writing-translation/resume-writing"
+        },
+        {
+          "slug": "cover-letters",
+          "name": "Cover Letters",
+          "fiverr_path": "/categories/writing-translation/cover-letter-services"
+        },
+        {
+          "slug": "linkedin-profiles",
+          "name": "LinkedIn Profiles",
+          "fiverr_path": "/categories/writing-translation/linkedin-profile-services"
+        },
+        {
+          "slug": "job-descriptions",
+          "name": "Job Descriptions",
+          "fiverr_path": "/categories/writing-translation/job-description-writing-services"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "subs": [
+        {
+          "slug": "elearning-content-development",
+          "name": "eLearning Content Development",
+          "fiverr_path": "/categories/writing-translation/elearning-content-development"
+        },
+        {
+          "slug": "technical-writing",
+          "name": "Technical Writing",
+          "fiverr_path": "/categories/writing-translation/technical-writing-services"
+        },
+        {
+          "slug": "handwriting",
+          "name": "Handwriting",
+          "fiverr_path": "/categories/writing-translation/handwriting"
+        }
+      ]
+    }
+  ]
+}

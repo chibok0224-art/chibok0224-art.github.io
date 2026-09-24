@@ -1,0 +1,176 @@
+{
+  "slug": "music-audio",
+  "name": "Music & Audio",
+  "order": 6,
+  "fiverr_path": "/categories/music-audio",
+  "source_checked": "2026-09-25",
+  "blurb": "Voice over, mixing and mastering, music production, podcast editing, jingles and sound design.",
+  "intro": "Music & Audio covers voice overs for ads and videos, mixing and mastering, custom music and podcast production. Below is every audio specialty, grouped the way Fiverr groups them, with our hiring guides where available.",
+  "groups": [
+    {
+      "name": "Music Production & Writing",
+      "subs": [
+        {
+          "slug": "music-producers",
+          "name": "Music Producers",
+          "fiverr_path": "/categories/music-audio/producers"
+        },
+        {
+          "slug": "composers",
+          "name": "Composers",
+          "fiverr_path": "/categories/music-audio/composers"
+        },
+        {
+          "slug": "songwriting",
+          "name": "Songwriting",
+          "fiverr_path": "/categories/music-audio/songwriters"
+        },
+        {
+          "slug": "beat-making",
+          "name": "Beat Making",
+          "fiverr_path": "/categories/music-audio/beat-making"
+        },
+        {
+          "slug": "singers-and-vocalists",
+          "name": "Singers & Vocalists",
+          "fiverr_path": "/categories/music-audio/singers-vocalists"
+        },
+        {
+          "slug": "session-musicians",
+          "name": "Session Musicians",
+          "fiverr_path": "/categories/music-audio/session-musicians"
+        },
+        {
+          "slug": "jingles-and-intros",
+          "name": "Jingles & Intros",
+          "fiverr_path": "/categories/music-audio/jingles-intros"
+        },
+        {
+          "slug": "custom-songs",
+          "name": "Custom Songs",
+          "fiverr_path": "/categories/music-audio/custom-songs"
+        }
+      ]
+    },
+    {
+      "name": "Audio Engineering & Post Production",
+      "subs": [
+        {
+          "slug": "mixing-and-mastering",
+          "name": "Mixing & Mastering",
+          "fiverr_path": "/categories/music-audio/mixing-mastering"
+        },
+        {
+          "slug": "audio-editing",
+          "name": "Audio Editing",
+          "fiverr_path": "/categories/music-audio/audio-editing"
+        },
+        {
+          "slug": "vocal-tuning",
+          "name": "Vocal Tuning",
+          "fiverr_path": "/categories/music-audio/vocal-tuning"
+        },
+        {
+          "slug": "audio-logo-and-sonic-branding",
+          "name": "Audio Logo & Sonic Branding",
+          "fiverr_path": "/categories/music-audio/audio-logo-sonic-branding"
+        }
+      ]
+    },
+    {
+      "name": "Voice Over & Streaming",
+      "subs": [
+        {
+          "slug": "voice-over",
+          "name": "Voice Over",
+          "fiverr_path": "/categories/music-audio/voice-overs"
+        },
+        {
+          "slug": "podcast-production",
+          "name": "Podcast Production",
+          "fiverr_path": "/categories/music-audio/podcast-editing"
+        },
+        {
+          "slug": "audiobook-production",
+          "name": "Audiobook Production",
+          "fiverr_path": "/categories/music-audio/audiobook-production"
+        },
+        {
+          "slug": "audio-ads-production",
+          "name": "Audio Ads Production",
+          "fiverr_path": "/categories/music-audio/audio-ads-production"
+        },
+        {
+          "slug": "voice-synthesis-and-ai",
+          "name": "Voice Synthesis & AI",
+          "fiverr_path": "/categories/music-audio/voice-synthesis-ai"
+        }
+      ]
+    },
+    {
+      "name": "Lessons & Transcription",
+      "subs": [
+        {
+          "slug": "online-music-lessons",
+          "name": "Online Music Lessons",
+          "fiverr_path": "/categories/music-audio/online-music-lessons"
+        },
+        {
+          "slug": "music-transcription",
+          "name": "Music Transcription",
+          "fiverr_path": "/categories/music-audio/music-transcription"
+        },
+        {
+          "slug": "music-and-audio-consultation",
+          "name": "Music & Audio Consultation",
+          "fiverr_path": "/categories/music-audio/advice"
+        }
+      ]
+    },
+    {
+      "name": "DJing",
+      "subs": [
+        {
+          "slug": "remixing",
+          "name": "Remixing",
+          "fiverr_path": "/categories/music-audio/remixing"
+        },
+        {
+          "slug": "dj-drops-and-tags",
+          "name": "DJ Drops & Tags",
+          "fiverr_path": "/categories/music-audio/dj-drops-tags"
+        },
+        {
+          "slug": "dj-mixing",
+          "name": "DJ Mixing",
+          "fiverr_path": "/categories/music-audio/dj-mixing"
+        }
+      ]
+    },
+    {
+      "name": "Sound Design",
+      "subs": [
+        {
+          "slug": "sound-design",
+          "name": "Sound Design",
+          "fiverr_path": "/categories/music-audio/sound-design"
+        },
+        {
+          "slug": "custom-patches-and-samples",
+          "name": "Custom Patches & Samples",
+          "fiverr_path": "/categories/music-audio/custom-patches-samples"
+        },
+        {
+          "slug": "meditation-music",
+          "name": "Meditation Music",
+          "fiverr_path": "/categories/music-audio/meditation-music"
+        },
+        {
+          "slug": "audio-plugin-development",
+          "name": "Audio Plugin Development",
+          "fiverr_path": "/categories/music-audio/audio-plugin-development"
+        }
+      ]
+    }
+  ]
+}

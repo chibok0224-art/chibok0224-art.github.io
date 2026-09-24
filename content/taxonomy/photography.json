@@ -1,0 +1,86 @@
+{
+  "slug": "photography",
+  "name": "Photography",
+  "order": 13,
+  "fiverr_path": "/categories/photography",
+  "source_checked": "2026-09-25",
+  "blurb": "Product, food, portrait, event, real estate and drone photographers.",
+  "intro": "Photography on Fiverr includes product shots for your store and local photographers for events, portraits and real estate. Below is every photography specialty, grouped the way Fiverr groups them.",
+  "groups": [
+    {
+      "name": "Product",
+      "subs": [
+        {
+          "slug": "product-photographers",
+          "name": "Product Photographers",
+          "fiverr_path": "/categories/photography/product-photographers"
+        },
+        {
+          "slug": "food-photographers",
+          "name": "Food Photographers",
+          "fiverr_path": "/categories/photography/food-photographers"
+        }
+      ]
+    },
+    {
+      "name": "People",
+      "subs": [
+        {
+          "slug": "portrait-photographers",
+          "name": "Portrait Photographers",
+          "fiverr_path": "/categories/photography/portrait-photographers"
+        },
+        {
+          "slug": "event-photographers",
+          "name": "Event Photographers",
+          "fiverr_path": "/categories/photography/event-photographers"
+        },
+        {
+          "slug": "lifestyle-and-fashion-photographers",
+          "name": "Lifestyle & Fashion Photographers",
+          "fiverr_path": "/categories/photography/lifestyle-fashion-photographers"
+        }
+      ]
+    },
+    {
+      "name": "Scenes",
+      "subs": [
+        {
+          "slug": "real-estate-photographers",
+          "name": "Real Estate Photographers",
+          "fiverr_path": "/categories/photography/real-estate-photographers"
+        },
+        {
+          "slug": "scenic-photographers",
+          "name": "Scenic Photographers",
+          "fiverr_path": "/categories/photography/scenic-photographers"
+        },
+        {
+          "slug": "drone-photographers",
+          "name": "Drone Photographers",
+          "fiverr_path": "/categories/photography/drone-photography"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "subs": [
+        {
+          "slug": "photo-preset-creation",
+          "name": "Photo Preset Creation",
+          "fiverr_path": "/categories/photography/photo-preset-creation"
+        },
+        {
+          "slug": "photography-advice",
+          "name": "Photography Advice",
+          "fiverr_path": "/categories/photography/photography-advice"
+        },
+        {
+          "slug": "other",
+          "name": "Other",
+          "fiverr_path": "/categories/photography/photography-services"
+        }
+      ]
+    }
+  ]
+}

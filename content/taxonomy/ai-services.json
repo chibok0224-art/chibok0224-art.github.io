@@ -1,0 +1,171 @@
+{
+  "slug": "ai-services",
+  "name": "AI Services",
+  "order": 9,
+  "fiverr_path": "/categories/ai-services",
+  "source_checked": "2026-09-25",
+  "blurb": "AI chatbots and apps, AI art, AI video and voice, machine learning and AI consulting.",
+  "intro": "Fiverr's AI Services area brings together AI work from across the site: building chatbots and AI apps, AI-generated art and video, synthetic voices, data work and AI strategy. We have grouped these services by what you want to get done.",
+  "groups": [
+    {
+      "name": "AI Development",
+      "subs": [
+        {
+          "slug": "ai-development",
+          "name": "AI Development",
+          "fiverr_path": "/categories/programming-tech/ai-coding"
+        },
+        {
+          "slug": "ai-chatbots",
+          "name": "AI Chatbots",
+          "fiverr_path": "/categories/programming-tech/ai-coding/ai-chatbot"
+        },
+        {
+          "slug": "ai-applications",
+          "name": "AI Applications",
+          "fiverr_path": "/categories/programming-tech/ai-coding/ai-applications"
+        },
+        {
+          "slug": "ai-integration",
+          "name": "AI Integration",
+          "fiverr_path": "/categories/programming-tech/ai-coding/ai-integrations"
+        },
+        {
+          "slug": "ai-model-fine-tuning",
+          "name": "AI Model Fine-tuning",
+          "fiverr_path": "/categories/programming-tech/ai-coding/ai-fine-tuning"
+        }
+      ]
+    },
+    {
+      "name": "AI Art & Design",
+      "subs": [
+        {
+          "slug": "ai-artists",
+          "name": "AI Artists",
+          "fiverr_path": "/categories/graphics-design/ai-art-prompt"
+        },
+        {
+          "slug": "midjourney-artists",
+          "name": "Midjourney Artists",
+          "fiverr_path": "/categories/graphics-design/buy/ai-art-prompt/midjourney"
+        },
+        {
+          "slug": "stable-diffusion-artists",
+          "name": "Stable Diffusion Artists",
+          "fiverr_path": "/categories/graphics-design/buy/ai-art-prompt/stable-diffusion"
+        },
+        {
+          "slug": "dall-e-artists",
+          "name": "DALL-E Artists",
+          "fiverr_path": "/categories/graphics-design/buy/ai-art-prompt/dall-e"
+        }
+      ]
+    },
+    {
+      "name": "AI Video",
+      "subs": [
+        {
+          "slug": "ai-music-videos",
+          "name": "AI Music Videos",
+          "fiverr_path": "/categories/video-animation/buy/music-videos/ai-generated"
+        },
+        {
+          "slug": "ai-video-art",
+          "name": "AI Video Art",
+          "fiverr_path": "/categories/video-animation/video-art/ai-video-art"
+        },
+        {
+          "slug": "ai-spokesperson-videos",
+          "name": "AI Spokesperson Videos",
+          "fiverr_path": "/categories/video-animation/buy/buy-spokesperson-video/ai-avatar"
+        }
+      ]
+    },
+    {
+      "name": "AI Writing",
+      "subs": [
+        {
+          "slug": "ai-content-editing",
+          "name": "AI Content Editing",
+          "fiverr_path": "/categories/writing-translation/proofreading-editing/ai-content-editing"
+        },
+        {
+          "slug": "custom-prompt-writing",
+          "name": "Custom Prompt Writing",
+          "fiverr_path": "/categories/writing-translation/custom-writing-prompts"
+        }
+      ]
+    },
+    {
+      "name": "AI Voice & Audio",
+      "subs": [
+        {
+          "slug": "voice-synthesis-and-ai",
+          "name": "Voice Synthesis & AI",
+          "fiverr_path": "/categories/music-audio/voice-synthesis-ai"
+        },
+        {
+          "slug": "text-to-speech",
+          "name": "Text-to-speech",
+          "fiverr_path": "/categories/music-audio/voice-synthesis-ai/text-to-speech"
+        },
+        {
+          "slug": "custom-ai-voices",
+          "name": "Custom AI Voices",
+          "fiverr_path": "/categories/music-audio/voice-synthesis-ai/voice-cloning"
+        },
+        {
+          "slug": "speech-recognition",
+          "name": "Speech Recognition",
+          "fiverr_path": "/categories/music-audio/voice-synthesis-ai/speech-recognition"
+        }
+      ]
+    },
+    {
+      "name": "Data & Machine Learning",
+      "subs": [
+        {
+          "slug": "data-science-and-ml",
+          "name": "Data Science & ML",
+          "fiverr_path": "/categories/data/data-science"
+        },
+        {
+          "slug": "data-analytics",
+          "name": "Data Analytics",
+          "fiverr_path": "/categories/data/data-analytics"
+        },
+        {
+          "slug": "data-visualization",
+          "name": "Data Visualization",
+          "fiverr_path": "/categories/data/data-visualization"
+        },
+        {
+          "slug": "data-annotation",
+          "name": "Data Annotation",
+          "fiverr_path": "/categories/data/data-labeling-annotation"
+        }
+      ]
+    },
+    {
+      "name": "AI for Business",
+      "subs": [
+        {
+          "slug": "ai-consulting",
+          "name": "AI Consulting",
+          "fiverr_path": "/categories/business/ai-consulting"
+        },
+        {
+          "slug": "ai-strategy",
+          "name": "AI Strategy",
+          "fiverr_path": "/categories/business/ai-consulting/ai-strategy"
+        },
+        {
+          "slug": "ai-lessons",
+          "name": "AI Lessons",
+          "fiverr_path": "/categories/business/ai-consulting/ai-lessons"
+        }
+      ]
+    }
+  ]
+}

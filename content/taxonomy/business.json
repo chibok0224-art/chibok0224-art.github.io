@@ -1,0 +1,166 @@
+{
+  "slug": "business",
+  "name": "Business",
+  "order": 7,
+  "fiverr_path": "/categories/business",
+  "source_checked": "2026-09-25",
+  "blurb": "Virtual assistants, business plans, market research, legal documents, lead generation and sales.",
+  "intro": "Business services on Fiverr help you start, run and grow a company: from registering it to finding leads and handling customer service. Below is every business specialty, grouped the way Fiverr groups them.",
+  "groups": [
+    {
+      "name": "Formation & Consulting",
+      "subs": [
+        {
+          "slug": "business-formation-and-registration",
+          "name": "Business Formation & Registration",
+          "fiverr_path": "/categories/business/business-registration"
+        },
+        {
+          "slug": "market-research",
+          "name": "Market Research",
+          "fiverr_path": "/categories/business/market-research-reports"
+        },
+        {
+          "slug": "business-plans",
+          "name": "Business Plans",
+          "fiverr_path": "/categories/business/business-plans"
+        },
+        {
+          "slug": "business-consulting",
+          "name": "Business Consulting",
+          "fiverr_path": "/categories/business/business-tips"
+        },
+        {
+          "slug": "hr-consulting",
+          "name": "HR Consulting",
+          "fiverr_path": "/categories/business/hr-consulting"
+        },
+        {
+          "slug": "ai-consulting",
+          "name": "AI Consulting",
+          "fiverr_path": "/categories/business/ai-consulting"
+        }
+      ]
+    },
+    {
+      "name": "Operations & Management",
+      "subs": [
+        {
+          "slug": "virtual-assistant",
+          "name": "Virtual Assistant",
+          "fiverr_path": "/categories/business/virtual-assistant-services"
+        },
+        {
+          "slug": "project-management",
+          "name": "Project Management",
+          "fiverr_path": "/categories/business/project-management"
+        },
+        {
+          "slug": "software-management",
+          "name": "Software Management",
+          "fiverr_path": "/categories/business/software-management"
+        },
+        {
+          "slug": "e-commerce-management",
+          "name": "E-Commerce Management",
+          "fiverr_path": "/categories/business/ecommerce-management"
+        },
+        {
+          "slug": "supply-chain-management",
+          "name": "Supply Chain Management",
+          "fiverr_path": "/categories/business/supply-chain-management"
+        },
+        {
+          "slug": "event-management",
+          "name": "Event Management",
+          "fiverr_path": "/categories/business/event-management"
+        },
+        {
+          "slug": "product-management",
+          "name": "Product Management",
+          "fiverr_path": "/categories/business/product-management"
+        }
+      ]
+    },
+    {
+      "name": "Legal Services",
+      "subs": [
+        {
+          "slug": "intellectual-property-management",
+          "name": "Intellectual Property Management",
+          "fiverr_path": "/categories/business/intellectual-property-management"
+        },
+        {
+          "slug": "legal-documents-and-contracts",
+          "name": "Legal Documents & Contracts",
+          "fiverr_path": "/categories/business/legal-documents"
+        },
+        {
+          "slug": "legal-research",
+          "name": "Legal Research",
+          "fiverr_path": "/categories/business/legal-research"
+        },
+        {
+          "slug": "general-legal-advice",
+          "name": "General Legal Advice",
+          "fiverr_path": "/categories/business/legal-advice"
+        }
+      ]
+    },
+    {
+      "name": "Sales & Customer Service",
+      "subs": [
+        {
+          "slug": "sales",
+          "name": "Sales",
+          "fiverr_path": "/categories/business/sales"
+        },
+        {
+          "slug": "customer-experience-management-cxm",
+          "name": "Customer Experience Management (CXM)",
+          "fiverr_path": "/categories/business/customer-experience-management"
+        },
+        {
+          "slug": "lead-generation",
+          "name": "Lead Generation",
+          "fiverr_path": "/categories/business/lead-generation"
+        },
+        {
+          "slug": "customer-service",
+          "name": "Customer Service",
+          "fiverr_path": "/categories/business/customer-care"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "subs": [
+        {
+          "slug": "presentations",
+          "name": "Presentations",
+          "fiverr_path": "/categories/business/online-presentations"
+        },
+        {
+          "slug": "online-investigations",
+          "name": "Online Investigations",
+          "fiverr_path": "/categories/business/online-investigations"
+        },
+        {
+          "slug": "sustainability-consulting",
+          "name": "Sustainability Consulting",
+          "fiverr_path": "/categories/business/sustainability-consulting"
+        },
+        {
+          "slug": "game-concept-design",
+          "name": "Game Concept Design",
+          "fiverr_path": "/categories/business/game-concept"
+        },
+        {
+          "slug": "other",
+          "name": "Other",
+          "fiverr_path": "/categories/business/business-services"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "consulting-services",
+  "name": "Consulting",
+  "order": 11,
+  "fiverr_path": "/categories/consulting-services",
+  "source_checked": "2026-09-25",
+  "blurb": "Expert advice on business, marketing, tech and data, plus coaching and mentorship.",
+  "intro": "Fiverr's Consulting area collects advisory services from across the site: business and legal consulting, marketing strategy, tech and data advice, and one-to-one mentorship. We have grouped them by the kind of advice you need.",
+  "groups": [
+    {
+      "name": "Business Consulting",
+      "subs": [
+        {
+          "slug": "legal-consulting",
+          "name": "Legal Consulting",
+          "fiverr_path": "/categories/business/legal-consulting-services"
+        },
+        {
+          "slug": "financial-consulting",
+          "name": "Financial Consulting",
+          "fiverr_path": "/categories/business/financial-consulting-services"
+        },
+        {
+          "slug": "hr-consulting",
+          "name": "HR Consulting",
+          "fiverr_path": "/categories/business/hr-consulting"
+        },
+        {
+          "slug": "ai-consulting",
+          "name": "AI Consulting",
+          "fiverr_path": "/categories/business/ai-consulting"
+        },
+        {
+          "slug": "business-plans",
+          "name": "Business Plans",
+          "fiverr_path": "/categories/business/business-plans"
+        },
+        {
+          "slug": "sales-strategy",
+          "name": "Sales Strategy",
+          "fiverr_path": "/categories/business/sales/strategy-and-planning"
+        },
+        {
+          "slug": "market-research-consulting",
+          "name": "Market Research Consulting",
+          "fiverr_path": "/categories/business/market-research-reports/market-research-consulting"
+        },
+        {
+          "slug": "customer-care-consulting",
+          "name": "Customer Care Consulting",
+          "fiverr_path": "/categories/business/customer-care/customer-consulting"
+        }
+      ]
+    },
+    {
+      "name": "Marketing Strategy",
+      "subs": [
+        {
+          "slug": "social-media-strategy",
+          "name": "Social Media Strategy",
+          "fiverr_path": "/categories/online-marketing/social-marketing/social-media-strategy"
+        },
+        {
+          "slug": "influencers-strategy",
+          "name": "Influencers Strategy",
+          "fiverr_path": "/categories/online-marketing/influencer-marketing/strategy-research"
+        },
+        {
+          "slug": "video-marketing-strategy",
+          "name": "Video Marketing Strategy",
+          "fiverr_path": "/categories/online-marketing/online-video-marketing/consultation-audience-research"
+        },
+        {
+          "slug": "sem-strategy",
+          "name": "SEM Strategy",
+          "fiverr_path": "/categories/online-marketing/search-engine-marketing/setup-strategy-consultation"
+        },
+        {
+          "slug": "pr-strategy",
+          "name": "PR Strategy",
+          "fiverr_path": "/categories/online-marketing/public-relations"
+        },
+        {
+          "slug": "content-strategy",
+          "name": "Content Strategy",
+          "fiverr_path": "/categories/writing-translation/content-strategy"
+        },
+        {
+          "slug": "marketing-mentorship",
+          "name": "Marketing Mentorship",
+          "fiverr_path": "/categories/online-marketing/marketing-tips-and-advice"
+        }
+      ]
+    },
+    {
+      "name": "Tech & Data Consulting",
+      "subs": [
+        {
+          "slug": "software-development-consulting",
+          "name": "Software Development Consulting",
+          "fiverr_path": "/categories/programming-tech/software-development/help-consultation"
+        },
+        {
+          "slug": "mobile-apps-consulting",
+          "name": "Mobile Apps Consulting",
+          "fiverr_path": "/categories/programming-tech/mobile-app-maintenance/consultation"
+        },
+        {
+          "slug": "cybersecurity-consulting",
+          "name": "Cybersecurity Consulting",
+          "fiverr_path": "/categories/programming-tech/cybersecurity-data-protection/consultation"
+        },
+        {
+          "slug": "game-development-consulting",
+          "name": "Game Development Consulting",
+          "fiverr_path": "/categories/programming-tech/game-development/consultation"
+        },
+        {
+          "slug": "databases-consulting",
+          "name": "Databases Consulting",
+          "fiverr_path": "/categories/data/databases/consulting"
+        },
+        {
+          "slug": "data-visualization-consulting",
+          "name": "Data Visualization Consulting",
+          "fiverr_path": "/categories/data/data-visualization/consulting"
+        },
+        {
+          "slug": "data-processing-consulting",
+          "name": "Data Processing Consulting",
+          "fiverr_path": "/categories/data/data-processing/consulting"
+        }
+      ]
+    },
+    {
+      "name": "Coaching & Mentorship",
+      "subs": [
+        {
+          "slug": "career-counseling",
+          "name": "Career Counseling",
+          "fiverr_path": "/categories/lifestyle/career-counseling"
+        },
+        {
+          "slug": "music-mentorship",
+          "name": "Music Mentorship",
+          "fiverr_path": "/categories/music-audio/advice"
+        },
+        {
+          "slug": "writing-mentorship",
+          "name": "Writing Mentorship",
+          "fiverr_path": "/categories/writing-translation/writing-tips-and-advice"
+        },
+        {
+          "slug": "video-mentorship",
+          "name": "Video Mentorship",
+          "fiverr_path": "/categories/video-animation/video-advice"
+        },
+        {
+          "slug": "game-coaching",
+          "name": "Game Coaching",
+          "fiverr_path": "/categories/lifestyle/gaming/game-coaching"
+        },
+        {
+          "slug": "styling-and-beauty-advice",
+          "name": "Styling & Beauty Advice",
+          "fiverr_path": "/categories/lifestyle/personal-stylists"
+        },
+        {
+          "slug": "travel-advice",
+          "name": "Travel Advice",
+          "fiverr_path": "/categories/lifestyle/traveling/local-advisors"
+        },
+        {
+          "slug": "nutrition-coaching",
+          "name": "Nutrition Coaching",
+          "fiverr_path": "/categories/lifestyle/nutrition/nutrition-coaching"
+        },
+        {
+          "slug": "mindfulness-coaching",
+          "name": "Mindfulness Coaching",
+          "fiverr_path": "/categories/lifestyle/wellness/mindfulness-coaching"
+        }
+      ]
+    }
+  ]
+}

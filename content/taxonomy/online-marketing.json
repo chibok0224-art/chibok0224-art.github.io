@@ -1,0 +1,216 @@
+{
+  "slug": "online-marketing",
+  "name": "Digital Marketing",
+  "order": 3,
+  "fiverr_path": "/categories/online-marketing",
+  "source_checked": "2026-09-25",
+  "blurb": "SEO, social media, paid ads, email marketing, influencer campaigns and marketing strategy.",
+  "intro": "Digital Marketing on Fiverr ranges from a one-off SEO audit to managing your social channels every month. Below is every marketing specialty, grouped the way Fiverr groups them, with our hiring guides where available.",
+  "groups": [
+    {
+      "name": "Search",
+      "subs": [
+        {
+          "slug": "search-engine-optimization-seo",
+          "name": "Search Engine Optimization (SEO)",
+          "fiverr_path": "/categories/online-marketing/seo-services"
+        },
+        {
+          "slug": "generative-engine-optimization-geo",
+          "name": "Generative Engine Optimization (GEO)",
+          "fiverr_path": "/categories/online-marketing/generative-engine-optimization"
+        },
+        {
+          "slug": "search-engine-marketing-sem",
+          "name": "Search Engine Marketing (SEM)",
+          "fiverr_path": "/categories/online-marketing/search-engine-marketing"
+        },
+        {
+          "slug": "local-seo",
+          "name": "Local SEO",
+          "fiverr_path": "/categories/online-marketing/local-seo-services"
+        },
+        {
+          "slug": "e-commerce-seo",
+          "name": "E-Commerce SEO",
+          "fiverr_path": "/categories/online-marketing/ecommerce-seo-services"
+        },
+        {
+          "slug": "video-seo",
+          "name": "Video SEO",
+          "fiverr_path": "/categories/online-marketing/video-seo"
+        }
+      ]
+    },
+    {
+      "name": "Social",
+      "subs": [
+        {
+          "slug": "social-media-marketing",
+          "name": "Social Media Marketing",
+          "fiverr_path": "/categories/online-marketing/social-marketing"
+        },
+        {
+          "slug": "paid-social-media",
+          "name": "Paid Social Media",
+          "fiverr_path": "/categories/online-marketing/paid-social-media"
+        },
+        {
+          "slug": "social-commerce",
+          "name": "Social Commerce",
+          "fiverr_path": "/categories/online-marketing/social-commerce"
+        },
+        {
+          "slug": "influencer-marketing",
+          "name": "Influencer Marketing",
+          "fiverr_path": "/categories/online-marketing/influencer-marketing"
+        },
+        {
+          "slug": "online-communities",
+          "name": "Online Communities",
+          "fiverr_path": "/categories/online-marketing/community-management"
+        }
+      ]
+    },
+    {
+      "name": "Methods & Techniques",
+      "subs": [
+        {
+          "slug": "video-marketing",
+          "name": "Video Marketing",
+          "fiverr_path": "/categories/online-marketing/online-video-marketing"
+        },
+        {
+          "slug": "e-commerce-marketing",
+          "name": "E-Commerce Marketing",
+          "fiverr_path": "/categories/online-marketing/e-commerce-marketing"
+        },
+        {
+          "slug": "email-marketing",
+          "name": "Email Marketing",
+          "fiverr_path": "/categories/online-marketing/email-marketing"
+        },
+        {
+          "slug": "email-automations",
+          "name": "Email Automations",
+          "fiverr_path": "/categories/online-marketing/email-automation"
+        },
+        {
+          "slug": "marketing-automation",
+          "name": "Marketing Automation",
+          "fiverr_path": "/categories/online-marketing/marketing-automation"
+        },
+        {
+          "slug": "guest-posting",
+          "name": "Guest Posting",
+          "fiverr_path": "/categories/online-marketing/guest-posting-services"
+        },
+        {
+          "slug": "affiliate-marketing",
+          "name": "Affiliate Marketing",
+          "fiverr_path": "/categories/online-marketing/affiliate-marketing"
+        },
+        {
+          "slug": "display-advertising",
+          "name": "Display Advertising",
+          "fiverr_path": "/categories/online-marketing/display-advertising"
+        },
+        {
+          "slug": "crowdfunding",
+          "name": "Crowdfunding",
+          "fiverr_path": "/categories/online-marketing/crowdfunding"
+        },
+        {
+          "slug": "text-message-marketing",
+          "name": "Text Message Marketing",
+          "fiverr_path": "/categories/online-marketing/text-message-marketing"
+        }
+      ]
+    },
+    {
+      "name": "Analytics & Strategy",
+      "subs": [
+        {
+          "slug": "marketing-strategy",
+          "name": "Marketing Strategy",
+          "fiverr_path": "/categories/online-marketing/marketing-strategy"
+        },
+        {
+          "slug": "brand-strategy",
+          "name": "Brand Strategy",
+          "fiverr_path": "/categories/online-marketing/brand-strategy"
+        },
+        {
+          "slug": "digital-marketing-strategy",
+          "name": "Digital Marketing strategy",
+          "fiverr_path": "/categories/online-marketing/digital-marketing-strategy"
+        },
+        {
+          "slug": "ugc-strategy",
+          "name": "UGC Strategy",
+          "fiverr_path": "/categories/online-marketing/ugc-strategy"
+        },
+        {
+          "slug": "marketing-concepts-and-ideation",
+          "name": "Marketing Concepts & Ideation",
+          "fiverr_path": "/categories/online-marketing/marketing-concepts-and-ideation"
+        },
+        {
+          "slug": "conversion-rate-optimization-cro",
+          "name": "Conversion Rate Optimization (CRO)",
+          "fiverr_path": "/categories/online-marketing/conversion-rate-optimization"
+        },
+        {
+          "slug": "conscious-branding-and-marketing",
+          "name": "Conscious Branding & Marketing",
+          "fiverr_path": "/categories/online-marketing/conscious-branding"
+        },
+        {
+          "slug": "web-analytics",
+          "name": "Web Analytics",
+          "fiverr_path": "/categories/online-marketing/web-analytics-services"
+        },
+        {
+          "slug": "marketing-consultation",
+          "name": "Marketing Consultation",
+          "fiverr_path": "/categories/online-marketing/marketing-tips-and-advice"
+        }
+      ]
+    },
+    {
+      "name": "Industry & Purpose-Specific",
+      "subs": [
+        {
+          "slug": "music-promotion",
+          "name": "Music Promotion",
+          "fiverr_path": "/categories/online-marketing/music-promotion"
+        },
+        {
+          "slug": "podcast-marketing",
+          "name": "Podcast Marketing",
+          "fiverr_path": "/categories/online-marketing/podcast-marketing"
+        },
+        {
+          "slug": "mobile-app-marketing",
+          "name": "Mobile App Marketing",
+          "fiverr_path": "/categories/online-marketing/mobile-app-marketing"
+        },
+        {
+          "slug": "book-and-ebook-marketing",
+          "name": "Book & eBook Marketing",
+          "fiverr_path": "/categories/online-marketing/book-marketing-services"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "subs": [
+        {
+          "slug": "other",
+          "name": "Other",
+          "fiverr_path": "/categories/online-marketing/online-marketing-services"
+        }
+      ]
+    }
+  ]
+}

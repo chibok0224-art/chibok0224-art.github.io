@@ -3,18 +3,262 @@
   "name": "Video & Animation",
   "order": 4,
   "fiverr_path": "/categories/video-animation",
-  "partial": true,
-  "blurb": "Video editing, explainer and animated videos, UGC ads and social video.",
-  "intro": "Video & Animation covers everything from quick social clips to full animated explainers. We are still mapping this category; the services below already have our hiring guides.",
+  "source_checked": "2026-09-25",
+  "blurb": "Video editing, UGC and spokesperson videos, explainers, animation and motion graphics.",
+  "intro": "Video & Animation covers quick social clips, UGC ads, animated explainers and full productions. Below is every video specialty, grouped the way Fiverr groups them, with our hiring guides where available.",
   "groups": [
+    {
+      "name": "Editing & Post-Production",
+      "subs": [
+        {
+          "slug": "video-editing",
+          "name": "Video Editing",
+          "fiverr_path": "/categories/video-animation/video-editing"
+        },
+        {
+          "slug": "visual-effects",
+          "name": "Visual Effects",
+          "fiverr_path": "/categories/video-animation/visual-effects"
+        },
+        {
+          "slug": "video-art",
+          "name": "Video Art",
+          "fiverr_path": "/categories/video-animation/video-art"
+        },
+        {
+          "slug": "intro-and-outro-videos",
+          "name": "Intro & Outro Videos",
+          "fiverr_path": "/categories/video-animation/video-intro-and-outro"
+        },
+        {
+          "slug": "video-templates-editing",
+          "name": "Video Templates Editing",
+          "fiverr_path": "/categories/video-animation/video-templates-editing"
+        },
+        {
+          "slug": "subtitles-and-captions",
+          "name": "Subtitles & Captions",
+          "fiverr_path": "/categories/video-animation/subtitles-captions"
+        },
+        {
+          "slug": "video-repurposing",
+          "name": "Video Repurposing",
+          "fiverr_path": "/categories/video-animation/video-repurposing"
+        }
+      ]
+    },
     {
       "name": "Social & Marketing Videos",
       "subs": [
         {
+          "slug": "video-ads-and-commercials",
+          "name": "Video Ads & Commercials",
+          "fiverr_path": "/categories/video-animation/short-video-ads"
+        },
+        {
+          "slug": "social-media-videos",
+          "name": "Social Media Videos",
+          "fiverr_path": "/categories/video-animation/social-media-videos"
+        },
+        {
+          "slug": "music-videos",
+          "name": "Music Videos",
+          "fiverr_path": "/categories/video-animation/music-videos"
+        },
+        {
+          "slug": "slideshow-videos",
+          "name": "Slideshow Videos",
+          "fiverr_path": "/categories/video-animation/slideshow-videos"
+        }
+      ]
+    },
+    {
+      "name": "Presenter Videos",
+      "subs": [
+        {
           "slug": "ugc-videos",
           "name": "UGC Videos",
-          "fiverr_path": "/categories/video-animation/ugc-videos",
-          "unverified": true
+          "fiverr_path": "/categories/video-animation/ugc-videos"
+        },
+        {
+          "slug": "spokesperson-videos",
+          "name": "Spokesperson Videos",
+          "fiverr_path": "/categories/video-animation/buy-spokesperson-video"
+        },
+        {
+          "slug": "ugc-ads",
+          "name": "UGC Ads",
+          "fiverr_path": "/categories/video-animation/human-ugc"
+        }
+      ]
+    },
+    {
+      "name": "Explainer Videos",
+      "subs": [
+        {
+          "slug": "animated-explainers",
+          "name": "Animated Explainers",
+          "fiverr_path": "/categories/video-animation/animated-explainer-videos"
+        },
+        {
+          "slug": "live-action-explainers",
+          "name": "Live Action Explainers",
+          "fiverr_path": "/categories/video-animation/live-action-videos"
+        },
+        {
+          "slug": "screencasting-videos",
+          "name": "Screencasting Videos",
+          "fiverr_path": "/categories/video-animation/screencasting-videos"
+        },
+        {
+          "slug": "elearning-video-production",
+          "name": "eLearning Video Production",
+          "fiverr_path": "/categories/video-animation/elearning-video-production"
+        },
+        {
+          "slug": "crowdfunding-videos",
+          "name": "Crowdfunding Videos",
+          "fiverr_path": "/categories/video-animation/crowdfunding-videos"
+        }
+      ]
+    },
+    {
+      "name": "Animation",
+      "subs": [
+        {
+          "slug": "character-animation",
+          "name": "Character Animation",
+          "fiverr_path": "/categories/video-animation/animated-characters-modeling"
+        },
+        {
+          "slug": "animated-gifs",
+          "name": "Animated GIFs",
+          "fiverr_path": "/categories/video-animation/animated-gifs"
+        },
+        {
+          "slug": "animation-for-kids",
+          "name": "Animation for Kids",
+          "fiverr_path": "/categories/video-animation/animation-for-kids"
+        },
+        {
+          "slug": "animation-for-streamers",
+          "name": "Animation for Streamers",
+          "fiverr_path": "/categories/video-animation/animation-for-streamers"
+        },
+        {
+          "slug": "rigging",
+          "name": "Rigging",
+          "fiverr_path": "/categories/video-animation/rigging"
+        },
+        {
+          "slug": "nft-animation",
+          "name": "NFT Animation",
+          "fiverr_path": "/categories/video-animation/nft-animation"
+        }
+      ]
+    },
+    {
+      "name": "Product Videos",
+      "subs": [
+        {
+          "slug": "3d-product-animation",
+          "name": "3D Product Animation",
+          "fiverr_path": "/categories/video-animation/3d-product-animation"
+        },
+        {
+          "slug": "e-commerce-product-videos",
+          "name": "E-Commerce Product Videos",
+          "fiverr_path": "/categories/video-animation/ecommerce-product-videos"
+        },
+        {
+          "slug": "corporate-videos",
+          "name": "Corporate Videos",
+          "fiverr_path": "/categories/video-animation/corporate-videos"
+        },
+        {
+          "slug": "app-and-website-previews",
+          "name": "App & Website Previews",
+          "fiverr_path": "/categories/video-animation/app-website-previews"
+        }
+      ]
+    },
+    {
+      "name": "Motion Graphics",
+      "subs": [
+        {
+          "slug": "logo-animation",
+          "name": "Logo Animation",
+          "fiverr_path": "/categories/video-animation/logo-animation-services"
+        },
+        {
+          "slug": "lottie-and-web-animation",
+          "name": "Lottie & Web Animation",
+          "fiverr_path": "/categories/video-animation/website-animation"
+        },
+        {
+          "slug": "text-animation",
+          "name": "Text Animation",
+          "fiverr_path": "/categories/video-animation/text-animation"
+        }
+      ]
+    },
+    {
+      "name": "Filmed Video Production",
+      "subs": [
+        {
+          "slug": "filmed-video-production",
+          "name": "Filmed Video Production",
+          "fiverr_path": "/categories/video-animation/filmed-video-production"
+        },
+        {
+          "slug": "videographers",
+          "name": "Videographers",
+          "fiverr_path": "/categories/video-animation/videographers"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "subs": [
+        {
+          "slug": "virtual-and-streaming-avatars",
+          "name": "Virtual & Streaming Avatars",
+          "fiverr_path": "/categories/video-animation/virtual-streaming-avatars"
+        },
+        {
+          "slug": "article-to-video",
+          "name": "Article to Video",
+          "fiverr_path": "/categories/video-animation/article-to-video"
+        },
+        {
+          "slug": "game-trailers",
+          "name": "Game Trailers",
+          "fiverr_path": "/categories/video-animation/game-trailers"
+        },
+        {
+          "slug": "meditation-videos",
+          "name": "Meditation Videos",
+          "fiverr_path": "/categories/video-animation/meditation-videos"
+        },
+        {
+          "slug": "real-estate-promos",
+          "name": "Real Estate Promos",
+          "fiverr_path": "/categories/video-animation/real-estate-promos"
+        },
+        {
+          "slug": "book-trailers",
+          "name": "Book Trailers",
+          "fiverr_path": "/categories/video-animation/book-trailers"
+        },
+        {
+          "slug": "video-consultation",
+          "name": "Video Consultation",
+          "fiverr_path": "/categories/video-animation/video-advice"
+        },
+        {
+          "slug": "other",
+          "name": "Other",
+          "fiverr_path": "/categories/video-animation/video-services"
         }
       ]
     }

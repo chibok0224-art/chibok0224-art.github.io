@@ -1,0 +1,171 @@
+{
+  "slug": "finance",
+  "name": "Finance",
+  "order": 8,
+  "fiverr_path": "/categories/finance",
+  "source_checked": "2026-09-25",
+  "blurb": "Bookkeeping, tax returns, financial modeling, fractional CFOs and fundraising support.",
+  "intro": "Finance services cover bookkeeping, tax, financial planning and fundraising. Check credentials and local rules carefully for anything tax or legal related. Below is every finance specialty, grouped the way Fiverr groups them.",
+  "groups": [
+    {
+      "name": "Accounting Services",
+      "subs": [
+        {
+          "slug": "fractional-cfo-services",
+          "name": "Fractional CFO Services",
+          "fiverr_path": "/categories/finance/fractional-cfo"
+        },
+        {
+          "slug": "financial-reporting",
+          "name": "Financial Reporting",
+          "fiverr_path": "/categories/finance/financial-reporting-services"
+        },
+        {
+          "slug": "bookkeeping",
+          "name": "Bookkeeping",
+          "fiverr_path": "/categories/finance/bookkeeping"
+        },
+        {
+          "slug": "payroll-management",
+          "name": "Payroll Management",
+          "fiverr_path": "/categories/finance/payroll-management"
+        }
+      ]
+    },
+    {
+      "name": "Tax Consulting",
+      "subs": [
+        {
+          "slug": "tax-returns",
+          "name": "Tax Returns",
+          "fiverr_path": "/categories/finance/tax-returns"
+        },
+        {
+          "slug": "tax-identification-services",
+          "name": "Tax Identification Services",
+          "fiverr_path": "/categories/finance/tax-identification-services"
+        },
+        {
+          "slug": "tax-planning",
+          "name": "Tax Planning",
+          "fiverr_path": "/categories/finance/tax-planning"
+        },
+        {
+          "slug": "tax-compliance",
+          "name": "Tax Compliance",
+          "fiverr_path": "/categories/finance/tax-compliance"
+        },
+        {
+          "slug": "tax-exemptions",
+          "name": "Tax Exemptions",
+          "fiverr_path": "/categories/finance/tax-exemptions"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance",
+      "subs": [
+        {
+          "slug": "due-diligence",
+          "name": "Due Diligence",
+          "fiverr_path": "/categories/finance/due-diligence"
+        },
+        {
+          "slug": "valuation",
+          "name": "Valuation",
+          "fiverr_path": "/categories/finance/valuation"
+        },
+        {
+          "slug": "mergers-and-acquisitions-advisory",
+          "name": "Mergers & Acquisitions Advisory",
+          "fiverr_path": "/categories/finance/mergers-and-acquisitions"
+        },
+        {
+          "slug": "corporate-finance-strategy",
+          "name": "Corporate Finance Strategy",
+          "fiverr_path": "/categories/finance/corporate-finance-strategy"
+        }
+      ]
+    },
+    {
+      "name": "Financial Planning & Analysis",
+      "subs": [
+        {
+          "slug": "budgeting-and-forecasting",
+          "name": "Budgeting and Forecasting",
+          "fiverr_path": "/categories/finance/budgeting-and-forecasting"
+        },
+        {
+          "slug": "financial-modeling",
+          "name": "Financial Modeling",
+          "fiverr_path": "/categories/finance/financial-modeling"
+        },
+        {
+          "slug": "cost-analysis",
+          "name": "Cost Analysis",
+          "fiverr_path": "/categories/finance/cost-analysis"
+        },
+        {
+          "slug": "stock-analysis",
+          "name": "Stock Analysis",
+          "fiverr_path": "/categories/finance/stock-analysis"
+        }
+      ]
+    },
+    {
+      "name": "Personal Finance & Wealth Management",
+      "subs": [
+        {
+          "slug": "personal-budget-management",
+          "name": "Personal Budget Management",
+          "fiverr_path": "/categories/finance/personal-budget"
+        },
+        {
+          "slug": "investments-advisory",
+          "name": "Investments Advisory",
+          "fiverr_path": "/categories/finance/investments-advisory"
+        },
+        {
+          "slug": "online-trading-lessons",
+          "name": "Online Trading Lessons",
+          "fiverr_path": "/categories/finance/online-trading-lessons"
+        },
+        {
+          "slug": "retirement-advisory",
+          "name": "Retirement advisory",
+          "fiverr_path": "/categories/finance/retirement-advisory"
+        },
+        {
+          "slug": "financial-coaching",
+          "name": "Financial Coaching",
+          "fiverr_path": "/categories/finance/financial-coaching"
+        },
+        {
+          "slug": "insurance-advisory",
+          "name": "Insurance Advisory",
+          "fiverr_path": "/categories/finance/insurance-advisory"
+        }
+      ]
+    },
+    {
+      "name": "Fundraising",
+      "subs": [
+        {
+          "slug": "investors-sourcing",
+          "name": "Investors Sourcing",
+          "fiverr_path": "/categories/finance/investors-sourcing"
+        },
+        {
+          "slug": "funding-pitch-presentations",
+          "name": "Funding Pitch Presentations",
+          "fiverr_path": "/categories/finance/funding-pitch-presentations"
+        },
+        {
+          "slug": "fundraising-consultation",
+          "name": "Fundraising Consultation",
+          "fiverr_path": "/categories/finance/fundraising-consultation"
+        }
+      ]
+    }
+  ]
+}
