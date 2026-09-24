@@ -30,7 +30,10 @@ GitHub 에 push 하면 GitHub Actions 가 `python build.py --release` 로 빌드
 | `tools/import_taxonomy.py` | Fiverr 카테고리 목록을 taxonomy 파일로 저장 |
 | `tools/picks.py` | 추천 판매자 순위 매기기(select), gigs.csv 에 넣기(add) |
 | `tools/category_art.py` | 대분류 카드 일러스트(SVG) 생성 |
-| `.claude/skills/gigcompass-picks/` | 추천 판매자 자동 선정 절차 (Claude Code 스킬) |
+| `.claude/skills/gigcompass-picks/` | 스킬: 추천 판매자 자동 선정 ("○○ 추천 판매자 채워줘") |
+| `.claude/skills/gigcompass-guide/` | 스킬: 새 가이드 작성·게시 ("가이드 써줘", CONTENT_PLAN.md 순서) |
+| `.claude/skills/gigcompass-refresh/` | 스킬: 오래된 판매자 카드 점검·갱신·교체 ("사이트 점검해줘") |
+| `CONTENT_PLAN.md`, `TODO.md` | 가이드 작성 순서, 할 일 목록 |
 | `static/` | CSS, 검색 스크립트, 아이콘 |
 | `dist/` | 결과물. 직접 고치지 않는다 (git 에도 안 올림) |
 

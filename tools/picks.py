@@ -4,6 +4,11 @@
         Filter and rank sellers scraped from a Fiverr listing page. Prints the shortlist.
     python tools/picks.py add <picks.json>
         Write the final picks into content/gigs.csv as live rows, replacing that page's old rows.
+    python tools/picks.py stale [--days 90]
+        List live picks last checked more than N days ago, grouped by page (what to refresh next).
+    python tools/picks.py refresh <candidates.json> --page <top/service>
+        Update rating, reviews, price and level of that page's live picks found in a freshly scraped listing,
+        stamp them checked today, and report picks that were not found or no longer meet the bar.
 
 candidates.json is the list the gigcompass-picks skill's browser snippet returns:
     [{"seller", "user", "title", "rating", "reviews", "reviews_plus", "price", "badges", "url"}, ...]
@@ -133,7 +138,82 @@ def cmd_add(args):
     print(f"wrote {len(picks)} picks for {', '.join(sorted(pages))} -> {GIGS}")
 
 
+def read_rows():
+    with open(GIGS, encoding="utf-8-sig", newline="") as f:
+        return list(csv.DictReader(f))
+
+
+def write_rows(rows):
+    with open(GIGS, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=FIELDS, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(rows)
+
+
+def age_days(row, today):
+    try:
+        return (today - dt.date.fromisoformat(row.get("checked", ""))).days
+    except ValueError:
+        return 10_000  # never checked
+
+
+def cmd_stale(args):
+    days = int(args[args.index("--days") + 1]) if "--days" in args else 90
+    today = dt.date.today()
+    by_page = {}
+    for r in read_rows():
+        if r.get("status") == "live" and age_days(r, today) > days:
+            by_page.setdefault(r["page"], []).append(r)
+    if not by_page:
+        print(f"no live picks older than {days} days")
+        return
+    for page, rows in sorted(by_page.items(), key=lambda kv: -max(age_days(r, today) for r in kv[1])):
+        oldest = max(age_days(r, today) for r in rows)
+        print(f"{page}: {len(rows)} picks, oldest checked {oldest} days ago")
+
+
+def cmd_refresh(args):
+    """Match live picks to freshly scraped listing cards by gig URL and update their numbers."""
+    cands = {c["url"]: c for c in json.loads(Path(args[0]).read_text(encoding="utf-8-sig")) if c.get("url")}
+    page = args[args.index("--page") + 1] if "--page" in args else None
+    today = dt.date.today().isoformat()
+    rows = read_rows()
+    updated, missing, below = [], [], []
+    for r in rows:
+        if r.get("status") != "live" or (page and r.get("page") != page):
+            continue
+        c = cands.get(r.get("gig_url", ""))
+        if not c:
+            missing.append(r)
+            continue
+        changes = []
+        for field, new in (("rating", c.get("rating")), ("reviews", c.get("reviews")),
+                           ("starting_price", c.get("price")), ("level", level_of(c))):
+            if new in (None, ""):
+                continue
+            if str(r.get(field, "")) != str(new):
+                changes.append(f"{field} {r.get(field) or '-'} -> {new}")
+                r[field] = new
+        r["checked"] = today
+        updated.append((r, changes))
+        if not eligible(c):
+            below.append(r)
+    write_rows(rows)
+    print(f"refreshed {len(updated)} picks (checked = {today})")
+    for r, changes in updated:
+        print(f"  {r['page']}  {r['name']}: {', '.join(changes) if changes else 'no change'}")
+    if below:
+        print("no longer meet the bar (replace them):")
+        for r in below:
+            print(f"  {r['page']}  {r['name']}  {r['gig_url']}")
+    if missing:
+        print("not in this listing (open the gig page to check, or replace):")
+        for r in missing:
+            print(f"  {r['page']}  {r['name']}  {r['gig_url']}")
+
+
 if __name__ == "__main__":
-    if len(sys.argv) < 3 or sys.argv[1] not in ("select", "add"):
+    commands = {"select": cmd_select, "add": cmd_add, "stale": cmd_stale, "refresh": cmd_refresh}
+    if len(sys.argv) < 2 or sys.argv[1] not in commands or (sys.argv[1] != "stale" and len(sys.argv) < 3):
         sys.exit(__doc__)
-    {"select": cmd_select, "add": cmd_add}[sys.argv[1]](sys.argv[2:])
+    commands[sys.argv[1]](sys.argv[2:])

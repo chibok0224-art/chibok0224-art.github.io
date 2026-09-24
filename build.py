@@ -66,7 +66,7 @@ def load_taxonomy():
     return sorted(tops, key=lambda t: t.get("order", 99)), services
 
 
-def load_pages(services, errors):
+def load_pages(services, errors, warnings):
     pages = []
     for meta in sorted((CONTENT / "pages").glob("*/*/page.json")):
         key = f"{meta.parent.parent.name}/{meta.parent.name}"
@@ -75,6 +75,11 @@ def load_pages(services, errors):
             continue
         page = load(meta)
         page["guide_html"] = (meta.parent / "guide.html").read_text(encoding="utf-8")
+        # House style: guides don't name Fiverr; only {{fiverr:...}} buttons, the footer and disclosures do.
+        text = json.dumps({k: page.get(k) for k in ("title", "h1", "description", "intro", "faq")})
+        text += FIVERR_TAG.sub("", page["guide_html"])
+        if "fiverr" in text.lower():
+            warnings.append(f"content/pages/{key}: mentions Fiverr in the guide text (house style: don't)")
         page["service"] = services[key]
         services[key]["page"] = page
         pages.append(page)
@@ -663,7 +668,7 @@ def main():
     links = Links(site)
     errors, warnings = [], []
     tops, services = load_taxonomy()
-    pages = load_pages(services, errors)
+    pages = load_pages(services, errors, warnings)
     gigs = load_gigs(errors)
     e, w = check_gigs(gigs, services)
     errors += e
