@@ -513,7 +513,7 @@ def home_page(site, tops, pages, draft):
 <section class="method">
 <h2>How we pick</h2>
 <ul>
-  <li><strong>Track record first.</strong> Typically 100+ reviews with a 4.8+ average, or Fiverr Pro verification.</li>
+  <li><strong>Vetted Pro first.</strong> Sellers vetted by Fiverr's Pro program come first; others need 100+ reviews with a 4.8+ average.</li>
   <li><strong>Gig pages checked.</strong> We look at what each package includes, delivery times and revisions.</li>
   <li><strong>Honest notes.</strong> Every pick lists a limitation when we find one.</li>
   <li><strong>Dated and re-checked.</strong> Every pick shows when we last checked it.</li>
@@ -535,7 +535,7 @@ HOW_WE_PICK = """
 <h2>Our criteria</h2>
 <ul>
   <li><strong>Public track record.</strong> An average rating of 4.8 or higher from at least 100 reviews, or Fiverr's own Vetted Pro verification with a rating of 4.7 or higher.</li>
-  <li><strong>Ranking.</strong> Among sellers who pass, we rank by rating first, then by the number of reviews, then by Fiverr's seller level. One affordable option is included when one qualifies.</li>
+  <li><strong>Vetted Pro first.</strong> We start with sellers Fiverr has vetted for its Pro program, ranked by rating and then by the number of reviews. Other top-rated sellers fill the list only when there are not enough qualifying Pro sellers.</li>
   <li><strong>Gig check.</strong> For our top picks we read the gig page: what each package includes, delivery times, revisions and, where relevant, usage rights. Each pick's summary is written from that, in our own words.</li>
   <li><strong>Limitations.</strong> When a gig has a catch, such as source files only in the top package, we say so on the pick.</li>
 </ul>

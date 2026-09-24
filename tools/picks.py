@@ -49,19 +49,15 @@ def score(c):
 
 
 def select(cands, n):
+    """Vetted Pro sellers first; other sellers who pass the bar only fill the slots left over."""
     seen, pool = set(), []
     for c in cands:
         if c.get("user") in seen or not c.get("url") or not eligible(c):
             continue
         seen.add(c["user"])
         pool.append(dict(c, level=level_of(c), score=score(c)))
-    pool.sort(key=lambda c: c["score"], reverse=True)
+    pool.sort(key=lambda c: (c["level"] == "Vetted Pro", c["score"]), reverse=True)
     chosen = pool[:n]
-    # Make sure the list includes one affordable option if any eligible seller offers one.
-    if chosen and not any((c.get("price") or 1e9) <= BUDGET_PRICE for c in chosen):
-        budget = next((c for c in pool[n:] if (c.get("price") or 1e9) <= BUDGET_PRICE), None)
-        if budget:
-            chosen[-1] = budget
     for i, c in enumerate(chosen, 1):
         c["rank"] = i
         c["budget"] = (c.get("price") or 1e9) <= BUDGET_PRICE
@@ -75,7 +71,12 @@ def cmd_select(args):
     cands = json.loads(src.read_text(encoding="utf-8-sig"))
     chosen, eligible_count = select(cands, n)
     out.write_text(json.dumps(chosen, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"{len(cands)} candidates, {eligible_count} eligible, {len(chosen)} shortlisted -> {out}")
+    pros = sum(c["level"] == "Vetted Pro" for c in chosen)
+    print(f"{len(cands)} candidates, {eligible_count} eligible, {len(chosen)} shortlisted "
+          f"({pros} Vetted Pro, {len(chosen) - pros} other) -> {out}")
+    if pros < n:
+        print(f"  only {pros} Vetted Pro sellers qualified; load the next listing page for more before "
+              "accepting other sellers")
     for c in chosen:
         reviews = f'{c["reviews"]:,}{"+" if c.get("reviews_plus") else ""}'
         print(f'  #{c["rank"]:<2} {c["score"]:>5}  {c["rating"]}★ {reviews:>7}  {c["level"] or "-":<10} '

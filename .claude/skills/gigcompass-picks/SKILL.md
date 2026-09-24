@@ -1,6 +1,6 @@
 ---
 name: gigcompass-picks
-description: Fill a GigCompass service guide with recommended Fiverr sellers, automatically. Reads the Fiverr listing for that service in the built-in browser, filters sellers by the site's bar (4.8+ rating with 100+ reviews, or Vetted Pro), ranks them, writes a short card for each in our own words, saves them to content/gigs.csv, builds and publishes. Triggers: "추천 판매자 채워줘", "셀러 골라줘", "fill picks for <service>", "gigcompass-picks".
+description: Fill a GigCompass service guide with recommended Fiverr sellers, automatically. Reads the Fiverr listing for that service in the built-in browser, takes Vetted Pro sellers first and fills any remaining slots with other sellers who pass the bar (4.8+ rating with 100+ reviews), writes a short card for each in our own words, saves them to content/gigs.csv, builds and publishes. Triggers: "추천 판매자 채워줘", "셀러 골라줘", "fill picks for <service>", "gigcompass-picks".
 ---
 
 # GigCompass: fill seller picks for a service
@@ -34,6 +34,11 @@ JSON.stringify(out)
 
 Save the result to the scratchpad as `candidates.json`.
 
+**Vetted Pro first.** The user wants Vetted Pro sellers before anyone else. Count how many cards on
+page 1 carry the "Vetted Pro" badge with a rating of 4.7+ and 20+ reviews. If fewer than 8, load
+page 2 (`?page=2` on the same listing URL, 5+ s later), run the snippet again, and append the new
+cards to `candidates.json`. Stop after page 2; other sellers then fill the remaining slots.
+
 **Bot check.** If the page title is "It needs a human touch", stop. Never press or solve it. Bring that
 tab to the front and ask the user to hold the button, then continue after they say it passed.
 Keep at least 5 seconds between Fiverr page loads, and read only the pages this procedure needs.
@@ -44,9 +49,10 @@ Keep at least 5 seconds between Fiverr page loads, and read only the pages this 
 python tools/picks.py select <scratchpad>/candidates.json --out <scratchpad>/shortlist.json --n 8
 ```
 
-This applies the site's bar, removes duplicate sellers, scores (rating, then review volume, then
-Fiverr vetting) and swaps in one budget option (≤ $50) if none made the list. Show the printed
-table to the user in Korean.
+This applies the site's bar, removes duplicate sellers, puts every qualifying Vetted Pro seller
+first (ranked by rating, then review volume), and only then fills leftover slots with other
+qualifying sellers. Entries priced at $50 or less are flagged `budget` so one of them can be
+labelled "Best budget pick". Show the printed table to the user in Korean.
 
 ## 3. Look at the top picks' gig pages
 

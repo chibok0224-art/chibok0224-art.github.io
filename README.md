@@ -60,7 +60,8 @@ Fiverr 딥링크는 모두 같은 모양이다:
 Claude Code 에서 "Logo Design 추천 판매자 채워줘" 처럼 말하면 `.claude/skills/gigcompass-picks` 가 돈다.
 
 1. Fiverr 목록 페이지를 읽는다
-2. `tools/picks.py select` 가 기준(평점 4.8·리뷰 100개 이상, 또는 Vetted Pro 4.7 이상)으로 거르고 순위를 매긴다
+2. `tools/picks.py select` 가 **Vetted Pro 판매자(평점 4.7·리뷰 20개 이상)를 먼저** 뽑고, 자리가 남을 때만
+   일반 판매자(평점 4.8·리뷰 100개 이상)로 채운다. Pro 가 모자라면 목록 2페이지까지 먼저 본다
 3. 상위 긱 페이지를 읽고 카드 문구를 우리 말로 쓴다
 4. `tools/picks.py add` 가 gigs.csv 에 넣는다 → 빌드·게시
 
