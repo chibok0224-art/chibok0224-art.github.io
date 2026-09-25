@@ -5,7 +5,7 @@ description: Write new GigCompass hiring guides (one page per freelance service)
 
 # GigCompass: write hiring guides
 
-Run from the site root (`D:\my_playlist\fiverr-affiliate-site`). Set `PYTHONIOENCODING=utf-8` before Python.
+Run from the site root (`D:\Claude_Projects\Fiverr_Affiliate\fiverr-affiliate-site`). Set `PYTHONIOENCODING=utf-8` before Python.
 Talk to the user in Korean; the site itself is in English.
 
 ## 0. Choose the services

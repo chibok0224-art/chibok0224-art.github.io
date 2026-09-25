@@ -5,7 +5,7 @@ description: Fill a GigCompass service guide with recommended Fiverr sellers, au
 
 # GigCompass: fill seller picks for a service
 
-Run from the site root (`D:\my_playlist\fiverr-affiliate-site`). Set `PYTHONIOENCODING=utf-8` before running Python.
+Run from the site root (`D:\Claude_Projects\Fiverr_Affiliate\fiverr-affiliate-site`). Set `PYTHONIOENCODING=utf-8` before running Python.
 
 ## 0. Which page
 

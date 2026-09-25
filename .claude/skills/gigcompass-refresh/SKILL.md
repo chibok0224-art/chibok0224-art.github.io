@@ -5,7 +5,7 @@ description: Routine check-up for the GigCompass site. Finds seller picks whose 
 
 # GigCompass: refresh seller picks
 
-Run from the site root (`D:\my_playlist\fiverr-affiliate-site`). Set `PYTHONIOENCODING=utf-8` before Python.
+Run from the site root (`D:\Claude_Projects\Fiverr_Affiliate\fiverr-affiliate-site`). Set `PYTHONIOENCODING=utf-8` before Python.
 Report to the user in Korean. This needs the Claude desktop app open (Browser pane) and ideally the
 user at the PC, because Fiverr may show a bot check.
 
