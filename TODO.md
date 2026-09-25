@@ -8,7 +8,7 @@
 
 ## 가이드
 - [ ] [CONTENT_PLAN.md](CONTENT_PLAN.md) 순서대로 2~3개씩 작성 (1순위 다음: Website Design, Search Engine Marketing, Paid Social …)
-- [ ] 겹치는 서비스 연결: AI Services·Consulting 페이지의 같은 서비스(예: AI Development)도 원래 대분류의 가이드로 연결되게
+- [x] 겹치는 서비스 연결 (2026-09-25, build.py `link_showcase_copies`): AI Services·Consulting 페이지의 같은 서비스(예: AI Development)도 원래 대분류의 가이드로 연결되게
 - [ ] 도메인과 Search Console 연결 1~2개월 뒤, 실제 검색어를 보고 CONTENT_PLAN.md 순서 다시 매기기
 
 ## 도메인을 산 뒤 (순서대로)

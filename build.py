@@ -86,6 +86,31 @@ def load_pages(services, errors, warnings):
     return pages
 
 
+# Categories that regroup services from other categories (AI Services, Consulting).
+SHOWCASE_TOPS = {"ai-services", "consulting-services"}
+
+
+def link_showcase_copies(services, warnings):
+    """A showcase service with no guide of its own points to the guide of the same service in its
+    original category (same Fiverr listing, or same slug). Guides live under the original path."""
+    originals = {}
+    for s in services.values():
+        if s["top"]["slug"] not in SHOWCASE_TOPS and s["page"]:
+            originals.setdefault(s["fiverr_path"].rstrip("/"), s)
+            if s["slug"] != "other":
+                originals.setdefault(s["slug"], s)
+    for s in services.values():
+        if s["top"]["slug"] not in SHOWCASE_TOPS:
+            continue
+        orig = originals.get(s["fiverr_path"].rstrip("/")) or originals.get(s["slug"])
+        if not orig:
+            continue
+        if s["page"]:
+            warnings.append(f'content/pages/{s["path"]}: write this guide under {orig["path"]} instead')
+            continue
+        s["page"], s["guide_path"] = orig["page"], orig["path"]
+
+
 def _num(value, kind):
     value = (value or "").strip().replace(",", "").lstrip("$")
     return kind(value) if value else None
@@ -127,6 +152,8 @@ def check_gigs(gigs, services):
         svc = services.get(g["page"])
         if not svc or not svc["page"]:
             errors.append(f"{where}: page '{g['page']}' has no guide in content/pages")
+        elif "guide_path" in svc:
+            errors.append(f"{where}: use page '{svc['guide_path']}' (the guide lives there)")
         if g["status"] != "live":
             continue
         for field in ("id", "name", "best_for", "why", "checked"):
@@ -210,7 +237,7 @@ def service_link(s, links, *, badge=True):
     """Our guide if we have one, otherwise straight to Fiverr."""
     if s["page"]:
         tag = ' <span class="badge">Guide</span>' if badge else ""
-        return f'<a href="/{s["path"]}/">{esc(s["name"])}</a>{tag}'
+        return f'<a href="/{s.get("guide_path", s["path"])}/">{esc(s["name"])}</a>{tag}'
     return links.a(s["fiverr_path"], f'{esc(s["name"])} <span class="ext">↗</span>', "out")
 
 
@@ -669,6 +696,7 @@ def main():
     errors, warnings = [], []
     tops, services = load_taxonomy()
     pages = load_pages(services, errors, warnings)
+    link_showcase_copies(services, warnings)
     gigs = load_gigs(errors)
     e, w = check_gigs(gigs, services)
     errors += e
