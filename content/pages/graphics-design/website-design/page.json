@@ -1,0 +1,30 @@
+{
+  "title": "Best Website Designers (2026): Hire One for a Site That Works",
+  "h1": "Best Website Designers",
+  "description": "How to hire a website designer: what the design package should include, how to brief it, what drives the price and the red flags to avoid.",
+  "intro": "A website designer decides how your site looks and how easily visitors find what they came for. Many design projects stall at handover, when the developer discovers the design has no mobile version or cannot be built on your platform. This guide shows you how to order a design that is ready to build.",
+  "updated": "2026-09-25",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What is the difference between a website designer and a website developer?",
+      "a": "A designer creates the look and layout of the pages, usually as mockups in a design tool. A developer turns those mockups into a working site. Some freelancers do both; if yours only designs, plan who will build it before you order."
+    },
+    {
+      "q": "Which file format should I receive?",
+      "a": "Ask for editable source files in the tool the designer used, such as Figma or Adobe XD, plus image exports of each page. A share link alone is not enough, because it can be removed later."
+    },
+    {
+      "q": "Do I need a mobile design as well?",
+      "a": "Yes. Most visitors will see your site on a phone. Ask for a mobile version of each page, or at least of the key pages, so the developer does not have to guess."
+    },
+    {
+      "q": "How many pages should be designed?",
+      "a": "Usually only the unique layouts. A home page, a standard inner page, a contact page and any special pages such as a product or pricing page are often enough. Other pages reuse these layouts."
+    },
+    {
+      "q": "Can I use a template instead?",
+      "a": "A ready-made template is faster and cheaper, and fine for many small sites. A custom design makes sense when your brand needs to stand out or the template does not fit your content."
+    }
+  ]
+}

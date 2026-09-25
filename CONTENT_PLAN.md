@@ -14,21 +14,11 @@
 | **Vetted Pro 판매자** | 추천을 Pro 판매자로 채울 수 있어야 카드 품질과 수수료가 모두 좋다 |
 | **우리 강점** | 운영자가 직접 경험한 분야(YouTube, 음악)는 글에 경험을 담을 수 있다 |
 
-## 완료 (9)
+## 완료 (16)
 
-UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing · Website Development · WordPress · Shopify
+UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing · Website Development · WordPress · Shopify · Website Design · Search Engine Marketing · Paid Social Media · Video Ads & Commercials · Articles & Blog Posts · Mobile App Development · Mixing & Mastering
 
-## 1순위 (남은 7개)
-
-| # | 서비스 | 경로 | 이유 |
-|---|---|---|---|
-| 4 | Website Design | `graphics-design/website-design` | 개발과 짝을 이루는 검색, 서로 링크 가능 |
-| 5 | Search Engine Marketing (Google Ads) | `online-marketing/search-engine-marketing-sem` | 광고비를 쓰는 고객이라 단가 높음 |
-| 6 | Paid Social Media (Meta 광고) | `online-marketing/paid-social-media` | UGC·소셜 가이드와 이어짐 |
-| 7 | Video Ads & Commercials | `video-animation/video-ads-and-commercials` | UGC 가이드와 이어지는 광고 영상 |
-| 8 | Articles & Blog Posts | `writing-translation/articles-and-blog-posts` | 검색 수요가 꾸준함 |
-| 9 | Mobile App Development | `programming-tech/mobile-app-development` | 단가가 가장 높은 축 |
-| 10 | Mixing & Mastering | `music-audio/mixing-and-mastering` | 운영자의 음악 채널 경험을 담을 수 있음 |
+## 1순위: 모두 완료 (2026-09-25)
 
 ## 2순위 (11~20)
 

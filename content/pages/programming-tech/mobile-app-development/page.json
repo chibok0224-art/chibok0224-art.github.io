@@ -1,0 +1,30 @@
+{
+  "title": "Best Mobile App Developers (2026): How to Hire One Safely",
+  "h1": "Best Mobile App Developers",
+  "description": "How to hire a mobile app developer: what the project should include, how to write the brief, what drives the price and the red flags.",
+  "intro": "A mobile app is one of the larger projects you can order from a freelancer, and one of the easiest to underestimate. Apps run into trouble when the feature list keeps growing, the app store accounts belong to the developer, or the source code is never handed over. This guide helps you set up the project so you stay in control.",
+  "updated": "2026-09-25",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Should I build for iPhone, Android or both?",
+      "a": "Start where your users are. Many developers use a cross-platform framework, such as Flutter or React Native, to build both from one codebase. Ask the developer which approach they recommend for your features and why."
+    },
+    {
+      "q": "Who should own the app store accounts?",
+      "a": "You should. Create the Apple and Google developer accounts in your own or your company's name, and add the developer as a team member. Apps published under the developer's account are hard to move later."
+    },
+    {
+      "q": "Will I get the source code?",
+      "a": "Make sure you do. Ask for the full source code in a repository you control, with instructions to build the app. Without it, another developer cannot continue the work."
+    },
+    {
+      "q": "What happens after the app is published?",
+      "a": "Apps need updates when phone operating systems change, plus bug fixes. Ask what support is included after launch and what ongoing maintenance costs."
+    },
+    {
+      "q": "Can I start with a smaller version?",
+      "a": "Usually that is the best plan. A first version with only the core features, often called an MVP, lets you test the idea with real users before paying for everything on your list."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Best Mixing and Mastering Engineers (2026): How to Hire One",
+  "h1": "Best Mixing and Mastering Engineers",
+  "description": "How to hire a mixing and mastering engineer: what the package should include, how to prepare your stems, price factors and red flags.",
+  "intro": "Mixing balances the parts of a song; mastering makes the finished track sound right on every speaker and streaming service. Most disappointing results come from badly prepared files and vague feedback, not from the engineer. This guide shows you how to send a song that is ready to mix and how to ask for what you hear in your head.",
+  "updated": "2026-09-25",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What is the difference between mixing and mastering?",
+      "a": "Mixing works on the separate tracks: levels, EQ, effects and space for each instrument and voice. Mastering works on the finished stereo mix: overall tone, loudness and consistency across an album or EP. Many engineers offer both as one package."
+    },
+    {
+      "q": "What are stems and how should I export them?",
+      "a": "Stems are separate audio files for each track or group, such as vocals, drums and bass. Export them all from the same start point, at the same sample rate, without effects on the master bus, so they line up when the engineer imports them."
+    },
+    {
+      "q": "Can I order mastering only?",
+      "a": "Yes, if you are happy with your mix. Send a stereo file with some headroom and no limiter on the master. Mastering cannot fix a problem inside the mix, such as a vocal that is too quiet."
+    },
+    {
+      "q": "Which files will I get back?",
+      "a": "Usually a high-resolution WAV master and an MP3. Ask for an instrumental or clean version if you need them, and for separate masters if you plan to release on vinyl or CD."
+    },
+    {
+      "q": "How should I give feedback?",
+      "a": "Be specific and use time stamps, such as 'at 1:12, the vocal gets lost behind the guitars'. Compare with a reference track in the same genre, and listen on several devices before you send notes."
+    }
+  ]
+}
