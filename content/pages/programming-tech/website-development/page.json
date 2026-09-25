@@ -1,0 +1,30 @@
+{
+  "title": "Best Website Developers (2026): How to Hire One Safely",
+  "h1": "Best Website Developers",
+  "description": "How to hire a website developer: what the package should include, how to write the brief, what drives the price and the red flags to avoid.",
+  "intro": "A website is often the first thing a customer checks before buying from you, and it is expensive to rebuild if it is done badly. Most website projects go wrong for the same reasons: an unclear scope, no agreement on who owns the hosting and logins, and no plan for what happens after launch. This guide helps you avoid all three.",
+  "updated": "2026-09-25",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Should I choose WordPress, Shopify or a custom-coded site?",
+      "a": "It depends on what the site must do. WordPress suits content sites, blogs and service businesses. Shopify suits online stores. Custom code makes sense when you need features no platform offers. Ask the developer to explain their recommendation in plain words before you order."
+    },
+    {
+      "q": "Who should own the domain, hosting and logins?",
+      "a": "You should. Register the domain and hosting in your own name and give the developer access, rather than letting them hold the accounts. At handover, make sure you have admin access to every account the site depends on."
+    },
+    {
+      "q": "How many revisions are normal?",
+      "a": "Most packages include a fixed number of revision rounds. Revisions cover changes within the agreed scope. New pages or features are usually a new order, so list everything you need in the brief."
+    },
+    {
+      "q": "What should I send before the work starts?",
+      "a": "Your logo files, final text for each page, images you have the right to use, examples of sites you like, and access to the domain and hosting. Missing content is the most common reason website projects run late."
+    },
+    {
+      "q": "Is ongoing maintenance included?",
+      "a": "Usually not. Updates, backups and security fixes after launch are often a separate service. Ask what the developer offers after delivery and how long they will fix bugs in their own work."
+    }
+  ]
+}

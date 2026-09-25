@@ -14,17 +14,14 @@
 | **Vetted Pro 판매자** | 추천을 Pro 판매자로 채울 수 있어야 카드 품질과 수수료가 모두 좋다 |
 | **우리 강점** | 운영자가 직접 경험한 분야(YouTube, 음악)는 글에 경험을 담을 수 있다 |
 
-## 완료 (6)
+## 완료 (9)
 
-UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing
+UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing · Website Development · WordPress · Shopify
 
-## 1순위: 다음 10개
+## 1순위 (남은 7개)
 
 | # | 서비스 | 경로 | 이유 |
 |---|---|---|---|
-| 1 | Website Development | `programming-tech/website-development` | 수요와 단가 모두 최상위 |
-| 2 | WordPress | `programming-tech/wordpress` | 검색이 아주 많고 작은 사업자가 주 고객 |
-| 3 | Shopify | `programming-tech/shopify` | 온라인 쇼핑몰 창업 수요, 단가 높음 |
 | 4 | Website Design | `graphics-design/website-design` | 개발과 짝을 이루는 검색, 서로 링크 가능 |
 | 5 | Search Engine Marketing (Google Ads) | `online-marketing/search-engine-marketing-sem` | 광고비를 쓰는 고객이라 단가 높음 |
 | 6 | Paid Social Media (Meta 광고) | `online-marketing/paid-social-media` | UGC·소셜 가이드와 이어짐 |
