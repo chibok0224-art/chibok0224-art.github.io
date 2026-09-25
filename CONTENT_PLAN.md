@@ -14,28 +14,17 @@
 | **Vetted Pro 판매자** | 추천을 Pro 판매자로 채울 수 있어야 카드 품질과 수수료가 모두 좋다 |
 | **우리 강점** | 운영자가 직접 경험한 분야(YouTube, 음악)는 글에 경험을 담을 수 있다 |
 
-## 완료 (26)
+## 완료 (37)
 
-UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing · Website Development · WordPress · Shopify · Website Design · Search Engine Marketing · Paid Social Media · Video Ads & Commercials · Articles & Blog Posts · Mobile App Development · Mixing & Mastering · Email Marketing · Landing Page Design · Animated Explainers · Thumbnails Design · Chatbot Development · AI Development · Translation · Virtual Assistant · Influencer Marketing · E-Commerce SEO
+UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing · Website Development · WordPress · Shopify · Website Design · Search Engine Marketing · Paid Social Media · Video Ads & Commercials · Articles & Blog Posts · Mobile App Development · Mixing & Mastering · Email Marketing · Landing Page Design · Animated Explainers · Thumbnails Design · Chatbot Development · AI Development · Translation · Virtual Assistant · Influencer Marketing · E-Commerce SEO · Social Media Design · Brand Style Guides · Packaging & Label Design · Book Covers · Podcast Production · Resume Writing · Sales Copy · Ad Copy · Business Plans · Local SEO · Product Photographers
 
 ## 1순위: 모두 완료 (2026-09-25)
 
 ## 2순위: 모두 완료 (2026-09-26)
 
-## 3순위 (21~30)
+## 3순위: 모두 완료 (2026-09-26)
 
-| # | 서비스 | 경로 |
-|---|---|---|
-| 21 | Social Media Design | `graphics-design/social-media-design` |
-| 22 | Brand Style Guides | `graphics-design/brand-style-guides` |
-| 23 | Packaging & Label Design | `graphics-design/packaging-and-label-design` |
-| 24 | Book Covers | `graphics-design/book-covers` |
-| 25 | Podcast Production | `music-audio/podcast-production` |
-| 26 | Resume Writing | `writing-translation/resume-writing` |
-| 27 | Sales Copy / Ad Copy | `writing-translation/sales-copy`, `writing-translation/ad-copy` |
-| 28 | Business Plans | `business/business-plans` |
-| 29 | Local SEO | `online-marketing/local-seo` |
-| 30 | Product Photographers | `photography/product-photographers` |
+다음 후보는 아직 정하지 않았다. 도메인·Search Console 연결 뒤 실제 검색어를 보고 4순위를 정한다.
 
 ## 쓰는 방법
 
