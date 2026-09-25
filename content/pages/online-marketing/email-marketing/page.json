@@ -1,0 +1,30 @@
+{
+  "title": "Best Email Marketing Experts (2026): How to Hire One",
+  "h1": "Best Email Marketing Experts",
+  "description": "How to hire an email marketing expert: what the package should include, how to brief it, what drives the price and the red flags to avoid.",
+  "intro": "Email is one of the few marketing channels you own: no algorithm decides whether your subscribers see your message. It also goes wrong quietly, with emails landing in spam, lists bought from strangers, or automations that nobody tests. This guide shows you what to ask for so your emails reach real people and earn their clicks.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Which email platform should I use?",
+      "a": "Use the one that fits your size and your store or website. Popular platforms connect to Shopify, WordPress and most booking tools. A good specialist will work in the platform you already have, or explain clearly why a switch is worth it."
+    },
+    {
+      "q": "Can the expert provide an email list?",
+      "a": "Do not accept a bought or rented list. Sending to people who did not sign up breaks the rules of most email platforms, harms your sender reputation and may be illegal where you or your subscribers live. Grow your own list instead."
+    },
+    {
+      "q": "What are automations or flows?",
+      "a": "They are emails sent automatically when someone does something, such as signing up, leaving items in a cart or buying for the first time. They often keep working for months after setup, so they are a good first project."
+    },
+    {
+      "q": "Will the expert write the emails too?",
+      "a": "Some packages include copywriting and design, others only set up the platform. Check whether writing, design and images are included, and how many emails you will get."
+    },
+    {
+      "q": "How do I keep emails out of the spam folder?",
+      "a": "Ask the specialist to check your domain's sending settings, often called SPF, DKIM and DMARC. Send only to people who opted in, make unsubscribing easy, and remove addresses that never open."
+    }
+  ]
+}

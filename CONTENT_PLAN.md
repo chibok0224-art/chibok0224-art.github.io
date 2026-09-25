@@ -14,26 +14,13 @@
 | **Vetted Pro 판매자** | 추천을 Pro 판매자로 채울 수 있어야 카드 품질과 수수료가 모두 좋다 |
 | **우리 강점** | 운영자가 직접 경험한 분야(YouTube, 음악)는 글에 경험을 담을 수 있다 |
 
-## 완료 (16)
+## 완료 (26)
 
-UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing · Website Development · WordPress · Shopify · Website Design · Search Engine Marketing · Paid Social Media · Video Ads & Commercials · Articles & Blog Posts · Mobile App Development · Mixing & Mastering
+UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing · Website Development · WordPress · Shopify · Website Design · Search Engine Marketing · Paid Social Media · Video Ads & Commercials · Articles & Blog Posts · Mobile App Development · Mixing & Mastering · Email Marketing · Landing Page Design · Animated Explainers · Thumbnails Design · Chatbot Development · AI Development · Translation · Virtual Assistant · Influencer Marketing · E-Commerce SEO
 
 ## 1순위: 모두 완료 (2026-09-25)
 
-## 2순위 (11~20)
-
-| # | 서비스 | 경로 | 이유 |
-|---|---|---|---|
-| 11 | Email Marketing | `online-marketing/email-marketing` | 마케팅 묶음 완성 |
-| 12 | Landing Page Design | `graphics-design/landing-page-design` | 광고 가이드와 이어짐 |
-| 13 | Animated Explainers | `video-animation/animated-explainers` | 단가 높은 영상 |
-| 14 | Thumbnails Design | `graphics-design/thumbnails-design` | 운영자의 YouTube 경험 |
-| 15 | Chatbot Development | `programming-tech/chatbot-development` | AI 관련 수요 증가 |
-| 16 | AI Development | `programming-tech/ai-development` | AI 수요 (AI Services 쪽이 아니라 이 경로에 쓴다) |
-| 17 | Translation | `writing-translation/translation` | 검색 수요가 넓음 |
-| 18 | Virtual Assistant | `business/virtual-assistant` | 작은 사업자 수요, 반복 주문 |
-| 19 | Influencer Marketing | `online-marketing/influencer-marketing` | UGC·소셜과 이어짐 |
-| 20 | E-Commerce SEO | `online-marketing/e-commerce-seo` | SEO 가이드와 Shopify 가이드 연결 |
+## 2순위: 모두 완료 (2026-09-26)
 
 ## 3순위 (21~30)
 

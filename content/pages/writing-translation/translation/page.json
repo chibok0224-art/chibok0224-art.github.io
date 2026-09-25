@@ -1,0 +1,30 @@
+{
+  "title": "Best Translators (2026): How to Hire One for Your Project",
+  "h1": "Best Translators",
+  "description": "How to hire a translator: what the order should include, how to prepare your files, what drives the price and the red flags to avoid.",
+  "intro": "A good translation reads as if it was written in the target language, with the right terms and tone for its readers. Translations go wrong when the translator is not a native speaker, the text is machine-translated without review, or nobody explained who the readers are. This guide shows you what to check before ordering.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Should the translator be a native speaker?",
+      "a": "Ideally they are a native speaker of the language you are translating into, and fluent in the source language. Native speakers catch awkward phrasing and cultural details that others miss."
+    },
+    {
+      "q": "Is machine translation acceptable?",
+      "a": "Some translators use machine translation and then edit it, often called post-editing. It can work for simple text if a skilled human reviews every sentence. Agree on the method in advance, and do not pay human-translation rates for unedited machine output."
+    },
+    {
+      "q": "What is a certified translation?",
+      "a": "It is a translation with a signed statement of accuracy, often required for official documents such as certificates or court papers. Requirements differ by country and by the office receiving the document, so check with them before ordering."
+    },
+    {
+      "q": "What is localization?",
+      "a": "Localization adapts content for a market, not just the language: dates, currencies, measurements, examples and tone. It matters for websites, apps and marketing text."
+    },
+    {
+      "q": "How do I check the quality if I don't speak the language?",
+      "a": "Order a short paid sample first, or ask a second native speaker to review part of the text. Clear, specific answers to your questions about terms are also a good sign."
+    }
+  ]
+}
