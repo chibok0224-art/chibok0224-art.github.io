@@ -275,7 +275,7 @@ def page(site, *, title, description, path, body, schema=None, draft=False):
 <header class="site-header">
   <div class="wrap bar">
     <a class="logo" href="/"><img src="/favicon.svg" alt="" width="24" height="24">{esc(site['name'])}</a>
-    <nav><a href="/#categories">Categories</a><a href="/services/">All services A–Z</a><a href="/how-we-pick/">How we pick</a></nav>
+    <nav><a href="/#categories">Categories</a><a href="/services/">All services A–Z</a><a href="/how-we-pick/">How we pick</a><a href="/about/">About</a></nav>
   </div>
 </header>
 <main class="wrap">
@@ -285,7 +285,7 @@ def page(site, *, title, description, path, body, schema=None, draft=False):
   <div class="wrap">
     <p>{esc(site['name'])} is reader-supported. When you hire through links on this site we may earn a commission from Fiverr, at no extra cost to you. Sellers cannot pay to be listed.</p>
     <p>{esc(site['name'])} is independent and not affiliated with or endorsed by Fiverr.</p>
-    <p><a href="/disclosure/">Affiliate disclosure</a> · <a href="/privacy/">Privacy</a> · <a href="/how-we-pick/">How we pick</a>{contact}</p>
+    <p><a href="/about/">About</a> · <a href="/disclosure/">Affiliate disclosure</a> · <a href="/privacy/">Privacy</a> · <a href="/how-we-pick/">How we pick</a>{contact}</p>
   </div>
 </footer>
 </body>
@@ -627,6 +627,29 @@ def text_page(site, *, slug, title, description, body_html, draft):
                 path=f"/{slug}/", body=body, draft=draft)
 
 
+ABOUT = """
+<p>GigCompass is a small, independent guide to hiring freelancers online. It is run by one person, not a company or an agency, and it is not owned by or connected to any freelance marketplace.</p>
+<h2>Why this site exists</h2>
+<p>Freelance marketplaces list hundreds of services, and the gig pages all look confident. First-time buyers often cannot tell what a good package should include, what to send the freelancer, or which warning signs to take seriously. Each guide here answers those questions for one service, in plain English, so you can order with a clear brief and fewer surprises.</p>
+<h2>What you will find here</h2>
+<ul>
+  <li><strong>A map of every service</strong>, grouped by what you want to get done, with a link to the matching listings.</li>
+  <li><strong>Hiring guides</strong> for the most requested services: what the package should include, how to write the brief, what drives the price, red flags and a pre-order checklist.</li>
+  <li><strong>Shortlists of sellers</strong> chosen by <a href="/how-we-pick/">fixed, public rules</a>, each with the date we last checked it.</li>
+</ul>
+<h2>How the guides are written</h2>
+<p>Guides are drafted with the help of AI writing tools and follow the same house rules every time:</p>
+<ul>
+  <li>Practical advice only. No invented statistics, prices, reviews or success stories.</li>
+  <li>No specific prices, because they change often. We explain what drives the price instead.</li>
+  <li>Seller descriptions are never copied. Summaries of a gig are written in our own words.</li>
+  <li>Every guide shows the date it was last updated. Advice that depends on law or tax tells you to check your local rules.</li>
+</ul>
+<p>We have not personally ordered from the sellers we list. Our picks are a shortlist based on public track record and what each gig offers, not a personal endorsement.</p>
+<h2>How the site is paid for</h2>
+<p>GigCompass is reader-supported through affiliate links. If you hire through our links we may earn a commission, at no extra cost to you. Sellers cannot pay to be listed or to move up a list. Read the <a href="/disclosure/">affiliate disclosure</a> for details.</p>
+"""
+
 HOW_WE_PICK = """
 <p>Sellers cannot pay to be listed or to move up a list. Our picks follow fixed, public rules, applied the same way in every category.</p>
 <h2>Our criteria</h2>
@@ -664,7 +687,7 @@ def sitemap(site, tops, pages):
     entries = [("/", site["updated"]), ("/services/", site["updated"])]
     entries += [(f'/{t["slug"]}/', t.get("source_checked", site["updated"])) for t in tops]
     entries += [(f'/{p["service"]["path"]}/', p["updated"]) for p in pages]
-    entries += [(f"/{s}/", site["updated"]) for s in ("how-we-pick", "disclosure", "privacy")]
+    entries += [(f"/{s}/", site["updated"]) for s in ("about", "how-we-pick", "disclosure", "privacy")]
     urls = "".join(f"<url><loc>{base}{p}</loc><lastmod>{d}</lastmod></url>" for p, d in entries)
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
             f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')
@@ -740,6 +763,10 @@ def main():
     for pg in pages:
         svc = pg["service"]
         write(f'{svc["path"]}/index.html', service_page(site, links, svc, by_page.get(svc["path"], []), draft))
+    write("about/index.html", text_page(
+        site, slug="about", title="About GigCompass",
+        description="Who runs GigCompass, why it exists, how the hiring guides are written and how the site is paid for.",
+        body_html=ABOUT, draft=draft))
     write("how-we-pick/index.html", text_page(
         site, slug="how-we-pick", title="How we pick freelancers",
         description="The criteria we use to choose the freelancers we recommend.",
