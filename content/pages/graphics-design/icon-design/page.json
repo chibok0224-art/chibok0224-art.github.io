@@ -1,0 +1,30 @@
+{
+  "title": "Best Icon Designers (2026): How to Hire One for Your Project",
+  "h1": "Best Icon Designers",
+  "description": "How to hire an icon designer for apps, websites or products: what the package should include, file formats, price factors and red flags.",
+  "intro": "Icons guide people through apps and websites, and an app icon is often the first thing users see. A good icon set is consistent in style, clear at small sizes and delivered in the formats developers need. Icon projects go wrong when icons are designed one at a time with no shared rules, or delivered only as large images. This guide helps you order icons that work everywhere.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Which file format should icons be in?",
+      "a": "Usually SVG for websites and apps, plus PNG at specific sizes if needed. Ask your developer which formats and sizes they want."
+    },
+    {
+      "q": "What is an icon set?",
+      "a": "A group of icons designed with the same grid, line weight, corner style and colors, so they look like a family. Consistency matters more than any single icon."
+    },
+    {
+      "q": "How is an app icon different?",
+      "a": "An app icon represents the whole app in stores and on home screens. It must be recognizable at small sizes and meet each store's size and shape guidelines."
+    },
+    {
+      "q": "Can I use free icon libraries instead?",
+      "a": "Often, yes, for common actions. Custom icons make sense for brand-specific actions or a distinctive look. Check the license of any library."
+    },
+    {
+      "q": "Will I own the icons?",
+      "a": "Confirm that custom icons are yours to use commercially."
+    }
+  ]
+}
