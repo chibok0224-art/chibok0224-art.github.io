@@ -1,0 +1,30 @@
+{
+  "title": "Best UX Designers (2026): How to Hire One for Your Product",
+  "h1": "Best UX Designers",
+  "description": "How to hire a UX designer: what the project should include, how to brief it, what drives the price and the red flags to avoid.",
+  "intro": "UX design is about how a website or app works for the people using it: what they need, where they get stuck and how they reach their goal. Good UX saves development time because problems are found in a prototype, not in code. Projects disappoint when the work stays at pretty screens without research or testing. This guide helps you ask for the real thing.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What is the difference between UX and UI design?",
+      "a": "UX design covers structure and flow: what screens exist, what is on them and how users move between them. UI design covers the visual layer: colors, type, buttons and polish. Many designers do both, but check which the package covers."
+    },
+    {
+      "q": "What are wireframes and prototypes?",
+      "a": "Wireframes are simple layouts of each screen, without final visuals. A prototype links screens so you can click through the flow as if it were real. Both let you test ideas before paying for development."
+    },
+    {
+      "q": "Do I need user research?",
+      "a": "Some research almost always helps, even a few short interviews or tests with real users. It shows problems you cannot see yourself. Ask what research is included and how findings will be shared."
+    },
+    {
+      "q": "Which tool will the designer use?",
+      "a": "Figma is the most common. Ask for access to the file, not just images, so your developers can inspect sizes and export assets."
+    },
+    {
+      "q": "Can a UX designer improve an existing product?",
+      "a": "Yes. A UX audit reviews your current site or app, finds problems and suggests fixes. It is often a good first project before a full redesign."
+    }
+  ]
+}

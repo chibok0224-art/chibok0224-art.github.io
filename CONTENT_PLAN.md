@@ -14,9 +14,9 @@
 | **Vetted Pro 판매자** | 추천을 Pro 판매자로 채울 수 있어야 카드 품질과 수수료가 모두 좋다 |
 | **우리 강점** | 운영자가 직접 경험한 분야(YouTube, 음악)는 글에 경험을 담을 수 있다 |
 
-## 완료 (37)
+## 완료 (47)
 
-UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing · Website Development · WordPress · Shopify · Website Design · Search Engine Marketing · Paid Social Media · Video Ads & Commercials · Articles & Blog Posts · Mobile App Development · Mixing & Mastering · Email Marketing · Landing Page Design · Animated Explainers · Thumbnails Design · Chatbot Development · AI Development · Translation · Virtual Assistant · Influencer Marketing · E-Commerce SEO · Social Media Design · Brand Style Guides · Packaging & Label Design · Book Covers · Podcast Production · Resume Writing · Sales Copy · Ad Copy · Business Plans · Local SEO · Product Photographers
+UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing · Website Development · WordPress · Shopify · Website Design · Search Engine Marketing · Paid Social Media · Video Ads & Commercials · Articles & Blog Posts · Mobile App Development · Mixing & Mastering · Email Marketing · Landing Page Design · Animated Explainers · Thumbnails Design · Chatbot Development · AI Development · Translation · Virtual Assistant · Influencer Marketing · E-Commerce SEO · Social Media Design · Brand Style Guides · Packaging & Label Design · Book Covers · Podcast Production · Resume Writing · Sales Copy · Ad Copy · Business Plans · Local SEO · Product Photographers · Website Maintenance · Presentation Design · Proofreading & Editing · Illustration · UX Design · Music Producers · Social Media Videos · Bookkeeping · Lead Generation · Website Content
 
 ## 1순위: 모두 완료 (2026-09-25)
 
@@ -24,7 +24,11 @@ UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media 
 
 ## 3순위: 모두 완료 (2026-09-26)
 
-다음 후보는 아직 정하지 않았다. 도메인·Search Console 연결 뒤 실제 검색어를 보고 4순위를 정한다.
+## 4순위 (31~40): 모두 완료 (2026-09-26)
+
+Website Maintenance · Presentation Design · Proofreading & Editing · Illustration · UX Design · Music Producers · Social Media Videos · Bookkeeping · Lead Generation · Website Content
+
+다음 목록은 새로 정한다.
 
 ## 쓰는 방법
 
