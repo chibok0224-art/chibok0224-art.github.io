@@ -1,0 +1,30 @@
+{
+  "title": "Best Game Artists (2026): How to Hire One for Your Game",
+  "h1": "Best Game Artists",
+  "description": "How to hire a game artist for characters, environments, sprites or UI: what to include, formats, rights, price factors and red flags.",
+  "intro": "Game art covers characters, environments, items, sprites, user interface elements and promotional artwork. It must look good and work technically in your engine, at the right sizes and formats. Game art projects go wrong when the style is not locked early, assets do not match technical requirements, or rights and AI use are unclear. This guide helps you commission art that fits your game.",
+  "updated": "2026-09-27",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What types of game art can I order?",
+      "a": "Concept art, character designs, sprites and animations, environments and tilesets, items and icons, user interface elements and marketing art."
+    },
+    {
+      "q": "What technical details should I share?",
+      "a": "Engine, resolution, sprite sizes, animation frames, file formats and whether assets are 2D or 3D. Technical mismatches are a common source of rework."
+    },
+    {
+      "q": "Who owns the art?",
+      "a": "Agree in writing that you receive the rights you need for commercial release, including marketing and merchandise if planned."
+    },
+    {
+      "q": "Does the artist use AI?",
+      "a": "Ask directly. Some platforms and players care about AI use, and rights can be less clear. Agree on this before work starts."
+    },
+    {
+      "q": "How do I keep a consistent style?",
+      "a": "Start with a style guide or a few key pieces, approve them, then use them as references for all other assets."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Best Stream Overlay Designers (2026): How to Hire One",
+  "h1": "Best Stream Overlay and Graphics Designers",
+  "description": "How to hire a designer for Twitch or YouTube stream overlays, alerts and panels: what to include, formats, price factors and red flags.",
+  "intro": "Stream graphics give your channel a recognizable look: overlays, webcam frames, alerts, starting and ending screens, panels and emotes. A good set looks consistent, stays out of the way of gameplay and works in your streaming software. Graphics go wrong when files are the wrong size, alerts do not work in your software, or assets use copyrighted characters. This guide helps you order a complete, working set.",
+  "updated": "2026-09-27",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What does a stream graphics package usually include?",
+      "a": "Overlays, webcam frame, starting soon, be right back and ending screens, alerts, panels for your channel page, and sometimes emotes and badges."
+    },
+    {
+      "q": "Which formats do I need?",
+      "a": "PNG for static images, and animated formats such as WEBM or GIF for alerts and animated scenes. Check what your streaming software and platform accept."
+    },
+    {
+      "q": "Will the graphics work in OBS or Streamlabs?",
+      "a": "Ask the designer to deliver files sized and formatted for your software, and ideally a simple setup guide or scene file."
+    },
+    {
+      "q": "Can the designer make emotes?",
+      "a": "Many can. Emotes must meet the platform's size rules and be readable at very small sizes."
+    },
+    {
+      "q": "Can I use characters from games or shows?",
+      "a": "Not without permission. Using copyrighted characters can lead to takedowns. Ask for original designs."
+    }
+  ]
+}
