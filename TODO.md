@@ -7,8 +7,9 @@
 - [ ] 가이드 6개에 추천 판매자 채우기 (스킬: "○○ 추천 판매자 채워줘")
 
 ## 가이드
-- [ ] [CONTENT_PLAN.md](CONTENT_PLAN.md) 순서대로 2~3개씩 작성 (1~5순위 50개 모두 완료, 가이드 총 57개. 다음 목록은 새로 정해야 함)
+- [ ] [CONTENT_PLAN.md](CONTENT_PLAN.md) 순서대로 2~3개씩 작성 (1~8순위 80개 모두 완료, 가이드 총 87개. 다음 목록은 새로 정해야 함)
 - [x] 겹치는 서비스 연결 (2026-09-25, build.py `link_showcase_copies`): AI Services·Consulting 페이지의 같은 서비스(예: AI Development)도 원래 대분류의 가이드로 연결되게
+- [ ] 첫 세션에 쓴 가이드 6개(Logo, UGC, Video Editing, Voice Over, SEO, Social Media Marketing)는 지금 규칙보다 짧거나 구조가 다름 → 450단어 이상·표준 섹션으로 보강할지 결정
 - [ ] 도메인과 Search Console 연결 1~2개월 뒤, 실제 검색어를 보고 CONTENT_PLAN.md 순서 다시 매기기
 
 ## 도메인을 산 뒤 (순서대로)
