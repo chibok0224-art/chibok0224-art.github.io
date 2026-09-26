@@ -1,0 +1,30 @@
+{
+  "title": "Best UX Writers (2026): How to Hire One for Your Product",
+  "h1": "Best UX Writers",
+  "description": "How to hire a UX writer for app and website text: what to include, how to brief it, what drives the price and the red flags to avoid.",
+  "intro": "UX writing is the small text inside a product: buttons, menus, error messages, forms and onboarding screens. Good UX writing helps people understand what to do next and fixes problems before they become support tickets. It goes wrong when words are written without seeing the screens, when terms change from screen to screen, or when error messages blame the user. This guide shows you how to hire for clear product language.",
+  "updated": "2026-09-27",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What does a UX writer work on?",
+      "a": "Buttons, labels, forms, error and success messages, empty states, onboarding, notifications and help text inside the product."
+    },
+    {
+      "q": "How is UX writing different from copywriting?",
+      "a": "Copywriting persuades people to buy or sign up. UX writing helps people use the product once they are there. Both matter, but the skills differ."
+    },
+    {
+      "q": "Does the writer need to see the design?",
+      "a": "Yes. UX text depends on the screen, the space available and what the user is trying to do. Share designs or a test version of the product."
+    },
+    {
+      "q": "What is a content style guide?",
+      "a": "A short document with rules for terms, tone, capitalization and common messages, so everyone writes product text the same way."
+    },
+    {
+      "q": "Can a UX writer help with accessibility?",
+      "a": "Yes. Clear labels, helpful error messages and descriptive link text make products easier to use for everyone, including people using screen readers."
+    }
+  ]
+}

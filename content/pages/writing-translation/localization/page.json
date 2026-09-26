@@ -1,0 +1,30 @@
+{
+  "title": "Best Localization Services (2026): How to Hire One",
+  "h1": "Best Localization Experts",
+  "description": "How to hire a localization expert for websites, apps and games: what to include, how to prepare, what drives the price and red flags.",
+  "intro": "Localization adapts your product for another market: not only the language, but dates, currencies, examples, images and tone. It matters for websites, apps, games and marketing. Localization goes wrong when text is translated without context, layouts break with longer words, or cultural details are missed. This guide helps you prepare so your product feels native to new users.",
+  "updated": "2026-09-27",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "How is localization different from translation?",
+      "a": "Translation changes the words. Localization adapts the whole experience: formats, units, currencies, cultural references, images and sometimes features."
+    },
+    {
+      "q": "What files do localizers need?",
+      "a": "Usually text exported from your product, such as resource files or spreadsheets, plus screenshots showing where each text appears."
+    },
+    {
+      "q": "What is a glossary and style guide?",
+      "a": "A glossary lists key terms and how to translate them; a style guide covers tone and formatting. Both keep translations consistent across updates."
+    },
+    {
+      "q": "Do I need testing after localization?",
+      "a": "Yes. Check the localized product in place for text that is cut off, wrong formats or mistranslations that only make sense in context."
+    },
+    {
+      "q": "Should I localize everything at once?",
+      "a": "Not always. Many teams start with the most important screens or pages and add more once they see demand."
+    }
+  ]
+}
