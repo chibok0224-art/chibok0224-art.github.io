@@ -1,0 +1,30 @@
+{
+  "title": "Best Marketing Automation Experts (2026): How to Hire One",
+  "h1": "Best Marketing Automation Experts",
+  "description": "How to hire a marketing automation expert: CRM and email workflows, what to include, how to brief it, price factors and red flags.",
+  "intro": "Marketing automation sends the right message at the right time without manual work: welcome sequences, lead follow-ups, reminders and updates to your CRM. Done well, it saves hours and makes sure no lead is forgotten. It goes wrong when workflows are built without a clear plan, contacts are messaged without consent, or nobody knows how the automations work after the expert leaves. This guide helps you set it up properly.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What can be automated?",
+      "a": "Common examples are welcome emails, lead nurturing, abandoned cart reminders, follow-ups after purchases, lead scoring and updating contact records in your CRM."
+    },
+    {
+      "q": "Which tools are used?",
+      "a": "Email platforms, CRMs such as HubSpot or similar tools, and connectors like Zapier or Make. The expert should work with tools you already use where possible."
+    },
+    {
+      "q": "Do I need consent to email contacts?",
+      "a": "In many countries, yes, for marketing messages. Rules differ by region. Ask how consent is recorded and respected in the workflows."
+    },
+    {
+      "q": "How do I know automations are working?",
+      "a": "Ask for tests of each workflow, clear reports, and alerts for errors. Check a few contacts manually after launch."
+    },
+    {
+      "q": "What if I change tools later?",
+      "a": "Ask for documentation of every workflow, so it can be rebuilt elsewhere."
+    }
+  ]
+}

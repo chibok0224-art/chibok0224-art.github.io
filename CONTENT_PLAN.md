@@ -14,9 +14,9 @@
 | **Vetted Pro 판매자** | 추천을 Pro 판매자로 채울 수 있어야 카드 품질과 수수료가 모두 좋다 |
 | **우리 강점** | 운영자가 직접 경험한 분야(YouTube, 음악)는 글에 경험을 담을 수 있다 |
 
-## 완료 (87)
+## 완료 (97)
 
-UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing · Website Development · WordPress · Shopify · Website Design · Search Engine Marketing · Paid Social Media · Video Ads & Commercials · Articles & Blog Posts · Mobile App Development · Mixing & Mastering · Email Marketing · Landing Page Design · Animated Explainers · Thumbnails Design · Chatbot Development · AI Development · Translation · Virtual Assistant · Influencer Marketing · E-Commerce SEO · Social Media Design · Brand Style Guides · Packaging & Label Design · Book Covers · Podcast Production · Resume Writing · Sales Copy · Ad Copy · Business Plans · Local SEO · Product Photographers · Website Maintenance · Presentation Design · Proofreading & Editing · Illustration · UX Design · Music Producers · Social Media Videos · Bookkeeping · Lead Generation · Website Content · Software Development · Game Development · Data Analytics · Data Entry · App Design · Flyer Design · Logo Animation · Subtitles & Captions · Marketing Strategy · Technical Writing · Wix · Webflow · WooCommerce · Squarespace · Cybersecurity · APIs & Integrations · Browser Extensions · QA & Review · DevOps Engineering · Troubleshooting & Improvements · Infographic Design · Brochure Design · T-Shirts & Merchandise · Image Editing · Children's Book Illustration · Album Cover Design · Web Banners · Email Design · Icon Design · Business Cards & Stationery · Music Videos · Intro & Outro Videos · 3D Product Animation · E-Commerce Product Videos · Songwriting · Singers & Vocalists · Jingles & Intros · Audiobook Production · Scriptwriting · Book Editing
+UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing · Website Development · WordPress · Shopify · Website Design · Search Engine Marketing · Paid Social Media · Video Ads & Commercials · Articles & Blog Posts · Mobile App Development · Mixing & Mastering · Email Marketing · Landing Page Design · Animated Explainers · Thumbnails Design · Chatbot Development · AI Development · Translation · Virtual Assistant · Influencer Marketing · E-Commerce SEO · Social Media Design · Brand Style Guides · Packaging & Label Design · Book Covers · Podcast Production · Resume Writing · Sales Copy · Ad Copy · Business Plans · Local SEO · Product Photographers · Website Maintenance · Presentation Design · Proofreading & Editing · Illustration · UX Design · Music Producers · Social Media Videos · Bookkeeping · Lead Generation · Website Content · Software Development · Game Development · Data Analytics · Data Entry · App Design · Flyer Design · Logo Animation · Subtitles & Captions · Marketing Strategy · Technical Writing · Wix · Webflow · WooCommerce · Squarespace · Cybersecurity · APIs & Integrations · Browser Extensions · QA & Review · DevOps Engineering · Troubleshooting & Improvements · Infographic Design · Brochure Design · T-Shirts & Merchandise · Image Editing · Children's Book Illustration · Album Cover Design · Web Banners · Email Design · Icon Design · Business Cards & Stationery · Music Videos · Intro & Outro Videos · 3D Product Animation · E-Commerce Product Videos · Songwriting · Singers & Vocalists · Jingles & Intros · Audiobook Production · Scriptwriting · Book Editing · Conversion Rate Optimization · Web Analytics · Brand Strategy · Music Promotion · Book & eBook Marketing · Mobile App Marketing · Video Marketing · Marketing Automation · Podcast Marketing · Crowdfunding
 
 ## 1순위: 모두 완료 (2026-09-25)
 
@@ -44,6 +44,10 @@ Infographic Design · Brochure Design · T-Shirts & Merchandise · Image Editing
 ## 8순위 (71~80): 모두 완료 (2026-09-26) — 영상·음악·글
 
 Music Videos · Intro & Outro Videos · 3D Product Animation · E-Commerce Product Videos · Songwriting · Singers & Vocalists · Jingles & Intros · Audiobook Production · Scriptwriting · Book Editing
+
+## 9순위 (81~90): 모두 완료 (2026-09-26) — 마케팅
+
+Conversion Rate Optimization · Web Analytics · Brand Strategy · Music Promotion · Book & eBook Marketing · Mobile App Marketing · Video Marketing · Marketing Automation · Podcast Marketing · Crowdfunding
 
 다음 목록은 새로 정한다.
 

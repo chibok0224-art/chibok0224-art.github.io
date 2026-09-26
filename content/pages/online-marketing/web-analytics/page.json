@@ -1,0 +1,30 @@
+{
+  "title": "Best Web Analytics Experts (2026): How to Hire One",
+  "h1": "Best Web Analytics Experts",
+  "description": "How to hire a web analytics expert for tracking setup, reports and dashboards: what to include, what to prepare, price factors and red flags.",
+  "intro": "Web analytics shows where your visitors come from, what they do and which actions lead to sales. A web analytics expert sets up tracking correctly, checks it works and builds reports you can understand. Tracking goes wrong when important actions are not recorded, data is counted twice, or privacy and consent rules are ignored. This guide helps you get numbers you can trust.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Which analytics tool should I use?",
+      "a": "Google Analytics is common, and there are privacy-focused alternatives. The right choice depends on your needs, your site platform and the privacy rules where your visitors live."
+    },
+    {
+      "q": "What is event or conversion tracking?",
+      "a": "It records specific actions, such as purchases, form submissions, sign-ups or button clicks. Without it, analytics shows visits but not results."
+    },
+    {
+      "q": "Do I need a cookie consent banner?",
+      "a": "In many countries, analytics cookies need consent. Rules differ by region. Ask the expert how tracking will respect consent, and check what applies to you."
+    },
+    {
+      "q": "Can the expert build a dashboard?",
+      "a": "Yes. A simple dashboard showing a handful of key numbers is often more useful than many detailed reports."
+    },
+    {
+      "q": "Who should own the analytics account?",
+      "a": "You. Create the account in your name and give the expert access. Remove access when the work ends."
+    }
+  ]
+}
