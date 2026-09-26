@@ -1,0 +1,30 @@
+{
+  "title": "Best Screencast Video Creators (2026): How to Hire One",
+  "h1": "Best Screencast and Software Demo Video Creators",
+  "description": "How to hire a screencast creator for software demos and tutorials: what to include, how to prepare, what drives the price and red flags.",
+  "intro": "Screencast videos record a screen to show how software, a website or an app works, often with voice-over, zooms and highlights. They are used for product demos, tutorials, onboarding and support. Screencasts go wrong when the recording shows private data, the pace is too fast to follow, or the video goes out of date as soon as the interface changes. This guide helps you get clear, useful software videos.",
+  "updated": "2026-09-27",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Who records the screen?",
+      "a": "Either you record and the editor polishes, or the creator records using access to a demo account. A demo account with sample data is safest."
+    },
+    {
+      "q": "Should I use a voice-over?",
+      "a": "Usually yes, for demos and tutorials. Captions help viewers who watch without sound."
+    },
+    {
+      "q": "How long should a tutorial be?",
+      "a": "As short as possible for one task. Several short videos are easier to use than one long one."
+    },
+    {
+      "q": "How do I keep videos up to date?",
+      "a": "Record short videos per task, so you only need to update the ones affected by interface changes."
+    },
+    {
+      "q": "What resolution should be used?",
+      "a": "High enough that text on screen is readable, including on phones. Zooms help on small screens."
+    }
+  ]
+}
