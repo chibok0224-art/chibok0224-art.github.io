@@ -14,9 +14,9 @@
 | **Vetted Pro 판매자** | 추천을 Pro 판매자로 채울 수 있어야 카드 품질과 수수료가 모두 좋다 |
 | **우리 강점** | 운영자가 직접 경험한 분야(YouTube, 음악)는 글에 경험을 담을 수 있다 |
 
-## 완료 (107)
+## 완료 (147)
 
-UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing · Website Development · WordPress · Shopify · Website Design · Search Engine Marketing · Paid Social Media · Video Ads & Commercials · Articles & Blog Posts · Mobile App Development · Mixing & Mastering · Email Marketing · Landing Page Design · Animated Explainers · Thumbnails Design · Chatbot Development · AI Development · Translation · Virtual Assistant · Influencer Marketing · E-Commerce SEO · Social Media Design · Brand Style Guides · Packaging & Label Design · Book Covers · Podcast Production · Resume Writing · Sales Copy · Ad Copy · Business Plans · Local SEO · Product Photographers · Website Maintenance · Presentation Design · Proofreading & Editing · Illustration · UX Design · Music Producers · Social Media Videos · Bookkeeping · Lead Generation · Website Content · Software Development · Game Development · Data Analytics · Data Entry · App Design · Flyer Design · Logo Animation · Subtitles & Captions · Marketing Strategy · Technical Writing · Wix · Webflow · WooCommerce · Squarespace · Cybersecurity · APIs & Integrations · Browser Extensions · QA & Review · DevOps Engineering · Troubleshooting & Improvements · Infographic Design · Brochure Design · T-Shirts & Merchandise · Image Editing · Children's Book Illustration · Album Cover Design · Web Banners · Email Design · Icon Design · Business Cards & Stationery · Music Videos · Intro & Outro Videos · 3D Product Animation · E-Commerce Product Videos · Songwriting · Singers & Vocalists · Jingles & Intros · Audiobook Production · Scriptwriting · Book Editing · Conversion Rate Optimization · Web Analytics · Brand Strategy · Music Promotion · Book & eBook Marketing · Mobile App Marketing · Video Marketing · Marketing Automation · Podcast Marketing · Crowdfunding · Product Descriptions · Press Releases · Book & eBook Writing · LinkedIn Profiles · Transcription · Localization · UX Writing · Case Studies · Social Media Copywriting · Email Copy
+UGC Videos · Logo Design · Video Editing · Voice Over · SEO · Social Media Marketing · Website Development · WordPress · Shopify · Website Design · Search Engine Marketing · Paid Social Media · Video Ads & Commercials · Articles & Blog Posts · Mobile App Development · Mixing & Mastering · Email Marketing · Landing Page Design · Animated Explainers · Thumbnails Design · Chatbot Development · AI Development · Translation · Virtual Assistant · Influencer Marketing · E-Commerce SEO · Social Media Design · Brand Style Guides · Packaging & Label Design · Book Covers · Podcast Production · Resume Writing · Sales Copy · Ad Copy · Business Plans · Local SEO · Product Photographers · Website Maintenance · Presentation Design · Proofreading & Editing · Illustration · UX Design · Music Producers · Social Media Videos · Bookkeeping · Lead Generation · Website Content · Software Development · Game Development · Data Analytics · Data Entry · App Design · Flyer Design · Logo Animation · Subtitles & Captions · Marketing Strategy · Technical Writing · Wix · Webflow · WooCommerce · Squarespace · Cybersecurity · APIs & Integrations · Browser Extensions · QA & Review · DevOps Engineering · Troubleshooting & Improvements · Infographic Design · Brochure Design · T-Shirts & Merchandise · Image Editing · Children's Book Illustration · Album Cover Design · Web Banners · Email Design · Icon Design · Business Cards & Stationery · Music Videos · Intro & Outro Videos · 3D Product Animation · E-Commerce Product Videos · Songwriting · Singers & Vocalists · Jingles & Intros · Audiobook Production · Scriptwriting · Book Editing · Conversion Rate Optimization · Web Analytics · Brand Strategy · Music Promotion · Book & eBook Marketing · Mobile App Marketing · Video Marketing · Marketing Automation · Podcast Marketing · Crowdfunding · Product Descriptions · Press Releases · Book & eBook Writing · LinkedIn Profiles · Transcription · Localization · UX Writing · Case Studies · Social Media Copywriting · Email Copy · Full Stack Web Apps · Desktop Applications · Scripting · Plugins Development · Android App Development · Mobile App Maintenance · Development & MVP · Support & IT · User Testing · Data Visualization · Poster Design · Menu Design · Invitation Design · Book Design · Podcast Cover Art · Signage Design · Graphics for Streamers · Game Art · Architecture & Interior Design · Industrial & Product Design · Video Repurposing · Spokesperson Videos · Screencasting Videos · eLearning Video Production · Character Animation · Corporate Videos · Real Estate Promos · Book Trailers · Game Trailers · App & Website Previews · Composers · Beat Making · Session Musicians · Custom Songs · Audio Editing · Sound Design · Food Photographers · Real Estate Photographers · Market Research · Customer Service
 
 ## 1순위: 모두 완료 (2026-09-25)
 
@@ -53,7 +53,23 @@ Conversion Rate Optimization · Web Analytics · Brand Strategy · Music Promoti
 
 Product Descriptions · Press Releases · Book & eBook Writing · LinkedIn Profiles · Transcription · Localization · UX Writing · Case Studies · Social Media Copywriting · Email Copy
 
-다음 목록은 새로 정한다.
+## 11순위 (101~110) — 개발·데이터: 모두 완료 (2026-09-27)
+
+Full Stack Web Apps · Desktop Applications · Scripting · Plugins Development · Android App Development · Mobile App Maintenance · Development & MVP · Support & IT · User Testing · Data Visualization
+
+## 12순위 (111~120) — 디자인: 모두 완료 (2026-09-27)
+
+Poster Design · Menu Design · Invitation Design · Book Design · Podcast Cover Art · Signage Design · Graphics for Streamers · Game Art · Architecture & Interior Design · Industrial & Product Design
+
+## 13순위 (121~130) — 영상: 모두 완료 (2026-09-27)
+
+Video Repurposing · Spokesperson Videos · Screencasting Videos · eLearning Video Production · Character Animation · Corporate Videos · Real Estate Promos · Book Trailers · Game Trailers · App & Website Previews
+
+## 14순위 (131~140) — 음악·사진·비즈니스: 모두 완료 (2026-09-27)
+
+Composers · Beat Making · Session Musicians · Custom Songs · Audio Editing · Sound Design · Food Photographers · Real Estate Photographers · Market Research · Customer Service
+
+다음 목록은 새로 정한다. 법률·투자·세무·의료처럼 잘못 쓰면 해가 되는 분야는 쓰지 않는다.
 
 ## 쓰는 방법
 

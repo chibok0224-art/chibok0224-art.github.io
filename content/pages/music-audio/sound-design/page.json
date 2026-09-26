@@ -1,0 +1,30 @@
+{
+  "title": "Best Sound Designers (2026): How to Hire One",
+  "h1": "Best Sound Designers",
+  "description": "How to hire a sound designer for games, video, apps or film: what to include, formats, licensing, what drives the price and red flags.",
+  "intro": "Sound designers create the sounds of a project: footsteps, impacts, interface clicks, ambiences, creatures and effects for games, films, videos and apps. Good sound design makes a project feel real and responsive. It goes wrong when sounds do not match the visuals, files are not prepared for the engine or editor, or libraries are used without the right license. This guide helps you get sound that fits your project.",
+  "updated": "2026-09-27",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What does a sound designer create?",
+      "a": "Sound effects, ambiences, interface sounds, foley and sometimes the full audio mix for a video or scene."
+    },
+    {
+      "q": "Do sound designers use libraries?",
+      "a": "Often, combined with their own recordings and processing. Ask whether library sounds are licensed for your use."
+    },
+    {
+      "q": "What files will I get?",
+      "a": "Usually WAV files, named and organized, sometimes with variations for games so sounds do not repeat."
+    },
+    {
+      "q": "How do sounds get into my game?",
+      "a": "The designer delivers files; your developer or the designer implements them in the engine or audio middleware. Clarify who does implementation."
+    },
+    {
+      "q": "Should sound be designed to picture?",
+      "a": "For video and film, yes. Send a locked edit so sounds line up with actions."
+    }
+  ]
+}

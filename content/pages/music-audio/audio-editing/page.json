@@ -1,0 +1,30 @@
+{
+  "title": "Best Audio Editors (2026): How to Hire One for Cleanup",
+  "h1": "Best Audio Editors",
+  "description": "How to hire an audio editor for noise removal, cleanup and editing: what to include, file formats, what drives the price and red flags.",
+  "intro": "Audio editors clean and shape recordings: removing noise, hum, clicks and mistakes, balancing levels and preparing files for podcasts, videos, courses and interviews. Good editing makes speech clear and pleasant to listen to. It goes wrong when heavy noise reduction makes voices sound robotic, edits sound choppy, or files are returned in the wrong format. This guide helps you get clean, natural-sounding audio.",
+  "updated": "2026-09-27",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Can any noise be removed?",
+      "a": "Much noise can be reduced, but not always removed without affecting the voice. Very noisy or distorted recordings have limits. Send a sample for an honest assessment."
+    },
+    {
+      "q": "What files should I send?",
+      "a": "The original recordings in the best quality available, not compressed copies from messaging apps."
+    },
+    {
+      "q": "What is the difference between editing and mixing?",
+      "a": "Editing removes problems and unwanted parts. Mixing balances levels, EQ and effects for the final sound. Many packages include both for speech."
+    },
+    {
+      "q": "Can the editor remove filler words?",
+      "a": "Yes, if requested. Say how much to remove; removing every um can sound unnatural."
+    },
+    {
+      "q": "What format will I get back?",
+      "a": "Usually WAV or MP3 at the settings you need, such as podcast loudness or video delivery standards."
+    }
+  ]
+}
