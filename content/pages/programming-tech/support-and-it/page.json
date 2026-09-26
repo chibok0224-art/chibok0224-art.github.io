@@ -1,0 +1,30 @@
+{
+  "title": "Best IT Support Experts (2026): How to Hire Remote Help",
+  "h1": "Best Remote IT Support Experts",
+  "description": "How to hire remote IT support for a small business: what the service should include, safe access, what drives the price and red flags.",
+  "intro": "Remote IT support helps small businesses and individuals set up and fix computers, email, networks, software and cloud accounts without a full-time IT person. Good support solves problems and leaves things more secure than before. It goes wrong when remote access is given carelessly, nobody documents what was changed, or passwords end up with a stranger. This guide helps you get help safely.",
+  "updated": "2026-09-27",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What can remote IT support fix?",
+      "a": "Common tasks include email and domain setup, Microsoft 365 or Google Workspace, printers, Wi-Fi configuration advice, software installation, backups, slow computers and account security."
+    },
+    {
+      "q": "Is remote access safe?",
+      "a": "It can be, with care. Use a reputable remote tool, stay present during the session, and end access afterwards. Never install software a stranger sends you without checking it."
+    },
+    {
+      "q": "Should I share my passwords?",
+      "a": "Avoid it. Create a temporary admin account where possible, or change passwords after the session. Never share banking or personal passwords."
+    },
+    {
+      "q": "What should be documented?",
+      "a": "Ask for a short note of what was changed, which accounts were created and any settings you need to know."
+    },
+    {
+      "q": "Can they help with security?",
+      "a": "Many can set up multi-factor sign-in, backups and updates. For deeper security reviews, see a cybersecurity specialist."
+    }
+  ]
+}
