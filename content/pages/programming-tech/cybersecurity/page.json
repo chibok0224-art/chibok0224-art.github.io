@@ -1,0 +1,30 @@
+{
+  "title": "Best Cybersecurity Experts (2026): How to Hire One Safely",
+  "h1": "Best Cybersecurity Experts",
+  "description": "How to hire a cybersecurity expert: what the service should include, how to set the scope, what drives the price and the red flags.",
+  "intro": "A cybersecurity expert can check your website, accounts and systems for weaknesses and help you fix them before someone else finds them. For a small business, the biggest wins are often simple: strong sign-in settings, updates and backups. Security work goes wrong when the scope is unclear, testing is done without written permission, or findings are delivered with no plan to fix them. This guide helps you set it up safely.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What is a security audit versus a penetration test?",
+      "a": "An audit reviews settings, software and practices against good standards. A penetration test actively tries to break in, with your permission, to find weaknesses. Small businesses often start with an audit."
+    },
+    {
+      "q": "Do I need to give written permission?",
+      "a": "Yes. Testing systems without the owner's written permission can be illegal. Agree on exactly what may be tested, when and how, in writing, and only for systems you own or control."
+    },
+    {
+      "q": "What should I fix first?",
+      "a": "Usually multi-factor sign-in on important accounts, software updates, backups you have tested, and removing old user accounts. Ask the expert to rank findings by risk and effort."
+    },
+    {
+      "q": "Can the expert fix the problems too?",
+      "a": "Some do. Others only report. Check whether fixes are included, or plan who will make them."
+    },
+    {
+      "q": "What if I have already been hacked?",
+      "a": "Ask for incident response: containing the problem, cleaning up and restoring from backups. Change passwords from a clean device, and check whether you must notify customers or authorities."
+    }
+  ]
+}

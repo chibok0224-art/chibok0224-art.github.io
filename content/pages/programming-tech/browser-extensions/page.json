@@ -1,0 +1,30 @@
+{
+  "title": "Best Browser Extension Developers (2026): How to Hire One",
+  "h1": "Best Browser Extension Developers",
+  "description": "How to hire a browser extension developer: what the project should include, how to brief it, store publishing, price factors and red flags.",
+  "intro": "A browser extension adds features to Chrome, Firefox, Edge or Safari, from simple productivity tools to add-ons for your own web app. Extensions run close to users' browsing data, so browser stores review them carefully. Projects go wrong when the extension asks for more permissions than it needs, fails store review, or is published under the developer's account. This guide helps you get it right.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Which browsers should I support?",
+      "a": "Chrome and other Chromium browsers such as Edge share most of the same code. Firefox and Safari need extra work. Start with the browsers your users actually use."
+    },
+    {
+      "q": "What are permissions?",
+      "a": "Permissions let the extension read pages, store data or access tabs. Ask for the fewest permissions possible. Stores review them, and users are warned about broad permissions before installing."
+    },
+    {
+      "q": "Who publishes the extension?",
+      "a": "You, through your own developer accounts on each store. The developer can prepare the listing and submit it on your behalf through your account."
+    },
+    {
+      "q": "Do I need a privacy policy?",
+      "a": "If the extension handles user data, stores usually require one. The policy should honestly describe what is collected and why."
+    },
+    {
+      "q": "How are updates handled?",
+      "a": "Browsers change regularly, and extensions sometimes need updates to keep working. Ask about support after launch."
+    }
+  ]
+}

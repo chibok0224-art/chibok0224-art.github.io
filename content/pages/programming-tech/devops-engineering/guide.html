@@ -1,0 +1,56 @@
+<h2 id="what-you-get">What a good DevOps project includes</h2>
+<p>DevOps gigs range from a single deployment pipeline to full cloud setups. Check that the project states:</p>
+<ul>
+  <li><strong>Scope</strong>: pipelines, infrastructure, monitoring, migration.</li>
+  <li><strong>Cloud provider</strong> and services used.</li>
+  <li><strong>Infrastructure as code</strong>, where appropriate.</li>
+  <li><strong>Security</strong>: access rules, secrets management and backups.</li>
+  <li><strong>Monitoring and alerts</strong>.</li>
+  <li><strong>Cost estimate</strong> for running the setup each month.</li>
+  <li><strong>Documentation</strong> and handover.</li>
+</ul>
+
+<p>Ask for separate environments where it makes sense: at least a test or staging environment and the live one. Changes can then be tried safely before reaching customers. The engineer should also set up an easy way to roll back a release if something goes wrong. A rollback that takes minutes turns a potential outage into a small hiccup that most customers never notice.</p>
+
+<h2 id="brief">How to brief a DevOps engineer</h2>
+<ol>
+  <li><strong>What you run</strong>: applications, databases, languages and frameworks.</li>
+  <li><strong>Where it runs now</strong>, and what is painful about it.</li>
+  <li><strong>Goals</strong>: faster releases, fewer outages, lower costs, easier scaling.</li>
+  <li><strong>Traffic and data size</strong>, now and expected.</li>
+  <li><strong>Budget</strong> for monthly cloud costs.</li>
+  <li><strong>Team skills</strong>: who will maintain it afterwards.</li>
+</ol>
+<p>Set up billing alerts before any resources are created. Cloud costs can grow quietly from forgotten test servers or oversized databases, and an alert is the simplest safety net.</p>
+<p>Ask for a short runbook: how to deploy, how to roll back, where logs are, and what to do if the site goes down. It turns an emergency into a checklist.</p>
+
+<h2 id="price">What drives the price</h2>
+<ul>
+  <li>number of services and environments</li>
+  <li>migration from another host or provider</li>
+  <li>security and compliance requirements</li>
+  <li>high availability and scaling needs</li>
+  <li>monitoring, backups and disaster recovery</li>
+  <li>documentation, training and ongoing support</li>
+</ul>
+
+<h2 id="red-flags">Red flags</h2>
+<ul>
+  <li>Infrastructure created in the engineer's own cloud account.</li>
+  <li>Requests for your root or owner login.</li>
+  <li>No estimate of monthly cloud costs.</li>
+  <li>Complex tools your team cannot maintain, with no documentation.</li>
+  <li>Secrets and passwords stored in plain files or code.</li>
+</ul>
+<p>For the application itself, see our <a href="/programming-tech/software-development/">software development guide</a>. For security reviews, read our <a href="/programming-tech/cybersecurity/">cybersecurity guide</a>, and for ongoing website care, our <a href="/programming-tech/website-maintenance/">website maintenance guide</a>.</p>
+
+<p>Keep things as simple as your needs allow. A small application with a handful of users rarely needs the same setup as a large platform. Ask the engineer to explain why each tool or service is needed, and what would happen without it. Simpler setups are cheaper to run, easier to secure, and easier to hand over to another engineer later. Review the setup and costs together every few months as your needs change.</p>
+
+<h2 id="checklist">Quick pre-order checklist</h2>
+<ul class="checklist">
+  <li>Cloud accounts are in my name with billing alerts.</li>
+  <li>The engineer has a limited user, not the owner login.</li>
+  <li>I have a monthly cost estimate.</li>
+  <li>Secrets are stored securely.</li>
+  <li>I will get documentation and a runbook.</li>
+</ul>

@@ -1,0 +1,55 @@
+<h2 id="what-you-get">What a good fix-and-improve job includes</h2>
+<p>Troubleshooting gigs cover bug fixes, speed improvements, small features and cleanup of existing code. Check that the job states:</p>
+<ul>
+  <li><strong>The problem</strong> to be solved, in specific terms.</li>
+  <li><strong>Investigation</strong>: time to find the cause, and how it is charged.</li>
+  <li><strong>Where the work happens</strong>: a copy, a branch, or a staging site.</li>
+  <li><strong>Testing</strong> of the fix and of related features.</li>
+  <li><strong>Delivery</strong>: changes in your repository, with notes.</li>
+  <li><strong>Follow-up</strong>: how long the fix is supported.</li>
+</ul>
+
+<p>Be honest about how the code was made and what has been tried. If an AI tool generated most of it, or several people changed it over time, say so. It helps the developer understand why things are structured the way they are, and it saves hours of guessing.</p>
+
+<h2 id="brief">How to brief a developer for a fix</h2>
+<ol>
+  <li><strong>What is wrong</strong>, with steps to reproduce it.</li>
+  <li><strong>Screenshots, videos and error messages</strong>.</li>
+  <li><strong>When it started</strong>, and what changed around then.</li>
+  <li><strong>The technology</strong>: platform, language, hosting, and whether AI tools generated the code.</li>
+  <li><strong>Access</strong>: code repository and a test environment, through separate accounts.</li>
+  <li><strong>What must not break</strong>: payments, sign-in, key pages.</li>
+</ol>
+<p>Take a full backup before any work starts, and make sure you know how to restore it. Most disasters during fixes come from changes that cannot be undone.</p>
+<p>If the same kind of problem keeps returning, ask the developer for an honest view of the code. Sometimes a focused cleanup of one area costs less over time than repeated emergency fixes.</p>
+
+<h2 id="price">What drives the price</h2>
+<ul>
+  <li>how hard the problem is to find</li>
+  <li>size and quality of the existing code</li>
+  <li>access to logs, test environments and documentation</li>
+  <li>number of issues and improvements</li>
+  <li>urgency</li>
+  <li>testing and follow-up support</li>
+</ul>
+
+<h2 id="red-flags">Red flags</h2>
+<ul>
+  <li>Edits made directly on the live site with no backup.</li>
+  <li>Requests for your main admin or hosting password instead of a separate account.</li>
+  <li>A fix delivered with no explanation of the cause.</li>
+  <li>Large rewrites proposed before the problem is understood.</li>
+  <li>No way to see what code was changed.</li>
+</ul>
+<p>For ongoing care, see our <a href="/programming-tech/website-maintenance/">website maintenance guide</a>. For testing before releases, read our <a href="/programming-tech/qa-and-review/">QA and testing guide</a>, and for new features, our <a href="/programming-tech/software-development/">software development guide</a>.</p>
+
+<p>After the fix, ask what caused the problem and how to avoid it next time. Sometimes the answer is a missing test, an outdated plugin or a setting that should be documented. A short explanation turns one fix into knowledge you keep, and it makes the next developer's job easier. Keep these notes together in one document next to your code, so they are easy to find.</p>
+
+<h2 id="checklist">Quick pre-order checklist</h2>
+<ul class="checklist">
+  <li>I have described the problem with steps to reproduce it.</li>
+  <li>I have a backup and know how to restore it.</li>
+  <li>Work will happen on a copy or branch, not live.</li>
+  <li>The developer has a separate account, not my password.</li>
+  <li>I will receive the changes with a short explanation.</li>
+</ul>

@@ -1,0 +1,30 @@
+{
+  "title": "Best Webflow Developers (2026): How to Hire One",
+  "h1": "Best Webflow Developers",
+  "description": "How to hire a Webflow developer: what the project should include, how to brief it, what drives the price and the red flags to avoid.",
+  "intro": "Webflow gives designers close control over layout and animation while still letting you edit content without code. It suits marketing sites, portfolios and content-heavy sites with a blog or resources section. Projects go wrong when the site is built in the developer's workspace, the content structure is not planned, or animations slow the site down. This guide helps you get a Webflow site your team can manage.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Who should own the Webflow project?",
+      "a": "You. Create a workspace in your name and have the developer build there, or transfer the project to your workspace before final payment. Keep the hosting plan in your name."
+    },
+    {
+      "q": "What is the Webflow CMS?",
+      "a": "It is Webflow's content system for things you add often, such as blog posts, team members or case studies. Planning these collections early makes the site much easier to update."
+    },
+    {
+      "q": "Can my team edit the site without breaking the design?",
+      "a": "Yes, through the Webflow Editor, if the developer sets it up well. Ask for a short training session and guidance on what can safely be changed."
+    },
+    {
+      "q": "Are animations worth it?",
+      "a": "Subtle animations can make a site feel polished. Heavy ones can slow pages down and distract visitors. Ask the developer to test speed on a phone."
+    },
+    {
+      "q": "Can a Webflow developer also design the site?",
+      "a": "Many do both. If you already have designs, for example in Figma, send them and ask the developer to build them faithfully."
+    }
+  ]
+}
