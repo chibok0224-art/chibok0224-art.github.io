@@ -1,0 +1,30 @@
+{
+  "title": "Best Technical Writers (2026): How to Hire One for Your Docs",
+  "h1": "Best Technical Writers",
+  "description": "How to hire a technical writer: what the project should include, how to brief it, what drives the price and the red flags to avoid.",
+  "intro": "Technical writers turn complex products and processes into clear instructions: user guides, help center articles, API documentation and internal procedures. Good documentation reduces support questions and mistakes. Projects go wrong when the writer has no access to the product or experts, or when the docs are delivered in a format nobody can maintain. This guide helps you set up a documentation project that lasts.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What kinds of documents do technical writers create?",
+      "a": "User manuals, help center articles, setup guides, API and developer documentation, standard operating procedures, release notes and training materials. Look for samples of the type you need."
+    },
+    {
+      "q": "Does the writer need to understand the technology?",
+      "a": "Enough to ask good questions and explain it correctly. For developer documentation, experience with APIs and code is important. For user guides, the ability to see the product through a beginner's eyes matters more."
+    },
+    {
+      "q": "What access will the writer need?",
+      "a": "Access to the product or a test environment, existing documents, and time with the people who built it. Give access through a test account, not your production admin login."
+    },
+    {
+      "q": "Which format should the docs be in?",
+      "a": "The one you will maintain: your help center tool, a documentation platform, Markdown files in a repository, or Word documents. Agree on this before writing starts."
+    },
+    {
+      "q": "Is my product information kept confidential?",
+      "a": "Ask, and use a confidentiality agreement for unreleased products or internal processes."
+    }
+  ]
+}

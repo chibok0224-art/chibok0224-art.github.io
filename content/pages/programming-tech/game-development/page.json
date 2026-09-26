@@ -1,0 +1,30 @@
+{
+  "title": "Best Game Developers (2026): How to Hire One for Your Game",
+  "h1": "Best Game Developers",
+  "description": "How to hire a game developer: what the project should include, how to brief your game, what drives the price, rights and red flags.",
+  "intro": "Game developers turn an idea into something playable, from a small mobile game to a prototype for a larger project. Games are easy to over-scope: every new feature multiplies the work. Projects go wrong when the scope grows, assets have unclear licenses, or the project files are never handed over. This guide helps you start small and stay in control.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Which game engine should I use?",
+      "a": "Unity, Unreal and Godot are common choices. The right one depends on the platform, the style of game and the developer's experience. Ask the developer why they recommend one, and make sure you can open the project files yourself."
+    },
+    {
+      "q": "Should I start with a prototype?",
+      "a": "Usually, yes. A small playable prototype of the core idea shows whether the game is fun before you pay for full art, levels and polish."
+    },
+    {
+      "q": "Who provides the art and sound?",
+      "a": "Check the package. Some developers only program and expect you to supply art and sound; others use asset packs. Every asset must be licensed for commercial use in your game."
+    },
+    {
+      "q": "Will I own the game?",
+      "a": "Confirm in writing that you own the code and project files written for you. Third-party assets and engines keep their own licenses, which you should read before release."
+    },
+    {
+      "q": "Can the developer publish the game?",
+      "a": "Many can help. Publish under your own store accounts, so the game, reviews and income stay with you."
+    }
+  ]
+}

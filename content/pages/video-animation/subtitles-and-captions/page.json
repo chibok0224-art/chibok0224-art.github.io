@@ -1,0 +1,30 @@
+{
+  "title": "Best Subtitle and Caption Services (2026): How to Hire One",
+  "h1": "Best Subtitle and Caption Services",
+  "description": "How to hire someone for subtitles and captions: what the service should include, formats, accuracy, price factors and red flags.",
+  "intro": "Subtitles and captions make your videos accessible to viewers who are deaf or hard of hearing, easier to follow with the sound off, and understandable in other languages. Good captions are accurate, well timed and easy to read. They go wrong when automatic captions are delivered without review, or when the file format does not work on your platform. This guide shows you what to check.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What is the difference between subtitles and captions?",
+      "a": "Captions are usually in the same language as the audio and may include sound cues like [music] or [laughs]. Subtitles usually translate speech into another language. Some people use the words interchangeably, so say exactly what you need."
+    },
+    {
+      "q": "Should captions be burned in or a separate file?",
+      "a": "A separate file, such as SRT or VTT, lets viewers turn captions on or off and can help search. Burned-in captions are part of the video and always show, which suits social media. Many creators use both."
+    },
+    {
+      "q": "Are automatic captions good enough?",
+      "a": "They are a useful start but often miss names, technical terms and accents. A human review fixes errors and timing. Ask whether the service includes human checking."
+    },
+    {
+      "q": "Can they translate subtitles?",
+      "a": "Many can. Translated subtitles should be done by a native speaker of the target language and fit the reading speed of the video."
+    },
+    {
+      "q": "What do I need to send?",
+      "a": "The video or audio file, a list of names and special terms, and any script you have. A script makes captions faster and more accurate."
+    }
+  ]
+}

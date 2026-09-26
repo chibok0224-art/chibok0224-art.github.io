@@ -1,0 +1,30 @@
+{
+  "title": "Best Logo Animators (2026): How to Hire One for Your Brand",
+  "h1": "Best Logo Animators",
+  "description": "How to hire a logo animator: what the package should include, which files you need, how to brief it, price factors and red flags.",
+  "intro": "A logo animation brings your logo to life for video intros, outros, social posts and presentations. A good one is short, matches your brand's personality and works in every format you use. Orders go wrong when the logo file is low quality, the sound is not licensed, or the animation is delivered in only one size. This guide shows you what to ask for.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Which logo file should I send?",
+      "a": "A vector file, such as SVG, AI, EPS or PDF, with separate layers if possible. Animators can move and reshape parts of a vector logo; a flat image limits what they can do."
+    },
+    {
+      "q": "How long should a logo animation be?",
+      "a": "Short. A few seconds is usually enough for an intro or outro. Longer animations can feel slow, especially before every video."
+    },
+    {
+      "q": "Which file formats will I need?",
+      "a": "An MP4 for video, and a version with a transparent background, such as a MOV with alpha or a WebM, if you want to place it over footage. For websites and apps, ask about Lottie or GIF."
+    },
+    {
+      "q": "Is sound included?",
+      "a": "Often a short sound effect or music sting is included. Make sure it is licensed for commercial use, and ask for a silent version too."
+    },
+    {
+      "q": "Can I get vertical and square versions?",
+      "a": "Ask for them. Social platforms use vertical and square formats, and a logo animation made only for widescreen may look small or cropped there."
+    }
+  ]
+}

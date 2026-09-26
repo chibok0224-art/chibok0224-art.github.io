@@ -1,0 +1,30 @@
+{
+  "title": "Best App Designers (2026): How to Hire One for Your App",
+  "h1": "Best App Designers",
+  "description": "How to hire a mobile app designer: what the package should include, how to brief the screens, what drives the price and red flags.",
+  "intro": "An app designer creates the screens your users tap through: layouts, buttons, icons and the look of the whole app. Good app design follows each platform's conventions so the app feels familiar, and it hands developers everything they need. Projects go wrong when only a few pretty screens are designed and the rest is left for developers to guess. This guide helps you order a complete design.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "How many screens need to be designed?",
+      "a": "Every unique screen and state: empty states, loading, errors, sign-in and settings, not only the main screens. Ask the designer to list all screens before starting so nothing is missed."
+    },
+    {
+      "q": "Should iPhone and Android look different?",
+      "a": "They can share a design, but each platform has its own conventions for navigation, buttons and gestures. Ask the designer how they will handle both, especially if the app is built with one codebase."
+    },
+    {
+      "q": "What should developers receive?",
+      "a": "Access to the design file, usually in Figma, with components, colors, fonts, spacing and exported icons. A clickable prototype of the main flows helps too."
+    },
+    {
+      "q": "Is the app icon included?",
+      "a": "Sometimes. The icon and store screenshots are often extras. Check the package and ask for all required sizes."
+    },
+    {
+      "q": "Do I need UX research first?",
+      "a": "For a new product, some UX work helps: user flows and simple tests before the visual design. Our UX design guide covers that step."
+    }
+  ]
+}

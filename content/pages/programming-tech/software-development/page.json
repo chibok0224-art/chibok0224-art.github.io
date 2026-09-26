@@ -1,0 +1,30 @@
+{
+  "title": "Best Software Developers (2026): How to Hire One Safely",
+  "h1": "Best Software Developers",
+  "description": "How to hire a software developer: what the project should include, how to write the brief, what drives the price and the red flags.",
+  "intro": "Custom software can automate work, connect your tools or become a product in its own right. It is also easy to under-specify, so the result does the wrong thing well. Software projects go wrong when requirements are vague, nothing is tested along the way, or the code and accounts are never handed over. This guide helps you stay in control.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "How detailed should my requirements be?",
+      "a": "Detailed enough that you and the developer agree on what done means. Describe each feature as what a user does and what should happen, with examples. The developer can then estimate and suggest simpler options."
+    },
+    {
+      "q": "Should I pay per milestone?",
+      "a": "For larger projects, yes. Split the work into milestones with something you can test at each one. It keeps progress visible and limits risk if the project runs into trouble."
+    },
+    {
+      "q": "Which programming language should be used?",
+      "a": "Unless you have a reason, let the developer suggest one, but ask why. Common, well-supported technologies make it easier to find another developer later."
+    },
+    {
+      "q": "Will I own the code?",
+      "a": "Confirm in writing that you receive full rights to the code written for you, delivered in a repository you control. Open-source libraries keep their own licenses, which is normal."
+    },
+    {
+      "q": "What about hosting and running costs?",
+      "a": "Ask where the software will run, who pays for servers and services, and roughly what they cost each month. Keep those accounts in your own name."
+    }
+  ]
+}

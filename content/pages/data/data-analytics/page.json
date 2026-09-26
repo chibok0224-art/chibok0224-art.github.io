@@ -1,0 +1,30 @@
+{
+  "title": "Best Data Analysts (2026): How to Hire One for Your Data",
+  "h1": "Best Data Analysts",
+  "description": "How to hire a data analyst: what the project should include, how to prepare your data, what drives the price and the red flags to avoid.",
+  "intro": "A data analyst turns spreadsheets, sales records or survey results into answers you can act on. The best projects start with a clear business question, not with a pile of data. Analysis goes wrong when the question is vague, the data is messy and nobody checks it, or the results are hard to repeat. This guide helps you get answers you can trust.",
+  "updated": "2026-09-26",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What should I ask a data analyst for?",
+      "a": "Start with a question, such as which products bring repeat customers, or why sign-ups dropped last quarter. A clear question lets the analyst choose the right data and methods, and gives you an answer you can use."
+    },
+    {
+      "q": "Which tools will they use?",
+      "a": "Common tools include Excel, Google Sheets, SQL, Python, R, Power BI and Tableau. Ask for results in a tool you can open and update yourself."
+    },
+    {
+      "q": "How do I share data safely?",
+      "a": "Share only what the question needs. Remove or mask personal details such as names and emails where possible, and check the privacy rules that apply to your customers' data."
+    },
+    {
+      "q": "Can they build a dashboard?",
+      "a": "Many can. A dashboard is useful when you need the same numbers regularly. Ask whether it updates automatically and what you need to keep it running."
+    },
+    {
+      "q": "How do I know the results are right?",
+      "a": "Ask the analyst to explain the steps, assumptions and any data they removed. Spot-check a few numbers against your own records."
+    }
+  ]
+}
