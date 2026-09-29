@@ -6,9 +6,9 @@
   "language": "en",
   "contact_email": "",
   "affiliate": {
-    "bta": "",
+    "bta": "1176697",
     "link": "https://go.fiverr.com/visit/?bta={bta}&brand={brand}&landingPage={url}",
-    "landing_page_encode_times": 1,
+    "landing_page_encode_times": 2,
     "brands": {
       "marketplace": "fiverrmarketplace",
       "pro": "fp",
