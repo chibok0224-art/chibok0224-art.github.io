@@ -1,9 +1,9 @@
 # GigCompass 할 일
 
 ## 제휴 승인 후
-- [ ] `content/site.json` 의 `affiliate.bta` 에 제휴 ID 넣기
-- [ ] 대시보드에서 만든 딥링크 하나와 비교해 `landing_page_encode_times`(1 또는 2) 맞추기
-- [ ] 제휴 약관에서 긱 이미지 사용 규칙 확인 → 허용되면 `show_gig_images` 를 true 로
+- [x] `content/site.json` 의 `affiliate.bta` 에 제휴 ID 넣기 (2026-09-29)
+- [x] 딥링크 비교 → `landing_page_encode_times` = 2 (2026-09-29)
+- [x] 약관 확인: 링크에는 Fiverr 제공 이미지만 허용 → `show_gig_images` 는 false 유지 (2026-09-29)
 - [ ] 가이드 6개에 추천 판매자 채우기 (스킬: "○○ 추천 판매자 채워줘")
 
 ## 가이드
