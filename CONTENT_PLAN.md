@@ -69,6 +69,10 @@ Video Repurposing · Spokesperson Videos · Screencasting Videos · eLearning Vi
 
 Composers · Beat Making · Session Musicians · Custom Songs · Audio Editing · Sound Design · Food Photographers · Real Estate Photographers · Market Research · Customer Service
 
+## 15순위 (148~157) — 개발·데이터·디자인·영상: 모두 완료 (2026-10-02)
+
+iOS App Development · Cross-platform Apps · Custom Websites · Data Scraping · Dashboards · Resume Design · Vector Tracing · Cartoon Illustration · UGC Ads · Slideshow Videos
+
 다음 목록은 새로 정한다. 법률·투자·세무·의료처럼 잘못 쓰면 해가 되는 분야는 쓰지 않는다.
 
 ## 쓰는 방법

@@ -1,0 +1,30 @@
+{
+  "title": "Best Custom Website Developers (2026): How to Hire One",
+  "h1": "Best Custom Website Developers",
+  "description": "How to hire a custom website developer: when to go custom, what to include, how to brief it, what drives the price and red flags.",
+  "intro": "A custom website is built for your needs rather than from a standard template or page builder. It makes sense when you need special features, unusual design or tight performance. It also costs more and needs a developer for changes later. Projects go wrong when nobody asks whether custom work is really needed, the site is hard to edit, or hosting and ownership are unclear. This guide helps you decide and hire well.",
+  "updated": "2026-10-02",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Custom site or a builder like WordPress?",
+      "a": "For most business sites, a builder or CMS is faster and easier to edit. Custom code suits special features, complex logic or very specific performance needs."
+    },
+    {
+      "q": "Can I edit the content myself?",
+      "a": "Only if the developer adds a content management system or editing tool. Ask for this upfront if you will update text and images often."
+    },
+    {
+      "q": "Who hosts the website?",
+      "a": "Ideally you own the hosting and domain accounts. The developer can set them up for you with your login."
+    },
+    {
+      "q": "Will the site be fast and mobile friendly?",
+      "a": "It should be. Ask how the developer tests speed and mobile layouts, and check the site on your own phone."
+    },
+    {
+      "q": "What happens after launch?",
+      "a": "Agree on a period for bug fixes and on a rate for future changes, so you are not stuck if something breaks."
+    }
+  ]
+}

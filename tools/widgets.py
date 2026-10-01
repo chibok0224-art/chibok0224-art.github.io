@@ -57,6 +57,9 @@ KEYWORDS = {
     "audio-editing": "audio editing", "sound-design": "sound effects", "beat-making": "beat maker",
     "session-musicians": "session musician", "audiobook-production": "audiobook narrator",
     "podcast-production": "podcast editing", "podcast-cover-art": "podcast cover art",
+    "cross-platform-apps": "flutter app development", "custom-websites": "custom website",
+    "data-scraping": "web scraping", "dashboards": "power bi dashboard", "ugc-ads": "ugc ads",
+    "slideshow-videos": "slideshow video",
 }
 
 

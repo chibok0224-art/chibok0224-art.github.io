@@ -1,0 +1,30 @@
+{
+  "title": "Best Cross-Platform App Developers (2026): One App, iOS + Android",
+  "h1": "Best Cross-Platform App Developers",
+  "description": "How to hire a cross-platform app developer (Flutter, React Native): what to include, how to brief it, what drives the price and red flags.",
+  "intro": "Cross-platform developers build one app that runs on both iPhone and Android, usually with Flutter or React Native. It can save time and money compared with two separate native apps. Projects go wrong when the app feels clumsy on one platform, device features do not work as expected, or the scope keeps growing. This guide helps you hire a developer who delivers on both stores.",
+  "updated": "2026-10-02",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Flutter or React Native?",
+      "a": "Both are mature and widely used. The developer's experience matters more than the framework. Ask which they recommend for your app and why."
+    },
+    {
+      "q": "Will the app feel native?",
+      "a": "A good developer follows each platform's conventions where it matters, such as navigation and permissions. Test on both an iPhone and an Android phone."
+    },
+    {
+      "q": "Can it use the camera, GPS and notifications?",
+      "a": "Usually yes, through plugins. Ask the developer to confirm each device feature you need before you start."
+    },
+    {
+      "q": "Who publishes to the app stores?",
+      "a": "Use your own Apple and Google developer accounts so you keep control. The developer can upload builds with team access."
+    },
+    {
+      "q": "Is it really cheaper than two native apps?",
+      "a": "Often, because most code is shared. Platform-specific work, testing on both systems and store reviews still take time."
+    }
+  ]
+}
