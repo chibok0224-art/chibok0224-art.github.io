@@ -1,0 +1,37 @@
+{
+  "title": "Native vs Cross-Platform Apps: How to Choose for Your App",
+  "h1": "Native vs cross-platform apps: how to choose",
+  "description": "Native iOS and Android apps compared with cross-platform frameworks such as Flutter and React Native: cost, speed, performance, maintenance and who to hire.",
+  "intro": "If you plan a mobile app, one of the first technical decisions is how it will be built. Native apps are built separately for iOS and Android with each platform's own tools. Cross-platform apps use one shared codebase, with frameworks such as Flutter or React Native, to run on both. Each approach affects cost, timeline, performance and the developers you hire. This article explains the trade-offs without the jargon.",
+  "kind": "Comparison",
+  "order": 16,
+  "guides": [
+    "programming-tech/ios-app-development",
+    "programming-tech/android-app-development",
+    "programming-tech/cross-platform-apps",
+    "graphics-design/app-design"
+  ],
+  "faq": [
+    {
+      "q": "Is cross-platform always cheaper?",
+      "a": "Often, because much of the code is shared, but complex features may still need platform-specific work."
+    },
+    {
+      "q": "Do cross-platform apps feel worse?",
+      "a": "Modern frameworks can feel very close to native for most business apps. Very demanding apps may benefit from native."
+    },
+    {
+      "q": "Can I start cross-platform and switch later?",
+      "a": "Yes, but it usually means rebuilding. Choose with your long-term plans in mind."
+    },
+    {
+      "q": "Do I need both iOS and Android?",
+      "a": "It depends on your audience. Some products launch on one platform first."
+    },
+    {
+      "q": "Is a web app an option?",
+      "a": "Yes. For some tools, a mobile-friendly web app avoids app stores entirely."
+    }
+  ],
+  "updated": "2026-10-02"
+}

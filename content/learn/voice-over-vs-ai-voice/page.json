@@ -1,0 +1,37 @@
+{
+  "title": "Human Voice Over vs AI Voice: Which Should You Use?",
+  "h1": "Human voice over vs AI voice: which should you use?",
+  "description": "When to hire a human voice actor and when an AI voice is enough: quality, emotion, speed, editing, rights, consent and how to brief either option.",
+  "intro": "AI voices have improved quickly, and for some projects they are a practical choice. For others, a human voice actor still makes a clear difference. The right option depends on how much emotion and nuance the script needs, how often it will change and how the audio will be used. This article compares human and AI voice work and highlights the rights and consent questions to check.",
+  "kind": "Comparison",
+  "order": 19,
+  "guides": [
+    "music-audio/voice-over",
+    "music-audio/audiobook-production",
+    "music-audio/audio-editing",
+    "video-animation/animated-explainers"
+  ],
+  "faq": [
+    {
+      "q": "Is AI voice cheaper?",
+      "a": "Usually, especially for long or frequently updated content. Human voices add cost but also performance."
+    },
+    {
+      "q": "Can I clone someone's voice?",
+      "a": "Only with that person's clear permission and within the tool's terms. Never clone a voice without consent."
+    },
+    {
+      "q": "Are AI voices allowed in audiobooks?",
+      "a": "Some stores and platforms have specific rules for AI narration. Check before you produce."
+    },
+    {
+      "q": "Can a human voice actor fix a line later?",
+      "a": "Yes, usually through a pickup session, which may cost extra."
+    },
+    {
+      "q": "Who owns the recording?",
+      "a": "It depends on the agreement or tool license. Confirm commercial use and duration of rights."
+    }
+  ],
+  "updated": "2026-10-02"
+}

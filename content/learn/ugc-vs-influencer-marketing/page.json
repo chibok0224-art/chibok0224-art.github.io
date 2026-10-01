@@ -1,0 +1,37 @@
+{
+  "title": "UGC vs Influencer Marketing: Which Is Right for Your Brand?",
+  "h1": "UGC vs influencer marketing: which is right for your brand?",
+  "description": "UGC creators vs influencers: who owns the audience, how the content is used, rights, disclosure and how to choose for your goals.",
+  "intro": "UGC creators and influencers both make content featuring your product, often in a similar casual style. The key difference is the audience. An influencer is paid largely for reaching their followers. A UGC creator is paid to make content that you post on your own channels or use in ads. Mixing up the two leads to wrong expectations about reach, rights and results. This article explains how each works.",
+  "kind": "Comparison",
+  "order": 18,
+  "guides": [
+    "video-animation/ugc-videos",
+    "video-animation/ugc-ads",
+    "online-marketing/influencer-marketing",
+    "online-marketing/ugc-strategy"
+  ],
+  "faq": [
+    {
+      "q": "Does a UGC creator post on their own account?",
+      "a": "Usually not. UGC is made for your channels and ads unless you agree otherwise."
+    },
+    {
+      "q": "Do I need usage rights for UGC ads?",
+      "a": "Yes. Agree on where, how long and in which ads you may use the content."
+    },
+    {
+      "q": "Must influencer posts be labeled as ads?",
+      "a": "In many countries, yes. Paid partnerships need clear disclosure under advertising rules."
+    },
+    {
+      "q": "Which is cheaper?",
+      "a": "UGC is often more predictable per video. Influencer pricing depends heavily on audience size and engagement."
+    },
+    {
+      "q": "Can I use influencer content in my ads?",
+      "a": "Only if your agreement includes those rights."
+    }
+  ],
+  "updated": "2026-10-02"
+}

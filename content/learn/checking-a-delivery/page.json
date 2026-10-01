@@ -1,0 +1,37 @@
+{
+  "title": "How to Check a Freelance Delivery Before You Accept It",
+  "h1": "How to check a freelance delivery before you accept it",
+  "description": "A practical checklist for reviewing finished freelance work: files, formats, quality, rights, accounts and handover, so nothing is missing after you approve.",
+  "intro": "Accepting a delivery usually closes the order, and asking for changes afterwards often means a new order. A careful final check takes a few minutes and prevents most later problems: missing files, wrong formats, spelling mistakes, unclear rights or accounts you cannot access. This article gives you a general checklist plus extra points for design, writing, video and websites.",
+  "kind": "Start here",
+  "order": 5,
+  "guides": [
+    "graphics-design/logo-design",
+    "programming-tech/website-development",
+    "video-animation/video-editing",
+    "writing-translation/proofreading-and-editing"
+  ],
+  "faq": [
+    {
+      "q": "How long do I have to review a delivery?",
+      "a": "It depends on the platform's rules. Check the order page, and do not leave it until the last moment."
+    },
+    {
+      "q": "What if a file is missing after I accepted?",
+      "a": "Message the seller politely. Many will send it, but it is easier to check before accepting."
+    },
+    {
+      "q": "Should I test the work on other devices?",
+      "a": "Yes, especially websites, apps, emails and videos."
+    },
+    {
+      "q": "Do I need the source files?",
+      "a": "If you may want to edit the work later, yes. Check whether your package includes them."
+    },
+    {
+      "q": "Where should I store the files?",
+      "a": "In at least two places, such as your computer and a cloud folder you control."
+    }
+  ],
+  "updated": "2026-10-02"
+}

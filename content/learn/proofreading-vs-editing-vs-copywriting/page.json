@@ -1,0 +1,37 @@
+{
+  "title": "Proofreading vs Editing vs Copywriting: Which Do You Need?",
+  "h1": "Proofreading vs editing vs copywriting: which do you need?",
+  "description": "The difference between proofreading, editing, copywriting and content writing, what each changes, and how to pick the right writing service for your text.",
+  "intro": "Writing services are easy to confuse. Proofreading, editing, copywriting and content writing all involve words, but they start from different points and change different things. Asking a proofreader to make your sales page more persuasive, or asking a copywriter to fix a few typos, leads to disappointment and wasted money. This article explains what each service does and how to choose.",
+  "kind": "Comparison",
+  "order": 14,
+  "guides": [
+    "writing-translation/proofreading-and-editing",
+    "writing-translation/sales-copy",
+    "writing-translation/website-content",
+    "writing-translation/book-editing"
+  ],
+  "faq": [
+    {
+      "q": "What is the difference between proofreading and editing?",
+      "a": "Proofreading fixes surface errors. Editing improves clarity, structure and flow, and may change sentences."
+    },
+    {
+      "q": "Is copywriting the same as content writing?",
+      "a": "Not quite. Copywriting aims to persuade people to act; content writing aims to inform or engage."
+    },
+    {
+      "q": "Can one freelancer do all of these?",
+      "a": "Some can, but many specialize. Choose someone whose portfolio matches the work you need."
+    },
+    {
+      "q": "Do editors rewrite everything?",
+      "a": "No. Good editors keep your voice and explain bigger changes. Agree on the level of editing first."
+    },
+    {
+      "q": "Which service should come last?",
+      "a": "Proofreading, after all other editing and design are finished."
+    }
+  ],
+  "updated": "2026-10-02"
+}

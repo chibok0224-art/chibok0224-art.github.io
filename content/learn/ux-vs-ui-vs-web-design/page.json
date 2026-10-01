@@ -1,0 +1,37 @@
+{
+  "title": "UX vs UI vs Web Design: Which Designer Do You Need?",
+  "h1": "UX vs UI vs web design: which designer do you need?",
+  "description": "The difference between UX design, UI design, web design and landing page design, what each designer delivers, and how to choose for a website or app.",
+  "intro": "UX design, UI design and web design overlap, and many designers offer more than one. But they focus on different problems. UX is about how something works for the user, UI is about how it looks and feels on screen, and web design usually covers the visual design of a website, sometimes including the build. Knowing the difference helps you search for the right person and write a clearer brief.",
+  "kind": "Comparison",
+  "order": 15,
+  "guides": [
+    "graphics-design/ux-design",
+    "graphics-design/website-design",
+    "graphics-design/landing-page-design",
+    "graphics-design/app-design"
+  ],
+  "faq": [
+    {
+      "q": "Does a UI designer build the website?",
+      "a": "Usually not. Most UI designers deliver designs; a developer builds them. Some web designers do both."
+    },
+    {
+      "q": "Do I need UX research for a small website?",
+      "a": "Often not much. A clear structure and a few user tests can be enough."
+    },
+    {
+      "q": "What files will I get?",
+      "a": "Commonly design files in a tool such as Figma, plus exported images and specifications for developers."
+    },
+    {
+      "q": "What is a wireframe?",
+      "a": "A simple layout sketch showing structure and content, without final colors or images."
+    },
+    {
+      "q": "What is a prototype?",
+      "a": "A clickable mock-up that shows how screens connect, used for testing before building."
+    }
+  ],
+  "updated": "2026-10-02"
+}

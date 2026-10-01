@@ -1,0 +1,37 @@
+{
+  "title": "Translation vs Localization vs Transcreation: What's the Difference?",
+  "h1": "Translation vs localization vs transcreation: what's the difference?",
+  "description": "When to hire a translator, a localization specialist or a transcreation writer, and how subtitles and transcription fit in for each market.",
+  "intro": "Taking content into another language is not always a simple translation job. A user manual needs accurate translation. A website or app may need localization, adapting dates, currencies, examples and layout for each market. An advertising slogan may need transcreation, rewriting the idea so it works emotionally in another culture. This article explains the differences and how to brief each service.",
+  "kind": "Comparison",
+  "order": 17,
+  "guides": [
+    "writing-translation/translation",
+    "writing-translation/localization",
+    "video-animation/subtitles-and-captions",
+    "writing-translation/transcription"
+  ],
+  "faq": [
+    {
+      "q": "Is machine translation good enough?",
+      "a": "For internal or rough understanding, sometimes. For customer-facing text, have a human translator review or translate it."
+    },
+    {
+      "q": "What is a native speaker translator?",
+      "a": "Someone who translates into their own first language, which usually gives the most natural result."
+    },
+    {
+      "q": "Is localization only for software?",
+      "a": "No. Websites, games, marketing, e-learning and documents can all be localized."
+    },
+    {
+      "q": "What is the difference between transcription and subtitles?",
+      "a": "Transcription turns audio into text; subtitles are timed text shown on a video, often translated."
+    },
+    {
+      "q": "Do I need certified translation?",
+      "a": "Only for official documents when an authority requires it. Ask the authority what it accepts."
+    }
+  ],
+  "updated": "2026-10-02"
+}

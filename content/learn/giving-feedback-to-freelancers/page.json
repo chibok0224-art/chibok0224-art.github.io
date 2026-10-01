@@ -1,0 +1,37 @@
+{
+  "title": "How to Give Feedback to a Freelancer (and Get Better Revisions)",
+  "h1": "How to give feedback to a freelancer",
+  "description": "How to review a first draft and give clear, specific feedback that a freelancer can act on, so revisions move the work forward instead of in circles.",
+  "intro": "The first draft is rarely perfect, and that is normal. What happens next depends largely on your feedback. Clear, specific comments lead to a better second version; vague or scattered comments lead to guesswork, extra rounds and frustration on both sides. This article explains how to review work calmly, how to write feedback a freelancer can act on, and how to handle a draft that is far from what you expected.",
+  "kind": "Start here",
+  "order": 4,
+  "guides": [
+    "graphics-design/logo-design",
+    "writing-translation/website-content",
+    "video-animation/video-editing",
+    "graphics-design/website-design"
+  ],
+  "faq": [
+    {
+      "q": "How quickly should I reply with feedback?",
+      "a": "Within a day or two if you can. Long silences slow the project and can affect the delivery date."
+    },
+    {
+      "q": "Is it rude to ask for many changes?",
+      "a": "No, as long as they are within the agreed revisions and scope. Clear lists are easier to work with than many small messages."
+    },
+    {
+      "q": "What if the first draft is completely wrong?",
+      "a": "Go back to the brief together. Explain what does not match and why, and ask how the seller understood it."
+    },
+    {
+      "q": "Should I explain why I want a change?",
+      "a": "Yes. The reason helps the freelancer find the best solution, sometimes a better one than you suggested."
+    },
+    {
+      "q": "Can I ask for changes after accepting the delivery?",
+      "a": "Usually that becomes a new order. Review everything before you accept."
+    }
+  ],
+  "updated": "2026-10-02"
+}
