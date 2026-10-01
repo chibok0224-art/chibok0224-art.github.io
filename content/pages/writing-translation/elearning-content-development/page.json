@@ -1,0 +1,30 @@
+{
+  "title": "Best eLearning Content Developers (2026): Courses That Teach",
+  "h1": "Best eLearning Content Developers",
+  "description": "How to hire an eLearning content developer for online courses and training: learning goals, LMS formats, how to brief it, price drivers and red flags.",
+  "intro": "eLearning content developers turn knowledge into online courses: lesson plans, scripts, slides, quizzes and interactive modules for platforms and learning management systems. Good course content has clear learning goals, short lessons and activities that check understanding. Projects go wrong when content is a copy of a manual, the course does not work in your platform, or subject experts and developers are not aligned. This guide helps you build training that people finish and remember.",
+  "updated": "2026-10-02",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Who provides the expertise?",
+      "a": "Usually you or a subject expert. The developer structures and writes the material so it teaches well. Agree on who checks accuracy."
+    },
+    {
+      "q": "What is an LMS and does it matter?",
+      "a": "A learning management system hosts courses and tracks progress. Formats like SCORM must match your LMS, so tell the developer which one you use."
+    },
+    {
+      "q": "How long should lessons be?",
+      "a": "Short. Many learners prefer focused lessons of a few minutes, each with one clear goal."
+    },
+    {
+      "q": "Do I get quizzes and activities?",
+      "a": "Ask. Questions, scenarios and practice tasks help learners remember and let you measure progress."
+    },
+    {
+      "q": "Who owns the course?",
+      "a": "Agree in writing that you own the content and source files once paid."
+    }
+  ]
+}

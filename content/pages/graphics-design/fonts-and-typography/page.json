@@ -1,0 +1,30 @@
+{
+  "title": "Best Font Designers (2026): Custom Fonts and Typography",
+  "h1": "Best Font and Typography Designers",
+  "description": "How to hire a font designer for a custom typeface, logo lettering or font pairing: licenses, file formats, how to brief it, price drivers and red flags.",
+  "intro": "Font and typography designers create custom typefaces, hand lettering, logo wordmarks and font pairings for brands. A custom font makes your brand recognizable everywhere it appears, and good typography makes text easier to read. Projects go wrong when the character set is incomplete, the font license is unclear, or the files do not install properly on your devices. This guide helps you get type you can actually use.",
+  "updated": "2026-10-02",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Custom font or licensed font?",
+      "a": "Licensed fonts are quicker and cheaper. A custom font gives you something unique and full control. Many brands start with a licensed font and commission custom lettering for the logo."
+    },
+    {
+      "q": "Which characters will be included?",
+      "a": "Agree on the character set: letters, numbers, punctuation, accented letters for your languages and special symbols."
+    },
+    {
+      "q": "Which file formats do I need?",
+      "a": "Usually OTF or TTF for desktop and WOFF2 for websites. Ask your developer what they need."
+    },
+    {
+      "q": "Who owns the font?",
+      "a": "Agree in writing whether you own the font outright or receive a license, and whether the designer can sell it to others."
+    },
+    {
+      "q": "How many weights do I need?",
+      "a": "Most brands need at least regular and bold. Each extra weight or italic adds work and cost."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Best 3D Character Modelers (2026): Game, Animation and Print Models",
+  "h1": "Best 3D Character Modelers",
+  "description": "How to hire a 3D character modeler for games, animation or 3D printing: topology, textures, rigging, how to brief it, price drivers and red flags.",
+  "intro": "3D character modelers build characters for games, animation, VR, AR and 3D printing. A good model looks right, has clean structure for its use and comes with the textures and files your team needs. Projects go wrong when the model is not prepared for its purpose, such as a model too heavy for a game or not printable as a figure, or when files do not work in your software. This guide helps you get models that are ready to use.",
+  "updated": "2026-10-02",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What is topology and why does it matter?",
+      "a": "Topology is how the model's surface is built. Games and animation need clean, efficient topology so characters move well and run smoothly."
+    },
+    {
+      "q": "Do I need rigging?",
+      "a": "If the character will move or be animated, yes. Rigging adds a skeleton and controls. It is often a separate service."
+    },
+    {
+      "q": "Which files will I get?",
+      "a": "Common formats are FBX, OBJ, GLB or the source file from software like Blender, Maya or ZBrush, plus texture maps."
+    },
+    {
+      "q": "Can the model be 3D printed?",
+      "a": "Printing needs a solid, watertight model, often split into parts. Say if you plan to print."
+    },
+    {
+      "q": "Who owns the character?",
+      "a": "Agree in writing, especially for commercial games, merchandise or original characters."
+    }
+  ]
+}

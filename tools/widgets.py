@@ -66,6 +66,14 @@ KEYWORDS = {
     "portraits-and-caricatures": "caricature", "pattern-design": "seamless pattern",
     "speechwriting": "speech writing", "beta-reading": "beta reader", "crowdfunding-videos": "kickstarter video",
     "remixing": "remix",
+    "fonts-and-typography": "custom font", "trade-booth-design": "trade show booth design",
+    "car-wraps": "car wrap design", "character-modeling": "3d character modeling",
+    "live-action-explainers": "live action explainer video", "text-animation": "kinetic typography",
+    "animation-for-kids": "kids animation", "audio-ads-production": "radio ad",
+    "audio-logo-and-sonic-branding": "audio logo", "creative-writing": "short story writing",
+    "podcast-writing": "podcast script", "research-and-summaries": "research summary",
+    "brand-voice-and-tone": "brand voice", "elearning-content-development": "elearning course content",
+    "photo-preset-creation": "lightroom presets", "convert-files": "convert pdf to word", "dj-drops-and-tags": "dj drops",
 }
 
 
