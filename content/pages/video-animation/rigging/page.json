@@ -1,0 +1,30 @@
+{
+  "title": "Best Animation Riggers (2026): 2D and 3D Character Rigs",
+  "h1": "Best Animation Riggers",
+  "description": "How to hire a rigger for 2D or 3D characters: controls, deformation, software, how to brief it, what drives the price and red flags.",
+  "intro": "Riggers add skeletons and controls to 2D or 3D characters so animators can move them: arms, faces, clothing, props and sometimes full facial expressions. Good rigs are easy to animate, deform naturally and work in your software or game engine. Projects go wrong when the model is not prepared for rigging, controls are confusing, or the rig breaks when exported. This guide helps you get rigs your animators will enjoy using.",
+  "updated": "2026-10-02",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What makes a good rig?",
+      "a": "Natural movement, clean deformations, simple controls and stable exports to your software or engine."
+    },
+    {
+      "q": "Does my model need to be prepared?",
+      "a": "Yes. 3D models need clean topology; 2D characters need separated layers. Ask the rigger to review files first."
+    },
+    {
+      "q": "Which software is supported?",
+      "a": "Common 3D and 2D animation tools and game engines. Confirm versions."
+    },
+    {
+      "q": "Can facial expressions be rigged?",
+      "a": "Yes, with face controls or blend shapes. This adds work and cost."
+    },
+    {
+      "q": "Will I get documentation?",
+      "a": "Ask for a short guide to the controls, especially for teams."
+    }
+  ]
+}
