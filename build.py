@@ -727,7 +727,10 @@ def learn_index(site, articles, draft):
 def art(top, cls="card-art"):
     """Category photo (static/img/photo, see PHOTO_CREDITS.md) when there is one, else the drawn card art."""
     photo = STATIC / "img" / "photo" / f'{top["slug"]}.webp'
-    src = f'/img/photo/{top["slug"]}.webp' if photo.exists() else f'/img/cat/{top["slug"]}.svg'
+    if photo.exists():
+        src = f'/img/photo/{top["slug"]}.webp?v={hashlib.sha1(photo.read_bytes()).hexdigest()[:8]}'
+    else:
+        src = f'/img/cat/{top["slug"]}.svg'
     return (f'<img class="{cls}" src="{src}" alt="" width="320" height="180" '
             'loading="lazy" decoding="async">')
 
