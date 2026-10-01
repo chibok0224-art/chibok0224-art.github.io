@@ -100,7 +100,7 @@ Creative Writing · Podcast Writing · Research & Summaries · Brand Voice & Ton
 
 AI 서비스·컨설팅 중 원래 분류에 같은 서비스가 없는 것은 그 분류 아래에 쓴다(build.py 가 허용). 법률·투자·세무·의료·운동·식단은 쓰지 않는다.
 
-## 26~30순위 (258~307) — 2026-10-02 새벽에 정함, 쓰는 중
+## 26~30순위 (258~306) — 2026-10-02 새벽: 모두 작성(로컬 커밋, 게시·위젯은 아침). 26순위는 9개(Twitch Store 제외)
 
 - 26: Art Direction · Landscape Design · Lighting Design · 3D Architecture · 3D Industrial Design · 3D Fashion & Garment · AI-Generated Character Design · Design Consultation · Building Information Modeling
 - 27: Music Transcription · DJ Mixing · Custom Patches & Samples · Audio Plugin Development · Music & Audio Consultation · Video Art · Video Templates Editing · Filmed Video Production · Meditation Videos · Video Consultation
