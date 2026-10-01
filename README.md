@@ -1,6 +1,6 @@
 # GigCompass: Fiverr 제휴 추천 사이트
 
-주소: https://chibok0224-art.github.io (GitHub Pages)
+주소: https://thegigcompass.com (GitHub Pages, 예전 주소 chibok0224-art.github.io 는 자동으로 넘어감)
 
 추가로 설치할 것이 없는 정적 사이트다. `content/` 를 고치고 `build.py` 를 돌리면 `dist/` 가 새로 만들어진다.
 GitHub 에 push 하면 GitHub Actions 가 `python build.py --release` 로 빌드해서 자동으로 공개한다.
