@@ -59,7 +59,10 @@ KEYWORDS = {
     "podcast-production": "podcast editing", "podcast-cover-art": "podcast cover art",
     "cross-platform-apps": "flutter app development", "custom-websites": "custom website",
     "data-scraping": "web scraping", "dashboards": "power bi dashboard", "ugc-ads": "ugc ads",
-    "slideshow-videos": "slideshow video",
+    "slideshow-videos": "slideshow video", "databases": "database design", "video-seo": "youtube seo",
+    "text-message-marketing": "sms marketing", "visual-effects": "vfx", "animated-gifs": "animated gif",
+    "lottie-and-web-animation": "lottie animation", "business-names-and-slogans": "business name",
+    "cover-letters": "cover letter", "storyboards": "storyboard",
 }
 
 

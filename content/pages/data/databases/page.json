@@ -1,0 +1,30 @@
+{
+  "title": "Best Database Developers (2026): Design, Fix and Speed Up Your Data",
+  "h1": "Best Database Developers",
+  "description": "How to hire a database developer for design, queries, migration or performance: what to include, how to brief it, what drives the price and red flags.",
+  "intro": "Database developers design and maintain the systems that store your application's data, using tools like MySQL, PostgreSQL, SQL Server or MongoDB. They create table structures, write queries, move data between systems and fix slow performance. Projects go wrong when there is no backup before changes, the developer gets more access than needed, or the design does not fit how the data will grow. This guide helps you hire safely.",
+  "updated": "2026-10-02",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Which database should I use?",
+      "a": "It depends on your data and application. Relational databases such as PostgreSQL or MySQL suit most business apps. Ask the developer to explain the choice for your case."
+    },
+    {
+      "q": "What access does the developer need?",
+      "a": "Only what the task requires. Use a separate account with limited permissions, and change passwords when the job ends."
+    },
+    {
+      "q": "Will they back up my data?",
+      "a": "Insist on a tested backup before any change, especially migrations or schema changes."
+    },
+    {
+      "q": "Can they make my app faster?",
+      "a": "Often, through indexes, better queries or structure changes. Ask for before and after measurements."
+    },
+    {
+      "q": "Do I get documentation?",
+      "a": "Ask for a diagram of the structure and notes on important queries and changes. It helps future developers."
+    }
+  ]
+}

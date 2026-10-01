@@ -73,6 +73,10 @@ Composers · Beat Making · Session Musicians · Custom Songs · Audio Editing �
 
 iOS App Development · Cross-platform Apps · Custom Websites · Data Scraping · Dashboards · Resume Design · Vector Tracing · Cartoon Illustration · UGC Ads · Slideshow Videos
 
+## 16순위 (158~167) — 데이터·마케팅·영상·글·디자인: 모두 완료 (2026-10-02)
+
+Data Cleaning · Databases · Video SEO · Text Message Marketing · Visual Effects · Animated GIFs · Lottie & Web Animation · Business Names & Slogans · Cover Letters · Storyboards
+
 다음 목록은 새로 정한다. 법률·투자·세무·의료처럼 잘못 쓰면 해가 되는 분야는 쓰지 않는다.
 
 ## 쓰는 방법

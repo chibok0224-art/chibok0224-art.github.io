@@ -1,0 +1,30 @@
+{
+  "title": "Best Lottie Animators (2026): Lightweight Web and App Animations",
+  "h1": "Best Lottie and Web Animators",
+  "description": "How to hire a Lottie or web animator for websites and apps: file formats, performance, how to brief it, what drives the price and red flags.",
+  "intro": "Lottie and web animators create small, smooth animations for websites and apps: animated icons, loading screens, onboarding illustrations and interactive buttons. Lottie files are lightweight and stay sharp at any size, which makes them popular with designers and developers. Projects go wrong when the animation uses features that do not work in Lottie, the file is too heavy, or it was never tested in the real app. This guide helps you get animations that run well.",
+  "updated": "2026-10-02",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What is a Lottie file?",
+      "a": "A Lottie is an animation saved as a small data file, usually JSON, that apps and websites play with a library. It scales without blur and is often much smaller than video."
+    },
+    {
+      "q": "Will it work on iOS, Android and web?",
+      "a": "Usually, but some effects are not supported everywhere. Ask the animator to test on the platforms you use."
+    },
+    {
+      "q": "Do I need a developer to add it?",
+      "a": "Usually yes, or a website builder that supports Lottie. Animators can provide files and basic instructions."
+    },
+    {
+      "q": "Can the animation react to clicks or scrolling?",
+      "a": "Yes, with extra developer work. Mention interactive behavior early so the animation is built with the right segments."
+    },
+    {
+      "q": "Do I get source files?",
+      "a": "Ask for the original animation project file so you can make changes later."
+    }
+  ]
+}

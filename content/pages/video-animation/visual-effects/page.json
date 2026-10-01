@@ -1,0 +1,30 @@
+{
+  "title": "Best VFX Artists (2026): Visual Effects for Film, Ads and Video",
+  "h1": "Best Visual Effects Artists",
+  "description": "How to hire a VFX artist for compositing, green screen, cleanup or 3D effects: footage needs, how to brief it, what drives the price and red flags.",
+  "intro": "Visual effects artists add or fix things in video: green screen replacement, object removal, sky changes, screen replacements, explosions, magic effects or 3D elements. Good VFX blends in so viewers do not notice it. Projects go wrong when footage was not shot with effects in mind, the shot list is unclear, or the delivered files do not match your edit. This guide helps you get effects that look real.",
+  "updated": "2026-10-02",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Do I need to film in a special way?",
+      "a": "Often yes. Green screen needs even lighting, and tracking needs visible detail. Talk to the artist before filming if you can."
+    },
+    {
+      "q": "What files should I send?",
+      "a": "The highest quality original footage, not compressed exports, plus the edit timing for each shot."
+    },
+    {
+      "q": "Can VFX fix any problem in my footage?",
+      "a": "Many problems can be fixed, but some cost more than reshooting. Ask the artist for an honest view."
+    },
+    {
+      "q": "What will I get back?",
+      "a": "Usually the finished shots in the same resolution and frame rate as the original, ready to drop into your edit."
+    },
+    {
+      "q": "How is the price set?",
+      "a": "Mostly per shot, depending on length and difficulty."
+    }
+  ]
+}

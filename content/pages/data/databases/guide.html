@@ -1,0 +1,62 @@
+<h2 id="what-you-get">What a good database package includes</h2>
+<p>Check that the offer clearly states:</p>
+<ul>
+  <li><strong>The task</strong>: design, queries, migration, optimization or repair.</li>
+  <li><strong>Database type and version</strong>.</li>
+  <li><strong>Backups</strong> before any change.</li>
+  <li><strong>Testing</strong> on a copy, not the live system.</li>
+  <li><strong>Documentation</strong>: structure diagram and notes.</li>
+  <li><strong>Security</strong>: access, permissions and passwords.</li>
+  <li><strong>Revisions</strong>, support period and delivery time.</li>
+</ul>
+<p>Ask the developer to work on a copy of the database first. Changes to a live system should only happen after testing and at a time that suits your users.</p>
+
+<p>Ask how the developer usually works: which tools they use for backups, how they test changes and how they deploy them. Clear, calm answers about process are a better sign of reliability than a long list of database names in a profile.</p>
+
+<h2 id="brief">How to brief a database developer</h2>
+<ol>
+  <li><strong>The application</strong> and how it uses the data.</li>
+  <li><strong>Database type</strong>, size and hosting.</li>
+  <li><strong>The problem</strong> or goal, with examples.</li>
+  <li><strong>Slow queries or errors</strong>, if any.</li>
+  <li><strong>Expected growth</strong> in users and data.</li>
+  <li><strong>Access rules</strong> and sensitive data.</li>
+  <li><strong>Deadline</strong> and maintenance windows.</li>
+</ol>
+<p>Describe how the data will grow. A design that works for a few thousand records can struggle with millions. Sharing realistic plans helps the developer choose structures and indexes that last.</p>
+<p>If the database holds personal or payment data, say so upfront. It affects how access is set up, which data can be copied for testing and how the work is documented.</p>
+
+<p>Ask how the developer will monitor the database after the work is finished. Simple alerts for disk space, slow queries or failed backups let you spot problems early, before users notice. Even a basic setup is far better than finding out about trouble from customers.</p>
+
+<h2 id="price">What drives the price</h2>
+<ul>
+  <li>size and complexity of the database</li>
+  <li>type of work: design, migration or tuning</li>
+  <li>amount of data to move</li>
+  <li>downtime limits</li>
+  <li>security and compliance needs</li>
+  <li>documentation and support</li>
+</ul>
+<p>Writing a few queries costs much less than migrating a large live system with no downtime allowed.</p>
+
+<h2 id="red-flags">Red flags</h2>
+<ul>
+  <li>Wants full admin access for a small task.</li>
+  <li>No backup before changes.</li>
+  <li>Changes made directly on the live system.</li>
+  <li>No measurements before and after tuning.</li>
+  <li>No documentation at the end.</li>
+</ul>
+<p>When the job is done, remove the developer's access and rotate any shared passwords. It is routine good practice, not a sign of distrust.</p>
+<p>For the application around the database, see our <a href="/programming-tech/full-stack-web-apps/">full stack web app guide</a> and <a href="/programming-tech/software-development/">software development guide</a>. For tidy data, read our <a href="/data/data-cleaning/">data cleaning guide</a>.</p>
+
+<p>Plan a short handover call or written summary at the end. It should explain what changed, why, how to roll back if needed and what to watch in the coming weeks. That knowledge stays with you even if you work with a different developer next time.</p>
+
+<h2 id="checklist">Quick pre-order checklist</h2>
+<ul class="checklist">
+  <li>A tested backup exists before changes.</li>
+  <li>Work will be tested on a copy first.</li>
+  <li>The developer has limited access only.</li>
+  <li>I will get documentation and a diagram.</li>
+  <li>Access will be removed after the job.</li>
+</ul>
