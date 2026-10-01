@@ -42,8 +42,6 @@
 </ul>
 <p>Fine-tuning a pretrained model costs much less than training a large custom network from scratch.</p>
 
-<p>Ask for a clear evaluation report with examples of errors. Seeing where the model fails helps you decide whether it is ready and where human review is still needed.</p>
-
 <p>Ask for an estimate of inference speed and cost in production. A model that is accurate but too slow or expensive to run may not be practical for your users.</p>
 
 <h2 id="red-flags">Red flags</h2>
@@ -55,13 +53,17 @@
   <li>No deployment plan.</li>
 </ul>
 <p>Monitor the model after deployment and retrain when data changes.</p>
-<p>For broader methods, see our <a href="/data/machine-learning/">machine learning guide</a>. For specific tasks, read our <a href="/data/computer-vision/">computer vision guide</a> and <a href="/data/nlp/">NLP guide</a>.</p>
+
+<h2 id="tips">Tips for a smoother project</h2>
+<p>Ask for a clear evaluation report with examples of errors. Seeing where the model fails helps you decide whether it is ready and where human review is still needed.</p>
 
 <p>Plan for model updates. Data changes over time, and a retraining process keeps performance stable.</p>
 
 <p>Keep training scripts, data versions and results organized. Reproducible work saves time when you need to improve or audit the model.</p>
 
 <p>Ask whether the engineer can start with a small proof of concept on part of your data. A short, focused test shows whether deep learning delivers enough improvement before you invest in full training, deployment and maintenance.</p>
+
+<p>For broader methods, see our <a href="/data/machine-learning/">machine learning guide</a>. For specific tasks, read our <a href="/data/computer-vision/">computer vision guide</a> and <a href="/data/nlp/">NLP guide</a>.</p>
 
 <h2 id="checklist">Quick pre-order checklist</h2>
 <ul class="checklist">

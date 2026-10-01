@@ -41,8 +41,6 @@
 </ul>
 <p>Simple tags on short texts cost much less than detailed segmentation of images or expert labeling that needs specialist knowledge.</p>
 
-<p>Plan the export early and test it with your training pipeline. A label file in the wrong coordinate system or naming scheme can waste days. A quick test with a small batch confirms that the labels load correctly before the full project is delivered.</p>
-
 <h2 id="red-flags">Red flags</h2>
 <ul>
   <li>No written guidelines.</li>
@@ -52,9 +50,13 @@
   <li>No pilot before full volume.</li>
 </ul>
 <p>Keep guideline versions with each delivered batch. If model results change, you can trace whether labeling rules changed too.</p>
-<p>For models built on labels, see our <a href="/data/computer-vision/">computer vision guide</a>, <a href="/data/nlp/">NLP guide</a> and <a href="/data/machine-learning/">machine learning guide</a>.</p>
+
+<h2 id="tips">Tips for a smoother project</h2>
+<p>Plan the export early and test it with your training pipeline. A label file in the wrong coordinate system or naming scheme can waste days. A quick test with a small batch confirms that the labels load correctly before the full project is delivered.</p>
 
 <p>Measure how labels affect your model, not only label accuracy. After training on a batch, look at the model's errors and check whether they trace back to unclear or inconsistent labels. This feedback loop improves both the guidelines and the model.</p>
+
+<p>For models built on labels, see our <a href="/data/computer-vision/">computer vision guide</a>, <a href="/data/nlp/">NLP guide</a> and <a href="/data/machine-learning/">machine learning guide</a>.</p>
 
 <h2 id="checklist">Quick pre-order checklist</h2>
 <ul class="checklist">
