@@ -1,0 +1,30 @@
+{
+  "title": "Best Data Enrichment Services (2026): Complete Your Records",
+  "h1": "Best Data Enrichment Services",
+  "description": "How to hire a data enrichment expert to add missing details to company or product records: sources, accuracy, privacy, price drivers and red flags.",
+  "intro": "Data enrichment experts add missing information to your records: company size and industry, website links, product attributes, categories or location details. Enriched data makes segmentation, reporting and outreach more useful. Projects go wrong when sources are unreliable, personal data is collected without a legal basis, or enriched fields are guessed rather than verified. This guide helps you get accurate, responsibly sourced data.",
+  "updated": "2026-10-02",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What can be added to my data?",
+      "a": "Common fields include company details, websites, categories, product specifications and locations. Agree on the exact fields."
+    },
+    {
+      "q": "Where does the data come from?",
+      "a": "Ask for the sources: official registries, company websites, product pages or licensed databases."
+    },
+    {
+      "q": "Can they add personal contact details?",
+      "a": "Be careful. Personal data has strict rules in many places. Check your legal basis and local rules before collecting it."
+    },
+    {
+      "q": "How accurate will it be?",
+      "a": "Ask for an accuracy estimate and spot-check samples. Mark fields that could not be verified rather than guessing."
+    },
+    {
+      "q": "What format will I get back?",
+      "a": "Usually your original file with new columns, plus notes on sources and unverified fields."
+    }
+  ]
+}

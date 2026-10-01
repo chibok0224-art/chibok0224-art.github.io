@@ -1,0 +1,65 @@
+<h2 id="what-you-get">What a good data engineering package includes</h2>
+<p>Check that the offer clearly states:</p>
+<ul>
+  <li><strong>Sources</strong> and destinations.</li>
+  <li><strong>Pipelines</strong> and schedules.</li>
+  <li><strong>Transformations</strong> and data models.</li>
+  <li><strong>Monitoring and alerts</strong>.</li>
+  <li><strong>Documentation</strong> and diagrams.</li>
+  <li><strong>Running cost estimate</strong>.</li>
+  <li><strong>Access</strong>, ownership and support.</li>
+</ul>
+<p>Ask for a diagram of the data flow: where data comes from, how often it moves and which tables it lands in. It is the map anyone will need when something goes wrong.</p>
+
+<p>Ask the engineer to show a pipeline they built and the documentation that came with it. Clear naming, comments and a simple diagram are signs that your system will be understandable by others, not only by the person who created it.</p>
+
+<h2 id="brief">How to brief a data engineer</h2>
+<ol>
+  <li><strong>Data sources</strong> and tools you use.</li>
+  <li><strong>Reports or uses</strong> that depend on the data.</li>
+  <li><strong>Volume and update frequency</strong>.</li>
+  <li><strong>Current problems</strong>, such as manual exports.</li>
+  <li><strong>Cloud and tool preferences</strong>.</li>
+  <li><strong>Security and privacy needs</strong>.</li>
+  <li><strong>Budget and deadline</strong>.</li>
+</ol>
+<p>Start from the questions people need answered. Knowing which reports matter helps the engineer prioritize sources, define tables and avoid building pipelines nobody uses.</p>
+<p>Keep running costs visible. Cloud warehouses and pipeline tools charge by usage, and inefficient queries or frequent schedules can make bills grow. Ask for cost estimates and simple cost monitoring.</p>
+<p>Agree on data quality checks, such as row counts and missing values. Catching problems in the pipeline is far better than discovering them in a board report.</p>
+
+<p>Consider data access rules as part of the design. Decide who can see which tables, especially those with personal or financial information. Setting permissions in the warehouse from the start is easier than restricting access after many people already use it.</p>
+
+<h2 id="price">What drives the price</h2>
+<ul>
+  <li>number of sources</li>
+  <li>data volume and frequency</li>
+  <li>transformation complexity</li>
+  <li>tool licenses and cloud costs</li>
+  <li>monitoring and testing</li>
+  <li>documentation and handover</li>
+</ul>
+<p>Connecting two tools to a spreadsheet costs much less than building a warehouse with many sources, transformations and alerts.</p>
+
+<p>Plan for growth in a sensible way. Building for many times your current data volume can waste money, while ignoring growth leads to painful rebuilds. A good engineer chooses a setup that fits today and can scale step by step.</p>
+
+<h2 id="red-flags">Red flags</h2>
+<ul>
+  <li>No monitoring or alerts.</li>
+  <li>No documentation.</li>
+  <li>Admin access requests for everything.</li>
+  <li>Tools chosen without cost discussion.</li>
+  <li>Pipelines only the engineer understands.</li>
+</ul>
+<p>Hold a handover session where the engineer walks your team through the system. Record it and keep it with the documentation.</p>
+<p>For reporting, see our <a href="/data/dashboards/">dashboard guide</a> and <a href="/data/data-analytics/">data analytics guide</a>. For databases, read our <a href="/data/databases/">database guide</a>.</p>
+
+<p>Agree on how changes in source tools will be handled. Apps update their exports and APIs, and pipelines can break when they do. A support arrangement or clear instructions for your team keeps data flowing when that happens.</p>
+
+<h2 id="checklist">Quick pre-order checklist</h2>
+<ul class="checklist">
+  <li>I listed the reports that depend on the data.</li>
+  <li>Monitoring and alerts are included.</li>
+  <li>I will get a data flow diagram.</li>
+  <li>Running costs are estimated.</li>
+  <li>My team will have access and documentation.</li>
+</ul>

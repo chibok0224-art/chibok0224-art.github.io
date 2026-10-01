@@ -1,0 +1,63 @@
+<h2 id="what-you-get">What a good computer vision package includes</h2>
+<p>Check that the offer clearly states:</p>
+<ul>
+  <li><strong>Task</strong>: detection, classification, segmentation or reading text.</li>
+  <li><strong>Data and labeling plan</strong>.</li>
+  <li><strong>Model choice</strong> and why.</li>
+  <li><strong>Evaluation</strong> on real test images.</li>
+  <li><strong>Deployment target</strong>: cloud, device or app.</li>
+  <li><strong>Code, model and documentation</strong>.</li>
+  <li><strong>Timeline</strong> and ownership.</li>
+</ul>
+<p>Ask for a quick feasibility test on a small set of your images. It reveals early whether lighting, angles or image quality will be a problem.</p>
+
+<p>Look for experts who show results on real-world images similar to yours, with honest notes on where the system struggled. Projects in factories, shops or outdoor settings reveal far more about skill than polished demos on standard datasets.</p>
+
+<h2 id="brief">How to brief a computer vision expert</h2>
+<ol>
+  <li><strong>What must be detected</strong> or recognized.</li>
+  <li><strong>Example images</strong>, good and difficult.</li>
+  <li><strong>Camera setup</strong> and conditions.</li>
+  <li><strong>Where it will run</strong> and speed needs.</li>
+  <li><strong>Acceptable error rate</strong>.</li>
+  <li><strong>Privacy constraints</strong>.</li>
+  <li><strong>Budget and deadline</strong>.</li>
+</ol>
+<p>Collect images from the real environment: the same cameras, lighting, angles and backgrounds. Models trained on clean internet photos often fail on a dim warehouse shelf or a busy street.</p>
+<p>Write labeling rules with examples, such as what counts as a damaged box. Inconsistent labels confuse the model and are one of the most common reasons for poor accuracy.</p>
+<p>Include difficult cases on purpose: partly hidden objects, glare, motion blur and rare defects. A system tested only on easy images will disappoint in daily use.</p>
+
+<p>Consider the hardware early. Camera resolution, frame rate, lighting and processing power all affect what is possible. Sometimes a better camera position or extra light improves results more than a more complex model.</p>
+
+<h2 id="price">What drives the price</h2>
+<ul>
+  <li>number of classes and objects</li>
+  <li>data collection and labeling</li>
+  <li>accuracy requirements</li>
+  <li>real-time or device deployment</li>
+  <li>integration with cameras or apps</li>
+  <li>maintenance</li>
+</ul>
+<p>A simple image classifier using a pretrained model costs much less than a real-time detection system running on edge devices with custom labeled data.</p>
+
+<h2 id="red-flags">Red flags</h2>
+<ul>
+  <li>Demo results on stock images only.</li>
+  <li>No labeling rules.</li>
+  <li>No test on real conditions.</li>
+  <li>Ignores privacy for images of people.</li>
+  <li>No plan for deployment.</li>
+</ul>
+<p>Monitor results after launch. New products, seasons or camera changes can reduce accuracy, and collecting a few difficult examples each month keeps the model reliable.</p>
+<p>For labeled data, see our <a href="/data/data-tagging-and-annotation/">data annotation guide</a>. For broader AI work, read our <a href="/data/machine-learning/">machine learning guide</a> and <a href="/programming-tech/ai-development/">AI development guide</a>.</p>
+
+<p>Plan who will review uncertain results. A camera system that flags unclear cases for a person to check is often safer and cheaper than one that tries to be perfect. The review results can also become new training data that improves the model.</p>
+
+<h2 id="checklist">Quick pre-order checklist</h2>
+<ul class="checklist">
+  <li>I have real images from my environment.</li>
+  <li>Labeling rules are written with examples.</li>
+  <li>Difficult cases are included in testing.</li>
+  <li>The deployment target is clear.</li>
+  <li>Privacy rules are followed.</li>
+</ul>

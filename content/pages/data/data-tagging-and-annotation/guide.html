@@ -1,0 +1,66 @@
+<h2 id="what-you-get">What a good annotation package includes</h2>
+<p>Check that the offer clearly states:</p>
+<ul>
+  <li><strong>Data type</strong> and volume.</li>
+  <li><strong>Label types</strong>: boxes, tags, segments, transcripts.</li>
+  <li><strong>Guidelines</strong> and annotator training.</li>
+  <li><strong>Quality checks</strong> and review rate.</li>
+  <li><strong>Export format</strong>.</li>
+  <li><strong>Data security</strong> and confidentiality.</li>
+  <li><strong>Timeline</strong> and revisions.</li>
+</ul>
+<p>Start with a pilot batch of a few hundred items. Reviewing it reveals unclear rules and misunderstandings while they are still cheap to fix.</p>
+<p>Ask for a list of questions annotators raised during the pilot. These questions usually point to gaps in your guidelines that would otherwise cause inconsistent labels later.</p>
+
+<p>Ask the service how annotators are trained and supported. Teams that run short training sessions, provide a contact for questions and give feedback on mistakes deliver far more consistent labels than teams that simply receive a file and start clicking.</p>
+
+<h2 id="brief">How to brief an annotation service</h2>
+<ol>
+  <li><strong>The goal</strong> of the AI model.</li>
+  <li><strong>Data samples</strong>.</li>
+  <li><strong>Label definitions</strong> with examples.</li>
+  <li><strong>Edge cases</strong> and how to handle them.</li>
+  <li><strong>Quality target</strong>.</li>
+  <li><strong>Export format</strong>.</li>
+  <li><strong>Security needs</strong> and deadline.</li>
+</ol>
+<p>Write guidelines with pictures or real examples for every label, including difficult ones. A single page of clear examples prevents more errors than a long abstract description.</p>
+<p>Decide how to handle uncertainty. Annotators should be able to flag unclear items rather than guess, and those flagged items are valuable for refining your rules.</p>
+<p>Keep the guidelines updated during the project and share changes with everyone. Labels made under old rules may need review.</p>
+
+<p>Consider how sensitive the data is before choosing a service. Medical images, private messages or customer recordings may need annotators under strict agreements, secure tools and limited access. Discuss these needs upfront, since they affect who can do the work and how it is priced.</p>
+
+<h2 id="price">What drives the price</h2>
+<ul>
+  <li>data volume</li>
+  <li>task difficulty</li>
+  <li>expertise needed, such as medical or legal knowledge</li>
+  <li>quality review rate</li>
+  <li>tooling and export</li>
+  <li>security requirements</li>
+</ul>
+<p>Simple tags on short texts cost much less than detailed segmentation of images or expert labeling that needs specialist knowledge.</p>
+
+<p>Plan the export early and test it with your training pipeline. A label file in the wrong coordinate system or naming scheme can waste days. A quick test with a small batch confirms that the labels load correctly before the full project is delivered.</p>
+
+<h2 id="red-flags">Red flags</h2>
+<ul>
+  <li>No written guidelines.</li>
+  <li>No quality checks or agreement measures.</li>
+  <li>Cannot export in your format.</li>
+  <li>Unclear data security.</li>
+  <li>No pilot before full volume.</li>
+</ul>
+<p>Keep guideline versions with each delivered batch. If model results change, you can trace whether labeling rules changed too.</p>
+<p>For models built on labels, see our <a href="/data/computer-vision/">computer vision guide</a>, <a href="/data/nlp/">NLP guide</a> and <a href="/data/machine-learning/">machine learning guide</a>.</p>
+
+<p>Measure how labels affect your model, not only label accuracy. After training on a batch, look at the model's errors and check whether they trace back to unclear or inconsistent labels. This feedback loop improves both the guidelines and the model.</p>
+
+<h2 id="checklist">Quick pre-order checklist</h2>
+<ul class="checklist">
+  <li>Guidelines include examples for every label.</li>
+  <li>A pilot batch comes first.</li>
+  <li>Quality checks are agreed.</li>
+  <li>Export format matches my tools.</li>
+  <li>Data security is in writing.</li>
+</ul>

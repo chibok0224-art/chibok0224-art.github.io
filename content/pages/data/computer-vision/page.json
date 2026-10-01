@@ -1,0 +1,30 @@
+{
+  "title": "Best Computer Vision Experts (2026): Image and Video AI",
+  "h1": "Best Computer Vision Experts",
+  "description": "How to hire a computer vision expert for object detection, image classification or video analysis: data, labeling, how to brief it, price drivers and red flags.",
+  "intro": "Computer vision experts build systems that understand images and video: detecting products on shelves, counting objects, reading documents, inspecting parts for defects or classifying photos. Good projects start with clear examples of what the system must see and real images from where it will be used. Projects go wrong when training images do not match real conditions, labels are inconsistent, or privacy rules for cameras and faces are ignored. This guide helps you get a vision system that works outside the demo.",
+  "updated": "2026-10-02",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "How many images do I need?",
+      "a": "It depends on the task and variation. Pretrained models reduce the need, but you still need realistic examples from your environment."
+    },
+    {
+      "q": "Who labels the images?",
+      "a": "Labeling may be done by you, the expert or a labeling service. Clear labeling rules matter more than volume."
+    },
+    {
+      "q": "Can it run on a phone or camera device?",
+      "a": "Often yes, with a smaller model. Say where it must run, since this affects accuracy and speed."
+    },
+    {
+      "q": "What about faces and privacy?",
+      "a": "Images of people may be personal data. Follow local privacy rules and avoid collecting more than needed."
+    },
+    {
+      "q": "How is accuracy measured?",
+      "a": "On a separate test set of real images, with metrics that match your goal, such as missed defects."
+    }
+  ]
+}
