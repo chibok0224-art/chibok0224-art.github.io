@@ -108,7 +108,7 @@ AI 서비스·컨설팅 중 원래 분류에 같은 서비스가 없는 것은 �
 - 29: Data Typing · Data Formatting · Data Governance & Protection · Deep Learning · Generative Models · Tabletop Games · Game Coaching · eSports Management & Strategy · Ingame Creation · Game Recordings & Guides
 - 30: Cosplay Creation · Traveling · Collectibles · Modeling & Acting · Styling & Beauty · Trend Forecasting · Family & Genealogy · Lifestyle & Fashion Photographers · Scenic Photographers · Photography Advice
 
-## 31~32순위 (307~328) — 2026-10-02 새벽에 정함, 쓰는 중
+## 31~32순위 (307~328) — 2026-10-02 새벽: 모두 작성(로컬 커밋, 게시·위젯은 아침)
 
 - 31 컨설팅(조언·계획 중심, 실행 가이드와 겹치지 않게): Social Media Strategy · Influencers Strategy · Video Marketing Strategy · SEM Strategy · Sales Strategy · Software Development Consulting · Mobile Apps Consulting · Cybersecurity Consulting · Game Development Consulting · Data Visualization Consulting
 - 32 기타: Databases Consulting · Data Processing Consulting · Market Research Consulting · Customer Care Consulting · Travel Advice · Software Management · Sustainability Consulting · Conscious Branding & Marketing · Deployments & DevOps · Blockchain Security & Auditing · Stable Diffusion Artists · Career Counseling

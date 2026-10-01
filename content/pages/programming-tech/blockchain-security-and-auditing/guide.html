@@ -1,0 +1,72 @@
+<h2 id="what-you-get">What a good audit package includes</h2>
+<p>Check that the offer clearly states:</p>
+<ul>
+  <li><strong>Scope</strong>: contracts and versions.</li>
+  <li><strong>Methods</strong>: manual review, tools, tests.</li>
+  <li><strong>Timeline</strong>.</li>
+  <li><strong>Report</strong> with severity levels.</li>
+  <li><strong>Fix verification</strong>.</li>
+  <li><strong>Confidentiality</strong>.</li>
+  <li><strong>Pricing</strong>.</li>
+</ul>
+<p>Freeze the code before the audit starts. Changes during the audit make findings unreliable.</p>
+<p>Ask for a fix review. Verifying that fixes work, and did not introduce new issues, is part of a complete audit.</p>
+
+<p>Ask auditors for public reports from past audits and look at their clarity and depth. Good reports explain each issue, its impact and how to fix it in a way developers can act on immediately.</p>
+
+<h2 id="brief">How to brief a blockchain auditor</h2>
+<ol>
+  <li><strong>Code repository</strong> and commit.</li>
+  <li><strong>Documentation</strong> and specifications.</li>
+  <li><strong>Tests</strong>.</li>
+  <li><strong>Known risks</strong>.</li>
+  <li><strong>Integrations</strong>.</li>
+  <li><strong>Deadline</strong>.</li>
+  <li><strong>Disclosure preferences</strong>.</li>
+</ol>
+<p>Provide clear documentation of intended behavior. Auditors need to know what the code should do to find where it does something else.</p>
+<p>Include your test suite. Good tests speed up the audit and reveal how the team thinks about edge cases.</p>
+<p>Plan time between the audit and launch to fix issues properly.</p>
+
+<p>Consider more than one review for high-value systems. Different auditors notice different issues, and layered reviews reduce risk further for contracts that will hold significant value.</p>
+
+<p>Ask the auditor how they prioritize findings and what each severity level means. Clear definitions help your team decide what must be fixed before launch and what can be scheduled later, so you do not delay a release for minor issues or ignore critical ones.</p>
+
+<h2 id="price">What drives the price</h2>
+<ul>
+  <li>code size and complexity</li>
+  <li>number of contracts</li>
+  <li>timeline</li>
+  <li>fix review</li>
+  <li>auditor reputation</li>
+  <li>additional testing</li>
+</ul>
+<p>A small contract review costs much less than a full audit of a complex system with multiple contracts and integrations.</p>
+
+<p>Plan an incident response process before launch: how to pause contracts, contact users and fix problems.</p>
+
+<p>Keep communication open during the audit. Quick answers to the auditor's questions about intended behavior speed up the review and reduce misunderstandings that could lead to false alarms or missed issues.</p>
+
+<h2 id="red-flags">Red flags</h2>
+<ul>
+  <li>Guarantees of security.</li>
+  <li>Very short timelines for large code.</li>
+  <li>No fix verification.</li>
+  <li>Vague reports.</li>
+  <li>Auditors also promoting tokens.</li>
+</ul>
+<p>Keep security monitoring after launch and plan audits for major upgrades.</p>
+<p>For development, see our <a href="/programming-tech/blockchain-development-and-solutions/">blockchain development guide</a>. For security, read our <a href="/programming-tech/cybersecurity/">cybersecurity guide</a> and <a href="/consulting-services/cybersecurity-consulting/">cybersecurity consulting guide</a>.</p>
+
+<p>Think about bug bounty programs after launch, which encourage researchers to report issues responsibly.</p>
+
+<p>Ask whether the auditor will review deployment scripts, admin key setup and upgrade mechanisms as well as contract code. Many serious incidents come from operational mistakes rather than code bugs, so a review of how contracts are deployed and controlled adds real protection.</p>
+
+<h2 id="checklist">Quick pre-order checklist</h2>
+<ul class="checklist">
+  <li>Code is frozen for the audit.</li>
+  <li>Documentation explains intended behavior.</li>
+  <li>Fixes will be re-reviewed.</li>
+  <li>Time is planned before launch.</li>
+  <li>Nobody guarantees safety.</li>
+</ul>

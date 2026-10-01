@@ -193,6 +193,18 @@ KEYWORDS = {
     "cybersecurity-consulting": "cybersecurity consultant",
     "game-development-consulting": "game development consultation",
     "data-visualization-consulting": "dashboard review",
+    "databases-consulting": "database consultant",
+    "data-processing-consulting": "data workflow automation",
+    "market-research-consulting": "market research consultant",
+    "customer-care-consulting": "customer support consultant",
+    "travel-advice": "travel advice",
+    "software-management": "crm setup",
+    "sustainability-consulting": "sustainability consultant",
+    "conscious-branding-and-marketing": "purpose driven branding",
+    "deployments-and-devops": "deploy website",
+    "blockchain-security-and-auditing": "smart contract audit",
+    "stable-diffusion-artists": "stable diffusion",
+    "career-counseling": "career coach",
 }
 
 
