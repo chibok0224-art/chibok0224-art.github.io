@@ -389,6 +389,25 @@ def hi_res(url):
     return url.replace("t_gig_cards_web", "t_main1,q_auto,f_auto")
 
 
+PICK_WIDGETS = {}  # content/pick_widgets.json: gig id -> Fiverr "specific gig" widget id
+
+
+def pick_widget(g):
+    """Fiverr's own single-gig widget: Fiverr serves the cover image, so we never copy it."""
+    wid = PICK_WIDGETS.get(g["id"])
+    if not wid:
+        return ""
+    onload = ("var frame = this; var script = document.createElement('script'); "
+              "script.addEventListener('load', function() { window.FW_SDK.register(frame); }); "
+              "script.setAttribute('src', 'https://www.fiverr.com/gig_widgets/sdk'); "
+              "document.body.appendChild(script);")
+    src = f"https://www.fiverr.com/gig_widgets?id={wid}&affiliate_id=1176697&strip_google_tagmanager=true"
+    return (f'<div class="pick-widget"><p class="muted">Ad: gig preview shown by Fiverr</p>'
+            f'<iframe src="{esc(src)}" loading="lazy" data-with-title="false" class="fiverr_nga_frame" '
+            'frameborder="0" height="200" width="100%" referrerpolicy="no-referrer-when-downgrade" '
+            f'data-mode="specific_gig" title="Fiverr gig: {esc(g["name"])}" onload="{onload}"></iframe></div>')
+
+
 def gig_card(g, i, links):
     gig = f'<p class="gig-title">“{esc(g["gig_title"])}”</p>' if g.get("gig_title") else ""
     watch = f'<p class="watch"><strong>Keep in mind:</strong> {esc(g["watch_out"])}</p>' if g.get("watch_out") else ""
@@ -437,6 +456,7 @@ def gig_card(g, i, links):
     {score}
     {price}
   </aside>
+  {pick_widget(g)}
 </article>"""
 
 
@@ -898,6 +918,8 @@ def main():
     tops, services = load_taxonomy()
     pages = load_pages(services, errors, warnings)
     WIDGETS.update(load_widgets())
+    if (CONTENT / "pick_widgets.json").exists():
+        PICK_WIDGETS.update(load(CONTENT / "pick_widgets.json"))
     link_showcase_copies(services, warnings)
     articles = load_articles(services, errors, warnings)
     index_learn(articles)

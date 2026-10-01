@@ -201,3 +201,8 @@ a.out:hover { color: var(--accent); text-decoration: underline; }
 .guide thead th { background: var(--surface); font-weight: 700; }
 .guide tbody td:first-child { font-weight: 600; }
 @media (max-width: 720px) { .guide table { display: block; overflow-x: auto; } }
+
+/* Fiverr single-gig widget under a pick card */
+.pick-widget { grid-column: 1 / -1; border-top: 1px solid var(--line); padding: 10px 24px 4px; }
+.pick-widget p { margin: 0 0 4px; font-size: 12px; }
+.pick-widget iframe { display: block; border: 0; }
