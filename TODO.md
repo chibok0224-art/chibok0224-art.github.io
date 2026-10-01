@@ -12,7 +12,7 @@
 ## 가이드
 - [ ] [CONTENT_PLAN.md](CONTENT_PLAN.md) 순서대로 2~3개씩 작성 (1~14순위 140개 모두 완료, 가이드 총 147개. 다음 목록은 새로 정해야 함)
 - [x] 겹치는 서비스 연결 (2026-09-25, build.py `link_showcase_copies`): AI Services·Consulting 페이지의 같은 서비스(예: AI Development)도 원래 대분류의 가이드로 연결되게
-- [ ] 첫 세션에 쓴 가이드 6개(Logo, UGC, Video Editing, Voice Over, SEO, Social Media Marketing)는 지금 규칙보다 짧거나 구조가 다름 → 450단어 이상·표준 섹션으로 보강할지 결정
+- [x] 첫 세션 가이드 보강 (2026-10-02 새벽, 별도 커밋 "Expand first-session guides"): UGC·Video Editing·Voice Over·SEO·Social Media Marketing 을 450단어 이상으로. Logo 는 이미 655단어라 그대로. SEO·SMM 의 types 섹션은 일부러 유지. 원하지 않으면 그 커밋만 되돌리면 됨
 - [ ] 도메인과 Search Console 연결 1~2개월 뒤, 실제 검색어를 보고 CONTENT_PLAN.md 순서 다시 매기기
 
 ## 도메인을 산 뒤 (순서대로)
