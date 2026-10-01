@@ -463,7 +463,7 @@ def widget_html(svc):
             '<p class="muted">Ad: these gigs are chosen and shown by Fiverr, not hand-checked by us. '
             'Use the guide below to judge them. We may earn a commission if you hire through them.</p>'
             f'<iframe src="{esc(w["src"])}" loading="lazy" data-with-title="false" class="fiverr_nga_frame" '
-            'frameborder="0" height="350" width="100%" referrerpolicy="no-referrer-when-downgrade" '
+            'frameborder="0" height="430" width="100%" referrerpolicy="no-referrer-when-downgrade" '
             f'data-mode="random_gigs" title="Fiverr gigs: {esc(svc["name"])}" onload="{onload}"></iframe></section>')
 
 
