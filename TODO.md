@@ -4,6 +4,8 @@
 - [x] `content/site.json` 의 `affiliate.bta` 에 제휴 ID 넣기 (2026-09-29)
 - [x] 딥링크 비교 → `landing_page_encode_times` = 2 (2026-09-29)
 - [x] 약관 확인: 링크에는 Fiverr 제공 이미지만 허용 → `show_gig_images` 는 false 유지 (2026-09-29)
+- [x] 가이드 147개 전부에 Fiverr 공식 Gig Ads Widget 넣기 (2026-10-01, `content/widgets.json`, 키워드는 `tools/widgets.py`)
+- [ ] 긱 커버 이미지 사용 서면 허락 요청 메일 (Gmail 초안, 사용자 승인 후 발송) → 허락되면 `show_gig_images: true`
 - [ ] 가이드 6개에 추천 판매자 채우기 (스킬: "○○ 추천 판매자 채워줘")
 
 ## 가이드
