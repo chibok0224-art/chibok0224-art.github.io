@@ -1,0 +1,30 @@
+{
+  "title": "Best Prompt Engineers for Hire (2026): Custom AI Prompts",
+  "h1": "Best Custom Prompt Writers",
+  "description": "How to hire a prompt writer for AI chat, image or business workflows: testing, documentation, how to brief it, what drives the price and red flags.",
+  "intro": "Custom prompt writers design instructions that make AI tools produce better, more consistent results: prompts for writing tasks, customer replies, data extraction, image generation or internal assistants. Good prompts are tested on real examples and documented so your team can use them. Projects go wrong when prompts only work on one example, are not tested across cases, or promise results the AI cannot deliver reliably. This guide helps you get prompts that work in daily use.",
+  "updated": "2026-10-02",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "Which AI tools will the prompts work with?",
+      "a": "Prompts are often tuned for a specific tool or model. Tell the writer which one you use and ask how results may differ elsewhere."
+    },
+    {
+      "q": "How are prompts tested?",
+      "a": "Ask for testing on a set of your real examples, including difficult ones, with outputs shown."
+    },
+    {
+      "q": "Will I get a prompt template?",
+      "a": "Good writers deliver templates with clear places for your own details, plus instructions."
+    },
+    {
+      "q": "Can prompts stop the AI from making mistakes?",
+      "a": "They reduce mistakes but cannot remove them. Human review is still needed for important outputs."
+    },
+    {
+      "q": "Who owns the prompts?",
+      "a": "Agree that you own them once paid, especially for business use."
+    }
+  ]
+}

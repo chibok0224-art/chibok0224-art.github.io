@@ -89,6 +89,17 @@ Fonts & Typography · Trade Booth Design · Car Wraps · Character Modeling · L
 
 Creative Writing · Podcast Writing · Research & Summaries · Brand Voice & Tone · Job Descriptions · eLearning Content Development · E-Commerce Marketing · Photo Preset Creation · Convert Files · DJ Drops & Tags
 
+## 20~25순위 (198~257) — 2026-10-02 새벽에 정함, 쓰는 중
+
+- 20 AI 서비스: AI Applications · AI Integration · AI Model Fine-tuning · Midjourney Artists · AI Music Videos · AI Video Art · AI Spokesperson Videos · Custom Prompt Writing · Text-to-speech · Custom AI Voices
+- 21 데이터·AI: Machine Learning · Computer Vision · NLP · Data Engineering · Data Processing · Data Tagging & Annotation · Data Enrichment · Speech Recognition · AI Strategy · AI Lessons
+- 22 비즈니스: Project Management · E-Commerce Management · Event Management · Product Management · Sales · Customer Experience Management · Presentations · Supply Chain Management · Game Concept Design · Business Consulting
+- 23 마케팅: GEO · Online Communities · Email Automations · Affiliate Marketing · Display Advertising · Digital Marketing Strategy · UGC Strategy · Social Commerce · Marketing Concepts & Ideation · PR Strategy
+- 24 배움·취미: Online Tutoring · Language Lessons · Online Music Lessons · Online Coding Lessons · Arts & Crafts · Recipe Creation · Puzzle & Game Creation · Game Testing & Feedback · Embroidery Digitizing · Greeting Cards & Videos
+- 25 영상·사진·디자인: Videographers · Animation for Streamers · Virtual & Streaming Avatars · Article to Video · Rigging · Portrait Photographers · Event Photographers · Drone Photographers · Fashion Design · Jewelry Design
+
+AI 서비스·컨설팅 중 원래 분류에 같은 서비스가 없는 것은 그 분류 아래에 쓴다(build.py 가 허용). 법률·투자·세무·의료·운동·식단은 쓰지 않는다.
+
 다음 목록은 새로 정한다. 법률·투자·세무·의료처럼 잘못 쓰면 해가 되는 분야는 쓰지 않는다.
 
 ## 쓰는 방법

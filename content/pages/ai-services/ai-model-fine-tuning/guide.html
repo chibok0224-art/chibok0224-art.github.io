@@ -1,0 +1,64 @@
+<h2 id="what-you-get">What a good fine-tuning package includes</h2>
+<p>Check that the offer clearly states:</p>
+<ul>
+  <li><strong>Goal</strong> and success measures.</li>
+  <li><strong>Base model</strong> and provider.</li>
+  <li><strong>Data preparation</strong> and cleaning.</li>
+  <li><strong>Evaluation</strong> on held-out test examples.</li>
+  <li><strong>Comparison</strong> with the base model and prompts.</li>
+  <li><strong>Deployment</strong> and running cost estimate.</li>
+  <li><strong>Documentation</strong> and ownership.</li>
+</ul>
+<p>Ask for a simple evaluation report: test examples, outputs from the original and fine-tuned models, and how they were scored. Without this, it is impossible to know whether the work improved anything.</p>
+
+<p>Ask the expert to explain, in plain words, why fine-tuning is the right approach for your case. A good expert will mention alternatives they considered and the trade-offs, such as cost, maintenance and how often your data changes.</p>
+
+<h2 id="brief">How to brief a fine-tuning expert</h2>
+<ol>
+  <li><strong>The task</strong> and why current results fall short.</li>
+  <li><strong>Examples</strong> of ideal input and output.</li>
+  <li><strong>Available data</strong> and its format.</li>
+  <li><strong>Quality standards</strong>.</li>
+  <li><strong>Where the model will run</strong>.</li>
+  <li><strong>Privacy limits</strong> for training data.</li>
+  <li><strong>Budget and deadline</strong>.</li>
+</ol>
+<p>Clean your examples before training. Inconsistent or wrong examples teach the model inconsistent or wrong behavior, and no amount of training fixes poor data.</p>
+<p>Keep a separate set of test examples that is never used for training. It is the only fair way to measure whether the fine-tuned model really performs better.</p>
+
+<p>Check the base model's license and the provider's terms before training. Some models restrict commercial use, require attribution or limit where the fine-tuned model can be hosted. Knowing these rules early avoids building on a model you cannot legally use as planned.</p>
+
+<h2 id="price">What drives the price</h2>
+<ul>
+  <li>amount of data preparation</li>
+  <li>model size and provider</li>
+  <li>number of training rounds</li>
+  <li>evaluation depth</li>
+  <li>deployment work</li>
+  <li>ongoing updates</li>
+</ul>
+<p>A small fine-tune on clean data with a simple evaluation costs much less than a large project with data collection, cleaning, repeated training and production deployment.</p>
+
+<p>Budget time for several rounds. The first training run rarely gives the best result; reviewing errors, improving examples and training again is a normal part of the process, and it should be reflected in the timeline and quote.</p>
+
+<h2 id="red-flags">Red flags</h2>
+<ul>
+  <li>Recommends fine-tuning without asking about alternatives.</li>
+  <li>No held-out test set.</li>
+  <li>No comparison with the original model.</li>
+  <li>Training data with private information.</li>
+  <li>Unclear ownership or provider terms.</li>
+</ul>
+<p>Plan for updates. Your data and needs will change, so keep the training data and scripts organized so the model can be retrained when necessary.</p>
+<p>For apps around the model, see our <a href="/ai-services/ai-applications/">AI applications guide</a> and <a href="/programming-tech/ai-development/">AI development guide</a>. For data preparation, read our <a href="/data/data-cleaning/">data cleaning guide</a>.</p>
+
+<p>Decide how the fine-tuned model will be monitored once it is in use. Track a small sample of outputs over time and compare them with your quality standards. Drifting results are a signal that the data or the model needs an update.</p>
+
+<h2 id="checklist">Quick pre-order checklist</h2>
+<ul class="checklist">
+  <li>I tried prompts and document search first.</li>
+  <li>I have clean, consistent examples.</li>
+  <li>A test set is kept separate.</li>
+  <li>Results will be compared with the base model.</li>
+  <li>Ownership and running costs are clear.</li>
+</ul>
