@@ -205,6 +205,8 @@ KEYWORDS = {
     "blockchain-security-and-auditing": "smart contract audit",
     "stable-diffusion-artists": "stable diffusion",
     "career-counseling": "career coach",
+    "funding-pitch-presentations": "pitch deck", "financial-modeling": "financial model",
+    "budgeting-and-forecasting": "budget forecast", "cost-analysis": "cost analysis",
 }
 
 
