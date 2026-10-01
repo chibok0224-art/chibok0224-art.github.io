@@ -183,6 +183,16 @@ KEYWORDS = {
     "lifestyle-and-fashion-photographers": "lifestyle photography",
     "scenic-photographers": "landscape photography",
     "photography-advice": "photography mentor",
+    "social-media-strategy": "social media strategy",
+    "influencers-strategy": "influencer marketing strategy",
+    "video-marketing-strategy": "video marketing strategy",
+    "sem-strategy": "google ads audit",
+    "sales-strategy": "sales strategy",
+    "software-development-consulting": "software consultant",
+    "mobile-apps-consulting": "app development consultation",
+    "cybersecurity-consulting": "cybersecurity consultant",
+    "game-development-consulting": "game development consultation",
+    "data-visualization-consulting": "dashboard review",
 }
 
 

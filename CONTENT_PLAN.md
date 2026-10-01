@@ -108,6 +108,13 @@ AI 서비스·컨설팅 중 원래 분류에 같은 서비스가 없는 것은 �
 - 29: Data Typing · Data Formatting · Data Governance & Protection · Deep Learning · Generative Models · Tabletop Games · Game Coaching · eSports Management & Strategy · Ingame Creation · Game Recordings & Guides
 - 30: Cosplay Creation · Traveling · Collectibles · Modeling & Acting · Styling & Beauty · Trend Forecasting · Family & Genealogy · Lifestyle & Fashion Photographers · Scenic Photographers · Photography Advice
 
+## 31~32순위 (307~328) — 2026-10-02 새벽에 정함, 쓰는 중
+
+- 31 컨설팅(조언·계획 중심, 실행 가이드와 겹치지 않게): Social Media Strategy · Influencers Strategy · Video Marketing Strategy · SEM Strategy · Sales Strategy · Software Development Consulting · Mobile Apps Consulting · Cybersecurity Consulting · Game Development Consulting · Data Visualization Consulting
+- 32 기타: Databases Consulting · Data Processing Consulting · Market Research Consulting · Customer Care Consulting · Travel Advice · Software Management · Sustainability Consulting · Conscious Branding & Marketing · Deployments & DevOps · Blockchain Security & Auditing · Stable Diffusion Artists · Career Counseling
+
+남은 서비스는 대부분 법률·재무·세무·투자·건강·암호화폐 금융이라 쓰지 않는다. 그 밖에 AI Chatbots, DALL-E, AI Artists, Voice Synthesis, Data Science & ML, AI Consulting 은 이미 쓴 가이드와 거의 같아 뺐다. Guest Posting, Online Investigations, Game Matchmaking 은 정책·개인정보 위험으로 뺐다.
+
 다음 목록은 새로 정한다. 법률·투자·세무·의료처럼 잘못 쓰면 해가 되는 분야는 쓰지 않는다.
 
 ## 쓰는 방법
