@@ -15,5 +15,5 @@
 ## 도메인을 산 뒤 (순서대로)
 1. [x] **도메인 연결** (Claude, 2026-10-01: thegigcompass.com): GitHub Pages 에 Custom domain 연결, DNS 안내, `base_url` 변경 → 사이트맵과 canonical 이 새 도메인으로 바뀜. 기존 github.io 주소는 자동으로 넘어감
 2. [x] **Google Search Console** (2026-10-01 소유 확인·사이트맵 제출) (직접 로그인): 반드시 1번 **뒤에**. 소유 확인 코드는 Claude 가 넣고, `sitemap.xml` 제출
-3. [ ] **Bing Webmaster Tools** (직접 로그인): Search Console 에서 가져오기. Bing, DuckDuckGo, Yahoo, AI 검색에 노출
+3. [x] **Bing Webmaster Tools** (2026-10-01 가져오기·사이트맵 제출) (직접 로그인): Search Console 에서 가져오기. Bing, DuckDuckGo, Yahoo, AI 검색에 노출
 4. [ ] **네이버 서치어드바이저** (직접 로그인): 효과는 적지만 무료
