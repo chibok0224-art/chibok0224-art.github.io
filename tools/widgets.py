@@ -192,7 +192,7 @@ KEYWORDS = {
     "mobile-apps-consulting": "app development consultation",
     "cybersecurity-consulting": "cybersecurity consultant",
     "game-development-consulting": "game development consultation",
-    "data-visualization-consulting": "dashboard review",
+    "data-visualization-consulting": "data visualization",
     "databases-consulting": "database consultant",
     "data-processing-consulting": "data workflow automation",
     "market-research-consulting": "market research consultant",

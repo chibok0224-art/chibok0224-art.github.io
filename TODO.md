@@ -5,7 +5,7 @@
 - [x] 딥링크 비교 → `landing_page_encode_times` = 2 (2026-09-29)
 - [x] 약관 확인: 링크에는 Fiverr 제공 이미지만 허용 → `show_gig_images` 는 false 유지 (2026-09-29)
 - [x] 가이드 147개 전부에 Fiverr 공식 Gig Ads Widget 넣기 (2026-10-01, `content/widgets.json`, 키워드는 `tools/widgets.py`)
-- [ ] **아침에 할 일 (2026-10-02):** 밤새 쓴 가이드 135개(20~33순위) 게시 + 위젯 135개 만들기. 위젯 키워드는 `tools/widgets.py` KEYWORDS 에 있음(목록 사본 `D:/Claude_Projects/Fiverr_Affiliate/widget_todo.json`). 빌더 화면 봇 확인은 사용자가 풀어야 함
+- [x] **2026-10-02 완료:** 가이드 135개(20~33순위) 게시, 위젯 135개 생성·적용 → 332개 가이드 모두 위젯 있음. data-visualization-consulting 키워드는 결과가 없어 'data visualization'으로 바꿈
 - [ ] 긱 커버 이미지 사용 서면 허락 요청 메일 (Gmail 초안, 사용자 승인 후 발송) → 허락되면 `show_gig_images: true`
 - [ ] 가이드 6개에 추천 판매자 채우기 (스킬: "○○ 추천 판매자 채워줘")
 
