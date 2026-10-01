@@ -1,0 +1,37 @@
+{
+  "title": "Illustration vs Graphic Design: What's the Difference?",
+  "h1": "Illustration vs graphic design: what's the difference?",
+  "description": "When to hire an illustrator and when to hire a graphic designer: what each creates, how they work together, and which fits books, brands and marketing.",
+  "intro": "Illustrators and graphic designers are both visual creatives, and some people do both. But they usually solve different problems. An illustrator creates original images: drawings, paintings, characters and scenes. A graphic designer arranges images, text and shapes into layouts that communicate clearly, such as flyers, packaging, social posts and websites. Many projects need both. This article explains the difference so you can hire the right person.",
+  "kind": "Comparison",
+  "order": 20,
+  "guides": [
+    "graphics-design/illustration",
+    "graphics-design/childrens-book-illustration",
+    "graphics-design/flyer-design",
+    "graphics-design/packaging-and-label-design"
+  ],
+  "faq": [
+    {
+      "q": "Can a graphic designer draw illustrations?",
+      "a": "Some can, especially simple icons or flat illustrations. For detailed artwork, hire an illustrator."
+    },
+    {
+      "q": "Can an illustrator design my book cover?",
+      "a": "They can create the artwork. A cover designer often adds the title and layout, unless the illustrator offers both."
+    },
+    {
+      "q": "Who owns illustration rights?",
+      "a": "It depends on the agreement. Check commercial use and whether you may adapt the artwork."
+    },
+    {
+      "q": "Is AI art an alternative?",
+      "a": "For some uses, but consider quality, consistency, licensing and platform rules carefully."
+    },
+    {
+      "q": "Which do I need for social media posts?",
+      "a": "Usually a graphic designer, unless you want original illustrated characters or scenes."
+    }
+  ],
+  "updated": "2026-10-02"
+}

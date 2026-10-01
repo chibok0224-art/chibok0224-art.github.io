@@ -1,0 +1,37 @@
+{
+  "title": "Freelancer vs Agency: Which Should You Hire for Your Project?",
+  "h1": "Freelancer vs agency: which should you hire?",
+  "description": "When an individual freelancer is the better choice and when an agency or a small team makes more sense: cost, speed, skills, risk and management effort.",
+  "intro": "Once you know what you need, the next question is who should do it: a single freelancer, a small freelance team or an agency. Each option can deliver excellent work, but they suit different projects. A freelancer is often faster and more affordable for focused tasks. An agency brings several skills and more capacity, but also more process and higher fees. This article helps you match the option to your project.",
+  "kind": "Start here",
+  "order": 6,
+  "guides": [
+    "programming-tech/website-development",
+    "online-marketing/social-media-marketing",
+    "graphics-design/logo-design",
+    "business/project-management"
+  ],
+  "faq": [
+    {
+      "q": "Are freelancers less reliable than agencies?",
+      "a": "Not necessarily. Reliability depends on the person or company. Check track record, reviews and communication either way."
+    },
+    {
+      "q": "Can I hire several freelancers instead of an agency?",
+      "a": "Yes, many businesses do. You then coordinate the work yourself or hire a project manager."
+    },
+    {
+      "q": "Do agencies cost more?",
+      "a": "Usually, because fees cover account management, overheads and a team."
+    },
+    {
+      "q": "What if my freelancer becomes unavailable?",
+      "a": "Keep files, accounts and documentation in your own hands so someone else can take over."
+    },
+    {
+      "q": "Can a freelancer grow with my business?",
+      "a": "Often yes. Many long-term working relationships start with one small project."
+    }
+  ],
+  "updated": "2026-10-02"
+}

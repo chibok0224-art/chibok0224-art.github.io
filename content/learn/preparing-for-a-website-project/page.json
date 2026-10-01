@@ -1,0 +1,37 @@
+{
+  "title": "What to Prepare Before Hiring Someone to Build Your Website",
+  "h1": "What to prepare before hiring someone to build your website",
+  "description": "What to prepare before a website project: goals, pages, content, images, domain, accounts, examples and decisions, so the build goes smoothly.",
+  "intro": "Website projects are among the most common freelance jobs, and also among the most likely to run late. The usual reason is not the designer or developer, but missing content and decisions on the client side: text that is not written, photos that are not chosen, logins that nobody can find. Preparing a few things before you hire makes the project faster, cheaper and far less stressful.",
+  "kind": "Start here",
+  "order": 7,
+  "guides": [
+    "graphics-design/website-design",
+    "programming-tech/website-development",
+    "writing-translation/website-content",
+    "programming-tech/website-maintenance"
+  ],
+  "faq": [
+    {
+      "q": "Do I need all the text before the project starts?",
+      "a": "Ideally most of it. If not, plan who will write it and when, or hire a website content writer."
+    },
+    {
+      "q": "Should I buy the domain myself?",
+      "a": "Yes. Register it in your own name and give the freelancer access."
+    },
+    {
+      "q": "What if I do not have professional photos?",
+      "a": "Use licensed stock photos, hire a photographer or ask the designer to suggest options."
+    },
+    {
+      "q": "How many pages does a small business site need?",
+      "a": "Often a home page, services, about and contact pages. Add others only if they serve a clear purpose."
+    },
+    {
+      "q": "Who maintains the site after launch?",
+      "a": "Decide this before the build. It affects which platform you choose."
+    }
+  ],
+  "updated": "2026-10-02"
+}

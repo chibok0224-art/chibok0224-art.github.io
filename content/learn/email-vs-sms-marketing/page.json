@@ -1,0 +1,37 @@
+{
+  "title": "Email vs SMS Marketing: Which Channel Should You Start With?",
+  "h1": "Email vs SMS marketing: which channel should you start with?",
+  "description": "Email and SMS marketing compared: reach, cost, content, consent rules and best uses, plus what an email or SMS marketing freelancer should set up for you.",
+  "intro": "Email and text messages are both direct channels: you reach people who have chosen to hear from you, without depending on social media algorithms. But they work differently. Email allows longer content, images and lower cost per message. SMS is short, immediate and often read quickly, but costs more per message and needs a lighter touch. This article compares the two and explains what a freelancer can set up for each.",
+  "kind": "Comparison",
+  "order": 23,
+  "guides": [
+    "online-marketing/email-marketing",
+    "online-marketing/text-message-marketing",
+    "online-marketing/email-automations",
+    "writing-translation/email-copy"
+  ],
+  "faq": [
+    {
+      "q": "Do I need permission to send marketing messages?",
+      "a": "Generally yes. Rules differ by country, and SMS rules are often stricter. Check the rules where your customers live."
+    },
+    {
+      "q": "Which is cheaper?",
+      "a": "Email usually costs less per message. SMS costs more per message but can be very effective for urgent messages."
+    },
+    {
+      "q": "Can I use both?",
+      "a": "Yes. Many businesses use email for most messages and SMS for time-sensitive ones."
+    },
+    {
+      "q": "What are automations?",
+      "a": "Messages sent automatically after an action, such as a welcome series or an abandoned cart reminder."
+    },
+    {
+      "q": "How often should I send?",
+      "a": "Often enough to stay relevant without annoying people. Watch unsubscribe rates and adjust."
+    }
+  ],
+  "updated": "2026-10-02"
+}
