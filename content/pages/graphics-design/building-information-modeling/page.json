@@ -1,0 +1,30 @@
+{
+  "title": "Best BIM Modelers for Hire (2026): Revit and BIM Services",
+  "h1": "Best Building Information Modeling (BIM) Services",
+  "description": "How to hire a BIM modeler for Revit models, drawings, clash checks or families: detail levels, standards, how to brief it, price drivers and red flags.",
+  "intro": "Building information modeling (BIM) specialists create intelligent 3D models of buildings that hold information about walls, doors, systems and materials. They produce drawings, schedules, quantity takeoffs and clash checks for architects, engineers and contractors. Projects go wrong when the level of detail is unclear, standards and templates are ignored, or models conflict with other disciplines. BIM supports design and coordination, but licensed professionals remain responsible for building safety and approvals. This guide helps you hire BIM support that fits your project.",
+  "updated": "2026-10-02",
+  "featured_count": 5,
+  "faq": [
+    {
+      "q": "What software is used?",
+      "a": "Common BIM tools include Revit and others. Confirm the software and version your team uses."
+    },
+    {
+      "q": "What is level of detail?",
+      "a": "How much geometry and information a model contains. Agree on the required level for each stage."
+    },
+    {
+      "q": "Can they convert CAD drawings to BIM?",
+      "a": "Yes, many convert 2D drawings or point clouds into BIM models."
+    },
+    {
+      "q": "Do they check clashes?",
+      "a": "Some offer clash detection between structure, architecture and building systems."
+    },
+    {
+      "q": "Who is responsible for compliance?",
+      "a": "The licensed architect or engineer of record. BIM modelers support but do not replace them."
+    }
+  ]
+}

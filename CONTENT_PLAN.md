@@ -89,7 +89,7 @@ Fonts & Typography · Trade Booth Design · Car Wraps · Character Modeling · L
 
 Creative Writing · Podcast Writing · Research & Summaries · Brand Voice & Tone · Job Descriptions · eLearning Content Development · E-Commerce Marketing · Photo Preset Creation · Convert Files · DJ Drops & Tags
 
-## 20~25순위 (198~257) — 2026-10-02 새벽에 정함, 쓰는 중
+## 20~25순위 (198~257) — 2026-10-02 새벽: 모두 작성(로컬 커밋, 게시·위젯은 아침)
 
 - 20 AI 서비스: AI Applications · AI Integration · AI Model Fine-tuning · Midjourney Artists · AI Music Videos · AI Video Art · AI Spokesperson Videos · Custom Prompt Writing · Text-to-speech · Custom AI Voices
 - 21 데이터·AI: Machine Learning · Computer Vision · NLP · Data Engineering · Data Processing · Data Tagging & Annotation · Data Enrichment · Speech Recognition · AI Strategy · AI Lessons
@@ -99,6 +99,14 @@ Creative Writing · Podcast Writing · Research & Summaries · Brand Voice & Ton
 - 25 영상·사진·디자인: Videographers · Animation for Streamers · Virtual & Streaming Avatars · Article to Video · Rigging · Portrait Photographers · Event Photographers · Drone Photographers · Fashion Design · Jewelry Design
 
 AI 서비스·컨설팅 중 원래 분류에 같은 서비스가 없는 것은 그 분류 아래에 쓴다(build.py 가 허용). 법률·투자·세무·의료·운동·식단은 쓰지 않는다.
+
+## 26~30순위 (258~307) — 2026-10-02 새벽에 정함, 쓰는 중
+
+- 26: Art Direction · Landscape Design · Lighting Design · 3D Architecture · 3D Industrial Design · 3D Fashion & Garment · AI-Generated Character Design · Design Consultation · Building Information Modeling
+- 27: Music Transcription · DJ Mixing · Custom Patches & Samples · Audio Plugin Development · Music & Audio Consultation · Video Art · Video Templates Editing · Filmed Video Production · Meditation Videos · Video Consultation
+- 28: Content Strategy · AI Content Editing · Writing Advice · Interpretation · Handwriting · GoDaddy · Consultation & Training · Development for Streamers · Electronics Engineering · Blockchain Development & Solutions
+- 29: Data Typing · Data Formatting · Data Governance & Protection · Deep Learning · Generative Models · Tabletop Games · Game Coaching · eSports Management & Strategy · Ingame Creation · Game Recordings & Guides
+- 30: Cosplay Creation · Traveling · Collectibles · Modeling & Acting · Styling & Beauty · Trend Forecasting · Family & Genealogy · Lifestyle & Fashion Photographers · Scenic Photographers · Photography Advice
 
 다음 목록은 새로 정한다. 법률·투자·세무·의료처럼 잘못 쓰면 해가 되는 분야는 쓰지 않는다.
 
