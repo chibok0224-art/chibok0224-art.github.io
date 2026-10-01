@@ -77,6 +77,10 @@ iOS App Development · Cross-platform Apps · Custom Websites · Data Scraping �
 
 Data Cleaning · Databases · Video SEO · Text Message Marketing · Visual Effects · Animated GIFs · Lottie & Web Animation · Business Names & Slogans · Cover Letters · Storyboards
 
+## 17순위 (168~177) — 디자인·글·영상·음악: 모두 완료 (2026-10-02)
+
+Comic Illustration · Portraits & Caricatures · Pattern Design · Tattoo Design · Catalog Design · Speechwriting · Beta Reading · Crowdfunding Videos · Remixing · Vocal Tuning
+
 다음 목록은 새로 정한다. 법률·투자·세무·의료처럼 잘못 쓰면 해가 되는 분야는 쓰지 않는다.
 
 ## 쓰는 방법

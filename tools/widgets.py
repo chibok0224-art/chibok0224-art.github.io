@@ -63,6 +63,9 @@ KEYWORDS = {
     "text-message-marketing": "sms marketing", "visual-effects": "vfx", "animated-gifs": "animated gif",
     "lottie-and-web-animation": "lottie animation", "business-names-and-slogans": "business name",
     "cover-letters": "cover letter", "storyboards": "storyboard",
+    "portraits-and-caricatures": "caricature", "pattern-design": "seamless pattern",
+    "speechwriting": "speech writing", "beta-reading": "beta reader", "crowdfunding-videos": "kickstarter video",
+    "remixing": "remix",
 }
 
 
