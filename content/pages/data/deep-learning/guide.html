@@ -1,0 +1,73 @@
+<h2 id="what-you-get">What a good deep learning package includes</h2>
+<p>Check that the offer clearly states:</p>
+<ul>
+  <li><strong>Problem and metric</strong>.</li>
+  <li><strong>Data preparation</strong>.</li>
+  <li><strong>Model approach</strong> and pretrained models.</li>
+  <li><strong>Compute plan</strong> and costs.</li>
+  <li><strong>Evaluation</strong> on real test data.</li>
+  <li><strong>Deployment</strong> format.</li>
+  <li><strong>Code, weights and documentation</strong>.</li>
+</ul>
+<p>Ask the engineer to compare deep learning with a simpler baseline. If a simple model performs nearly as well, it may be the better business choice.</p>
+
+<p>Ask engineers about deep learning projects they have deployed in real products, not only research experiments. Experience with data pipelines, monitoring and deployment matters as much as model design for business results.</p>
+
+<p>Plan data labeling carefully. Consistent, high-quality labels often improve results more than a bigger model. Clear labeling rules and quality checks are worth the investment.</p>
+
+<h2 id="brief">How to brief a deep learning engineer</h2>
+<ol>
+  <li><strong>The task</strong>.</li>
+  <li><strong>Data</strong> and labels.</li>
+  <li><strong>Success metric</strong>.</li>
+  <li><strong>Where the model will run</strong>.</li>
+  <li><strong>Speed and cost limits</strong>.</li>
+  <li><strong>Privacy constraints</strong>.</li>
+  <li><strong>Budget and deadline</strong>.</li>
+</ol>
+<p>Describe where the model will run, such as a phone, server or cloud. Hardware limits shape model size and design.</p>
+
+<p>Discuss explainability if decisions affect people. Understanding why a model made a prediction can be important for trust and for meeting rules in some industries.</p>
+
+<p>Consider privacy when training on personal data such as photos, voices or messages. Collect only what is needed, follow local privacy rules and agree on how training data is stored, protected and eventually deleted.</p>
+
+<h2 id="price">What drives the price</h2>
+<ul>
+  <li>data preparation</li>
+  <li>model complexity</li>
+  <li>compute resources</li>
+  <li>deployment work</li>
+  <li>evaluation depth</li>
+  <li>ongoing retraining</li>
+</ul>
+<p>Fine-tuning a pretrained model costs much less than training a large custom network from scratch.</p>
+
+<p>Ask for a clear evaluation report with examples of errors. Seeing where the model fails helps you decide whether it is ready and where human review is still needed.</p>
+
+<p>Ask for an estimate of inference speed and cost in production. A model that is accurate but too slow or expensive to run may not be practical for your users.</p>
+
+<h2 id="red-flags">Red flags</h2>
+<ul>
+  <li>No baseline comparison.</li>
+  <li>No compute cost estimate.</li>
+  <li>Evaluation only on training data.</li>
+  <li>Unclear ownership.</li>
+  <li>No deployment plan.</li>
+</ul>
+<p>Monitor the model after deployment and retrain when data changes.</p>
+<p>For broader methods, see our <a href="/data/machine-learning/">machine learning guide</a>. For specific tasks, read our <a href="/data/computer-vision/">computer vision guide</a> and <a href="/data/nlp/">NLP guide</a>.</p>
+
+<p>Plan for model updates. Data changes over time, and a retraining process keeps performance stable.</p>
+
+<p>Keep training scripts, data versions and results organized. Reproducible work saves time when you need to improve or audit the model.</p>
+
+<p>Ask whether the engineer can start with a small proof of concept on part of your data. A short, focused test shows whether deep learning delivers enough improvement before you invest in full training, deployment and maintenance.</p>
+
+<h2 id="checklist">Quick pre-order checklist</h2>
+<ul class="checklist">
+  <li>Deep learning is compared with a baseline.</li>
+  <li>Data and labels are ready.</li>
+  <li>Compute costs are estimated.</li>
+  <li>Evaluation uses real test data.</li>
+  <li>I own code and weights.</li>
+</ul>
