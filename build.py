@@ -439,6 +439,34 @@ def filter_box(target, placeholder, count_id):
 
 # ---------- pages ----------
 
+def load_widgets():
+    """Fiverr Gig Ads Widget embeds (content/widgets.json), keyed by guide path."""
+    f = CONTENT / "widgets.json"
+    if not f.exists():
+        return {}
+    return {k: v for k, v in load(f).items() if not k.startswith("_")}
+
+
+WIDGETS = {}
+
+
+def widget_html(svc):
+    """Fiverr's own ad widget. Fiverr picks the gigs and serves the images, so we label it as an ad."""
+    w = WIDGETS.get(svc["path"])
+    if not w:
+        return ""
+    onload = ("var frame = this; var script = document.createElement('script'); "
+              "script.addEventListener('load', function() { window.FW_SDK.register(frame); }); "
+              "script.setAttribute('src', 'https://www.fiverr.com/gig_widgets/sdk'); "
+              "document.body.appendChild(script);")
+    return (f'<section class="widget"><h2 id="on-fiverr">Popular {esc(svc["name"])} gigs on Fiverr</h2>'
+            '<p class="muted">Ad: these gigs are chosen and shown by Fiverr, not hand-checked by us. '
+            'Use the guide below to judge them. We may earn a commission if you hire through them.</p>'
+            f'<iframe src="{esc(w["src"])}" loading="lazy" data-with-title="false" class="fiverr_nga_frame" '
+            'frameborder="0" height="350" width="100%" referrerpolicy="no-referrer-when-downgrade" '
+            f'data-mode="random_gigs" title="Fiverr gigs: {esc(svc["name"])}" onload="{onload}"></iframe></section>')
+
+
 def service_page(site, links, svc, gigs, draft):
     pg, top = svc["page"], svc["top"]
     n = pg.get("featured_count", 5)
@@ -508,6 +536,7 @@ def service_page(site, links, svc, gigs, draft):
 {DISCLOSURE_NOTE}
 <p class="lead">{esc(pg["intro"])}</p>
 {picks_html}
+{widget_html(svc)}
 {more_html}
 <p class="browse">{browse}</p>
 <section class="guide">
@@ -675,6 +704,7 @@ PRIVACY = """
 <p>This site does not use cookies, does not run analytics, and does not ask you for personal information.</p>
 <p>When you click a link to Fiverr, you leave this site. Fiverr may then set its own cookies, including cookies that record that you came from our link so that a commission can be credited. That is governed by Fiverr's own privacy policy.</p>
 <p>Our hosting provider may keep standard server logs (such as IP address and pages requested) for security and reliability.</p>
+<p>Some guides show a gig widget provided by Fiverr. It is loaded from fiverr.com, and Fiverr may set its own cookies when it loads or when you click it, under Fiverr's privacy policy.</p>
 <p>If we add analytics or any form in the future, we will update this page first.</p>
 """
 
@@ -719,6 +749,7 @@ def main():
     errors, warnings = [], []
     tops, services = load_taxonomy()
     pages = load_pages(services, errors, warnings)
+    WIDGETS.update(load_widgets())
     link_showcase_copies(services, warnings)
     gigs = load_gigs(errors)
     e, w = check_gigs(gigs, services)

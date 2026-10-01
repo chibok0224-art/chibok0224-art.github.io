@@ -188,3 +188,9 @@ a.out:hover { color: var(--accent); text-decoration: underline; }
 
 .site-footer { border-top: 1px solid var(--line); padding: 28px 0 40px; font-size: 14px; color: var(--muted); }
 .site-footer a { color: var(--muted); }
+
+/* Fiverr Gig Ads Widget (an ad served by Fiverr) */
+.widget { margin: 28px 0; padding: 16px 20px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.widget h2 { margin-top: 0; font-size: 1.15rem; }
+.widget .muted { font-size: .85rem; margin: .25rem 0 .75rem; }
+.widget iframe { display: block; border: 0; }
