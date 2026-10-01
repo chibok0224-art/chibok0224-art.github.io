@@ -119,6 +119,10 @@ AI 서비스·컨설팅 중 원래 분류에 같은 서비스가 없는 것은 �
 
 Funding Pitch Presentations · Financial Modeling · Budgeting and Forecasting · Cost Analysis — 재무 분석·문서 작업만 다루고, 세무·투자·회계 판단은 전문가에게 확인하라고 적었다.
 
+## 34순위 (333~335) — 2026-10-02: 작성·위젯 완료(로컬 커밋, 게시 전)
+
+HR Consulting · Marketing Consultation · Life Coaching — 마지막으로 남은 '안전한' 서비스. HR은 법률 판단은 변호사 확인, 라이프 코칭은 치료가 아님을 적었다. 이제 가이드가 없는 서비스는 법률·세무·투자·건강·암호화폐·점성술·중복(AI 쇼케이스) 뿐이다.
+
 다음 목록은 새로 정한다. 법률·투자·세무·의료처럼 잘못 쓰면 해가 되는 분야는 쓰지 않는다.
 
 ## 쓰는 방법

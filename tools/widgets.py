@@ -207,6 +207,8 @@ KEYWORDS = {
     "career-counseling": "career coach",
     "funding-pitch-presentations": "pitch deck", "financial-modeling": "financial model",
     "budgeting-and-forecasting": "budget forecast", "cost-analysis": "cost analysis",
+    "hr-consulting": "hr consultant", "marketing-consultation": "marketing consultation",
+    "life-coaching": "life coach",
 }
 
 
