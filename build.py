@@ -725,8 +725,25 @@ def learn_index(site, articles, draft):
 
 
 def art(top, cls="card-art"):
-    return (f'<img class="{cls}" src="/img/cat/{top["slug"]}.svg" alt="" width="320" height="180" '
+    """Category photo (static/img/photo, see PHOTO_CREDITS.md) when there is one, else the drawn card art."""
+    photo = STATIC / "img" / "photo" / f'{top["slug"]}.webp'
+    src = f'/img/photo/{top["slug"]}.webp' if photo.exists() else f'/img/cat/{top["slug"]}.svg'
+    return (f'<img class="{cls}" src="{src}" alt="" width="320" height="180" '
             'loading="lazy" decoding="async">')
+
+
+def latest_mix(pages, n=12):
+    """Newest guides, taking one category at a time so a single category cannot fill the row."""
+    by_top = {}
+    for p in sorted(pages, key=lambda p: (p["updated"], p["h1"]), reverse=True):
+        by_top.setdefault(p["service"]["top"]["slug"], []).append(p)
+    queues = sorted(by_top.values(), key=lambda q: q[0]["updated"], reverse=True)
+    out = []
+    while len(out) < n and any(queues):
+        for q in queues:
+            if q and len(out) < n:
+                out.append(q.pop(0))
+    return out
 
 
 def home_page(site, tops, pages, draft, articles=()):
@@ -737,7 +754,7 @@ def home_page(site, tops, pages, draft, articles=()):
         meta = f"{count} services" + (f" · {guides} guide{'s' if guides != 1 else ''}" if guides else "")
         cards += (f'<a class="card" href="/{t["slug"]}/">{art(t)}<div class="card-body">'
                   f'<h3>{esc(t["name"])}</h3><p>{esc(t["blurb"])}</p><span>{meta} →</span></div></a>')
-    latest = sorted(pages, key=lambda p: p["updated"], reverse=True)[:12]
+    latest = latest_mix(pages)
     latest_html = "".join(
         f'<a class="card guide-card" href="/{p["service"]["path"]}/">{art(p["service"]["top"])}'
         f'<div class="card-body"><p class="eyebrow">{esc(p["service"]["top"]["name"])}</p>'
