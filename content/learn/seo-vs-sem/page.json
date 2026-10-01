@@ -1,0 +1,37 @@
+{
+  "title": "SEO vs SEM: Organic Search or Paid Search Ads?",
+  "h1": "SEO vs SEM: organic search or paid search ads?",
+  "description": "The difference between SEO and paid search (SEM), how fast each works, what each freelancer does, and how to decide where to start for your business.",
+  "intro": "Search engine optimization (SEO) and search engine marketing (SEM) both aim to bring visitors from search engines, but they work in very different ways. SEO improves your website so it appears in the free, organic results. SEM usually means paid search ads that appear above or beside those results. One builds slowly and lasts; the other is fast but stops when you stop paying. This article explains both and helps you choose.",
+  "kind": "Comparison",
+  "order": 12,
+  "guides": [
+    "online-marketing/search-engine-optimization-seo",
+    "online-marketing/search-engine-marketing-sem",
+    "online-marketing/local-seo",
+    "online-marketing/web-analytics"
+  ],
+  "faq": [
+    {
+      "q": "Which is faster?",
+      "a": "Paid search can bring visitors as soon as ads are approved. SEO usually takes months to show clear results."
+    },
+    {
+      "q": "Can anyone guarantee the first position in search results?",
+      "a": "No. Be very cautious of anyone who promises specific rankings."
+    },
+    {
+      "q": "Do I need both?",
+      "a": "Many businesses use both: ads for quick results and testing, SEO for long-term traffic."
+    },
+    {
+      "q": "Does the ad budget go to the freelancer?",
+      "a": "No. The ad budget is paid to the ad platform; the freelancer charges for setting up and managing campaigns."
+    },
+    {
+      "q": "What is local SEO?",
+      "a": "SEO focused on appearing in local results and maps, important for businesses that serve a specific area."
+    }
+  ],
+  "updated": "2026-10-02"
+}

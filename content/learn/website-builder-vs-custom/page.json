@@ -1,0 +1,37 @@
+{
+  "title": "WordPress, Website Builders or Custom Code: Which Website Fits?",
+  "h1": "WordPress, website builders or custom code: which website fits?",
+  "description": "Compare WordPress, website builders such as Wix, Squarespace and Shopify, and custom-coded websites by cost, flexibility, maintenance and who can update them.",
+  "intro": "Before you hire someone to build a website, you need to decide what it will be built on. The main choices are WordPress, a hosted website builder such as Wix, Squarespace, Webflow or Shopify, or a custom-coded site. Each one changes who you hire, how much maintenance you take on and how easily you can update the site yourself. This article compares the options in plain language.",
+  "kind": "Comparison",
+  "order": 13,
+  "guides": [
+    "programming-tech/wordpress",
+    "programming-tech/wix",
+    "programming-tech/shopify",
+    "programming-tech/custom-websites"
+  ],
+  "faq": [
+    {
+      "q": "Which option is easiest to update myself?",
+      "a": "Hosted website builders are usually the easiest for non-technical owners."
+    },
+    {
+      "q": "Is WordPress free?",
+      "a": "The software is free, but you pay for hosting, a domain and often premium themes or plugins."
+    },
+    {
+      "q": "When is a custom website worth it?",
+      "a": "When you need features or performance that platforms cannot provide, and you have budget for ongoing development."
+    },
+    {
+      "q": "Can I move my site to another platform later?",
+      "a": "Usually, but it can take work. Ask about export options before you choose."
+    },
+    {
+      "q": "Which is best for an online store?",
+      "a": "Dedicated store platforms such as Shopify, or WordPress with WooCommerce, are common choices."
+    }
+  ],
+  "updated": "2026-10-02"
+}

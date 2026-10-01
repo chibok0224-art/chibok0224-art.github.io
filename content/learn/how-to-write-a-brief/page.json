@@ -1,0 +1,37 @@
+{
+  "title": "How to Write a Freelance Brief (With a Copyable Template)",
+  "h1": "How to write a freelance brief that gets good work",
+  "description": "What to include in a brief for a freelancer: goal, audience, deliverables, style, files and deadline, plus a simple template you can copy for any project.",
+  "intro": "A brief is the document that tells a freelancer what you need. It does not need to be long or formal, but it does need to be clear. Most disappointing results are not caused by bad freelancers; they are caused by briefs that leave the important decisions to guesswork. This article explains what every brief should cover and gives you a simple template that works for design, writing, video, development and most other services.",
+  "kind": "Start here",
+  "order": 2,
+  "guides": [
+    "graphics-design/logo-design",
+    "writing-translation/website-content",
+    "video-animation/animated-explainers",
+    "graphics-design/website-design"
+  ],
+  "faq": [
+    {
+      "q": "How long should a brief be?",
+      "a": "Usually one page is enough. Clarity matters more than length."
+    },
+    {
+      "q": "What if I do not know what style I want?",
+      "a": "Collect a few examples you like and a few you dislike. Freelancers can read a lot from those."
+    },
+    {
+      "q": "Should I send the brief before ordering?",
+      "a": "For bigger projects, send a short version first to confirm the seller can do it, then the full brief after ordering."
+    },
+    {
+      "q": "Can I change the brief after the work starts?",
+      "a": "Small clarifications are normal. Big changes usually count as a new request and may cost extra."
+    },
+    {
+      "q": "Do freelancers sign confidentiality agreements?",
+      "a": "Many will. Ask before sharing sensitive material, and share only what the job needs."
+    }
+  ],
+  "updated": "2026-10-02"
+}

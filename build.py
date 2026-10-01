@@ -86,6 +86,27 @@ def load_pages(services, errors, warnings):
     return pages
 
 
+def load_articles(services, errors, warnings):
+    """Comparison and how-to articles: content/learn/<slug>/page.json + article.html, served at /learn/<slug>/."""
+    articles = []
+    for meta in sorted((CONTENT / "learn").glob("*/page.json")):
+        a = load(meta)
+        a["slug"] = meta.parent.name
+        a["html"] = (meta.parent / "article.html").read_text(encoding="utf-8")
+        a["guide_list"] = []
+        for path in a.get("guides", []):
+            svc = services.get(path)
+            if not svc or not svc["page"]:
+                errors.append(f"content/learn/{a['slug']}: guide {path} does not exist")
+            else:
+                a["guide_list"].append(svc)
+        text = json.dumps({k: a.get(k) for k in ("title", "h1", "description", "intro", "faq")}) + a["html"]
+        if "fiverr" in text.lower():
+            warnings.append(f"content/learn/{a['slug']}: mentions Fiverr in the article text (house style: don't)")
+        articles.append(a)
+    return sorted(articles, key=lambda a: (a.get("order", 99), a["slug"]))
+
+
 # Categories that regroup services from other categories (AI Services, Consulting).
 SHOWCASE_TOPS = {"ai-services", "consulting-services"}
 
@@ -275,7 +296,7 @@ def page(site, *, title, description, path, body, schema=None, draft=False):
 <header class="site-header">
   <div class="wrap bar">
     <a class="logo" href="/"><img src="/favicon.svg" alt="" width="24" height="24">{esc(site['name'])}</a>
-    <nav><a href="/#categories">Categories</a><a href="/services/">All services A–Z</a><a href="/how-we-pick/">How we pick</a><a href="/about/">About</a></nav>
+    <nav><a href="/#categories">Categories</a><a href="/services/">All services A–Z</a><a href="/learn/">Learn</a><a href="/how-we-pick/">How we pick</a><a href="/about/">About</a></nav>
   </div>
 </header>
 <main class="wrap">
@@ -603,12 +624,82 @@ def services_page(site, links, services, draft):
                 path="/services/", body=body, draft=draft)
 
 
+def guide_cards(svcs):
+    return "".join(
+        f'<a class="card guide-card" href="/{s["path"]}/">{art(s["top"])}'
+        f'<div class="card-body"><p class="eyebrow">{esc(s["top"]["name"])}</p>'
+        f'<h3>{esc(s["page"]["h1"])}</h3><span>Read the guide →</span></div></a>' for s in svcs)
+
+
+def article_cards(articles):
+    return "".join(
+        f'<a class="card" href="/learn/{a["slug"]}/"><div class="card-body">'
+        f'<p class="eyebrow">{esc(a.get("kind", "Guide"))}</p><h3>{esc(a["h1"])}</h3>'
+        f'<p>{esc(a["description"])}</p><span>Read →</span></div></a>' for a in articles)
+
+
+def article_page(site, a, articles, draft):
+    url = f'{site["base_url"].rstrip("/")}/learn/{a["slug"]}/'
+    faq_html = "".join(f'<details><summary>{esc(f["q"])}</summary><p>{esc(f["a"])}</p></details>'
+                       for f in a.get("faq", []))
+    faq_section = f'<section class="faq"><h2 id="faq">FAQ</h2>{faq_html}</section>' if faq_html else ""
+    guides = (f'<section><h2 id="guides">Hiring guides mentioned here</h2><div class="cards">'
+              f'{guide_cards(a["guide_list"])}</div></section>') if a["guide_list"] else ""
+    others = [o for o in articles if o is not a][:5]
+    more = "".join(f'<li><a href="/learn/{o["slug"]}/">{esc(o["h1"])}</a></li>' for o in others)
+    more_section = (f'<section class="related"><h2>More from Learn</h2><ul class="sub-list">{more}</ul></section>'
+                    if more else "")
+    graph = [
+        {"@type": "Article", "headline": a["title"], "description": a["description"],
+         "dateModified": a["updated"], "mainEntityOfPage": url,
+         "author": {"@type": "Organization", "name": site["name"]},
+         "publisher": {"@type": "Organization", "name": site["name"]}},
+        breadcrumb_schema(site, [("Learn", "/learn/"), (a["h1"], f'/learn/{a["slug"]}/')]),
+    ]
+    if a.get("faq"):
+        graph.append({"@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
+            for f in a["faq"]]})
+    body = f"""<article class="article">
+{crumbs(("Learn", "/learn/"), (a["h1"], None))}
+<h1>{esc(a["h1"])}</h1>
+<p class="updated">Updated {esc(a["updated"])}</p>
+{DISCLOSURE_NOTE}
+<p class="lead">{esc(a["intro"])}</p>
+<section class="guide">
+{a["html"]}
+</section>
+{faq_section}
+</article>
+{guides}
+<article class="article">{more_section}</article>"""
+    return page(site, title=a["title"], description=a["description"], path=f'/learn/{a["slug"]}/',
+                body=body, schema={"@context": "https://schema.org", "@graph": graph}, draft=draft)
+
+
+def learn_index(site, articles, draft):
+    body = f"""<section class="hero">
+<h1>Learn: hiring freelancers, explained</h1>
+<p>Start here if you are new to hiring freelancers or cannot decide which service you need. These articles compare similar services and walk you through the hiring process step by step.</p>
+</section>
+<section>
+<div class="cards">{article_cards(articles)}</div>
+</section>"""
+    schema = {"@context": "https://schema.org", "@graph": [
+        {"@type": "CollectionPage", "name": "Learn",
+         "description": "Comparisons and how-to articles for hiring freelancers."},
+        breadcrumb_schema(site, [("Learn", "/learn/")])]}
+    return page(site, title=f'Learn: Hiring Freelancers, Explained | {site["name"]}',
+                description="Comparisons of similar freelance services and step-by-step articles on hiring freelancers for the first time.",
+                path="/learn/", body=body, schema=schema, draft=draft)
+
+
 def art(top, cls="card-art"):
     return (f'<img class="{cls}" src="/img/cat/{top["slug"]}.svg" alt="" width="320" height="180" '
             'loading="lazy" decoding="async">')
 
 
-def home_page(site, tops, pages, draft):
+def home_page(site, tops, pages, draft, articles=()):
     cards = ""
     for t in tops:
         count = sum(len(g["subs"]) for g in t["groups"])
@@ -621,6 +712,9 @@ def home_page(site, tops, pages, draft):
         f'<a class="card guide-card" href="/{p["service"]["path"]}/">{art(p["service"]["top"])}'
         f'<div class="card-body"><p class="eyebrow">{esc(p["service"]["top"]["name"])}</p>'
         f'<h3>{esc(p["h1"])}</h3><span>Read the guide →</span></div></a>' for p in latest)
+    start_here = (f'<section><h2 id="learn">New to hiring freelancers? Start here</h2>'
+                  f'<div class="cards">{article_cards(list(articles)[:6])}</div>'
+                  f'<p><a href="/learn/">All Learn articles →</a></p></section>') if articles else ""
     schema = {"@context": "https://schema.org", "@type": "WebSite", "name": site["name"],
               "url": site["base_url"].rstrip("/") + "/", "description": site["description"]}
     body = f"""<section class="hero">
@@ -632,6 +726,7 @@ def home_page(site, tops, pages, draft):
 <h2 id="categories">Browse by category</h2>
 <div class="cards">{cards}</div>
 </section>
+{start_here}
 <section>
 <h2>Latest hiring guides</h2>
 <div class="cards">{latest_html}</div>
@@ -712,11 +807,14 @@ NOT_FOUND = """<section class="hero"><h1>Page not found</h1>
 <p>That page does not exist. <a href="/">Go to the home page</a> or <a href="/services/">search all services</a>.</p></section>"""
 
 
-def sitemap(site, tops, pages):
+def sitemap(site, tops, pages, articles=()):
     base = site["base_url"].rstrip("/")
     entries = [("/", site["updated"]), ("/services/", site["updated"])]
     entries += [(f'/{t["slug"]}/', t.get("source_checked", site["updated"])) for t in tops]
     entries += [(f'/{p["service"]["path"]}/', p["updated"]) for p in pages]
+    if articles:
+        entries += [("/learn/", max(a["updated"] for a in articles))]
+        entries += [(f'/learn/{a["slug"]}/', a["updated"]) for a in articles]
     entries += [(f"/{s}/", site["updated"]) for s in ("about", "how-we-pick", "disclosure", "privacy")]
     urls = "".join(f"<url><loc>{base}{p}</loc><lastmod>{d}</lastmod></url>" for p, d in entries)
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -751,6 +849,7 @@ def main():
     pages = load_pages(services, errors, warnings)
     WIDGETS.update(load_widgets())
     link_showcase_copies(services, warnings)
+    articles = load_articles(services, errors, warnings)
     gigs = load_gigs(errors)
     e, w = check_gigs(gigs, services)
     errors += e
@@ -787,7 +886,11 @@ def main():
     clean_dist()
     shutil.copytree(STATIC, DIST, dirs_exist_ok=True)
 
-    write("index.html", home_page(site, tops, pages, draft))
+    write("index.html", home_page(site, tops, pages, draft, articles))
+    if articles:
+        write("learn/index.html", learn_index(site, articles, draft))
+        for a in articles:
+            write(f'learn/{a["slug"]}/index.html', article_page(site, a, articles, draft))
     write("services/index.html", services_page(site, links, services, draft))
     for top in tops:
         write(f'{top["slug"]}/index.html', top_page(site, links, top, draft))
@@ -812,13 +915,13 @@ def main():
         body_html=PRIVACY, draft=draft))
     write("404.html", page(site, title=f'Page not found | {site["name"]}',
                            description="Page not found.", path="/404", body=NOT_FOUND, draft=draft))
-    write("sitemap.xml", sitemap(site, tops, pages))
+    write("sitemap.xml", sitemap(site, tops, pages, articles))
     write("robots.txt", f'User-agent: *\nAllow: /\n\nSitemap: {site["base_url"].rstrip("/")}/sitemap.xml\n')
     (DIST / ".nojekyll").write_text("", encoding="utf-8")
 
     live = sum(g["status"] == "live" for g in gigs)
     print(f"Built ({'release' if release else 'preview'}): {len(tops)} categories, {len(services)} services, "
-          f"{len(pages)} guides, {live} live gigs -> {DIST}")
+          f"{len(pages)} guides, {len(articles)} articles, {live} live gigs -> {DIST}")
 
 
 if __name__ == "__main__":

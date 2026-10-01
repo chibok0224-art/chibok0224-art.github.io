@@ -1,0 +1,37 @@
+{
+  "title": "Freelance Packages Explained: Tiers, Revisions, Extras and Rights",
+  "h1": "Freelance packages explained: tiers, revisions, extras and rights",
+  "description": "How to read a freelancer's offer: package tiers, revisions, delivery times, extras, source files and usage rights, so you can compare offers fairly.",
+  "intro": "Most freelance offers are sold as packages, usually in three tiers with different features, delivery times and revision limits. The packages make it easy to order, but they also make it easy to compare the wrong things. Two offers with similar names can include very different work. This article explains what each part of a package means and what to check before you choose one.",
+  "kind": "Start here",
+  "order": 3,
+  "guides": [
+    "graphics-design/logo-design",
+    "music-audio/voice-over",
+    "video-animation/video-editing",
+    "graphics-design/illustration"
+  ],
+  "faq": [
+    {
+      "q": "Is the most expensive package always the best?",
+      "a": "No. Choose the package that includes what your brief needs. Paying for extras you will not use adds no value."
+    },
+    {
+      "q": "What counts as a revision?",
+      "a": "Usually a round of changes to the delivered work. Sellers define it differently, so ask if it is unclear."
+    },
+    {
+      "q": "What are source files?",
+      "a": "The editable working files, such as layered design files or video project files. They are often only in higher tiers."
+    },
+    {
+      "q": "Can I use the work commercially?",
+      "a": "Check the offer. Some sellers include commercial use; others sell it as an extra."
+    },
+    {
+      "q": "What if I need something outside the packages?",
+      "a": "Ask the seller for a custom offer that matches your brief."
+    }
+  ],
+  "updated": "2026-10-02"
+}

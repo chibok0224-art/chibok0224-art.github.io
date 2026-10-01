@@ -194,3 +194,10 @@ a.out:hover { color: var(--accent); text-decoration: underline; }
 .widget h2 { margin-top: 0; font-size: 1.15rem; }
 .widget .muted { font-size: .85rem; margin: .25rem 0 .75rem; }
 .widget iframe { display: block; border: 0; }
+
+/* Learn articles: comparison tables */
+.guide table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 15px; }
+.guide th, .guide td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top; }
+.guide thead th { background: var(--surface); font-weight: 700; }
+.guide tbody td:first-child { font-weight: 600; }
+@media (max-width: 720px) { .guide table { display: block; overflow-x: auto; } }

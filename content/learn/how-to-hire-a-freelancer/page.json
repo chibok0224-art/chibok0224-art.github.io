@@ -1,0 +1,37 @@
+{
+  "title": "How to Hire a Freelancer for the First Time: Step-by-Step",
+  "h1": "How to hire a freelancer for the first time",
+  "description": "A practical, step-by-step guide to hiring your first freelancer online: define the job, shortlist sellers, write a brief, order safely and review the work.",
+  "intro": "Hiring a freelancer for the first time can feel risky. There are thousands of sellers, every profile looks confident, and it is hard to know what a good offer should include. The good news is that most problems come from a few avoidable mistakes: an unclear goal, a rushed choice of seller and a brief that leaves too much to guesswork. This article walks you through the whole process, from deciding what you need to approving the final files.",
+  "kind": "Start here",
+  "order": 1,
+  "guides": [
+    "graphics-design/logo-design",
+    "writing-translation/proofreading-and-editing",
+    "programming-tech/website-development",
+    "video-animation/video-editing"
+  ],
+  "faq": [
+    {
+      "q": "How long does it take to hire a freelancer?",
+      "a": "For a small task you can often choose a seller and place an order the same day. Larger projects deserve a few days of comparing and messaging."
+    },
+    {
+      "q": "Should I choose the cheapest offer?",
+      "a": "Not by default. Compare what each package includes, the seller's track record and how clearly they answer your questions."
+    },
+    {
+      "q": "Do I need to message a seller before ordering?",
+      "a": "For anything beyond a very simple task, yes. A short message confirms they understand the job and can meet your deadline."
+    },
+    {
+      "q": "What if I am not happy with the result?",
+      "a": "Use the included revisions first and explain clearly what needs to change. If the work does not match what was agreed, contact the platform's support."
+    },
+    {
+      "q": "Who owns the finished work?",
+      "a": "It depends on the offer and the platform's terms. Check usage rights and source files before you order, especially for logos, music and video."
+    }
+  ],
+  "updated": "2026-10-02"
+}

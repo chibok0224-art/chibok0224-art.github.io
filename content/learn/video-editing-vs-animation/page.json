@@ -1,0 +1,37 @@
+{
+  "title": "Video Editing vs Animation: Choosing the Right Video Service",
+  "h1": "Video editing vs animation: choosing the right video service",
+  "description": "When to hire a video editor and when to hire an animator: what each service needs from you, what you get, and how explainers, ads and social videos fit in.",
+  "intro": "If you need a video, the first question is whether it will be made from footage you already have or created from scratch. A video editor works with existing footage. An animator creates moving images from drawings, shapes or 3D models. Some videos need both. Knowing which one you need saves time when you search and makes your brief much clearer.",
+  "kind": "Comparison",
+  "order": 11,
+  "guides": [
+    "video-animation/video-editing",
+    "video-animation/animated-explainers",
+    "video-animation/social-media-videos",
+    "video-animation/videographers"
+  ],
+  "faq": [
+    {
+      "q": "I have no footage. Do I need animation?",
+      "a": "Not always. You can also hire a videographer to film, or use stock footage with an editor."
+    },
+    {
+      "q": "Is animation more expensive than editing?",
+      "a": "Usually, because everything is created from scratch. Simple motion graphics can be affordable."
+    },
+    {
+      "q": "Can an editor add simple animated text?",
+      "a": "Many can add titles, captions and basic motion graphics as part of an edit."
+    },
+    {
+      "q": "Which is better for explaining a product?",
+      "a": "Animation works well for abstract or technical ideas; filmed video works well for showing real products and people."
+    },
+    {
+      "q": "Who writes the script?",
+      "a": "Sometimes the video seller, sometimes you, sometimes a separate scriptwriter. Agree on it before ordering."
+    }
+  ],
+  "updated": "2026-10-02"
+}

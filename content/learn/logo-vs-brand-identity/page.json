@@ -1,0 +1,37 @@
+{
+  "title": "Logo Design vs Brand Identity: Which One Do You Need?",
+  "h1": "Logo design vs brand identity: which one do you need?",
+  "description": "The difference between a logo, a brand identity and a brand style guide, what each includes, and how to choose the right service for your stage.",
+  "intro": "Logo design and brand identity are often used as if they mean the same thing, but they are different services. A logo is one mark. A brand identity is the full visual system around it: colors, fonts, image style and rules for using them. Choosing the wrong one either leaves you with a logo that does not work across your materials, or with a large project you did not need yet. This article explains the difference and helps you decide.",
+  "kind": "Comparison",
+  "order": 10,
+  "guides": [
+    "graphics-design/logo-design",
+    "graphics-design/brand-style-guides",
+    "online-marketing/brand-strategy",
+    "graphics-design/business-cards-and-stationery"
+  ],
+  "faq": [
+    {
+      "q": "Is a logo enough for a new business?",
+      "a": "Often yes, at the start, if it comes with color versions and the right file formats. You can build a fuller identity later."
+    },
+    {
+      "q": "What is a brand style guide?",
+      "a": "A document that sets out how to use your logo, colors, fonts and images so everything looks consistent."
+    },
+    {
+      "q": "Is brand strategy the same as brand identity?",
+      "a": "No. Strategy defines your positioning and message; identity is how the brand looks."
+    },
+    {
+      "q": "Can I add a brand identity to an existing logo?",
+      "a": "Yes. Many designers build an identity around a logo you already have."
+    },
+    {
+      "q": "Which costs more?",
+      "a": "A full brand identity is usually a much larger project than a logo, so it normally costs more."
+    }
+  ],
+  "updated": "2026-10-02"
+}
