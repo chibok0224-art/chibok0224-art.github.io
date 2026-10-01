@@ -33,5 +33,14 @@
       "a": "Sometimes the video seller, sometimes you, sometimes a separate scriptwriter. Agree on it before ordering."
     }
   ],
-  "updated": "2026-10-02"
+  "updated": "2026-10-02",
+  "also_for": [
+    "video-animation/character-animation",
+    "video-animation/live-action-explainers",
+    "video-animation/corporate-videos",
+    "video-animation/visual-effects",
+    "video-animation/text-animation",
+    "video-animation/3d-product-animation",
+    "video-animation/filmed-video-production"
+  ]
 }

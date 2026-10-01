@@ -100,6 +100,9 @@ def load_articles(services, errors, warnings):
                 errors.append(f"content/learn/{a['slug']}: guide {path} does not exist")
             else:
                 a["guide_list"].append(svc)
+        for path in a.get("also_for", []):
+            if path not in services or not services[path]["page"]:
+                errors.append(f"content/learn/{a['slug']}: also_for {path} does not exist")
         text = json.dumps({k: a.get(k) for k in ("title", "h1", "description", "intro", "faq")}) + a["html"]
         if "fiverr" in text.lower():
             warnings.append(f"content/learn/{a['slug']}: mentions Fiverr in the article text (house style: don't)")
@@ -488,6 +491,32 @@ def widget_html(svc):
             f'data-mode="random_gigs" title="Fiverr gigs: {esc(svc["name"])}" onload="{onload}"></iframe></section>')
 
 
+LEARN = {"by_guide": {}, "basics": []}
+
+# Start-here articles shown on every guide, after any article written for that service.
+BASICS = ("how-to-write-a-brief", "understanding-packages", "checking-a-delivery")
+
+
+def index_learn(articles):
+    LEARN["by_guide"] = {}
+    for a in articles:
+        for path in a.get("guides", []) + a.get("also_for", []):
+            LEARN["by_guide"].setdefault(path, []).append(a)
+    by_slug = {a["slug"]: a for a in articles}
+    LEARN["basics"] = [by_slug[s] for s in BASICS if s in by_slug]
+
+
+def learn_box(svc):
+    specific = LEARN["by_guide"].get(svc["path"], [])
+    basics = [a for a in LEARN["basics"] if a not in specific]
+    items = specific[:3] + basics[:max(0, 4 - len(specific[:3]))]
+    if not items:
+        return ""
+    lis = "".join(f'<li><a href="/learn/{a["slug"]}/">{esc(a["h1"])}</a></li>' for a in items)
+    return (f'<section class="related learn-box"><h2 id="learn">Before you hire: helpful reading</h2>'
+            f'<ul class="sub-list">{lis}</ul></section>')
+
+
 def service_page(site, links, svc, gigs, draft):
     pg, top = svc["page"], svc["top"]
     n = pg.get("featured_count", 5)
@@ -563,6 +592,7 @@ def service_page(site, links, svc, gigs, draft):
 <section class="guide">
 {expand_fiverr_links(pg["guide_html"], links)}
 </section>
+{learn_box(svc)}
 {faq_section}
 {related_html}
 </article>"""
@@ -850,6 +880,7 @@ def main():
     WIDGETS.update(load_widgets())
     link_showcase_copies(services, warnings)
     articles = load_articles(services, errors, warnings)
+    index_learn(articles)
     gigs = load_gigs(errors)
     e, w = check_gigs(gigs, services)
     errors += e

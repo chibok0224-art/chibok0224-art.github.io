@@ -33,5 +33,10 @@
       "a": "It depends on the agreement or tool license. Confirm commercial use and duration of rights."
     }
   ],
-  "updated": "2026-10-02"
+  "updated": "2026-10-02",
+  "also_for": [
+    "music-audio/audio-ads-production",
+    "music-audio/podcast-production",
+    "video-animation/elearning-video-production"
+  ]
 }

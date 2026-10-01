@@ -33,5 +33,12 @@
       "a": "Sometimes the editor, often a separate service. Agree on it before ordering."
     }
   ],
-  "updated": "2026-10-02"
+  "updated": "2026-10-02",
+  "also_for": [
+    "graphics-design/thumbnails-design",
+    "video-animation/intro-and-outro-videos",
+    "video-animation/ugc-videos",
+    "video-animation/video-ads-and-commercials",
+    "video-animation/video-consultation"
+  ]
 }

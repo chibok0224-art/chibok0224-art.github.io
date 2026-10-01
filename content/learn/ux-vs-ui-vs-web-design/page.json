@@ -33,5 +33,11 @@
       "a": "A clickable mock-up that shows how screens connect, used for testing before building."
     }
   ],
-  "updated": "2026-10-02"
+  "updated": "2026-10-02",
+  "also_for": [
+    "writing-translation/ux-writing",
+    "programming-tech/user-testing",
+    "graphics-design/icon-design",
+    "online-marketing/conversion-rate-optimization-cro"
+  ]
 }

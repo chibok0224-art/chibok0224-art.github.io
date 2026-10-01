@@ -33,5 +33,13 @@
       "a": "Decide this before the build. It affects which platform you choose."
     }
   ],
-  "updated": "2026-10-02"
+  "updated": "2026-10-02",
+  "also_for": [
+    "programming-tech/wordpress",
+    "programming-tech/wix",
+    "programming-tech/squarespace",
+    "programming-tech/webflow",
+    "graphics-design/landing-page-design",
+    "programming-tech/custom-websites"
+  ]
 }

@@ -33,5 +33,8 @@
       "a": "Only for official documents when an authority requires it. Ask the authority what it accepts."
     }
   ],
-  "updated": "2026-10-02"
+  "updated": "2026-10-02",
+  "also_for": [
+    "writing-translation/interpretation"
+  ]
 }

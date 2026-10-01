@@ -33,5 +33,12 @@
       "a": "Yes. For some tools, a mobile-friendly web app avoids app stores entirely."
     }
   ],
-  "updated": "2026-10-02"
+  "updated": "2026-10-02",
+  "also_for": [
+    "programming-tech/mobile-app-development",
+    "programming-tech/mobile-app-maintenance",
+    "programming-tech/development-and-mvp",
+    "online-marketing/mobile-app-marketing",
+    "consulting-services/mobile-apps-consulting"
+  ]
 }

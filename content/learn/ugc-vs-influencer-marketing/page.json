@@ -33,5 +33,11 @@
       "a": "Only if your agreement includes those rights."
     }
   ],
-  "updated": "2026-10-02"
+  "updated": "2026-10-02",
+  "also_for": [
+    "online-marketing/paid-social-media",
+    "online-marketing/social-commerce",
+    "consulting-services/influencers-strategy",
+    "video-animation/spokesperson-videos"
+  ]
 }

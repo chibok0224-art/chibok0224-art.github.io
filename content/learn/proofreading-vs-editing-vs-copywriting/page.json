@@ -33,5 +33,14 @@
       "a": "Proofreading, after all other editing and design are finished."
     }
   ],
-  "updated": "2026-10-02"
+  "updated": "2026-10-02",
+  "also_for": [
+    "writing-translation/articles-and-blog-posts",
+    "writing-translation/ad-copy",
+    "writing-translation/product-descriptions",
+    "writing-translation/ai-content-editing",
+    "writing-translation/beta-reading",
+    "writing-translation/email-copy",
+    "writing-translation/technical-writing"
+  ]
 }

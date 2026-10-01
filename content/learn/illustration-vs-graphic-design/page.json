@@ -33,5 +33,16 @@
       "a": "Usually a graphic designer, unless you want original illustrated characters or scenes."
     }
   ],
-  "updated": "2026-10-02"
+  "updated": "2026-10-02",
+  "also_for": [
+    "graphics-design/cartoon-illustration",
+    "graphics-design/comic-illustration",
+    "graphics-design/portraits-and-caricatures",
+    "graphics-design/poster-design",
+    "graphics-design/brochure-design",
+    "graphics-design/social-media-design",
+    "graphics-design/book-covers",
+    "graphics-design/pattern-design",
+    "graphics-design/t-shirts-and-merchandise"
+  ]
 }

@@ -33,5 +33,14 @@
       "a": "Dedicated store platforms such as Shopify, or WordPress with WooCommerce, are common choices."
     }
   ],
-  "updated": "2026-10-02"
+  "updated": "2026-10-02",
+  "also_for": [
+    "programming-tech/squarespace",
+    "programming-tech/webflow",
+    "programming-tech/website-development",
+    "programming-tech/godaddy",
+    "programming-tech/website-maintenance",
+    "graphics-design/website-design",
+    "programming-tech/full-stack-web-apps"
+  ]
 }
