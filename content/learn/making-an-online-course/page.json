@@ -1,0 +1,45 @@
+{
+  "title": "How an Online Course Is Made: Steps and Freelance Roles",
+  "h1": "How an online course is made: steps and freelance roles",
+  "description": "The stages of making an online course or training: learning goals, outline, scripts, slides, video, activities, quizzes, platform setup and updates.",
+  "intro": "Online courses and training programs combine teaching, writing, design and video. Experts often start by recording long videos, then discover that learners drop off, the material is hard to update and the platform does not track what they need. Planning the course in stages, and bringing in freelancers where they help most, leads to better learning and less rework. This article walks through the usual steps and the freelance roles involved.",
+  "kind": "Start here",
+  "order": 31,
+  "guides": [
+    "writing-translation/elearning-content-development",
+    "video-animation/elearning-video-production",
+    "video-animation/screencasting-videos",
+    "graphics-design/presentation-design"
+  ],
+  "also_for": [
+    "writing-translation/technical-writing",
+    "video-animation/animated-explainers",
+    "music-audio/voice-over",
+    "video-animation/subtitles-and-captions",
+    "lifestyle/online-tutoring",
+    "ai-services/ai-lessons"
+  ],
+  "faq": [
+    {
+      "q": "How long should course videos be?",
+      "a": "Short lessons, often a few minutes each, are easier to watch, update and revisit."
+    },
+    {
+      "q": "Do I need a professional studio?",
+      "a": "No. Clear audio, good lighting and well-prepared slides matter more than expensive equipment."
+    },
+    {
+      "q": "What is an instructional designer?",
+      "a": "Someone who structures learning content so people understand and remember it."
+    },
+    {
+      "q": "Should I include quizzes?",
+      "a": "Short checks help learners remember and show you where the course is unclear."
+    },
+    {
+      "q": "Which platform should I use?",
+      "a": "One that fits your audience, pricing model and tracking needs; for staff training, check what your organization already uses."
+    }
+  ],
+  "updated": "2026-10-03"
+}

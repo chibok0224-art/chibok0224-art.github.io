@@ -1,0 +1,44 @@
+{
+  "title": "How to Prepare for a Website or IT Security Review",
+  "h1": "How to prepare for a website or IT security review",
+  "description": "What to prepare before hiring a security specialist: scope, written permission, asset list, access, backups, reporting format and how fixes will be handled.",
+  "intro": "Small businesses increasingly hire freelance security specialists to check websites, cloud accounts and office systems for weaknesses. A good review can find problems before attackers do, but only if it is planned properly. Without a clear scope, written permission and backups, a review can miss important systems or disrupt the business. This article explains how to prepare, what to expect from the report and how to act on the findings.",
+  "kind": "Start here",
+  "order": 33,
+  "guides": [
+    "programming-tech/cybersecurity",
+    "consulting-services/cybersecurity-consulting",
+    "programming-tech/website-maintenance",
+    "programming-tech/support-and-it"
+  ],
+  "also_for": [
+    "data/data-governance-and-protection",
+    "programming-tech/wordpress",
+    "programming-tech/deployments-and-devops",
+    "programming-tech/qa-and-review",
+    "programming-tech/troubleshooting-and-improvements"
+  ],
+  "faq": [
+    {
+      "q": "What is the difference between an audit and a penetration test?",
+      "a": "An audit reviews settings and practices; a penetration test actively tries to exploit weaknesses with permission."
+    },
+    {
+      "q": "Do I need written permission?",
+      "a": "Yes. Testing systems without the owner's written authorization can be illegal. Define scope in writing."
+    },
+    {
+      "q": "Can a test break my website?",
+      "a": "It can cause disruption. Agree on timing, take backups and avoid testing live systems at busy times."
+    },
+    {
+      "q": "What should the report include?",
+      "a": "Findings ranked by severity, evidence, business impact and clear steps to fix each issue."
+    },
+    {
+      "q": "How often should I review security?",
+      "a": "After major changes and at regular intervals, such as once a year, plus ongoing updates and monitoring."
+    }
+  ],
+  "updated": "2026-10-03"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "How to Order Web Banners and Display Ads That Work",
+  "h1": "How to order web banners and display ads that work",
+  "description": "What to tell a banner designer: ad networks and sizes, file limits, static vs animated, message hierarchy, brand assets, variations for testing and delivery.",
+  "intro": "Display banners look simple, but they come with strict technical rules and very little space for a message. A designer who does not know which networks and sizes you need, what file limits apply or what the single key message is will produce banners that look fine but get rejected or ignored. This article explains what to prepare before you order web banners or display ad sets, and how to get versions you can test and improve.",
+  "kind": "Start here",
+  "order": 27,
+  "guides": [
+    "graphics-design/web-banners",
+    "online-marketing/display-advertising",
+    "video-animation/animated-gifs",
+    "graphics-design/social-media-design"
+  ],
+  "also_for": [
+    "video-animation/video-ads-and-commercials",
+    "writing-translation/ad-copy",
+    "online-marketing/paid-social-media",
+    "online-marketing/search-engine-marketing-sem",
+    "video-animation/lottie-and-web-animation"
+  ],
+  "faq": [
+    {
+      "q": "Which banner sizes do I need?",
+      "a": "It depends on the ad network and placements. A few common sizes usually cover most inventory."
+    },
+    {
+      "q": "Static or animated banners?",
+      "a": "Static banners are simpler and cheaper; animation can draw attention but must stay within network rules."
+    },
+    {
+      "q": "Why do ad networks reject banners?",
+      "a": "Common reasons are file size limits, wrong dimensions, missing borders or misleading content."
+    },
+    {
+      "q": "How much text should a banner have?",
+      "a": "Very little: a short headline, perhaps one supporting line and a clear button."
+    },
+    {
+      "q": "Should I order several versions?",
+      "a": "Yes. Two or three message or image variations let you test what performs best."
+    }
+  ],
+  "updated": "2026-10-03"
+}

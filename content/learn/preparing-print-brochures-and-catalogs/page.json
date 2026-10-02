@@ -1,0 +1,45 @@
+{
+  "title": "Preparing a Brochure or Catalog for Print: A Buyer's Checklist",
+  "h1": "Preparing a brochure or catalog for print: a buyer's checklist",
+  "description": "Prepare a brochure or catalog project: purpose, format and folds, final content, images, page count, print specs, bleed, proofs and digital versions.",
+  "intro": "Brochures and catalogs are still valuable sales tools, from trade shows to product ranges and service menus. Print projects, however, punish late changes and missing details. A wrong fold, low-resolution photo or text placed too close to the edge can mean reprinting the whole run. This article explains what to decide and prepare before hiring a designer, and what to check before anything goes to the printer.",
+  "kind": "Start here",
+  "order": 32,
+  "guides": [
+    "graphics-design/brochure-design",
+    "graphics-design/catalog-design",
+    "graphics-design/flyer-design",
+    "graphics-design/business-cards-and-stationery"
+  ],
+  "also_for": [
+    "graphics-design/menu-design",
+    "graphics-design/trade-booth-design",
+    "graphics-design/poster-design",
+    "writing-translation/sales-copy",
+    "photography/product-photographers",
+    "graphics-design/infographic-design"
+  ],
+  "faq": [
+    {
+      "q": "What is bleed?",
+      "a": "Extra image area beyond the trim line, so colors and photos reach the edge cleanly after cutting."
+    },
+    {
+      "q": "What file does the printer need?",
+      "a": "Usually a print-ready PDF with bleed, crop marks and the correct color settings."
+    },
+    {
+      "q": "Should I order a printed proof?",
+      "a": "For large or color-critical runs, yes. Screen colors can differ from printed colors."
+    },
+    {
+      "q": "Can the same design work as a PDF online?",
+      "a": "Yes, but ask for a separate screen-optimized version with working links."
+    },
+    {
+      "q": "Who writes the text?",
+      "a": "Usually you or a copywriter. Designers lay out text rather than write it."
+    }
+  ],
+  "updated": "2026-10-03"
+}
