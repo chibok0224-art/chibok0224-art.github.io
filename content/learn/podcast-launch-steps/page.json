@@ -1,0 +1,44 @@
+{
+  "title": "How to Launch a Podcast with Freelancers: Step-by-Step",
+  "h1": "How to launch a podcast with freelance help, step by step",
+  "description": "The steps to launch a podcast and which freelancers help at each: planning, cover art, intro music, editing, show notes, video clips and promotion.",
+  "intro": "Launching a podcast involves more than pressing record. A show needs a clear idea, cover art, an intro, good audio, editing, show notes and a plan to reach listeners. You do not have to do everything yourself: freelancers can handle most of the production so you can focus on the conversations. This article walks through each step and shows where outside help makes the biggest difference.",
+  "kind": "Start here",
+  "order": 10,
+  "guides": [
+    "music-audio/podcast-production",
+    "graphics-design/podcast-cover-art",
+    "music-audio/jingles-and-intros",
+    "online-marketing/podcast-marketing"
+  ],
+  "also_for": [
+    "music-audio/audio-editing",
+    "writing-translation/podcast-writing",
+    "video-animation/video-repurposing",
+    "music-audio/voice-over",
+    "writing-translation/transcription"
+  ],
+  "faq": [
+    {
+      "q": "How many episodes should I have before launching?",
+      "a": "Many shows launch with two or three episodes so new listeners can try more than one."
+    },
+    {
+      "q": "Do I need expensive equipment?",
+      "a": "No. A decent microphone and a quiet room matter more than an expensive setup."
+    },
+    {
+      "q": "Should I record video too?",
+      "a": "Video helps on video platforms and for short clips, but audio-only shows work well too."
+    },
+    {
+      "q": "Who owns the intro music?",
+      "a": "Check the license. Custom music or properly licensed tracks avoid problems later."
+    },
+    {
+      "q": "How often should I publish?",
+      "a": "Choose a schedule you can keep, such as weekly or every two weeks."
+    }
+  ],
+  "updated": "2026-10-03"
+}

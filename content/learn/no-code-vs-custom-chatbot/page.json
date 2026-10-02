@@ -1,0 +1,43 @@
+{
+  "title": "No-Code Chatbot vs Custom AI Chatbot: Which Should You Build?",
+  "h1": "No-code chatbot vs custom AI chatbot: which should you build?",
+  "description": "When a no-code chatbot builder is enough and when you need a custom AI chatbot: cost, setup time, data, integrations, privacy and who to hire for each.",
+  "intro": "Chatbots now range from simple menus on a website to AI assistants that answer questions from your own documents. Many businesses can start with a no-code chatbot builder in days, while others need a custom solution connected to their systems. The right choice depends on what the chatbot must do, what data it uses and how much control you need. This article compares the two approaches and explains what to ask freelancers before you start.",
+  "kind": "Comparison",
+  "order": 24,
+  "guides": [
+    "programming-tech/chatbot-development",
+    "programming-tech/ai-development",
+    "programming-tech/apis-and-integrations",
+    "business/customer-service"
+  ],
+  "also_for": [
+    "ai-services/ai-integration",
+    "programming-tech/full-stack-web-apps",
+    "consulting-services/customer-care-consulting",
+    "writing-translation/ux-writing"
+  ],
+  "faq": [
+    {
+      "q": "What is a no-code chatbot?",
+      "a": "A chatbot built with a visual tool, where you set up conversations and connect data without writing code."
+    },
+    {
+      "q": "When do I need a custom chatbot?",
+      "a": "When you need deep integration with your systems, special data handling or behavior that builders cannot provide."
+    },
+    {
+      "q": "Can a chatbot answer from my own documents?",
+      "a": "Yes. Many tools and custom builds can use your help articles or files as a knowledge source."
+    },
+    {
+      "q": "Is customer data safe in a chatbot?",
+      "a": "It depends on the tool and setup. Check where data is stored and how it is used before collecting personal information."
+    },
+    {
+      "q": "Will a chatbot replace my support team?",
+      "a": "Usually not. It handles common questions and hands harder cases to people."
+    }
+  ],
+  "updated": "2026-10-03"
+}

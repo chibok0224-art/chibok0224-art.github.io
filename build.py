@@ -548,7 +548,13 @@ def service_page(site, links, svc, gigs, draft):
         toc = "".join(f'<li><a href="#{esc(g["id"])}">{esc(g.get("best_for") or g["name"])}</a></li>'
                       for g in featured)
         more_link = f'<li><a href="#more">{len(more)} more options</a></li>' if more else ""
-        picks_html = (f'<nav class="toc"><p>Our top picks</p><ol>{toc}{more_link}</ol></nav>'
+        checked = max((g.get("checked") or "" for g in gigs), default="")
+        when = f' Ratings and review counts were last checked on {esc(checked)}.' if checked else ""
+        note = (f'<p class="picks-note">We picked these {len(gigs)} sellers from public ratings, review counts and '
+                f'how closely their gigs match this service; no seller paid to be listed.{when} '
+                f'Prices and availability can change, so confirm details on the gig before ordering. '
+                f'<a href="/how-we-pick/">How we pick</a></p>')
+        picks_html = (f'{note}<nav class="toc"><p>Our top picks</p><ol>{toc}{more_link}</ol></nav>'
                       f'<section class="picks">{"".join(gig_card(g, i, links) for i, g in enumerate(featured, 1))}</section>')
     else:
         picks_html = ('<p class="empty">We are finalizing our shortlist for this service. '

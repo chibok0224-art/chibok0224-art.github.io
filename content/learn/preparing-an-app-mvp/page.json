@@ -1,0 +1,44 @@
+{
+  "title": "How to Prepare Before Hiring Someone to Build Your App MVP",
+  "h1": "How to prepare before hiring someone to build your app MVP",
+  "description": "What to prepare before an app MVP: the core problem, must-have features, user flow, designs, data, budget and success measures, so quotes are accurate.",
+  "intro": "A minimum viable product, or MVP, is the simplest version of your app that lets real users try your idea. Building one through freelancers can be fast and affordable, but only if you prepare well. Most MVP projects that run over time or budget do so because the scope kept growing, the screens were never defined or nobody decided what success looks like. This article walks you through what to prepare before you ask developers for quotes.",
+  "kind": "Start here",
+  "order": 9,
+  "guides": [
+    "programming-tech/development-and-mvp",
+    "graphics-design/app-design",
+    "programming-tech/mobile-app-development",
+    "programming-tech/user-testing"
+  ],
+  "also_for": [
+    "programming-tech/cross-platform-apps",
+    "graphics-design/ux-design",
+    "consulting-services/mobile-apps-consulting",
+    "business/product-management",
+    "programming-tech/qa-and-review"
+  ],
+  "faq": [
+    {
+      "q": "What should an MVP include?",
+      "a": "Only the features needed to test your main idea with real users. Everything else can wait."
+    },
+    {
+      "q": "Do I need designs before hiring a developer?",
+      "a": "It helps a lot. Even simple wireframes make quotes more accurate."
+    },
+    {
+      "q": "Should the MVP be a mobile app?",
+      "a": "Not always. A web app is often faster and cheaper for testing an idea."
+    },
+    {
+      "q": "Who should own the code?",
+      "a": "You. Make sure the code is stored in a repository you control."
+    },
+    {
+      "q": "How long does an MVP take?",
+      "a": "Often several weeks to a few months, depending on scope and team."
+    }
+  ],
+  "updated": "2026-10-03"
+}

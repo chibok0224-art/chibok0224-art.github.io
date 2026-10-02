@@ -1,0 +1,45 @@
+{
+  "title": "Self-Publishing a Book: Which Freelancers You Need and When",
+  "h1": "Self-publishing a book: which freelancers you need and when",
+  "description": "The stages of self-publishing and which freelancers help at each: editing, beta readers, proofreading, cover, interior layout, audiobook and marketing.",
+  "intro": "Self-publishing gives authors full control, but it also means doing the work a publisher would normally arrange: editing, design, formatting and marketing. Freelancers can fill each of these roles, but the order matters. Hiring a cover designer before the manuscript is ready, or proofreading before editing, wastes money. This article explains the stages in a sensible order and what each freelancer does.",
+  "kind": "Start here",
+  "order": 11,
+  "guides": [
+    "writing-translation/book-editing",
+    "graphics-design/book-covers",
+    "graphics-design/book-design",
+    "online-marketing/book-and-ebook-marketing"
+  ],
+  "also_for": [
+    "writing-translation/beta-reading",
+    "writing-translation/proofreading-and-editing",
+    "music-audio/audiobook-production",
+    "video-animation/book-trailers",
+    "writing-translation/book-and-ebook-writing",
+    "graphics-design/childrens-book-illustration"
+  ],
+  "faq": [
+    {
+      "q": "Do I really need an editor?",
+      "a": "Almost every book benefits from professional editing. It is the most important investment for quality."
+    },
+    {
+      "q": "What is the difference between editing and proofreading?",
+      "a": "Editing improves structure and language; proofreading catches final errors after layout."
+    },
+    {
+      "q": "When should I hire a cover designer?",
+      "a": "Once the manuscript is close to final and you know the length and format."
+    },
+    {
+      "q": "Do ebooks and print books need different files?",
+      "a": "Yes. Print needs a fixed layout and a full cover; ebooks need reflowable files."
+    },
+    {
+      "q": "Can I publish an audiobook too?",
+      "a": "Yes. Check each platform's rules on narration before you start."
+    }
+  ],
+  "updated": "2026-10-03"
+}

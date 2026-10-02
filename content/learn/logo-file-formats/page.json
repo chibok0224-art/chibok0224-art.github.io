@@ -1,0 +1,43 @@
+{
+  "title": "Logo File Formats Explained: Vector, PNG, SVG, PDF and More",
+  "h1": "Logo file formats explained: what to ask your designer for",
+  "description": "Which logo files you need and why: vector vs raster, AI, EPS, SVG, PDF, PNG and JPG, color versions, and a simple checklist to use before you accept a logo.",
+  "intro": "A logo is only as useful as the files you receive. Many buyers approve a design they love, then discover months later that they only have a small image that looks blurry on a banner or cannot be printed on a shirt. Understanding a few file types, and asking for the right ones before the order ends, saves time and money later. This article explains the formats in plain language and gives you a checklist to use when your logo is delivered.",
+  "kind": "Start here",
+  "order": 8,
+  "guides": [
+    "graphics-design/logo-design",
+    "graphics-design/vector-tracing",
+    "graphics-design/brand-style-guides",
+    "graphics-design/business-cards-and-stationery"
+  ],
+  "also_for": [
+    "graphics-design/t-shirts-and-merchandise",
+    "graphics-design/signage-design",
+    "graphics-design/packaging-and-label-design",
+    "graphics-design/icon-design"
+  ],
+  "faq": [
+    {
+      "q": "What is the most important logo file?",
+      "a": "A vector master file, usually AI, EPS, SVG or PDF. All other versions can be created from it."
+    },
+    {
+      "q": "Can I turn a PNG logo into a vector?",
+      "a": "A designer can redraw it as a vector. This is called vector tracing and is a common service."
+    },
+    {
+      "q": "Which format should I use on my website?",
+      "a": "SVG for sharp results at any size, or PNG with a transparent background."
+    },
+    {
+      "q": "What format does a printer need?",
+      "a": "Usually a vector PDF or EPS, and sometimes the exact color codes for print."
+    },
+    {
+      "q": "Do I need the fonts too?",
+      "a": "If your logo uses text, ask for the font names and licenses, or for the text converted to outlines."
+    }
+  ],
+  "updated": "2026-10-03"
+}
