@@ -515,7 +515,11 @@ LEARN = {"by_guide": {}, "basics": []}
 
 # Start-here articles shown on every guide, after any article written for that service.
 BASICS = ("how-to-write-a-brief", "understanding-packages", "checking-a-delivery")
-GENERAL = set(BASICS) | {"how-to-hire-a-freelancer", "giving-feedback-to-freelancers", "freelancer-vs-agency"}
+# Articles about working with freelancers in general, not one service. Guides show them in rotation.
+GENERAL = (BASICS + ("how-to-hire-a-freelancer", "giving-feedback-to-freelancers", "freelancer-vs-agency",
+                     "collecting-reference-examples", "planning-project-deadlines", "handling-too-many-revisions",
+                     "managing-multiple-freelancers", "organizing-project-files-and-handover",
+                     "long-term-work-with-freelancers"))
 
 
 def index_learn(articles):
@@ -525,16 +529,21 @@ def index_learn(articles):
             LEARN["by_guide"].setdefault(path, []).append(a)
     by_slug = {a["slug"]: a for a in articles}
     LEARN["basics"] = [by_slug[s] for s in BASICS if s in by_slug]
+    LEARN["general"] = [by_slug[s] for s in GENERAL if s in by_slug]
 
 
 def learn_box(svc):
     path = svc["path"]
-    # Topic articles before general ones; then those listing this guide as a main guide, then narrower ones.
-    specific = sorted(LEARN["by_guide"].get(path, []),
-                      key=lambda a: (a["slug"] in GENERAL, path not in a.get("guides", []),
-                                     len(a.get("guides", [])) + len(a.get("also_for", []))))
-    basics = [a for a in LEARN["basics"] if a not in specific[:3]]
-    items = specific[:3] + basics[:max(0, 4 - len(specific[:3]))]
+    # Up to three topic articles (main-guide matches first, then narrower ones), then general articles
+    # in a rotation keyed on the guide path, so every general article gets shown somewhere.
+    topic = sorted((a for a in LEARN["by_guide"].get(path, []) if a["slug"] not in GENERAL),
+                   key=lambda a: (path not in a.get("guides", []),
+                                  len(a.get("guides", [])) + len(a.get("also_for", []))))[:3]
+    pool = LEARN["general"]
+    if pool:
+        k = int(hashlib.sha1(path.encode()).hexdigest(), 16) % len(pool)
+        pool = pool[k:] + pool[:k]
+    items = topic + pool[:max(1, 4 - len(topic))]
     if not items:
         return ""
     lis = "".join(f'<li><a href="/learn/{a["slug"]}/">{esc(a["h1"])}</a></li>' for a in items)
@@ -706,7 +715,11 @@ def article_page(site, a, articles, draft):
     faq_section = f'<section class="faq"><h2 id="faq">FAQ</h2>{faq_html}</section>' if faq_html else ""
     guides = (f'<section><h2 id="guides">Hiring guides mentioned here</h2><div class="cards">'
               f'{guide_cards(a["guide_list"])}</div></section>') if a["guide_list"] else ""
-    others = [o for o in articles if o is not a][:5]
+    mine = set(a.get("guides", []) + a.get("also_for", []))
+    general = a["slug"] in GENERAL
+    others = sorted((o for o in articles if o is not a),
+                    key=lambda o: (-len(mine & set(o.get("guides", []) + o.get("also_for", []))),
+                                   (o["slug"] in GENERAL) != general, o.get("order", 99)))[:5]
     more = "".join(f'<li><a href="/learn/{o["slug"]}/">{esc(o["h1"])}</a></li>' for o in others)
     more_section = (f'<section class="related"><h2>More from Learn</h2><ul class="sub-list">{more}</ul></section>'
                     if more else "")
@@ -738,14 +751,33 @@ def article_page(site, a, articles, draft):
                 body=body, schema={"@context": "https://schema.org", "@graph": graph}, draft=draft)
 
 
+def learn_sections(articles):
+    """Learn index groups: working with freelancers, comparisons, then project prep by category."""
+    groups = [("working-with-freelancers", "Working with freelancers",
+               [a for a in articles if a["slug"] in GENERAL]),
+              ("comparisons", "Comparisons: which service do you need?",
+               [a for a in articles if a["slug"] not in GENERAL and a.get("kind") == "Comparison"])]
+    by_top = {}
+    for a in articles:
+        if a["slug"] in GENERAL or a.get("kind") == "Comparison" or not a["guide_list"]:
+            continue
+        top = a["guide_list"][0]["top"]
+        by_top.setdefault(top["slug"], (top, []))[1].append(a)
+    for slug, (top, items) in sorted(by_top.items(), key=lambda kv: -len(kv[1][1])):
+        groups.append((f"prep-{slug}", f'Preparing a project: {top["name"]}', items))
+    groups = [g for g in groups if g[2]]
+    nav = "".join(f'<li><a href="#{gid}">{esc(name)} ({len(items)})</a></li>' for gid, name, items in groups)
+    secs = "".join(f'<section><h2 id="{gid}">{esc(name)}</h2><div class="cards">{article_cards(items)}</div></section>'
+                   for gid, name, items in groups)
+    return f'<nav class="toc"><p>Topics</p><ul>{nav}</ul></nav>{secs}'
+
+
 def learn_index(site, articles, draft):
     body = f"""<section class="hero">
 <h1>Learn: hiring freelancers, explained</h1>
 <p>Start here if you are new to hiring freelancers or cannot decide which service you need. These articles compare similar services and walk you through the hiring process step by step.</p>
 </section>
-<section>
-<div class="cards">{article_cards(articles)}</div>
-</section>"""
+{learn_sections(articles)}"""
     schema = {"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "name": "Learn",
          "description": "Comparisons and how-to articles for hiring freelancers."},
