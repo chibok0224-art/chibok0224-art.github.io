@@ -1,0 +1,45 @@
+{
+  "title": "How to Prepare a Market Research Project Before Hiring",
+  "h1": "How to prepare a market research project before hiring",
+  "description": "Prepare a market research project: decisions to support, research questions, audience, methods such as surveys and interviews, budget, sources and outputs.",
+  "intro": "Market research helps you make better decisions about products, prices, audiences and competitors. Hiring a researcher without a clear brief, however, often produces a long report full of general statistics that does not answer your real questions. The most useful research starts with the decision you need to make. This article explains how to prepare a market research project so freelancers can design the right approach and deliver findings you can act on.",
+  "kind": "Start here",
+  "order": 47,
+  "guides": [
+    "business/market-research",
+    "consulting-services/market-research-consulting",
+    "writing-translation/research-and-summaries",
+    "data/data-analytics"
+  ],
+  "also_for": [
+    "online-marketing/marketing-strategy",
+    "business/business-plans",
+    "online-marketing/brand-strategy",
+    "business/product-management",
+    "programming-tech/user-testing",
+    "data/data-visualization"
+  ],
+  "faq": [
+    {
+      "q": "What is the difference between primary and secondary research?",
+      "a": "Primary research collects new data, such as surveys and interviews. Secondary research uses existing sources."
+    },
+    {
+      "q": "How many interviews are enough?",
+      "a": "For exploring needs, often a small number of well-chosen interviews reveals the main themes."
+    },
+    {
+      "q": "How large should a survey be?",
+      "a": "It depends on how precise the results must be and how many groups you compare. Ask the researcher."
+    },
+    {
+      "q": "Can a researcher find participants for me?",
+      "a": "Many can, through panels or networks. Discuss costs and how participants are screened."
+    },
+    {
+      "q": "What should the final report include?",
+      "a": "Clear answers to your questions, evidence, limitations and practical recommendations."
+    }
+  ],
+  "updated": "2026-10-03"
+}

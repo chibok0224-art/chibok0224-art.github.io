@@ -1,0 +1,45 @@
+{
+  "title": "App Maintenance After Launch: What It Covers and Why It Matters",
+  "h1": "App maintenance after launch: what it covers and why it matters",
+  "description": "What app maintenance includes after launch: OS updates, bug fixes, security, store requirements, monitoring, backups, small improvements and how to hire for it.",
+  "intro": "Launching an app feels like the finish line, but it is really the beginning. Operating systems update every year, app stores change their requirements, libraries need security patches and users find bugs nobody saw in testing. Apps that are left alone gradually break or disappear from stores. This article explains what maintenance covers, how to plan for it and what to look for in a maintenance freelancer.",
+  "kind": "Start here",
+  "order": 45,
+  "guides": [
+    "programming-tech/mobile-app-maintenance",
+    "programming-tech/mobile-app-development",
+    "programming-tech/qa-and-review",
+    "programming-tech/deployments-and-devops"
+  ],
+  "also_for": [
+    "programming-tech/ios-app-development",
+    "programming-tech/android-app-development",
+    "programming-tech/cross-platform-apps",
+    "programming-tech/support-and-it",
+    "programming-tech/cybersecurity",
+    "online-marketing/mobile-app-marketing"
+  ],
+  "faq": [
+    {
+      "q": "How often does an app need updates?",
+      "a": "At least for each major operating system release, plus regular security and library updates."
+    },
+    {
+      "q": "Can an app be removed from stores for being outdated?",
+      "a": "Yes. Stores can hide or remove apps that do not meet current requirements."
+    },
+    {
+      "q": "Should the original developer maintain the app?",
+      "a": "Often it is easiest, but any skilled developer can if the code and documentation are in good shape."
+    },
+    {
+      "q": "What is crash reporting?",
+      "a": "A tool that records crashes and errors from real users so developers can fix them."
+    },
+    {
+      "q": "How should maintenance be priced?",
+      "a": "Commonly as a monthly retainer with a set number of hours, or hourly for occasional work."
+    }
+  ],
+  "updated": "2026-10-03"
+}

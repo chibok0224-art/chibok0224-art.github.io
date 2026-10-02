@@ -1,0 +1,45 @@
+{
+  "title": "Hiring for Lead Generation: What to Prepare and What to Avoid",
+  "h1": "Hiring for lead generation: what to prepare and what to avoid",
+  "description": "What to prepare before hiring for lead generation: ideal customer profile, data sources, list quality, privacy and anti-spam rules, outreach and measures.",
+  "intro": "Lead generation freelancers can research prospects, build targeted lists and help you start conversations with potential customers. It is also an area where shortcuts cause real harm: bought lists, scraped data used without care and mass emails can damage your reputation, break laws and get your domain blocked. This article explains how to prepare a lead generation project, what good work looks like and which practices to avoid.",
+  "kind": "Start here",
+  "order": 46,
+  "guides": [
+    "business/lead-generation",
+    "business/sales",
+    "consulting-services/sales-strategy",
+    "data/data-enrichment"
+  ],
+  "also_for": [
+    "data/data-entry",
+    "online-marketing/email-marketing",
+    "writing-translation/linkedin-profiles",
+    "business/virtual-assistant",
+    "online-marketing/marketing-strategy",
+    "writing-translation/email-copy"
+  ],
+  "faq": [
+    {
+      "q": "What is an ideal customer profile?",
+      "a": "A description of the companies or people most likely to buy from you, based on industry, size, role and needs."
+    },
+    {
+      "q": "Is it legal to email business contacts?",
+      "a": "It depends on the country and situation. Learn the privacy and anti-spam rules where your prospects are."
+    },
+    {
+      "q": "Should I buy a ready-made list?",
+      "a": "Generally no. Bought lists are often outdated, lack consent and can harm your sender reputation."
+    },
+    {
+      "q": "How do I check list quality?",
+      "a": "Review a sample: are contacts accurate, current and truly a fit for your offer?"
+    },
+    {
+      "q": "What should a good lead list include?",
+      "a": "Accurate names, roles, companies, relevant details and the source of each piece of information."
+    }
+  ],
+  "updated": "2026-10-03"
+}

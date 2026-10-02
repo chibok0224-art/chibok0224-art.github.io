@@ -1,0 +1,45 @@
+{
+  "title": "Choosing Fonts for Your Brand: Licenses, Pairing and Custom Type",
+  "h1": "Choosing fonts for your brand: licenses, pairing and custom type",
+  "description": "How brand fonts work: choosing typefaces, pairing, font licenses for web, apps and print, custom lettering vs custom fonts, and what to ask a designer.",
+  "intro": "Fonts shape how a brand feels long before anyone reads the words. They also come with licenses that many buyers never check, which can cause problems when a font used in a logo or website was only licensed for personal projects. Whether you are choosing fonts for a new brand, refreshing your website or considering a custom typeface, this article explains the basics, the licensing questions and when it makes sense to hire a type specialist.",
+  "kind": "Start here",
+  "order": 43,
+  "guides": [
+    "graphics-design/fonts-and-typography",
+    "graphics-design/logo-design",
+    "graphics-design/brand-style-guides",
+    "graphics-design/website-design"
+  ],
+  "also_for": [
+    "graphics-design/book-design",
+    "graphics-design/packaging-and-label-design",
+    "graphics-design/presentation-design",
+    "graphics-design/app-design",
+    "graphics-design/signage-design",
+    "graphics-design/t-shirts-and-merchandise"
+  ],
+  "faq": [
+    {
+      "q": "Are free fonts safe to use commercially?",
+      "a": "Many are, under open licenses, but some free downloads are for personal use only. Check each license."
+    },
+    {
+      "q": "Does one font license cover everything?",
+      "a": "Usually not. Desktop, web, app, ebook and broadcast uses are often licensed separately."
+    },
+    {
+      "q": "How many fonts should a brand use?",
+      "a": "Often two: one for headings and one for body text, sometimes with a few weights of each."
+    },
+    {
+      "q": "What is the difference between lettering and a font?",
+      "a": "Lettering is custom drawn for one use, like a logo; a font is a full set of characters you can type."
+    },
+    {
+      "q": "Who should hold the font license?",
+      "a": "Your business. Licenses bought by a designer may not transfer to you."
+    }
+  ],
+  "updated": "2026-10-03"
+}

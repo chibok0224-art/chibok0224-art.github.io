@@ -1,0 +1,45 @@
+{
+  "title": "How to Prepare a Character or Mascot Design Project",
+  "h1": "How to prepare a character or mascot design project",
+  "description": "What to prepare before commissioning a character or mascot: personality, audience, uses, style references, turnaround sheets, expressions, rights and files.",
+  "intro": "A well-designed character can become the face of a brand, a book series or a game. Mascots and characters are used for years, in many poses and formats, so they need more planning than a single illustration. Buyers who only describe a cute animal and leave the rest to the artist often end up with a design that works in one picture but not across a website, animation and merchandise. This article explains what to prepare before you commission a character.",
+  "kind": "Start here",
+  "order": 44,
+  "guides": [
+    "graphics-design/cartoon-illustration",
+    "graphics-design/character-modeling",
+    "graphics-design/ai-generated-character-design",
+    "video-animation/character-animation"
+  ],
+  "also_for": [
+    "graphics-design/childrens-book-illustration",
+    "graphics-design/game-art",
+    "graphics-design/comic-illustration",
+    "graphics-design/t-shirts-and-merchandise",
+    "video-animation/rigging",
+    "graphics-design/illustration"
+  ],
+  "faq": [
+    {
+      "q": "What is a character sheet?",
+      "a": "A reference showing the character from several angles, with colors and key details, so others can draw it consistently."
+    },
+    {
+      "q": "How many expressions do I need?",
+      "a": "Enough for your planned uses. Many brands start with five to ten expressions and poses."
+    },
+    {
+      "q": "Should the character be 2D or 3D?",
+      "a": "It depends on use. 2D suits illustration and simple animation; 3D suits games, AR and product-style visuals."
+    },
+    {
+      "q": "Who owns the character?",
+      "a": "Agree in writing. For mascots and series characters, aim for full rights or broad exclusive rights."
+    },
+    {
+      "q": "Can I use AI tools for a character?",
+      "a": "Consider consistency, rights and originality. Discuss openly with the artist before starting."
+    }
+  ],
+  "updated": "2026-10-03"
+}
