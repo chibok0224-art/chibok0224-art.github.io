@@ -1,0 +1,46 @@
+{
+  "title": "Illustration Rights and Usage: What to Agree Before You Commission",
+  "h1": "Illustration rights and usage: what to agree before you commission",
+  "description": "Understand rights when commissioning illustration: personal vs commercial use, exclusive rights, merchandise, source files, credit, style and AI questions.",
+  "intro": "When you commission an illustration, you are paying for artwork and for permission to use it. The two are not always the same. Many disputes start when a buyer uses an illustration on products, ads or a book cover that the original package did not cover. Agreeing on usage before work starts protects both you and the artist. This article explains the main types of rights in plain language so you know what to ask for.",
+  "kind": "Start here",
+  "order": 17,
+  "guides": [
+    "graphics-design/illustration",
+    "graphics-design/childrens-book-illustration",
+    "graphics-design/cartoon-illustration",
+    "graphics-design/comic-illustration"
+  ],
+  "also_for": [
+    "graphics-design/portraits-and-caricatures",
+    "graphics-design/game-art",
+    "graphics-design/book-covers",
+    "graphics-design/album-cover-design",
+    "graphics-design/pattern-design",
+    "graphics-design/t-shirts-and-merchandise",
+    "graphics-design/character-modeling"
+  ],
+  "faq": [
+    {
+      "q": "Does paying for an illustration mean I own it?",
+      "a": "Not necessarily. Many packages give a license to use it, not full ownership. Check the terms."
+    },
+    {
+      "q": "What is commercial use?",
+      "a": "Using the artwork to make money or promote a business, such as ads, products or book covers."
+    },
+    {
+      "q": "Can the artist show my illustration in their portfolio?",
+      "a": "Usually yes, unless you agree otherwise. Ask if you need confidentiality."
+    },
+    {
+      "q": "Can I edit the artwork later?",
+      "a": "Ask for permission and source files if you expect to make changes."
+    },
+    {
+      "q": "Should I ask about AI tools?",
+      "a": "Yes, if it matters to you. Ask how the artwork is created and whether any generated elements are included."
+    }
+  ],
+  "updated": "2026-10-03"
+}

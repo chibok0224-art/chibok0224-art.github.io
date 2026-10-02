@@ -1,0 +1,45 @@
+{
+  "title": "Online Store Launch Checklist: What to Prepare and Who Can Help",
+  "h1": "Online store launch checklist: what to prepare and who can help",
+  "description": "A practical checklist for launching an online store: platform, products and photos, descriptions, policies, payments, shipping, testing, tracking and marketing.",
+  "intro": "Launching an online store involves more than choosing a theme. Products need photos and descriptions, the store needs policies, payment and shipping settings, and everything must be tested before customers arrive. Freelancers can help with almost every part, but you still need to know what has to be done and in what order. This checklist walks you through the main steps and shows where outside help is most useful.",
+  "kind": "Start here",
+  "order": 21,
+  "guides": [
+    "programming-tech/shopify",
+    "programming-tech/woocommerce",
+    "business/e-commerce-management",
+    "writing-translation/product-descriptions"
+  ],
+  "also_for": [
+    "photography/product-photographers",
+    "online-marketing/e-commerce-marketing",
+    "online-marketing/e-commerce-seo",
+    "video-animation/e-commerce-product-videos",
+    "graphics-design/packaging-and-label-design",
+    "online-marketing/email-marketing"
+  ],
+  "faq": [
+    {
+      "q": "Which platform should I use?",
+      "a": "It depends on your products, budget and skills. Our Shopify vs WooCommerce article compares two popular options."
+    },
+    {
+      "q": "How many products do I need to launch?",
+      "a": "Enough to show what your store offers. Quality listings matter more than quantity."
+    },
+    {
+      "q": "Do I need legal policies?",
+      "a": "Yes. Most stores need privacy, returns, shipping and terms pages. Get local advice where needed."
+    },
+    {
+      "q": "Should I test before launch?",
+      "a": "Always. Place real test orders, including refunds, on desktop and mobile."
+    },
+    {
+      "q": "What should I do after launch?",
+      "a": "Watch analytics, answer customer questions quickly and improve listings based on what you learn."
+    }
+  ],
+  "updated": "2026-10-03"
+}

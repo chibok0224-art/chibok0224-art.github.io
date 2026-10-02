@@ -1,0 +1,44 @@
+{
+  "title": "How to Prepare Content for a Presentation Designer",
+  "h1": "How to prepare content for a presentation designer",
+  "description": "What a presentation designer needs from you: audience, slide outline, final text, chart data, brand assets, software and a realistic timeline.",
+  "intro": "A presentation designer can turn a cluttered deck into clear, confident slides, but only if the content is ready. The most common cause of delays and extra costs is changing the message while design is in progress. When the outline, text and data are settled first, the designer can focus on layout, charts and visual storytelling. This article explains what to prepare before you hire, whether the deck is for investors, sales, training or a conference.",
+  "kind": "Start here",
+  "order": 18,
+  "guides": [
+    "graphics-design/presentation-design",
+    "business/presentations",
+    "graphics-design/infographic-design",
+    "business/business-plans"
+  ],
+  "also_for": [
+    "writing-translation/speechwriting",
+    "graphics-design/brand-style-guides",
+    "data/data-visualization",
+    "writing-translation/case-studies",
+    "video-animation/corporate-videos"
+  ],
+  "faq": [
+    {
+      "q": "Should the content be final before design starts?",
+      "a": "As close as possible. Major changes during design take extra time and may cost more."
+    },
+    {
+      "q": "How many slides should I have?",
+      "a": "As few as the message needs. Often one idea per slide works best."
+    },
+    {
+      "q": "Which software should the designer use?",
+      "a": "The one you will present and edit in, so you can make small changes yourself."
+    },
+    {
+      "q": "Can a designer write the content too?",
+      "a": "Some can, but writing and design are different skills. Agree on who does what."
+    },
+    {
+      "q": "What is a slide template?",
+      "a": "A master design with layouts you can reuse for future decks."
+    }
+  ],
+  "updated": "2026-10-03"
+}

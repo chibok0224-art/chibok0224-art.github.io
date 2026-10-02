@@ -1,0 +1,44 @@
+{
+  "title": "Starting Email Marketing: What to Prepare Before You Hire",
+  "h1": "Starting email marketing: what to prepare before you hire help",
+  "description": "Prepare to start email marketing with freelance help: permission-based lists, platform, sign-up forms, welcome emails, content, design and measurement.",
+  "intro": "Email remains one of the most reliable ways to stay in touch with customers, because you own the list and are not dependent on social media reach. Starting well matters, though. A list built without proper permission, a platform chosen at random or emails sent without a plan can hurt deliverability and annoy subscribers. This article covers what to prepare before you hire an email marketer, designer or copywriter.",
+  "kind": "Start here",
+  "order": 20,
+  "guides": [
+    "online-marketing/email-marketing",
+    "online-marketing/email-automations",
+    "graphics-design/email-design",
+    "writing-translation/email-copy"
+  ],
+  "also_for": [
+    "online-marketing/marketing-automation",
+    "online-marketing/text-message-marketing",
+    "online-marketing/e-commerce-marketing",
+    "writing-translation/sales-copy",
+    "business/lead-generation"
+  ],
+  "faq": [
+    {
+      "q": "Can I buy an email list?",
+      "a": "No. Bought lists lack permission, damage deliverability and can break privacy and anti-spam rules."
+    },
+    {
+      "q": "How often should I send emails?",
+      "a": "Choose a pace you can keep, such as weekly or twice a month, and stay consistent."
+    },
+    {
+      "q": "Which platform should I choose?",
+      "a": "One that fits your size, connects with your website or store and is easy for you to use."
+    },
+    {
+      "q": "What is a welcome sequence?",
+      "a": "A short series of automatic emails sent to new subscribers after they sign up."
+    },
+    {
+      "q": "What should I measure?",
+      "a": "Clicks, conversions and unsubscribes matter more than open rates alone."
+    }
+  ],
+  "updated": "2026-10-03"
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Before You Hire an SEO Freelancer: What to Check and Prepare",
+  "h1": "Before you hire an SEO freelancer: what to check and prepare",
+  "description": "Prepare for an SEO project: goals, access to analytics and search tools, current site health, content, competitors, realistic timelines and red flags to avoid.",
+  "intro": "Search engine optimization can bring steady, long-term traffic, but it is also a field full of vague promises. Buyers who prepare well get clearer proposals, can compare freelancers fairly and are less likely to pay for tactics that do not help or even cause harm. This article explains what to gather and decide before you hire, what good SEO work usually looks like and which warning signs to watch for.",
+  "kind": "Start here",
+  "order": 19,
+  "guides": [
+    "online-marketing/search-engine-optimization-seo",
+    "online-marketing/local-seo",
+    "online-marketing/e-commerce-seo",
+    "online-marketing/web-analytics"
+  ],
+  "also_for": [
+    "online-marketing/generative-engine-optimization-geo",
+    "online-marketing/video-seo",
+    "writing-translation/articles-and-blog-posts",
+    "writing-translation/website-content",
+    "online-marketing/search-engine-marketing-sem",
+    "programming-tech/website-maintenance"
+  ],
+  "faq": [
+    {
+      "q": "How long does SEO take to work?",
+      "a": "Usually months. Results depend on competition, site health and the amount of content and work done."
+    },
+    {
+      "q": "Can anyone guarantee first place in search?",
+      "a": "No. Search engines decide rankings, and guarantees are a warning sign."
+    },
+    {
+      "q": "Is buying backlinks a good idea?",
+      "a": "Paid links meant to manipulate rankings break search engine guidelines and can hurt your site."
+    },
+    {
+      "q": "What access does an SEO freelancer need?",
+      "a": "Usually analytics, search console and sometimes the website, ideally through their own user accounts."
+    },
+    {
+      "q": "Is local SEO different?",
+      "a": "Yes. It focuses on maps listings, reviews and location pages for businesses serving an area."
+    }
+  ],
+  "updated": "2026-10-03"
+}

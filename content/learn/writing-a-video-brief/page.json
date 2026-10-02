@@ -1,0 +1,45 @@
+{
+  "title": "How to Write a Video Brief for Editors and Video Creators",
+  "h1": "How to write a video brief for editors and video creators",
+  "description": "What to include in a video brief: goal, audience, platform and format, length, footage and assets, style references, music, captions, revisions and deadlines.",
+  "intro": "Video projects involve many choices: length, pace, music, text, colors, format and where the video will be shown. When those choices are left to the editor, the first draft often misses the mark and revisions pile up. A clear video brief answers the important questions before work starts. This article explains what to include, whether you are hiring an editor for existing footage, an animator or a videographer to film something new.",
+  "kind": "Start here",
+  "order": 16,
+  "guides": [
+    "video-animation/video-editing",
+    "video-animation/videographers",
+    "video-animation/corporate-videos",
+    "video-animation/video-ads-and-commercials"
+  ],
+  "also_for": [
+    "video-animation/filmed-video-production",
+    "video-animation/animated-explainers",
+    "video-animation/social-media-videos",
+    "video-animation/e-commerce-product-videos",
+    "video-animation/live-action-explainers",
+    "video-animation/intro-and-outro-videos"
+  ],
+  "faq": [
+    {
+      "q": "How long should a video brief be?",
+      "a": "One or two pages is usually enough, plus links to footage and examples."
+    },
+    {
+      "q": "Should I write the script myself?",
+      "a": "If the message matters, yes or with a scriptwriter. Editors shape footage; they do not usually write the message."
+    },
+    {
+      "q": "Who provides the music?",
+      "a": "Agree in advance. Use licensed music, and keep the license details with the project."
+    },
+    {
+      "q": "What if I do not know what style I want?",
+      "a": "Collect a few videos you like and dislike and explain why. Patterns usually appear."
+    },
+    {
+      "q": "Do I get the project files?",
+      "a": "Not always by default. Ask early if you want editable project files."
+    }
+  ],
+  "updated": "2026-10-03"
+}
