@@ -515,6 +515,7 @@ LEARN = {"by_guide": {}, "basics": []}
 
 # Start-here articles shown on every guide, after any article written for that service.
 BASICS = ("how-to-write-a-brief", "understanding-packages", "checking-a-delivery")
+GENERAL = set(BASICS) | {"how-to-hire-a-freelancer", "giving-feedback-to-freelancers", "freelancer-vs-agency"}
 
 
 def index_learn(articles):
@@ -527,8 +528,12 @@ def index_learn(articles):
 
 
 def learn_box(svc):
-    specific = LEARN["by_guide"].get(svc["path"], [])
-    basics = [a for a in LEARN["basics"] if a not in specific]
+    path = svc["path"]
+    # Topic articles before general ones; then those listing this guide as a main guide, then narrower ones.
+    specific = sorted(LEARN["by_guide"].get(path, []),
+                      key=lambda a: (a["slug"] in GENERAL, path not in a.get("guides", []),
+                                     len(a.get("guides", [])) + len(a.get("also_for", []))))
+    basics = [a for a in LEARN["basics"] if a not in specific[:3]]
     items = specific[:3] + basics[:max(0, 4 - len(specific[:3]))]
     if not items:
         return ""
