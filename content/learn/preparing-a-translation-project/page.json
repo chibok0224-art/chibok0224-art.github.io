@@ -1,0 +1,45 @@
+{
+  "title": "How to Prepare Files and a Brief for a Translation Project",
+  "h1": "How to prepare files and a brief for a translation project",
+  "description": "Prepare translation projects for accurate, consistent results: editable files, target audience, glossary, style notes, context, review and a word count.",
+  "intro": "Translation quality depends heavily on what the translator receives. Sending a scanned PDF with no context, no word list and no idea of the audience forces guesswork, and guesswork leads to inconsistent terms and extra rounds of corrections. With a little preparation, translators work faster, quote more accurately and deliver text that sounds right to your readers. This article explains what to prepare before you hire.",
+  "kind": "Start here",
+  "order": 15,
+  "guides": [
+    "writing-translation/translation",
+    "writing-translation/localization",
+    "video-animation/subtitles-and-captions",
+    "writing-translation/proofreading-and-editing"
+  ],
+  "also_for": [
+    "writing-translation/website-content",
+    "writing-translation/product-descriptions",
+    "writing-translation/technical-writing",
+    "writing-translation/transcription",
+    "writing-translation/interpretation",
+    "writing-translation/brand-voice-and-tone"
+  ],
+  "faq": [
+    {
+      "q": "How are translation projects usually priced?",
+      "a": "Often by word count of the source text, sometimes by hour or page for special formats."
+    },
+    {
+      "q": "Why do translators want editable files?",
+      "a": "Editable files can be counted accurately and returned in the same layout."
+    },
+    {
+      "q": "What is a glossary?",
+      "a": "A list of key terms with their approved translations, so they stay consistent."
+    },
+    {
+      "q": "Should a second person review the translation?",
+      "a": "For important or public content, a review by another native speaker is wise."
+    },
+    {
+      "q": "Is machine translation good enough?",
+      "a": "For internal drafts it may be. For customer-facing text, have a human translate or edit it."
+    }
+  ],
+  "updated": "2026-10-03"
+}

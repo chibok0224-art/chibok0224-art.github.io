@@ -1,0 +1,44 @@
+{
+  "title": "Print-Ready Files for T-Shirts and Merch: What to Ask For",
+  "h1": "Print-ready files for t-shirts and merch: what to ask your designer for",
+  "description": "How to get merch designs that print well: print methods, vector vs high-resolution files, colors, sizes, mockups and a checklist before printing.",
+  "intro": "A design that looks great on screen can print badly on a shirt, mug or tote bag. Colors shift, thin lines disappear and low-resolution images turn blurry. Most of these problems come from files that were not prepared for the way the product will actually be printed. This article explains what print-ready means for merchandise, what to tell your designer before they start, and what to check before you send files to a printer or print-on-demand service.",
+  "kind": "Start here",
+  "order": 12,
+  "guides": [
+    "graphics-design/t-shirts-and-merchandise",
+    "graphics-design/vector-tracing",
+    "graphics-design/pattern-design",
+    "graphics-design/packaging-and-label-design"
+  ],
+  "also_for": [
+    "graphics-design/illustration",
+    "graphics-design/cartoon-illustration",
+    "graphics-design/poster-design",
+    "graphics-design/signage-design",
+    "graphics-design/fonts-and-typography"
+  ],
+  "faq": [
+    {
+      "q": "What file format do printers want?",
+      "a": "Usually a vector file such as AI, EPS, SVG or PDF, or a high-resolution PNG with a transparent background."
+    },
+    {
+      "q": "What resolution is high enough?",
+      "a": "Around 300 pixels per inch at the actual printed size is a common standard for raster files."
+    },
+    {
+      "q": "Why do printed colors look different?",
+      "a": "Screens show light, while ink is absorbed by fabric. Fabric color and print method also change the result."
+    },
+    {
+      "q": "Can I use any image I find online?",
+      "a": "No. You need the rights to every image, font and character in the design."
+    },
+    {
+      "q": "Should I order a sample?",
+      "a": "Yes. A single sample is the best way to check colors, size and placement before ordering in bulk."
+    }
+  ],
+  "updated": "2026-10-03"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Product Photography vs 3D Product Rendering: Which to Choose?",
+  "h1": "Product photography vs 3D product rendering: which should you choose?",
+  "description": "Compare product photography and 3D rendering for online stores and ads: realism, cost, speed, variations, what each needs from you and when to combine them.",
+  "intro": "Good product images sell. For years, the only option was a photoshoot, but 3D rendering now creates realistic product images from a digital model, without a camera or physical sample. Each approach has strengths. Photography captures real textures and real people, while rendering makes it easy to show every color option, impossible angles and products that do not exist yet. This article compares the two and helps you decide which suits your products.",
+  "kind": "Comparison",
+  "order": 27,
+  "guides": [
+    "photography/product-photographers",
+    "graphics-design/industrial-and-product-design",
+    "video-animation/3d-product-animation",
+    "graphics-design/image-editing"
+  ],
+  "also_for": [
+    "video-animation/e-commerce-product-videos",
+    "online-marketing/e-commerce-marketing",
+    "graphics-design/3d-industrial-design",
+    "graphics-design/packaging-and-label-design",
+    "photography/lifestyle-and-fashion-photographers"
+  ],
+  "faq": [
+    {
+      "q": "Are 3D renders allowed on marketplaces?",
+      "a": "Usually yes, if they accurately represent the product. Check each marketplace's image rules."
+    },
+    {
+      "q": "Do I need a physical sample for 3D rendering?",
+      "a": "Not always. Technical drawings, measurements and material references can be enough."
+    },
+    {
+      "q": "Which is cheaper?",
+      "a": "For one product in one color, photography is often cheaper. For many variations, rendering can be more efficient."
+    },
+    {
+      "q": "Can renders look fake?",
+      "a": "Poor ones can. Good renders depend on accurate models, materials and lighting."
+    },
+    {
+      "q": "Can I use both?",
+      "a": "Yes. Many brands use renders for catalog images and photography for lifestyle shots."
+    }
+  ],
+  "updated": "2026-10-03"
+}

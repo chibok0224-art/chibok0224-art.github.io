@@ -1,0 +1,44 @@
+{
+  "title": "How to Prepare a Script and Brief for a Voice Over Artist",
+  "h1": "How to prepare a script and brief for a voice over artist",
+  "description": "Prepare a voice over script that records smoothly: word count and timing, pronunciation notes, tone references, file specs, revisions and usage rights.",
+  "intro": "A voice over is only as good as the script and instructions behind it. Most retakes happen not because the voice artist made a mistake, but because the script was unclear, too long for the video, or full of names nobody explained how to say. A little preparation leads to a recording that fits your video on the first try. This article explains how to prepare the script, the brief and the technical details before you hire.",
+  "kind": "Start here",
+  "order": 13,
+  "guides": [
+    "music-audio/voice-over",
+    "writing-translation/scriptwriting",
+    "video-animation/animated-explainers",
+    "music-audio/audio-ads-production"
+  ],
+  "also_for": [
+    "video-animation/elearning-video-production",
+    "video-animation/corporate-videos",
+    "video-animation/video-ads-and-commercials",
+    "music-audio/audiobook-production",
+    "ai-services/text-to-speech"
+  ],
+  "faq": [
+    {
+      "q": "How many words fit in a minute?",
+      "a": "Roughly 130 to 160 words per minute for natural narration, fewer for slow, calm reads."
+    },
+    {
+      "q": "Can I change the script after recording?",
+      "a": "Usually that counts as a new recording or a paid revision, so finalize the script first."
+    },
+    {
+      "q": "What file format should I ask for?",
+      "a": "WAV for editing and best quality, MP3 for quick previews, at the sample rate your editor needs."
+    },
+    {
+      "q": "Do I need to explain pronunciation?",
+      "a": "Yes, for names, brands, acronyms and technical words. A short audio example helps most."
+    },
+    {
+      "q": "What are usage rights?",
+      "a": "Permission to use the recording in specific places, such as online, broadcast or paid ads."
+    }
+  ],
+  "updated": "2026-10-03"
+}

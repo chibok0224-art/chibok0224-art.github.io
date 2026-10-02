@@ -1,0 +1,45 @@
+{
+  "title": "Website Maintenance vs Redesign: Fix It or Start Over?",
+  "h1": "Website maintenance vs redesign: fix it or start over?",
+  "description": "How to decide whether your website needs maintenance, targeted fixes or a full redesign, with signs to look for, what each involves and who to hire.",
+  "intro": "When a website starts to feel slow, dated or hard to manage, many owners jump straight to a full redesign. Sometimes that is the right call. Often, though, the site needs updates, fixes and a few focused improvements rather than a rebuild. Choosing wrongly either wastes money on a new site that repeats old problems or keeps you patching a site that should have been replaced. This article helps you tell the difference.",
+  "kind": "Comparison",
+  "order": 26,
+  "guides": [
+    "programming-tech/website-maintenance",
+    "programming-tech/troubleshooting-and-improvements",
+    "graphics-design/website-design",
+    "programming-tech/website-development"
+  ],
+  "also_for": [
+    "programming-tech/wordpress",
+    "programming-tech/wix",
+    "programming-tech/squarespace",
+    "programming-tech/webflow",
+    "online-marketing/conversion-rate-optimization-cro",
+    "writing-translation/website-content"
+  ],
+  "faq": [
+    {
+      "q": "How often does a website need maintenance?",
+      "a": "Updates and backups should happen regularly, often monthly, with security checks in between."
+    },
+    {
+      "q": "Will a redesign improve my search rankings?",
+      "a": "Not automatically. A careless redesign can even lose rankings if pages and redirects are not handled."
+    },
+    {
+      "q": "Can I redesign without changing platforms?",
+      "a": "Yes. Many redesigns keep the same platform and change the design and content."
+    },
+    {
+      "q": "What should a maintenance plan include?",
+      "a": "Updates, backups, security monitoring, uptime checks and a set amount of small changes."
+    },
+    {
+      "q": "How do I know if my site is too old?",
+      "a": "If basic updates are impossible or every change breaks something, a rebuild is often cheaper long term."
+    }
+  ],
+  "updated": "2026-10-03"
+}

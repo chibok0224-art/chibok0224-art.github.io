@@ -1,0 +1,45 @@
+{
+  "title": "How to Prepare a Data Analysis or Dashboard Project",
+  "h1": "How to prepare a data analysis or dashboard project before hiring",
+  "description": "What to prepare before hiring a data analyst: key questions, data sources, quality, definitions, access, privacy and the outputs you need.",
+  "intro": "Data projects often start with a vague request such as analyze our sales data or build us a dashboard. Analysts can work with that, but the result may not answer the questions that actually matter to you. The best projects begin with clear business questions, organized data and agreed definitions. This article walks you through what to prepare so that a freelance analyst can give you accurate quotes and useful results.",
+  "kind": "Start here",
+  "order": 14,
+  "guides": [
+    "data/data-analytics",
+    "data/dashboards",
+    "data/data-cleaning",
+    "data/data-visualization"
+  ],
+  "also_for": [
+    "online-marketing/web-analytics",
+    "business/market-research",
+    "consulting-services/data-visualization-consulting",
+    "data/data-processing",
+    "data/databases",
+    "data/data-engineering"
+  ],
+  "faq": [
+    {
+      "q": "Do I need clean data before hiring an analyst?",
+      "a": "No, but tell them. Cleaning is often a large part of the work and affects the quote."
+    },
+    {
+      "q": "Should I share real customer data?",
+      "a": "Share only what is needed, remove personal details where possible and agree on how data is handled."
+    },
+    {
+      "q": "What is the difference between analysis and a dashboard?",
+      "a": "Analysis answers specific questions once; a dashboard tracks agreed numbers over time."
+    },
+    {
+      "q": "Which dashboard tool should I use?",
+      "a": "Often the one your team already has. Ask the analyst to recommend based on your data sources."
+    },
+    {
+      "q": "How do I know the numbers are right?",
+      "a": "Ask for checks against figures you already trust, and for the logic behind each measure."
+    }
+  ],
+  "updated": "2026-10-03"
+}
