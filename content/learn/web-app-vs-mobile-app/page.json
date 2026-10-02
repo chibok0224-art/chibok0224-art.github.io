@@ -1,0 +1,45 @@
+{
+  "title": "Web App vs Mobile App: Which Should You Build First?",
+  "h1": "Web app vs mobile app: which should you build first?",
+  "description": "Compare web apps and mobile apps: reach, cost, speed, device features, app store review, updates and offline use, and which to build first for your idea.",
+  "intro": "When people have an idea for software, they often assume it must be a mobile app in the app stores. Sometimes that is right. In many cases, though, a web app that runs in the browser is faster, cheaper and easier to update, and works on phones too. The best choice depends on how people will use your product, which device features you need and how quickly you want to learn. This article compares the options so you can decide what to build first.",
+  "kind": "Comparison",
+  "order": 32,
+  "guides": [
+    "programming-tech/full-stack-web-apps",
+    "programming-tech/mobile-app-development",
+    "programming-tech/cross-platform-apps",
+    "programming-tech/development-and-mvp"
+  ],
+  "also_for": [
+    "programming-tech/ios-app-development",
+    "programming-tech/android-app-development",
+    "graphics-design/app-design",
+    "graphics-design/ux-design",
+    "online-marketing/mobile-app-marketing",
+    "programming-tech/software-development"
+  ],
+  "faq": [
+    {
+      "q": "Can a web app work on phones?",
+      "a": "Yes. A responsive web app works in mobile browsers and can often be added to the home screen."
+    },
+    {
+      "q": "What is a progressive web app?",
+      "a": "A web app that can be installed on devices, work partly offline and send some notifications."
+    },
+    {
+      "q": "Do I need to be in the app stores?",
+      "a": "Only if your users expect it, or you need features and discovery that stores provide."
+    },
+    {
+      "q": "Which is cheaper to build?",
+      "a": "A web app is usually cheaper than separate iOS and Android apps, especially at first."
+    },
+    {
+      "q": "Can I start with web and add mobile later?",
+      "a": "Yes. Many products do this, reusing the same backend and design."
+    }
+  ],
+  "updated": "2026-10-03"
+}

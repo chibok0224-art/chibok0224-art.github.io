@@ -1,0 +1,45 @@
+{
+  "title": "How to Prepare a Workflow Automation Project",
+  "h1": "How to prepare a workflow automation project",
+  "description": "What to prepare before hiring someone to automate your workflows: the process map, tools and access, data rules, error handling, costs, testing and ownership.",
+  "intro": "Many businesses spend hours each week copying data between tools, sending the same emails and updating spreadsheets by hand. Automation tools and custom integrations can take over much of this work. But automating a messy process usually produces a fast, messy process. The best results come from understanding the workflow first, then automating it carefully. This article explains what to prepare before hiring an automation freelancer.",
+  "kind": "Start here",
+  "order": 39,
+  "guides": [
+    "programming-tech/apis-and-integrations",
+    "online-marketing/marketing-automation",
+    "programming-tech/scripting",
+    "ai-services/ai-integration"
+  ],
+  "also_for": [
+    "online-marketing/email-automations",
+    "business/virtual-assistant",
+    "data/data-processing",
+    "data/data-entry",
+    "programming-tech/chatbot-development",
+    "business/project-management"
+  ],
+  "faq": [
+    {
+      "q": "Which tasks are good candidates for automation?",
+      "a": "Repetitive, rule-based tasks that happen often, such as moving form entries into a spreadsheet or sending follow-up emails."
+    },
+    {
+      "q": "Should I use a no-code tool or custom code?",
+      "a": "No-code tools suit many common workflows. Custom code helps when volumes are high or logic is complex."
+    },
+    {
+      "q": "What happens when an automation fails?",
+      "a": "A good setup alerts someone and logs the error so data is not silently lost."
+    },
+    {
+      "q": "Do automations cost money to run?",
+      "a": "Often yes. Tools may charge by number of tasks or runs, and custom code needs hosting."
+    },
+    {
+      "q": "Can AI be part of an automation?",
+      "a": "Yes, for tasks like summarizing or categorizing, with human review where accuracy matters."
+    }
+  ],
+  "updated": "2026-10-03"
+}

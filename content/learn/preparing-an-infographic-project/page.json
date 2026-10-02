@@ -1,0 +1,45 @@
+{
+  "title": "How to Prepare Content for an Infographic Designer",
+  "h1": "How to prepare content for an infographic designer",
+  "description": "What to give an infographic designer: one clear message, checked data with sources, a text outline, audience, format and size, brand assets and review steps.",
+  "intro": "Infographics turn data, processes and comparisons into visuals that people understand at a glance. Designers are skilled at visual storytelling, but they rely on you for the content: the message, the numbers and the structure. When content is unclear or unfinished, infographics end up crowded or confusing. This article explains how to prepare content so the designer can focus on making it clear and attractive.",
+  "kind": "Start here",
+  "order": 40,
+  "guides": [
+    "graphics-design/infographic-design",
+    "data/data-visualization",
+    "writing-translation/research-and-summaries",
+    "graphics-design/presentation-design"
+  ],
+  "also_for": [
+    "graphics-design/social-media-design",
+    "graphics-design/brochure-design",
+    "graphics-design/poster-design",
+    "consulting-services/data-visualization-consulting",
+    "graphics-design/icon-design",
+    "writing-translation/case-studies"
+  ],
+  "faq": [
+    {
+      "q": "How much text should an infographic have?",
+      "a": "As little as possible. Short headings, labels and key numbers work best."
+    },
+    {
+      "q": "Can the designer find the data for me?",
+      "a": "Some offer research, but it is usually better to provide data you have checked."
+    },
+    {
+      "q": "What sizes do I need?",
+      "a": "It depends on where it will be used: a long vertical image, slides for social media or a print poster."
+    },
+    {
+      "q": "Should I cite sources?",
+      "a": "Yes. Listing sources builds trust and lets readers verify the numbers."
+    },
+    {
+      "q": "Can an infographic be updated later?",
+      "a": "Yes, if you have the editable source files."
+    }
+  ],
+  "updated": "2026-10-03"
+}

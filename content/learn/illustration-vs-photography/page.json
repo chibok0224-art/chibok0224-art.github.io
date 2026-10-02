@@ -1,0 +1,45 @@
+{
+  "title": "Illustration vs Photography for Marketing: Which Should You Use?",
+  "h1": "Illustration vs photography for marketing: which should you use?",
+  "description": "When to use illustration and when to use photography in marketing: trust, brand style, flexibility, cost, consistency, rights and how to combine both.",
+  "intro": "Every website, ad and social post needs images, and the first choice is often between illustration and photography. Photos show real people, places and products, which builds trust. Illustrations explain ideas, create a distinctive style and can show things a camera cannot. Neither is always better. This article compares the two so you can choose the right approach for each part of your marketing and brief the right freelancer.",
+  "kind": "Comparison",
+  "order": 31,
+  "guides": [
+    "graphics-design/illustration",
+    "photography/lifestyle-and-fashion-photographers",
+    "photography/product-photographers",
+    "graphics-design/social-media-design"
+  ],
+  "also_for": [
+    "graphics-design/cartoon-illustration",
+    "photography/portrait-photographers",
+    "graphics-design/website-design",
+    "graphics-design/infographic-design",
+    "graphics-design/image-editing",
+    "graphics-design/icon-design"
+  ],
+  "faq": [
+    {
+      "q": "Is photography always more trustworthy?",
+      "a": "Real photos of your team, customers and products build trust. Generic stock photos often do not."
+    },
+    {
+      "q": "Can I mix illustration and photography?",
+      "a": "Yes, if you set clear rules for where each is used and keep a consistent color palette."
+    },
+    {
+      "q": "Are stock photos good enough?",
+      "a": "For some uses, yes. For key pages, original photos usually feel more authentic."
+    },
+    {
+      "q": "Is illustration cheaper?",
+      "a": "Not always. A custom illustration set can cost as much as a photoshoot, but it is easy to extend later."
+    },
+    {
+      "q": "What about AI-generated images?",
+      "a": "Consider accuracy, rights and how your audience will perceive them before using them in marketing."
+    }
+  ],
+  "updated": "2026-10-03"
+}

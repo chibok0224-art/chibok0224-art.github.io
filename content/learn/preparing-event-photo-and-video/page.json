@@ -1,0 +1,45 @@
+{
+  "title": "How to Brief a Photographer or Videographer for an Event",
+  "h1": "How to brief a photographer or videographer for an event",
+  "description": "Prepare event photography and video: schedule, must-have shots, key people, venue rules, lighting, consent, deliverables, turnaround and usage rights.",
+  "intro": "Events happen once. If a key moment is missed, a speaker is not photographed or the audio is unusable, there is no second chance. Event photographers and videographers work quickly under changing conditions, and they rely on good information to be in the right place at the right time. This article explains how to brief them for conferences, product launches, workshops, parties and community events.",
+  "kind": "Start here",
+  "order": 42,
+  "guides": [
+    "photography/event-photographers",
+    "video-animation/videographers",
+    "business/event-management",
+    "video-animation/social-media-videos"
+  ],
+  "also_for": [
+    "video-animation/video-repurposing",
+    "video-animation/video-editing",
+    "photography/portrait-photographers",
+    "photography/drone-photographers",
+    "video-animation/corporate-videos",
+    "writing-translation/transcription"
+  ],
+  "faq": [
+    {
+      "q": "How early should I book?",
+      "a": "As early as possible, especially for busy seasons and weekends."
+    },
+    {
+      "q": "Do I need both photo and video?",
+      "a": "Photos are useful for news and social posts; video captures energy and talks. Many events benefit from both."
+    },
+    {
+      "q": "How do I handle consent?",
+      "a": "Inform attendees about filming at registration and on signs, and offer a way to opt out."
+    },
+    {
+      "q": "When will I receive the files?",
+      "a": "Agree on turnaround. Many photographers offer a small set of quick previews for same-day sharing."
+    },
+    {
+      "q": "Who owns the photos and video?",
+      "a": "Agree on usage rights in advance, especially for advertising or sponsors' use."
+    }
+  ],
+  "updated": "2026-10-03"
+}

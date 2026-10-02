@@ -1,0 +1,44 @@
+{
+  "title": "How to Prepare Before Outsourcing Customer Support",
+  "h1": "How to prepare before outsourcing customer support",
+  "description": "Prepare to outsource customer support: channels and hours, a knowledge base, reply templates, escalation rules, tool access, privacy and quality checks.",
+  "intro": "Customer support shapes how people feel about your business. As messages grow, many owners bring in freelance support agents or virtual assistants to handle email, chat and social media replies. Done well, customers get faster, friendlier answers and you get time back. Done poorly, customers receive vague or wrong replies and problems escalate. This article explains what to prepare before handing support to someone else.",
+  "kind": "Start here",
+  "order": 41,
+  "guides": [
+    "business/customer-service",
+    "consulting-services/customer-care-consulting",
+    "business/virtual-assistant",
+    "business/customer-experience-management-cxm"
+  ],
+  "also_for": [
+    "programming-tech/chatbot-development",
+    "business/e-commerce-management",
+    "writing-translation/email-copy",
+    "writing-translation/technical-writing",
+    "writing-translation/translation"
+  ],
+  "faq": [
+    {
+      "q": "What should I outsource first?",
+      "a": "Common, repeatable questions such as order status, returns and basic product questions."
+    },
+    {
+      "q": "How do agents learn my products?",
+      "a": "From a knowledge base, reply templates, a short training session and access to past conversations."
+    },
+    {
+      "q": "What should always come back to me?",
+      "a": "Refunds above a limit, legal threats, sensitive complaints and anything without a clear answer."
+    },
+    {
+      "q": "How do I check quality?",
+      "a": "Review a sample of conversations each week and track response time and customer satisfaction."
+    },
+    {
+      "q": "Can a chatbot replace outsourced support?",
+      "a": "It can answer simple questions, but people are still needed for complex or emotional cases."
+    }
+  ],
+  "updated": "2026-10-03"
+}
