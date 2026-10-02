@@ -1,0 +1,45 @@
+{
+  "title": "Logo Animation vs Intro Video: Which Does Your Brand Need?",
+  "h1": "Logo animation vs intro video: which does your brand need?",
+  "description": "The difference between a logo animation, a video intro and outro, and a sonic logo: length, uses, files, sound and how to brief each for your channel or brand.",
+  "intro": "Short animated openings can make videos look polished and help viewers recognize your brand. The terms are often mixed up: a logo animation, an intro, an outro and an audio logo are related but different. Choosing the right one depends on where your videos appear and how much time viewers will give you before the content starts. This article explains each option and how to brief it.",
+  "kind": "Comparison",
+  "order": 30,
+  "guides": [
+    "video-animation/logo-animation",
+    "video-animation/intro-and-outro-videos",
+    "music-audio/audio-logo-and-sonic-branding",
+    "music-audio/jingles-and-intros"
+  ],
+  "also_for": [
+    "video-animation/text-animation",
+    "video-animation/lottie-and-web-animation",
+    "video-animation/video-editing",
+    "graphics-design/logo-design",
+    "video-animation/animation-for-streamers",
+    "video-animation/corporate-videos"
+  ],
+  "faq": [
+    {
+      "q": "How long should a logo animation be?",
+      "a": "Usually a few seconds. On social platforms, shorter is better so viewers reach the content quickly."
+    },
+    {
+      "q": "What is an outro?",
+      "a": "A short closing sequence, often with a call to action, links or end screen space."
+    },
+    {
+      "q": "Do I need sound with my logo animation?",
+      "a": "It helps recognition. A short sound or audio logo makes the animation memorable."
+    },
+    {
+      "q": "Which file formats will I receive?",
+      "a": "Often MP4 for video, versions with transparent backgrounds, and sometimes web animation files."
+    },
+    {
+      "q": "Can I use my logo animation on my website?",
+      "a": "Yes. Ask for a lightweight web format so it loads quickly."
+    }
+  ],
+  "updated": "2026-10-03"
+}

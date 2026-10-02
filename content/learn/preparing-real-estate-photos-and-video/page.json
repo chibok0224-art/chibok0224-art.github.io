@@ -1,0 +1,44 @@
+{
+  "title": "Preparing a Property for Real Estate Photos and Video",
+  "h1": "Preparing a property for real estate photos and video",
+  "description": "How to prepare a property and brief for real estate photography, video, drone shots, virtual tours and floor plans, plus editing, delivery and usage rights.",
+  "intro": "Listing photos and videos are often the first impression a buyer or renter has of a property. Professional photographers and videographers can make a huge difference, but the property itself must be ready, and the brief must say exactly which shots and formats you need. Many shoots fall short because rooms were cluttered, the weather was wrong or nobody asked for vertical video. This article explains how to prepare both the property and the brief.",
+  "kind": "Start here",
+  "order": 37,
+  "guides": [
+    "photography/real-estate-photographers",
+    "video-animation/real-estate-promos",
+    "photography/drone-photographers",
+    "graphics-design/3d-architecture"
+  ],
+  "also_for": [
+    "graphics-design/architecture-and-interior-design",
+    "graphics-design/image-editing",
+    "video-animation/videographers",
+    "graphics-design/flyer-design",
+    "writing-translation/sales-copy"
+  ],
+  "faq": [
+    {
+      "q": "How long does a property shoot take?",
+      "a": "Often one to a few hours, depending on size and whether video and drone shots are included."
+    },
+    {
+      "q": "Can editing remove clutter?",
+      "a": "Small items can be removed, but staging the property properly gives far better results."
+    },
+    {
+      "q": "Are drone shots allowed everywhere?",
+      "a": "No. Drone rules vary by location. Your pilot should know and follow local regulations."
+    },
+    {
+      "q": "What is virtual staging?",
+      "a": "Digitally adding furniture to empty rooms. It should be clearly disclosed in listings."
+    },
+    {
+      "q": "Do I need vertical video?",
+      "a": "If you plan to share on social media, yes. Ask for both horizontal and vertical versions."
+    }
+  ],
+  "updated": "2026-10-03"
+}

@@ -1,0 +1,47 @@
+{
+  "title": "How a Song Is Made with Freelancers: Writing to Release",
+  "h1": "How a song is made with freelancers: from writing to release",
+  "description": "The steps of making a song with freelance help: songwriting, production, session musicians, vocals, tuning, mixing, mastering, artwork and release planning.",
+  "intro": "Making a song once required a studio, a label and a team. Today, artists and businesses can bring together songwriters, producers, singers and engineers online. The order of the steps matters, though, and so does agreeing on rights before anyone starts. Whether you are an artist releasing your own music, someone ordering a custom song as a gift, or a business needing a jingle, this article explains how a song comes together and who does what.",
+  "kind": "Start here",
+  "order": 35,
+  "guides": [
+    "music-audio/songwriting",
+    "music-audio/music-producers",
+    "music-audio/singers-and-vocalists",
+    "music-audio/custom-songs"
+  ],
+  "also_for": [
+    "music-audio/session-musicians",
+    "music-audio/beat-making",
+    "music-audio/vocal-tuning",
+    "music-audio/mixing-and-mastering",
+    "graphics-design/album-cover-design",
+    "online-marketing/music-promotion",
+    "video-animation/music-videos",
+    "music-audio/composers"
+  ],
+  "faq": [
+    {
+      "q": "Who owns a song made by several freelancers?",
+      "a": "It depends on your agreements. Settle songwriting splits and rights in writing before work starts."
+    },
+    {
+      "q": "Do I need to write lyrics myself?",
+      "a": "No. Songwriters can write lyrics and melodies from your ideas, or polish what you have."
+    },
+    {
+      "q": "What is a demo?",
+      "a": "A rough recording of the song used to test the structure and melody before full production."
+    },
+    {
+      "q": "How long does it take?",
+      "a": "From a few days for a simple custom song to several weeks for a fully produced release."
+    },
+    {
+      "q": "Do I need mixing and mastering?",
+      "a": "For a release, yes. They make the song sound balanced and ready for streaming."
+    }
+  ],
+  "updated": "2026-10-03"
+}

@@ -1,0 +1,45 @@
+{
+  "title": "How to Prepare for a Website Copywriting Project",
+  "h1": "How to prepare for a website copywriting project",
+  "description": "What to give a website copywriter: page list, audience, offers, proof, brand voice, competitors, keywords, design constraints and a clear review process.",
+  "intro": "Website text has to explain what you do in seconds, persuade visitors to act and help search engines understand your pages. Many website projects stall because the design is ready but the words are not, or because copy was written without knowing what the pages need to do. A copywriter can transform your site, but only with the right input from you. This article explains what to prepare before hiring a website copywriter.",
+  "kind": "Start here",
+  "order": 38,
+  "guides": [
+    "writing-translation/website-content",
+    "writing-translation/sales-copy",
+    "writing-translation/ux-writing",
+    "graphics-design/website-design"
+  ],
+  "also_for": [
+    "writing-translation/brand-voice-and-tone",
+    "online-marketing/search-engine-optimization-seo",
+    "graphics-design/landing-page-design",
+    "online-marketing/conversion-rate-optimization-cro",
+    "programming-tech/website-development",
+    "writing-translation/case-studies"
+  ],
+  "faq": [
+    {
+      "q": "Should copy come before design?",
+      "a": "Ideally copy and design develop together, but at least a draft of the key messages should exist before final design."
+    },
+    {
+      "q": "How many pages should I plan?",
+      "a": "Only as many as visitors need. Start with core pages and add more as needed."
+    },
+    {
+      "q": "Can the copywriter handle SEO?",
+      "a": "Many can include keywords and meta descriptions. Ask whether keyword research is included."
+    },
+    {
+      "q": "What is social proof?",
+      "a": "Evidence from others, such as reviews, testimonials, client logos and case studies."
+    },
+    {
+      "q": "How do I keep the text accurate?",
+      "a": "Review all claims, prices and details yourself before publishing."
+    }
+  ],
+  "updated": "2026-10-03"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "How to Prepare a Packaging Design Project",
+  "h1": "How to prepare a packaging design project",
+  "description": "What a packaging designer needs: product details, dieline from your manufacturer, required label information, shelf context, print method, mockups and proofs.",
+  "intro": "Packaging has to do several jobs at once. It protects the product, carries required information, stands out on a shelf or in an online listing and reflects your brand. It also has to fit the exact structure your manufacturer can produce. Designers can only deliver print-ready packaging if they receive the right technical details and content. This article explains what to prepare before hiring a packaging designer and how to avoid the most expensive mistakes.",
+  "kind": "Start here",
+  "order": 34,
+  "guides": [
+    "graphics-design/packaging-and-label-design",
+    "graphics-design/industrial-and-product-design",
+    "graphics-design/brand-style-guides",
+    "photography/product-photographers"
+  ],
+  "also_for": [
+    "graphics-design/3d-industrial-design",
+    "writing-translation/product-descriptions",
+    "graphics-design/logo-design",
+    "graphics-design/illustration",
+    "online-marketing/e-commerce-marketing"
+  ],
+  "faq": [
+    {
+      "q": "What is a dieline?",
+      "a": "A flat template from the manufacturer showing the exact shape, folds, cuts and glue areas of the package."
+    },
+    {
+      "q": "Can the designer create the dieline?",
+      "a": "Some can, but it should always be confirmed by your manufacturer before final artwork."
+    },
+    {
+      "q": "What information must appear on the label?",
+      "a": "It depends on the product and country. Check the rules for your category and market."
+    },
+    {
+      "q": "Do I need a 3D mockup?",
+      "a": "It helps you judge the design and is useful for online listings before production samples exist."
+    },
+    {
+      "q": "Should I order a physical sample?",
+      "a": "Yes. Colors, folds and readability are best checked on a real printed sample."
+    }
+  ],
+  "updated": "2026-10-03"
+}

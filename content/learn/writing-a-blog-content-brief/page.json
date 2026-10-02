@@ -1,0 +1,45 @@
+{
+  "title": "How to Write a Brief for Blog Posts and Articles",
+  "h1": "How to write a brief for blog posts and articles",
+  "description": "What to put in a blog post brief: goal, reader, topic and angle, search intent, outline, sources, expert input, voice, length, links and review steps.",
+  "intro": "Ordering a blog post with only a title usually produces a generic article that could appear on any website. Writers can do much better when they know who the reader is, what the article should achieve and what makes your perspective different. A good brief takes twenty minutes to prepare and saves rounds of revisions. This article explains what to include, whether you order one post or a regular series.",
+  "kind": "Start here",
+  "order": 36,
+  "guides": [
+    "writing-translation/articles-and-blog-posts",
+    "writing-translation/content-strategy",
+    "online-marketing/search-engine-optimization-seo",
+    "writing-translation/proofreading-and-editing"
+  ],
+  "also_for": [
+    "writing-translation/brand-voice-and-tone",
+    "writing-translation/research-and-summaries",
+    "writing-translation/ai-content-editing",
+    "writing-translation/case-studies",
+    "online-marketing/generative-engine-optimization-geo",
+    "writing-translation/website-content"
+  ],
+  "faq": [
+    {
+      "q": "How long should a blog post be?",
+      "a": "Long enough to answer the reader's question well. Length alone does not make an article better."
+    },
+    {
+      "q": "Should I give the writer keywords?",
+      "a": "Yes, as guidance, along with the search intent. Avoid forcing keywords unnaturally."
+    },
+    {
+      "q": "How do I make posts sound like us?",
+      "a": "Share voice notes, examples and your own insights, opinions and stories."
+    },
+    {
+      "q": "Can writers use AI tools?",
+      "a": "Ask about their process and agree on expectations for originality and fact-checking."
+    },
+    {
+      "q": "Who checks facts?",
+      "a": "Writers should cite reliable sources, but you know your field best, so review technical claims."
+    }
+  ],
+  "updated": "2026-10-03"
+}
