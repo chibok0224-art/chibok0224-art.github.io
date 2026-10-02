@@ -1,0 +1,44 @@
+{
+  "title": "How to Delegate Work to a Virtual Assistant Successfully",
+  "h1": "How to delegate work to a virtual assistant successfully",
+  "description": "How to start with a virtual assistant: choosing tasks, writing instructions, sharing access safely, setting hours and communication, and reviewing work.",
+  "intro": "A virtual assistant can take repetitive work off your plate, from inbox management and scheduling to data entry and customer replies. Yet many first experiences disappoint, usually because tasks were handed over without clear instructions, access was shared unsafely or expectations about hours and responses were never set. This article explains how to choose what to delegate, prepare the handover and build a working relationship that saves you time.",
+  "kind": "Start here",
+  "order": 25,
+  "guides": [
+    "business/virtual-assistant",
+    "data/data-entry",
+    "business/project-management",
+    "business/customer-service"
+  ],
+  "also_for": [
+    "business/e-commerce-management",
+    "data/data-typing",
+    "writing-translation/transcription",
+    "business/lead-generation",
+    "online-marketing/social-media-marketing"
+  ],
+  "faq": [
+    {
+      "q": "What tasks suit a virtual assistant?",
+      "a": "Repeatable tasks with clear steps, such as scheduling, data entry, research, inbox sorting and simple customer replies."
+    },
+    {
+      "q": "Should I share my passwords?",
+      "a": "Avoid it. Use separate user accounts or a password manager's sharing features with limited access."
+    },
+    {
+      "q": "How do I start?",
+      "a": "With a small trial task, clear instructions and a review after the first week."
+    },
+    {
+      "q": "How should we communicate?",
+      "a": "Agree on one main channel, response times and a regular short check-in."
+    },
+    {
+      "q": "What should a VA not handle?",
+      "a": "Decisions that need your judgment, sensitive financial actions and anything you have not explained."
+    }
+  ],
+  "updated": "2026-10-03"
+}

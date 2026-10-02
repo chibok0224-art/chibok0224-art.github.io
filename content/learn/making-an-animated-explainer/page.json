@@ -1,0 +1,45 @@
+{
+  "title": "How an Animated Explainer Video Is Made, Step by Step",
+  "h1": "How an animated explainer video is made, step by step",
+  "description": "The stages of an animated explainer video: brief, script, voice over, storyboard, style frames, animation and sound, and when your feedback matters most.",
+  "intro": "An animated explainer video turns a complicated idea into a short, clear story. Behind a two-minute video sits a series of stages, and each one builds on the last. Knowing the stages helps you plan time and budget, choose the right freelancer and, most importantly, give feedback at the moments when changes are cheap. This article walks through the typical production process from first brief to final file.",
+  "kind": "Start here",
+  "order": 23,
+  "guides": [
+    "video-animation/animated-explainers",
+    "writing-translation/scriptwriting",
+    "graphics-design/storyboards",
+    "video-animation/character-animation"
+  ],
+  "also_for": [
+    "music-audio/voice-over",
+    "video-animation/text-animation",
+    "video-animation/logo-animation",
+    "video-animation/elearning-video-production",
+    "video-animation/crowdfunding-videos",
+    "music-audio/sound-design"
+  ],
+  "faq": [
+    {
+      "q": "How long should an explainer video be?",
+      "a": "Often 60 to 120 seconds. Shorter is usually better if the message stays clear."
+    },
+    {
+      "q": "When is the best time to give feedback?",
+      "a": "At the script and storyboard stages, before animation starts."
+    },
+    {
+      "q": "Can I change the script during animation?",
+      "a": "It is possible but expensive, because scenes and timing must be redone."
+    },
+    {
+      "q": "2D or 3D animation?",
+      "a": "2D is common and cost-effective for explainers; 3D suits products and spatial ideas."
+    },
+    {
+      "q": "Who records the voice over?",
+      "a": "Either the studio arranges it or you hire a voice artist separately. Agree before starting."
+    }
+  ],
+  "updated": "2026-10-03"
+}

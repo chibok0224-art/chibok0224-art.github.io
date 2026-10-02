@@ -1,0 +1,45 @@
+{
+  "title": "How to Prepare Before Hiring a Game Developer",
+  "h1": "How to prepare before hiring a game developer",
+  "description": "What to prepare before hiring a game developer: concept, core loop, scope, platform and engine, art style, a design document, milestones and ownership.",
+  "intro": "Games are among the most demanding freelance projects. They combine programming, art, sound, design and testing, and scope can grow quickly. Many unfinished game projects fail not for lack of talent but because the idea was too large for the budget, or the developer was never told how the game should actually play. Preparing well helps you get accurate quotes and a finished game. This article explains what to prepare before hiring.",
+  "kind": "Start here",
+  "order": 26,
+  "guides": [
+    "programming-tech/game-development",
+    "business/game-concept-design",
+    "graphics-design/game-art",
+    "consulting-services/game-development-consulting"
+  ],
+  "also_for": [
+    "video-animation/game-trailers",
+    "graphics-design/character-modeling",
+    "music-audio/sound-design",
+    "music-audio/composers",
+    "programming-tech/qa-and-review",
+    "video-animation/rigging"
+  ],
+  "faq": [
+    {
+      "q": "What is a core loop?",
+      "a": "The main repeated actions a player takes, such as explore, collect and upgrade."
+    },
+    {
+      "q": "Which game engine should I choose?",
+      "a": "Often the one your developer knows best that supports your target platforms."
+    },
+    {
+      "q": "Should I start with a prototype?",
+      "a": "Yes. A small playable prototype tests whether the idea is fun before full production."
+    },
+    {
+      "q": "Who owns the code and art?",
+      "a": "Agree in writing that you receive the source project and rights to all assets."
+    },
+    {
+      "q": "How do I keep scope under control?",
+      "a": "Fix the features for the first version and keep a separate list of later ideas."
+    }
+  ],
+  "updated": "2026-10-03"
+}

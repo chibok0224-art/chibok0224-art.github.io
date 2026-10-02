@@ -1,0 +1,45 @@
+{
+  "title": "Mixing vs Mastering: What Is the Difference and Do You Need Both?",
+  "h1": "Mixing vs mastering: what is the difference and do you need both?",
+  "description": "The difference between mixing and mastering, what each engineer needs from you, how to prepare stems and references, and when one service is enough.",
+  "intro": "Mixing and mastering are often sold together, and many musicians are unsure where one ends and the other begins. Both shape how a song sounds, but they happen at different stages and solve different problems. Understanding the difference helps you prepare the right files, choose the right engineer and know what to expect from each. This article explains both in plain language.",
+  "kind": "Comparison",
+  "order": 28,
+  "guides": [
+    "music-audio/mixing-and-mastering",
+    "music-audio/music-producers",
+    "music-audio/vocal-tuning",
+    "music-audio/session-musicians"
+  ],
+  "also_for": [
+    "music-audio/singers-and-vocalists",
+    "music-audio/beat-making",
+    "music-audio/remixing",
+    "music-audio/podcast-production",
+    "music-audio/audio-editing",
+    "online-marketing/music-promotion"
+  ],
+  "faq": [
+    {
+      "q": "Can mastering fix a bad mix?",
+      "a": "Only a little. Mastering polishes a finished mix; real problems should be fixed in the mix."
+    },
+    {
+      "q": "What are stems?",
+      "a": "Separate audio files for each instrument or group, exported from your project for the mix engineer."
+    },
+    {
+      "q": "Should the same person mix and master?",
+      "a": "It can work well, though a fresh set of ears for mastering can catch issues."
+    },
+    {
+      "q": "What is a reference track?",
+      "a": "A released song with a sound you like, used to guide the engineer."
+    },
+    {
+      "q": "Do I need mastering for streaming?",
+      "a": "Yes, for consistent loudness and tone across devices and alongside other songs."
+    }
+  ],
+  "updated": "2026-10-03"
+}

@@ -1,0 +1,45 @@
+{
+  "title": "App Design Before Development: Why the Order Matters",
+  "h1": "App design before development: why the order matters",
+  "description": "Why app design usually comes before development: research, user flows, wireframes, prototypes, UI design and handoff, and how to hire for each step.",
+  "intro": "Many app projects begin by hiring a developer and describing the idea in a few paragraphs. The developer then has to guess how screens should look and work, and every guess that turns out wrong means rework in code, which is the most expensive place to make changes. Designing first lets you test and adjust the app while changes are still cheap. This article explains the usual order of app design work and how it connects to development.",
+  "kind": "Start here",
+  "order": 22,
+  "guides": [
+    "graphics-design/app-design",
+    "graphics-design/ux-design",
+    "programming-tech/mobile-app-development",
+    "programming-tech/development-and-mvp"
+  ],
+  "also_for": [
+    "programming-tech/ios-app-development",
+    "programming-tech/android-app-development",
+    "programming-tech/cross-platform-apps",
+    "programming-tech/user-testing",
+    "writing-translation/ux-writing",
+    "video-animation/app-and-website-previews"
+  ],
+  "faq": [
+    {
+      "q": "Can a developer design the app too?",
+      "a": "Some can, but design and development are different skills. For important apps, a dedicated designer usually pays off."
+    },
+    {
+      "q": "What is a wireframe?",
+      "a": "A simple layout of a screen showing structure and content without final colors or styling."
+    },
+    {
+      "q": "What is a clickable prototype?",
+      "a": "Linked screens that let people tap through the app as if it were real, before any code is written."
+    },
+    {
+      "q": "How much design is enough for an MVP?",
+      "a": "Enough to cover the core flow clearly. Secondary screens can follow common patterns."
+    },
+    {
+      "q": "What does a developer need from the designer?",
+      "a": "Final screens, components, spacing, assets, states and notes on behavior."
+    }
+  ],
+  "updated": "2026-10-03"
+}
