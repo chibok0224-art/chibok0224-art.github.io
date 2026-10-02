@@ -1,0 +1,45 @@
+{
+  "title": "How to Organize and Keep Files from Freelance Projects",
+  "h1": "How to organize and keep files from freelance projects",
+  "description": "What files to request at the end of a project, how to organize and back them up, keep licenses and access records, and hand work over to someone new.",
+  "intro": "When a freelance project ends, the files you receive are what you keep. Months later, you may need to update a logo, edit a video, change website text or brief a new freelancer. If source files are missing, licenses lost or accounts in someone else's name, small updates turn into expensive rework. A little organization at the end of each project protects your investment. This article explains what to request, how to store it and how to hand work over smoothly.",
+  "kind": "Start here",
+  "order": 58,
+  "guides": [
+    "graphics-design/logo-design",
+    "graphics-design/brand-style-guides",
+    "programming-tech/website-development",
+    "video-animation/video-editing"
+  ],
+  "also_for": [
+    "programming-tech/website-maintenance",
+    "programming-tech/mobile-app-maintenance",
+    "graphics-design/illustration",
+    "music-audio/mixing-and-mastering",
+    "graphics-design/packaging-and-label-design",
+    "writing-translation/translation"
+  ],
+  "faq": [
+    {
+      "q": "What are source files?",
+      "a": "The editable working files, such as layered design files or video project files, used to create the final output."
+    },
+    {
+      "q": "Are source files always included?",
+      "a": "Not always. Check the package and ask before ordering if you need them."
+    },
+    {
+      "q": "Where should I store project files?",
+      "a": "In a cloud folder owned by your business, with a backup in a second location."
+    },
+    {
+      "q": "What should I do with licenses?",
+      "a": "Save them with the files they relate to, noting what each allows."
+    },
+    {
+      "q": "How do I hand work to a new freelancer?",
+      "a": "Share the organized folder, guidelines, access through new accounts and a short handover note."
+    }
+  ],
+  "updated": "2026-10-03"
+}

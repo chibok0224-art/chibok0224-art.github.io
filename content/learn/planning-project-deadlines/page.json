@@ -1,0 +1,45 @@
+{
+  "title": "How to Plan Realistic Deadlines for Freelance Projects",
+  "h1": "How to plan realistic deadlines for freelance projects",
+  "description": "Plan freelance project timelines that work: work back from launch, allow for your own reviews, buffers, dependencies, rush fees and milestone dates.",
+  "intro": "Many freelance projects run late, and the cause is often not the freelancer's delivery time but everything around it: slow feedback, missing content, extra review rounds and steps that depend on each other. Rushed deadlines lead to higher fees, more mistakes and stressed collaborators. A realistic timeline accounts for all the steps, including your own. This article explains how to plan deadlines that hold.",
+  "kind": "Start here",
+  "order": 56,
+  "guides": [
+    "business/project-management",
+    "graphics-design/website-design",
+    "video-animation/video-editing",
+    "programming-tech/website-development"
+  ],
+  "also_for": [
+    "graphics-design/presentation-design",
+    "graphics-design/brochure-design",
+    "writing-translation/book-editing",
+    "video-animation/animated-explainers",
+    "business/event-management",
+    "programming-tech/mobile-app-development"
+  ],
+  "faq": [
+    {
+      "q": "Is the delivery time in a package the whole project time?",
+      "a": "No. It covers the freelancer's work, not your reviews, revisions or preparation."
+    },
+    {
+      "q": "How much buffer should I add?",
+      "a": "Many teams add a cushion of roughly a quarter to a third of the planned time for important projects."
+    },
+    {
+      "q": "Are rush deliveries worth it?",
+      "a": "Sometimes, but they cost more and leave less time for quality. Plan ahead where possible."
+    },
+    {
+      "q": "What are dependencies?",
+      "a": "Steps that must finish before others can start, such as approving a script before animation."
+    },
+    {
+      "q": "What if the freelancer misses a deadline?",
+      "a": "Ask early for an update, agree on a new date and check what caused the delay."
+    }
+  ],
+  "updated": "2026-10-03"
+}

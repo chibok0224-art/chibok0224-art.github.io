@@ -1,0 +1,45 @@
+{
+  "title": "How to Coordinate Several Freelancers on One Project",
+  "h1": "How to coordinate several freelancers on one project",
+  "description": "How to manage a team of freelancers: define roles, share one source of truth, order the handoffs, set communication rules and keep the result consistent.",
+  "intro": "Larger projects often need several specialists: a designer and a developer for a website, a writer, designer and video editor for a campaign, or a scriptwriter, voice artist and animator for an explainer. Each may be excellent on their own, yet the project can still fail if handoffs are unclear, files are scattered and nobody owns the overall result. This article explains how to coordinate multiple freelancers so their work fits together.",
+  "kind": "Start here",
+  "order": 57,
+  "guides": [
+    "business/project-management",
+    "programming-tech/website-development",
+    "video-animation/animated-explainers",
+    "online-marketing/social-media-marketing"
+  ],
+  "also_for": [
+    "graphics-design/website-design",
+    "writing-translation/website-content",
+    "graphics-design/app-design",
+    "programming-tech/mobile-app-development",
+    "programming-tech/game-development",
+    "business/virtual-assistant"
+  ],
+  "faq": [
+    {
+      "q": "Should freelancers talk to each other directly?",
+      "a": "Often yes, for technical handoffs, as long as decisions still go through you or a project lead."
+    },
+    {
+      "q": "Who is responsible for the overall result?",
+      "a": "You or a project manager you appoint. Individual freelancers own their part."
+    },
+    {
+      "q": "How do I keep the style consistent?",
+      "a": "Share brand guidelines, templates and approved examples with everyone."
+    },
+    {
+      "q": "What tools help coordination?",
+      "a": "A shared folder, a task board and one communication channel are often enough."
+    },
+    {
+      "q": "Should I hire an agency instead?",
+      "a": "If you lack time to coordinate, an agency or project manager can be worth it."
+    }
+  ],
+  "updated": "2026-10-03"
+}

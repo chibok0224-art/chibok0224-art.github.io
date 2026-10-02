@@ -1,0 +1,45 @@
+{
+  "title": "When Revisions Pile Up: How to Get a Project Back on Track",
+  "h1": "When revisions pile up: how to get a freelance project back on track",
+  "description": "Why freelance projects get stuck in revision loops, how to tell scope changes from fixes, and practical steps to reset direction and finish the work.",
+  "intro": "Most freelance projects include a set number of revisions. Sometimes, though, feedback rounds keep going: each version fixes one thing and creates another, new people join with new opinions, and the project drifts further from finished. Both buyer and freelancer become frustrated. Revision loops are usually caused by unclear goals or changing direction rather than poor skill. This article explains why projects get stuck and how to get them back on track.",
+  "kind": "Start here",
+  "order": 55,
+  "guides": [
+    "graphics-design/logo-design",
+    "graphics-design/website-design",
+    "video-animation/video-editing",
+    "writing-translation/website-content"
+  ],
+  "also_for": [
+    "graphics-design/illustration",
+    "video-animation/animated-explainers",
+    "graphics-design/presentation-design",
+    "writing-translation/articles-and-blog-posts",
+    "music-audio/mixing-and-mastering",
+    "programming-tech/website-development"
+  ],
+  "faq": [
+    {
+      "q": "What counts as a revision?",
+      "a": "A change to delivered work within the original brief. Check the package terms for exact limits."
+    },
+    {
+      "q": "Is changing direction a revision?",
+      "a": "Usually not. A new direction or new requirements are often treated as extra work."
+    },
+    {
+      "q": "Should I keep asking until it is perfect?",
+      "a": "Focus on what matters for your goal. Endless tweaks rarely improve results."
+    },
+    {
+      "q": "What if the freelancer cannot deliver what I want?",
+      "a": "Reset expectations with examples. If the gap remains, end the project fairly and consider someone else."
+    },
+    {
+      "q": "How can I avoid revision loops next time?",
+      "a": "Invest in the brief, references and early-stage approvals."
+    }
+  ],
+  "updated": "2026-10-03"
+}
