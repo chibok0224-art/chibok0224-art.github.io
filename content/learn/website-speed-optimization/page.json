@@ -1,0 +1,45 @@
+{
+  "title": "Hiring for Website Speed Optimization: What to Expect",
+  "h1": "Hiring for website speed optimization: what to expect",
+  "description": "How website speed work is done: measuring, common causes like images and plugins, hosting, mobile performance, what to prepare and how to judge results.",
+  "intro": "Slow websites lose visitors, sales and search visibility. Speed optimization freelancers can often make a site noticeably faster, but results depend on the site's platform, hosting, theme and content. Some fixes are quick; others require bigger changes. Knowing what affects speed and how improvements are measured helps you hire the right person, set realistic expectations and avoid changes that break your site. This article explains what to prepare and expect.",
+  "kind": "Start here",
+  "order": 52,
+  "guides": [
+    "programming-tech/troubleshooting-and-improvements",
+    "programming-tech/website-maintenance",
+    "programming-tech/wordpress",
+    "online-marketing/conversion-rate-optimization-cro"
+  ],
+  "also_for": [
+    "online-marketing/search-engine-optimization-seo",
+    "programming-tech/shopify",
+    "programming-tech/woocommerce",
+    "programming-tech/website-development",
+    "graphics-design/image-editing",
+    "programming-tech/deployments-and-devops"
+  ],
+  "faq": [
+    {
+      "q": "How is website speed measured?",
+      "a": "With tools that test loading time and real-user metrics, on both mobile and desktop."
+    },
+    {
+      "q": "Can a perfect score be guaranteed?",
+      "a": "No. Scores depend on many factors, and real user experience matters more than one score."
+    },
+    {
+      "q": "Will speed work break my site?",
+      "a": "It can if done carelessly. Insist on backups and testing on a staging copy."
+    },
+    {
+      "q": "Is better hosting always the answer?",
+      "a": "Sometimes, but images, plugins, themes and scripts are often bigger causes."
+    },
+    {
+      "q": "How long do improvements last?",
+      "a": "Until new content, plugins or scripts slow things down again. Regular checks help."
+    }
+  ],
+  "updated": "2026-10-03"
+}

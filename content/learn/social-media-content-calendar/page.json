@@ -1,0 +1,45 @@
+{
+  "title": "How to Plan a Social Media Content Calendar with Freelancers",
+  "h1": "How to plan a social media content calendar with freelancers",
+  "description": "Plan a social media content calendar: goals, content pillars, platforms and frequency, formats, who creates what, approvals, scheduling and review.",
+  "intro": "Consistent social media takes planning. Without a calendar, posts are rushed, topics repeat and freelancers wait for instructions. A content calendar gives everyone a shared view of what will be published, when, where and by whom. It also makes it easier to divide work between writers, designers and video editors. This article explains how to build a calendar that you and your freelancers can actually follow.",
+  "kind": "Start here",
+  "order": 50,
+  "guides": [
+    "online-marketing/social-media-marketing",
+    "writing-translation/social-media-copywriting",
+    "graphics-design/social-media-design",
+    "video-animation/social-media-videos"
+  ],
+  "also_for": [
+    "consulting-services/social-media-strategy",
+    "writing-translation/content-strategy",
+    "video-animation/video-repurposing",
+    "online-marketing/influencer-marketing",
+    "online-marketing/online-communities",
+    "business/virtual-assistant"
+  ],
+  "faq": [
+    {
+      "q": "How far ahead should I plan?",
+      "a": "Many teams plan a month ahead in detail and keep a rough outline for the following months."
+    },
+    {
+      "q": "How often should I post?",
+      "a": "As often as you can keep up with quality. Consistency matters more than volume."
+    },
+    {
+      "q": "What are content pillars?",
+      "a": "A few recurring themes that your posts are built around, such as tips, stories and offers."
+    },
+    {
+      "q": "Which tool should I use for the calendar?",
+      "a": "A shared spreadsheet works for many; scheduling tools add publishing and approvals."
+    },
+    {
+      "q": "Should I plan every post?",
+      "a": "Plan most, but leave room for timely posts about news, trends and conversations."
+    }
+  ],
+  "updated": "2026-10-03"
+}

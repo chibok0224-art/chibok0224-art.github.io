@@ -1,0 +1,45 @@
+{
+  "title": "Sound Design vs Music Composition: Which Does Your Project Need?",
+  "h1": "Sound design vs music composition: which does your project need?",
+  "description": "The difference between sound design and composing music for videos, games, apps and ads, what each specialist delivers and how to brief them.",
+  "intro": "Audio is half of the experience in videos, games, apps and ads, yet buyers often ask for music when what they need is sound effects, or the other way round. Sound designers create the effects and atmospheres that make actions feel real. Composers write music that sets mood and emotion. Many projects need both, working together. This article explains the difference, what each delivers and how to brief them.",
+  "kind": "Comparison",
+  "order": 33,
+  "guides": [
+    "music-audio/sound-design",
+    "music-audio/composers",
+    "music-audio/jingles-and-intros",
+    "music-audio/music-producers"
+  ],
+  "also_for": [
+    "programming-tech/game-development",
+    "video-animation/animated-explainers",
+    "video-animation/video-ads-and-commercials",
+    "music-audio/audio-logo-and-sonic-branding",
+    "music-audio/audio-editing",
+    "video-animation/game-trailers"
+  ],
+  "faq": [
+    {
+      "q": "Is stock music enough?",
+      "a": "For many simple videos, licensed stock music works. Custom music helps when you need a unique identity."
+    },
+    {
+      "q": "What is an ambience?",
+      "a": "A background sound that sets the scene, such as city noise, wind or a busy office."
+    },
+    {
+      "q": "Can one person do both?",
+      "a": "Some can. For larger projects, specialists often produce better results."
+    },
+    {
+      "q": "Who owns custom music?",
+      "a": "It depends on the agreement. Clarify ownership or license terms before work starts."
+    },
+    {
+      "q": "What files will I receive?",
+      "a": "Usually high-quality WAV files, sometimes separate stems or loops for games."
+    }
+  ],
+  "updated": "2026-10-03"
+}

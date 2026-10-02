@@ -1,0 +1,45 @@
+{
+  "title": "Outsourcing Product Listings: What to Prepare for Store Uploads",
+  "h1": "Outsourcing product listings: what to prepare for store uploads",
+  "description": "Prepare to outsource product listing work: product data sheets, photos, descriptions, categories, variants, SEO fields, marketplace rules and quality checks.",
+  "intro": "Adding products to an online store or marketplace takes time: titles, descriptions, images, prices, variants, categories and search fields for every item. Many sellers outsource this work to virtual assistants, e-commerce specialists or data entry freelancers. Results depend on the quality of the information you provide and the rules you set. This article explains how to prepare so listings are accurate, consistent and ready to sell.",
+  "kind": "Start here",
+  "order": 51,
+  "guides": [
+    "business/e-commerce-management",
+    "writing-translation/product-descriptions",
+    "data/data-entry",
+    "online-marketing/e-commerce-seo"
+  ],
+  "also_for": [
+    "programming-tech/shopify",
+    "programming-tech/woocommerce",
+    "graphics-design/image-editing",
+    "photography/product-photographers",
+    "business/virtual-assistant",
+    "data/data-formatting"
+  ],
+  "faq": [
+    {
+      "q": "What is a product data sheet?",
+      "a": "A spreadsheet with one row per product and columns for every field your store needs."
+    },
+    {
+      "q": "Can a freelancer upload products in bulk?",
+      "a": "Often yes, using your platform's import tools, which is faster for large catalogs."
+    },
+    {
+      "q": "Who writes the descriptions?",
+      "a": "You can provide them, or hire a product description writer. Agree before starting."
+    },
+    {
+      "q": "Do marketplaces have special rules?",
+      "a": "Yes. Many have rules for titles, images and categories. Share them with the freelancer."
+    },
+    {
+      "q": "How do I check quality?",
+      "a": "Review the first few listings carefully before the full upload, then spot-check regularly."
+    }
+  ],
+  "updated": "2026-10-03"
+}

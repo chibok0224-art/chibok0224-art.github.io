@@ -1,0 +1,45 @@
+{
+  "title": "How to Prepare a 3D Modeling Project Before Hiring",
+  "h1": "How to prepare a 3D modeling project before hiring",
+  "description": "What a 3D artist needs: purpose of the model, references and measurements, level of detail, materials, file formats, polygon limits and usage rights.",
+  "intro": "3D models are used for product images, games, animation, augmented reality, architecture and 3D printing. Each use needs a different kind of model, and a model built for one purpose often fails in another. A detailed product render model may be far too heavy for a mobile game, and a game model may not be accurate enough for manufacturing. This article explains what to decide and prepare before hiring a 3D artist so you get a model that fits its purpose.",
+  "kind": "Start here",
+  "order": 49,
+  "guides": [
+    "graphics-design/3d-industrial-design",
+    "graphics-design/character-modeling",
+    "graphics-design/3d-architecture",
+    "video-animation/3d-product-animation"
+  ],
+  "also_for": [
+    "graphics-design/3d-fashion-and-garment",
+    "graphics-design/industrial-and-product-design",
+    "graphics-design/game-art",
+    "programming-tech/game-development",
+    "video-animation/rigging",
+    "photography/product-photographers"
+  ],
+  "faq": [
+    {
+      "q": "What is polygon count?",
+      "a": "The number of small surfaces that make up a model. Games and AR need low counts; still renders can use more."
+    },
+    {
+      "q": "Which file format should I ask for?",
+      "a": "It depends on your software and use. Common formats include FBX, OBJ, GLB and STEP for engineering."
+    },
+    {
+      "q": "Can a 3D model be used for 3D printing?",
+      "a": "Only if it is built as a closed, printable solid at the right scale. Say so in advance."
+    },
+    {
+      "q": "What are textures?",
+      "a": "Images and material settings that give a model its color, surface detail and finish."
+    },
+    {
+      "q": "Do I own the 3D model?",
+      "a": "Agree in writing on ownership or license, and ask for the source files."
+    }
+  ],
+  "updated": "2026-10-03"
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Subtitles vs Dubbing vs Voice Over: Reaching New Language Audiences",
+  "h1": "Subtitles vs dubbing vs voice over: reaching new language audiences",
+  "description": "Compare subtitles, voice over translation and full dubbing for videos: cost, speed, viewer experience, accessibility and how to prepare files for each.",
+  "intro": "When you want your videos to reach people who speak other languages, you have three main options: subtitles, translated voice over and full dubbing. Each offers a different balance of cost, speed and viewer experience. The right choice depends on the type of video, the audience and the platform. This article compares the options and explains how to prepare for each.",
+  "kind": "Comparison",
+  "order": 34,
+  "guides": [
+    "video-animation/subtitles-and-captions",
+    "writing-translation/translation",
+    "writing-translation/localization",
+    "music-audio/voice-over"
+  ],
+  "also_for": [
+    "writing-translation/transcription",
+    "ai-services/custom-ai-voices",
+    "ai-services/text-to-speech",
+    "video-animation/elearning-video-production",
+    "video-animation/video-editing",
+    "video-animation/corporate-videos"
+  ],
+  "faq": [
+    {
+      "q": "Are captions and subtitles the same?",
+      "a": "Captions usually include sound descriptions for deaf and hard-of-hearing viewers; subtitles mainly translate dialogue."
+    },
+    {
+      "q": "Which is cheapest?",
+      "a": "Subtitles are usually the most affordable option, followed by voice over, then full dubbing."
+    },
+    {
+      "q": "Is AI dubbing good enough?",
+      "a": "It can work for some internal or informal content. Have native speakers review important videos."
+    },
+    {
+      "q": "What files do translators need?",
+      "a": "A transcript or existing subtitle file, the video and a glossary of key terms."
+    },
+    {
+      "q": "Do subtitles help with search?",
+      "a": "Subtitle files and transcripts can help platforms understand your content and improve accessibility."
+    }
+  ],
+  "updated": "2026-10-03"
+}
