@@ -865,26 +865,37 @@ def text_page(site, *, slug, title, description, body_html, draft):
 
 
 ABOUT = """
-<p>GigCompass is a small, independent guide to hiring freelancers online. It is run by one person, not a company or an agency, and it is not owned by or connected to any freelance marketplace.</p>
+<p>GigCompass is a small, independent guide to hiring freelancers online. It is edited by one person, not a company or an agency, and it is not owned by or connected to any freelance marketplace.</p>
 <h2>Why this site exists</h2>
 <p>Freelance marketplaces list hundreds of services, and the gig pages all look confident. First-time buyers often cannot tell what a good package should include, what to send the freelancer, or which warning signs to take seriously. Each guide here answers those questions for one service, in plain English, so you can order with a clear brief and fewer surprises.</p>
 <h2>What you will find here</h2>
 <ul>
   <li><strong>A map of every service</strong>, grouped by what you want to get done, with a link to the matching listings.</li>
   <li><strong>Hiring guides</strong> for the most requested services: what the package should include, how to write the brief, what drives the price, red flags and a pre-order checklist.</li>
+  <li><strong>Learn articles</strong> on topics that apply across services: writing a brief, comparing packages, checking a delivery, and how much common services cost.</li>
   <li><strong>Shortlists of sellers</strong> chosen by <a href="/how-we-pick/">fixed, public rules</a>, each with the date we last checked it.</li>
 </ul>
+<h2>Who is behind it</h2>
+<p>GigCompass is written and edited by one person, referred to on the site as the GigCompass editor. The goal is simple: to be the page we would want to read before ordering a service we have never bought before. There is no sales team, no sponsored content and no paid placement.</p>
 <h2>How the guides are written</h2>
-<p>Guides are drafted with the help of AI writing tools and follow the same house rules every time:</p>
+<p>Guides are drafted with the help of AI writing tools and published under the editor's direction. They follow the same house rules every time:</p>
 <ul>
-  <li>Practical advice only. No invented statistics, prices, reviews or success stories.</li>
-  <li>No specific prices, because they change often. We explain what drives the price instead.</li>
+  <li>Practical advice only. No invented statistics, reviews or success stories.</li>
+  <li>Prices are shown only as starting prices of the sellers we feature, with the date we checked them. We explain what drives the final price instead of promising a number, because prices change.</li>
   <li>Seller descriptions are never copied. Summaries of a gig are written in our own words.</li>
   <li>Every guide shows the date it was last updated. Advice that depends on law or tax tells you to check your local rules.</li>
 </ul>
 <p>We have not personally ordered from the sellers we list. Our picks are a shortlist based on public track record and what each gig offers, not a personal endorsement.</p>
+<h2>How we keep information current</h2>
+<p>Ratings, review counts and prices change. Each recommended seller shows the date it was last checked, and we re-read the listings periodically, replacing sellers who drop below our bar or disappear. If a date on a page looks old, treat the numbers as a guide and confirm the current figures on the listing before you order.</p>
 <h2>How the site is paid for</h2>
-<p>GigCompass is reader-supported through affiliate links. If you hire through our links we may earn a commission, at no extra cost to you. Sellers cannot pay to be listed or to move up a list. Read the <a href="/disclosure/">affiliate disclosure</a> for details.</p>
+<p>GigCompass is reader-supported through affiliate links. If you hire through our links we may earn a commission, at no extra cost to you. Sellers cannot pay to be listed or to move up a list. Read the <a href="/disclosure/">affiliate disclosure</a> for details, and <a href="/how-we-pick/">how we pick</a> for the rules behind every shortlist.</p>
+<h2>What we do not do</h2>
+<ul>
+  <li>We do not sell services ourselves or act as an agent between you and a seller.</li>
+  <li>We do not handle your payments or collect your personal data. See the <a href="/privacy/">privacy policy</a>.</li>
+  <li>We do not give legal, tax, medical or financial advice.</li>
+</ul>
 """
 
 HOW_WE_PICK = """
