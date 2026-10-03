@@ -1,0 +1,43 @@
+{
+  "title": "How Much Does Video Production Cost? Editing, UGC, Explainers",
+  "h1": "How much does video cost? Editing, UGC videos and animated explainers",
+  "description": "Starting prices for video editing, UGC videos and animated explainers from the sellers we feature, and how length and complexity change what you pay.",
+  "intro": "Video is priced very differently from design. A short edit can be cheap, while an animated explainer is priced by the second. This article uses the starting prices of the video sellers we feature to show typical ranges for editing, UGC videos and animated explainers, and explains what drives the cost up.",
+  "kind": "Start here",
+  "order": 61,
+  "guides": [
+    "video-animation/video-editing",
+    "video-animation/ugc-videos",
+    "video-animation/animated-explainers",
+    "video-animation/ugc-ads"
+  ],
+  "also_for": [
+    "video-animation/video-ads-and-commercials",
+    "video-animation/social-media-videos",
+    "video-animation/live-action-explainers",
+    "video-animation/intro-and-outro-videos"
+  ],
+  "faq": [
+    {
+      "q": "Why do animated explainers cost more than video editing?",
+      "a": "An explainer is made from scratch, with script, storyboard, illustration, animation and voice-over. Editing works with footage you already have."
+    },
+    {
+      "q": "Is price per second normal for animation?",
+      "a": "Yes. Many animation sellers price by running time, so a 60-second video costs much more than a 15-second one."
+    },
+    {
+      "q": "Do UGC prices include the product?",
+      "a": "Usually not. Many creators need the product shipped to them, and shipping or the product itself is typically your cost."
+    },
+    {
+      "q": "What file and rights questions should I ask?",
+      "a": "Ask which formats you receive, whether you get the project files, and what usage rights come with the video, especially for paid ads."
+    },
+    {
+      "q": "How can I avoid paying for extra revisions?",
+      "a": "Approve the script and storyboard before animation starts, and give all your footage and brand files in one organized batch."
+    }
+  ],
+  "updated": "2026-10-03"
+}

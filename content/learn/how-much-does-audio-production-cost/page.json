@@ -1,0 +1,40 @@
+{
+  "title": "How Much Does Voice Over and Podcast Production Cost?",
+  "h1": "How much does voice over and podcast production cost?",
+  "description": "Starting prices for voice-over artists and podcast production from the sellers we feature, and how script length, rights and editing change what you pay.",
+  "intro": "Audio services look simple but have several price levers: script length, how the recording will be used, editing, and the rights you need. This article uses the starting prices of the voice-over and podcast sellers we feature to show typical ranges and to explain what drives the total.",
+  "kind": "Start here",
+  "order": 64,
+  "guides": [
+    "music-audio/voice-over",
+    "music-audio/podcast-production"
+  ],
+  "also_for": [
+    "music-audio/audio-editing",
+    "music-audio/audiobook-production",
+    "music-audio/jingles-and-intros"
+  ],
+  "faq": [
+    {
+      "q": "Is voice over priced per word?",
+      "a": "Often yes, or by script length bands. Larger packages cover more words, and usage rights can add to the cost."
+    },
+    {
+      "q": "What are usage rights?",
+      "a": "Rules for where the recording can be used, such as web, broadcast ads or a product. Wider usage usually costs more."
+    },
+    {
+      "q": "Does podcast production include recording?",
+      "a": "Usually not. Most packages cover editing, mixing and sometimes show notes or publishing on audio you provide."
+    },
+    {
+      "q": "Can I get a sample first?",
+      "a": "Many voice artists share demos. Ask for a short sample if the listing allows, and keep scripts short for the test."
+    },
+    {
+      "q": "How can I reduce editing costs?",
+      "a": "Record clean audio in a quiet room, and send files organized and labeled with a short note about what you want."
+    }
+  ],
+  "updated": "2026-10-03"
+}

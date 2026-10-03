@@ -1,0 +1,43 @@
+{
+  "title": "How Much Does a Website Cost? Builders, WordPress and Stores",
+  "h1": "How much does a website cost to build? Wix, WordPress, Shopify and more",
+  "description": "Starting prices for Wix, WordPress, Shopify, Squarespace and WooCommerce sites from sellers we feature, and what pushes a website project above the entry price.",
+  "intro": "A website can cost a few hundred dollars or many thousands, depending on what it has to do. This article gives real starting prices from the website sellers we feature and explains what moves a project from a simple site to a larger build, so you can set a realistic budget before you ask for quotes.",
+  "kind": "Start here",
+  "order": 60,
+  "guides": [
+    "programming-tech/website-development",
+    "programming-tech/wordpress",
+    "programming-tech/wix",
+    "programming-tech/shopify"
+  ],
+  "also_for": [
+    "programming-tech/squarespace",
+    "programming-tech/woocommerce",
+    "graphics-design/landing-page-design",
+    "programming-tech/website-maintenance"
+  ],
+  "faq": [
+    {
+      "q": "What is the cheapest way to get a professional website?",
+      "a": "A template-based site on a builder such as Wix or Squarespace, built by a freelancer who customizes the design and sets up your pages."
+    },
+    {
+      "q": "Do the starting prices include hosting and a domain?",
+      "a": "Usually not. Hosting, a domain name and any paid builder plan are separate costs that you pay to the provider."
+    },
+    {
+      "q": "Why is an online store more expensive than a brochure site?",
+      "a": "A store needs product setup, payments, shipping and tax settings, and more testing than a site that only presents information."
+    },
+    {
+      "q": "Is a custom-coded site worth the extra cost?",
+      "a": "Only if you need features that a builder or plugin cannot provide. Many small businesses are well served by a builder or WordPress."
+    },
+    {
+      "q": "Should I budget for maintenance?",
+      "a": "Yes. Updates, backups and small changes continue after launch, and are cheaper when planned for from the start."
+    }
+  ],
+  "updated": "2026-10-03"
+}

@@ -1,0 +1,41 @@
+{
+  "title": "How Much Does Content Writing Cost? Articles and Product Copy",
+  "h1": "How much does content writing cost? Blog posts and product descriptions",
+  "description": "Starting prices for blog posts, articles and product descriptions from the writers we feature, and what changes the price: length, research and keywords.",
+  "intro": "Writing prices depend on length, research and the amount of search engine work involved. This article uses the starting prices of the writers we feature for blog posts and product descriptions to show typical ranges, and explains why two pieces of the same word count can cost very different amounts.",
+  "kind": "Start here",
+  "order": 63,
+  "guides": [
+    "writing-translation/articles-and-blog-posts",
+    "writing-translation/product-descriptions",
+    "writing-translation/website-content"
+  ],
+  "also_for": [
+    "writing-translation/translation",
+    "writing-translation/sales-copy",
+    "writing-translation/technical-writing"
+  ],
+  "faq": [
+    {
+      "q": "Is writing priced per word?",
+      "a": "Some sellers do, but many price by package, such as an article of a set length or a number of product listings."
+    },
+    {
+      "q": "Why does keyword research cost extra?",
+      "a": "It takes separate work. Higher packages for blog posts and listings often include keyword research and competitor analysis."
+    },
+    {
+      "q": "Who owns the text I buy?",
+      "a": "Ask the seller to confirm in writing that you receive full rights to the final text."
+    },
+    {
+      "q": "Can I use AI-written text?",
+      "a": "Ask the seller about their process before ordering, and state in your brief whether you accept or forbid AI-generated drafts."
+    },
+    {
+      "q": "How do I keep a consistent voice across articles?",
+      "a": "Share a short style guide with examples, or work with one writer over several articles."
+    }
+  ],
+  "updated": "2026-10-03"
+}

@@ -1,0 +1,43 @@
+{
+  "title": "How Much Does Design Cost? Logos, Book Covers and More",
+  "h1": "How much does design cost? Logos, book covers, presentations and more",
+  "description": "Typical starting prices for logo, book cover, presentation, packaging and landing page design from the sellers we feature, and what makes the final price go up.",
+  "intro": "Design prices online range from a few dollars to several thousand, which makes it hard to know what is reasonable. This article uses the starting prices of the sellers we feature, most of them Pro-vetted, to show where the middle of the market sits for common design jobs and what pushes a project above the starting price.",
+  "kind": "Start here",
+  "order": 59,
+  "guides": [
+    "graphics-design/logo-design",
+    "graphics-design/book-covers",
+    "graphics-design/presentation-design",
+    "graphics-design/landing-page-design"
+  ],
+  "also_for": [
+    "graphics-design/packaging-and-label-design",
+    "graphics-design/illustration",
+    "graphics-design/brand-style-guides",
+    "graphics-design/book-design"
+  ],
+  "faq": [
+    {
+      "q": "Is a very cheap logo a bad sign?",
+      "a": "Not always, but very low prices often mean limited revisions, stock elements or missing source files. Check the package list before deciding."
+    },
+    {
+      "q": "Why do prices differ so much between sellers?",
+      "a": "Experience, verification level, delivery time, number of concepts, revisions and which files you receive all change the price."
+    },
+    {
+      "q": "Does the starting price include everything I need?",
+      "a": "Usually not. The smallest package often covers one concept and basic files. Source files, extra concepts and print-ready versions are commonly in larger packages."
+    },
+    {
+      "q": "Should I pay more for a Pro-vetted designer?",
+      "a": "It can reduce risk because the seller has been screened, but you should still read the reviews and the package details."
+    },
+    {
+      "q": "How can I keep the cost down?",
+      "a": "Write a clear brief, collect examples you like, and ask only for the files you will actually use."
+    }
+  ],
+  "updated": "2026-10-03"
+}
