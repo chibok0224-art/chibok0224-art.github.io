@@ -1,0 +1,106 @@
+import add_picks
+
+add_picks.CHECKED = "2026-10-04"
+
+
+def r(user, name, best_for, title, rating, reviews, price, url, why, watch_out=""):
+    return dict(user=user, name=name, best_for=best_for, title=title, rating=rating, reviews=reviews,
+                level="Vetted Pro", price=price, url=url, why=why, watch_out=watch_out)
+
+
+add_picks.put("music-audio/mixing-and-mastering", [
+    r("shordeli", "Bryan", "Most reviewed, fast turnaround", "I will mix and master your song", "5.0", "1000", "175",
+      "/shordeli/mix-and-master-your-song-in-24-hours",
+      "A Vetted Pro with a perfect rating across more than a thousand reviews. The listing is built around quick delivery, with mixing and mastering in a single order.",
+      "Starts at 175 dollars, higher than several equally rated sellers in this list."),
+    r("bchillmix", "Byron H.", "Best value from a top-reviewed seller", "I will professionally mix and master your song", "5.0", "1000", "100",
+      "/bchillmix/professionally-mix-and-master-your-song",
+      "A Vetted Pro with a perfect rating and more than a thousand reviews, with the lowest starting price among our top-reviewed mixing sellers.",
+      "Check the package details to see how many revisions and stems are included before ordering."),
+    r("maketrack51", "Max H.", "Best for country, rock and pop", "I will mix and master your country, rock, pop song or album", "5.0", "619", "120",
+      "/maketrack51/mix-your-song-using-analogue-and-digital-equipment",
+      "A Vetted Pro with a perfect rating across more than 600 reviews who mixes with a combination of analogue and digital equipment, focused on country, rock and pop songs and albums."),
+    r("stefanoferracin", "Stefano F.", "Best for quick professional mixes", "I will mix and master professionally and quickly", "5.0", "474", "120",
+      "/stefanoferracin/mix-your-song-professionally-and-quickly-8e7a",
+      "A Vetted Pro with a perfect rating and 474 reviews. The listing offers professional mixing and mastering with an emphasis on speed."),
+    r("kagenmusic", "Furkan Gulus", "Best for rap and radio-ready sound", "I will mix and master your song for a major label sound", "5.0", "356", "120",
+      "/kagenmusic/mix-and-master-your-rap-song-to-radio-quality",
+      "A Vetted Pro with a perfect rating across 356 reviews, offering mixing and mastering aimed at rap and radio-quality results."),
+    r("tcraven", "Tim Craven", "Best for a detailed professional mix", "I will professionally mix and master your songs", "5.0", "315", "250",
+      "/tcraven/mix-and-master-your-song-as-a-professional-mix-engineer",
+      "A Vetted Pro with a perfect rating and 315 reviews who positions the service as a professional mix engineer.",
+      "Higher entry price than most sellers here, at 250 dollars."),
+], status="live")
+
+add_picks.put("graphics-design/social-media-design", [
+    r("claudiofolha", "Claudio F.", "Best overall for scroll-stopping posts", "I will design social media images that stand out", "5.0", "604", "250",
+      "/claudiofolha/create-scroll-stopping-social-media-posts-4578",
+      "A Vetted Pro with a perfect rating across more than 600 reviews who designs social media post images meant to stand out in the feed.",
+      "Starts at 250 dollars, above the middle of this list."),
+    r("wiktoriahyde", "Wiktoria Hyde", "Best for Instagram and Facebook post graphics", "I will design amazing Instagram and Facebook post graphics", "4.9", "237", "225",
+      "/wiktoriahyde/design-amazing-instagram-and-facebook-post-graphics",
+      "A Vetted Pro with 237 reviews who specializes in Instagram and Facebook post graphics."),
+    r("olegchuprina", "Oleg", "Best for social ad creatives", "I will create social media ads and high converting statics", "4.9", "188", "250",
+      "/olegchuprina/design-pro-facebook-banner-ads",
+      "A Vetted Pro with 188 reviews who focuses on static ad creatives for social media advertising.",
+      "Built for ads rather than organic posts, so it is a weaker fit if you only need everyday content."),
+    r("fernandobengua", "Fernando B", "Best for ongoing brand content", "I will design top notch social media content", "4.9", "105", "215",
+      "/fernandobengua/design-amazing-social-media-content-for-your-business",
+      "A Vetted Pro with 105 reviews who designs social media content for businesses."),
+    r("yaeliroz", "Yael Rozanes", "Best budget pick with motion graphics", "I will design your social media content and create motion graphics", "4.8", "101", "100",
+      "/yaeliroz/design-your-social-media-banners-and-images",
+      "A Vetted Pro with 101 reviews and the lowest starting price in this list, who also offers motion graphics alongside static social images."),
+    r("sarah_marie_lau", "Sarah Marie Lau", "Best for a reusable Canva template kit", "I will create a branded social media template kit in Canva", "4.9", "62", "200",
+      "/sarah_marie_lau/design-social-media-posts",
+      "A Vetted Pro who builds a branded template kit in Canva, so you can create future posts yourself.",
+      "Fewer reviews than the other sellers here, at 62."),
+], status="live")
+
+add_picks.put("graphics-design/website-design", [
+    r("marten_eyferth", "IntoPlaceDesign", "Best for an animated, interactive site", "Our agency will design an interactive and 3D animated Webflow website", "5.0", "155", "1935",
+      "/marten_eyferth/design-an-interactive-and-3d-animated-webflow-website",
+      "A Vetted Pro agency with a perfect rating across 155 reviews that designs interactive, 3D-animated websites on Webflow.",
+      "Agency-level pricing, starting near 1,935 dollars."),
+    r("vasbystudio", "James", "Best for a modern, custom website UI", "I will design a stunning, modern and unique website UI", "5.0", "147", "395",
+      "/vasbystudio/design-a-modern-creative-and-unique-website-ui",
+      "A Vetted Pro with a perfect rating across 147 reviews who designs modern, custom website interfaces."),
+    r("shankar10090", "Shankar T.", "Best for a designed WordPress site", "I will design a professional WordPress website", "5.0", "87", "250",
+      "/shankar10090/design-professional-wordpress-website",
+      "A Vetted Pro with a perfect rating who designs and builds professional WordPress websites."),
+    r("skydesigner", "Bojan Sandic", "Most proven designer for websites and landing pages", "I will design an awesome website or landing page", "4.9", "1000", "385",
+      "/skydesigner/design-awesome-website-or-landing-page",
+      "A Vetted Pro with more than a thousand reviews who designs full websites and landing pages."),
+    r("hammadulhaq93", "Hammad", "Best budget pick for WordPress", "I will design a professional WordPress website or web design", "4.9", "995", "125",
+      "/hammadulhaq93/make-professional-wordpress-website-or-web-design",
+      "A Vetted Pro with almost a thousand reviews and a low starting price for WordPress website design.",
+      "Focused on WordPress, so check that it matches the platform you want."),
+    r("hipinspire", "Marko B.", "Best for a creative, unique design", "I will design a creative and unique website", "4.9", "643", "600",
+      "/hipinspire/design-creative-and-unique-website",
+      "A Vetted Pro with 643 reviews who designs creative, unique websites.",
+      "Starts at 600 dollars, so it suits larger projects."),
+], status="live")
+
+add_picks.put("video-animation/video-ads-and-commercials", [
+    r("biondi27", "Howlin Studio", "Best overall for brand and product ads", "Our agency will make a video to advertise your product or brand", "5.0", "252", "500",
+      "/biondi27/make-a-custom-made-video-to-advertise-your-product-or-brand",
+      "A Vetted Pro agency with a perfect rating across 252 reviews that produces custom videos to advertise a product or brand.",
+      "Starts at 500 dollars."),
+    r("visualstudios", "Visual Studios", "Best budget pick for editing video ads", "I will edit high quality video ads and commercials", "5.0", "55", "150",
+      "/visualstudios/design-professional-video-ads-for-your-brand-or-business",
+      "A Vetted Pro with a perfect rating who edits video ads and commercials, with the lowest entry price in this list.",
+      "An editing service, so you usually supply the footage."),
+    r("kravcar22", "Sebastjan K.", "Best for product video ads", "I will create professional product video ads that sell", "5.0", "33", "420",
+      "/kravcar22/create-professional-product-video-ad-that-sells",
+      "A Vetted Pro with a perfect rating who creates product video ads.",
+      "Fewer reviews than the other sellers here, at 33."),
+    r("studios383", "Hamza", "Best for commercial brand videos", "Our agency will create an engaging commercial brand video", "4.9", "487", "150",
+      "/studios383/create-a-stunning-commercial-brand-video",
+      "A Vetted Pro agency with almost 500 reviews that creates commercial brand videos."),
+    r("ivanalexx", "Ivan Alexx", "Best for social platform commercials", "I will create a stunning commercial video ad for YouTube, Facebook, Instagram and TikTok", "4.8", "967", "245",
+      "/ivanalexx/create-a-stunning-commercial-brand-video",
+      "A Vetted Pro with close to a thousand reviews who creates commercial video ads for YouTube, Facebook, Instagram and TikTok."),
+    r("shivamsuthar", "Filmito", "Best for high-converting and AI-assisted ads", "I will make high converting video ads and AI commercials for your brand", "4.8", "943", "595",
+      "/shivamsuthar/video-editing-and-postproduction",
+      "A Vetted Pro with 943 reviews offering video ads and AI-assisted commercials for brands.",
+      "Starts at 595 dollars."),
+], status="live")
