@@ -456,7 +456,7 @@ def gig_card(g, i, links):
     {score}
     {price}
   </aside>
-  {pick_widget(g)}
+  {"" if banner else pick_widget(g)}
 </article>"""
 
 

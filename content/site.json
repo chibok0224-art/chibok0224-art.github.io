@@ -15,6 +15,6 @@
       "logomaker": "logomaker"
     }
   },
-  "show_gig_images": false,
+  "show_gig_images": true,
   "updated": "2026-09-25"
 }
