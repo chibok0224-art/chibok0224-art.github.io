@@ -564,8 +564,14 @@ def service_page(site, links, svc, gigs, draft):
         more_link = f'<li><a href="#more">{len(more)} more options</a></li>' if more else ""
         checked = max((g.get("checked") or "" for g in gigs), default="")
         when = f' Ratings and review counts were last checked on {esc(checked)}.' if checked else ""
+        prices = sorted(g["starting_price"] for g in gigs if g.get("starting_price") is not None)
+        span = ""
+        if len(prices) >= 3:
+            mid = prices[len(prices) // 2]
+            span = (f' Starting prices among them run from ${prices[0]:,.0f} to ${prices[-1]:,.0f}, '
+                    f'with a middle value near ${mid:,.0f}; a starting price is the smallest package, not a quote for your project.')
         note = (f'<p class="picks-note">We picked these {len(gigs)} sellers from public ratings, review counts and '
-                f'how closely their gigs match this service; no seller paid to be listed.{when} '
+                f'how closely their gigs match this service; no seller paid to be listed.{when}{span} '
                 f'Prices and availability can change, so confirm details on the gig before ordering. '
                 f'<a href="/how-we-pick/">How we pick</a></p>')
         picks_html = (f'{note}<nav class="toc"><p>Our top picks</p><ol>{toc}{more_link}</ol></nav>'
