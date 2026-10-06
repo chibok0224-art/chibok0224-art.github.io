@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare for an SEO Audit Before Hiring",
+  "h1": "How to prepare for an SEO audit before hiring",
+  "description": "Prepare for an SEO audit: goals, target pages, access, search data, competitors, what an audit covers, how to prioritize fixes and what to ask a specialist.",
+  "intro": "An SEO audit reviews your website to find what holds back its visibility in search results: technical problems, weak content, missing pages and poor links. A good audit gives you a short, prioritized list of changes. A weak one is a long automated report with little explanation. Preparation makes the difference. This article explains what to decide, what to gather and what to ask before you hire an SEO specialist.",
+  "kind": "Start here",
+  "order": 87,
+  "guides": [
+    "online-marketing/search-engine-optimization-seo",
+    "online-marketing/local-seo",
+    "online-marketing/e-commerce-seo"
+  ],
+  "faq": [
+    {
+      "q": "What does an SEO audit cover?",
+      "a": "Usually technical health, page speed, mobile use, content quality, keywords, internal links, and links from other sites."
+    },
+    {
+      "q": "Will an audit improve my rankings by itself?",
+      "a": "No. An audit is a plan. Rankings change only when the recommended work is carried out and given time."
+    },
+    {
+      "q": "How long before I see results?",
+      "a": "Search results often take weeks or months to change, depending on the site and competition."
+    },
+    {
+      "q": "What access does the specialist need?",
+      "a": "Read access to your search and analytics tools is common, plus a way to view the site structure. Share access through each tool's user settings."
+    },
+    {
+      "q": "Should the auditor also do the fixes?",
+      "a": "Decide this early. Some auditors only report, others offer implementation as a separate service."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "online-marketing/web-analytics",
+    "programming-tech/wordpress",
+    "writing-translation/website-content"
+  ]
+}
