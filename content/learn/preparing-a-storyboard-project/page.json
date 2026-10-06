@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare a Storyboard Project Before Hiring",
+  "h1": "How to prepare a storyboard project before hiring",
+  "description": "Prepare a storyboard project: script, shot list, style references, number of frames, format, revisions and how storyboards guide filming or animation.",
+  "intro": "A storyboard is a series of drawings that shows how a video, ad or animation will look shot by shot before anything is filmed or animated. It helps everyone agree on the plan, saves production time and makes it easier to explain your idea to a team or client. Hiring a storyboard artist works best when you bring a script and a clear sense of the story. This article explains what to prepare and what to ask.",
+  "kind": "Start here",
+  "order": 75,
+  "guides": [
+    "graphics-design/storyboards",
+    "video-animation/animated-explainers",
+    "video-animation/video-ads-and-commercials"
+  ],
+  "faq": [
+    {
+      "q": "Do I need a finished script?",
+      "a": "A script or at least a clear outline helps a lot. Artists can suggest shots, but they need to know the story."
+    },
+    {
+      "q": "What style are storyboards drawn in?",
+      "a": "They range from rough sketches to polished color frames. Choose the level of detail that your team or client needs."
+    },
+    {
+      "q": "How many frames will I need?",
+      "a": "It depends on the length and pace. A thirty-second ad often needs somewhere around eight to fifteen frames."
+    },
+    {
+      "q": "What does the artist deliver?",
+      "a": "Usually image files or a PDF with frames in order, often with notes about action, camera and dialogue."
+    },
+    {
+      "q": "Can I change the storyboard later?",
+      "a": "Yes, within the agreed revision rounds. Changing the story late is easier on paper than during production."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "writing-translation/scriptwriting",
+    "video-animation/corporate-videos",
+    "graphics-design/illustration"
+  ]
+}

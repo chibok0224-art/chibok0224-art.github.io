@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare a Web Analytics Setup Before Hiring",
+  "h1": "How to prepare a web analytics setup before hiring",
+  "description": "Prepare an analytics setup: questions to answer, events to track, accounts and access, privacy and consent, testing and reports to request from a specialist.",
+  "intro": "Web analytics tells you who visits your site, what they do and which marketing brings results. A careful setup answers real business questions. A rushed one fills dashboards with numbers nobody trusts. This article explains how to prepare before you hire a specialist to install Google Analytics or similar tools, so the data you get is useful from the start.",
+  "kind": "Start here",
+  "order": 71,
+  "guides": [
+    "online-marketing/web-analytics",
+    "online-marketing/digital-marketing-strategy",
+    "online-marketing/paid-social-media"
+  ],
+  "faq": [
+    {
+      "q": "What should I track?",
+      "a": "Start with the actions that matter to your business, such as purchases, enquiries and sign-ups, and the sources that bring them."
+    },
+    {
+      "q": "Do I need a tag manager?",
+      "a": "It is often recommended because it lets you add and change tracking without editing the site code. Ask the specialist what they prefer and why."
+    },
+    {
+      "q": "What about privacy rules?",
+      "a": "Many regions require consent before certain tracking. Ask the specialist to set up a consent banner that fits the rules where your visitors live."
+    },
+    {
+      "q": "Who should own the accounts?",
+      "a": "You should. Create or hold the accounts yourself and give the specialist access."
+    },
+    {
+      "q": "How do I know the data is correct?",
+      "a": "Ask for testing. The specialist should place a test order or submit a test form and show that it appears in the reports."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "online-marketing/conversion-rate-optimization-cro",
+    "online-marketing/search-engine-marketing-sem",
+    "programming-tech/wordpress"
+  ]
+}

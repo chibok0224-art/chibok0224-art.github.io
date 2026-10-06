@@ -1,0 +1,41 @@
+{
+  "title": "Google Ads vs Meta Ads: Where Should You Advertise First?",
+  "h1": "Google Ads vs Meta Ads: where should you advertise first?",
+  "description": "Google Ads and Meta Ads compared: how each reaches customers, what content they need, budgets, tracking and when to hire a specialist for either.",
+  "intro": "Google Ads and Meta Ads (Facebook and Instagram) are the two advertising platforms most small businesses consider first. They reach people in very different moments. Google shows your ad to someone actively searching for something. Meta shows your ad to someone scrolling who may not yet know they want it. This article explains the difference and how to choose a starting point.",
+  "kind": "Comparison",
+  "order": 67,
+  "guides": [
+    "online-marketing/search-engine-marketing-sem",
+    "online-marketing/paid-social-media",
+    "online-marketing/digital-marketing-strategy"
+  ],
+  "faq": [
+    {
+      "q": "Which one is better for a new business?",
+      "a": "It depends on your product. Services people search for suit Google. Visual or impulse products suit Meta. Many businesses start with one and add the other later."
+    },
+    {
+      "q": "How much should I spend to test?",
+      "a": "Enough to collect meaningful results, but an amount you can afford to lose. A specialist can suggest a test budget for your market."
+    },
+    {
+      "q": "Do I need tracking set up first?",
+      "a": "Yes. Without tracking you cannot tell which ads lead to enquiries or sales."
+    },
+    {
+      "q": "What do I need to provide?",
+      "a": "A clear offer, a landing page that matches the ad and, for Meta especially, strong images or video."
+    },
+    {
+      "q": "Should I run both at once?",
+      "a": "Only if you have the budget to give each enough data. Otherwise test one properly first."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "online-marketing/web-analytics",
+    "online-marketing/conversion-rate-optimization-cro",
+    "graphics-design/social-media-design"
+  ]
+}

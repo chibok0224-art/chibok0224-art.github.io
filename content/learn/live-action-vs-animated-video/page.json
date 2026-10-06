@@ -1,0 +1,41 @@
+{
+  "title": "Live-Action vs Animated Video: Which Format Fits Your Message?",
+  "h1": "Live-action vs animated video: which format fits your message?",
+  "description": "Live-action and animated video compared: trust, flexibility, abstract ideas, effort, updates, and how to choose for explainers, ads and company videos.",
+  "intro": "When you need a video to explain your product, promote a service or introduce your company, one early decision shapes everything: film real people and places, or create the video through animation. Both work, and each has strengths. This article compares live-action and animated video so you can choose a format and brief the right freelancer.",
+  "kind": "Comparison",
+  "order": 69,
+  "guides": [
+    "video-animation/animated-explainers",
+    "video-animation/corporate-videos",
+    "video-animation/spokesperson-videos"
+  ],
+  "faq": [
+    {
+      "q": "Which builds more trust?",
+      "a": "Live-action shows real people and places, which can feel more personal. Well-made animation can feel just as credible when the script is clear and honest."
+    },
+    {
+      "q": "Which is better for explaining software?",
+      "a": "Animation or screen-based video is often clearer, since you can show things that are not easy to film."
+    },
+    {
+      "q": "Which is easier to update later?",
+      "a": "Animation is often easier to update, because a changed screen or sentence can be edited without reshooting. A new live shoot is needed for changes to people or places."
+    },
+    {
+      "q": "Which costs less?",
+      "a": "It varies a lot. Compare quotes for your specific idea, length and style rather than assuming one format is always cheaper."
+    },
+    {
+      "q": "Can I combine them?",
+      "a": "Yes. Many videos use a presenter on camera with animated graphics to explain the hard parts."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "video-animation/video-ads-and-commercials",
+    "video-animation/social-media-videos",
+    "video-animation/character-animation"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare a VFX Project Before Hiring",
+  "h1": "How to prepare a VFX project before hiring",
+  "description": "Prepare a visual effects project: describe the shot, supply footage, plan for tracking and green screen, agree formats, revisions and delivery.",
+  "intro": "Visual effects can remove unwanted objects, add elements that were not there, clean up footage or build entire scenes. Good results depend heavily on the footage you hand over and on how clearly you describe each shot. This article explains how to prepare a VFX project so artists can quote accurately and deliver work that matches your vision.",
+  "kind": "Start here",
+  "order": 74,
+  "guides": [
+    "video-animation/visual-effects",
+    "video-animation/video-editing",
+    "video-animation/corporate-videos"
+  ],
+  "faq": [
+    {
+      "q": "What kinds of work fall under VFX?",
+      "a": "Common jobs include object and wire removal, compositing, green screen keying, screen replacement, simple effects and clean-up."
+    },
+    {
+      "q": "Can any footage be used?",
+      "a": "Better footage gives better results. Stable shots, good lighting and high resolution make most tasks easier."
+    },
+    {
+      "q": "What should I send?",
+      "a": "The original footage files, a description of each shot, reference images and any specific timing."
+    },
+    {
+      "q": "How is the price decided?",
+      "a": "Usually by the number and complexity of shots and their length, so a clear shot list helps."
+    },
+    {
+      "q": "How many revisions will I need?",
+      "a": "Agree on a number in advance and give feedback in a single, organized list."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "video-animation/video-ads-and-commercials",
+    "video-animation/character-animation",
+    "video-animation/3d-product-animation"
+  ]
+}

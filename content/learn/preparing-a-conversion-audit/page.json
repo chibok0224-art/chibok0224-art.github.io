@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare a Conversion Rate Audit Before Hiring",
+  "h1": "How to prepare a conversion rate audit before hiring",
+  "description": "Prepare a conversion rate audit: goals, key pages, data to share, what an audit should include, how to prioritize fixes and what to ask a specialist.",
+  "intro": "A conversion rate audit looks at why visitors to your website do not take the action you want, such as buying, booking or signing up. A good audit points to specific changes in order of likely impact. A poor one is a long list of generic tips. The difference often comes from preparation. This article explains what to gather and decide before you hire a conversion specialist.",
+  "kind": "Start here",
+  "order": 70,
+  "guides": [
+    "online-marketing/conversion-rate-optimization-cro",
+    "online-marketing/web-analytics",
+    "graphics-design/ux-design"
+  ],
+  "faq": [
+    {
+      "q": "What is a conversion rate?",
+      "a": "It is the share of visitors who complete a chosen action, such as a purchase or a form submission."
+    },
+    {
+      "q": "Do I need a lot of traffic first?",
+      "a": "Some traffic helps, because very small numbers make results unreliable. An expert review can still find obvious problems on a low-traffic site."
+    },
+    {
+      "q": "What does an audit usually include?",
+      "a": "A review of key pages, the visitor journey, mobile experience, page speed, messaging, trust signals and tracking, with prioritized recommendations."
+    },
+    {
+      "q": "Will the specialist make the changes?",
+      "a": "Not always. Many audits deliver recommendations only. Ask whether implementation is included or priced separately."
+    },
+    {
+      "q": "How long before I see results?",
+      "a": "It depends on traffic and what you change. Expect to test and measure over weeks, not days."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "programming-tech/shopify",
+    "graphics-design/landing-page-design",
+    "online-marketing/digital-marketing-strategy"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare for Hiring a Bookkeeper",
+  "h1": "How to prepare for hiring a bookkeeper",
+  "description": "Prepare to hire a bookkeeper: your accounting tool, records to gather, scope of work, access and security, monthly routine and questions to ask first.",
+  "intro": "A bookkeeper keeps your financial records accurate: recording income and expenses, matching bank transactions, organizing receipts and preparing reports. Good books make tax time easier and help you understand your business. Handing them over works best when your records are gathered and the scope is clear. This article explains how to prepare, what to share and what to ask a bookkeeper before you start.",
+  "kind": "Start here",
+  "order": 77,
+  "guides": [
+    "finance/bookkeeping",
+    "finance/financial-modeling",
+    "business/business-plans"
+  ],
+  "faq": [
+    {
+      "q": "Which accounting software should I use?",
+      "a": "Many bookkeepers work in popular cloud tools. Ask which they know best and choose one you can read and access yourself."
+    },
+    {
+      "q": "What if my records are messy?",
+      "a": "Tell the bookkeeper up front. A cleanup project is separate from regular monthly work and usually needs its own scope and price."
+    },
+    {
+      "q": "Does a bookkeeper file taxes?",
+      "a": "Not always. Bookkeeping and tax preparation are different services, so ask what is included and who handles your filings."
+    },
+    {
+      "q": "How often should books be updated?",
+      "a": "Monthly is common. Busy businesses may update more often."
+    },
+    {
+      "q": "Is it safe to give access?",
+      "a": "Use read or limited access where possible, strong passwords and two-step sign-in, and remove access when the work ends."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "business/virtual-assistant",
+    "business/e-commerce-management",
+    "consulting-services/sales-strategy"
+  ]
+}
