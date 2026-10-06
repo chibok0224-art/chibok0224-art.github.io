@@ -1,0 +1,41 @@
+{
+  "title": "Mailchimp vs Klaviyo: Choosing an Email Platform",
+  "h1": "Mailchimp vs Klaviyo: choosing an email platform",
+  "description": "Mailchimp and Klaviyo compared for small businesses and online stores: ease of use, store integration, automation, segmentation, costs and setup help.",
+  "intro": "Mailchimp and Klaviyo are two popular platforms for sending email campaigns and automated messages. Mailchimp is long established and suits many small businesses and newsletters. Klaviyo is designed around online stores and uses shopping data to personalize messages. This article compares them so you know what to ask a freelancer to set up.",
+  "kind": "Comparison",
+  "order": 83,
+  "guides": [
+    "online-marketing/email-marketing",
+    "online-marketing/email-automations",
+    "writing-translation/email-copy"
+  ],
+  "faq": [
+    {
+      "q": "Which is better for an online store?",
+      "a": "Klaviyo is built around store data such as orders and browsing behavior, which helps with targeted flows. Mailchimp can also work for stores, especially smaller ones."
+    },
+    {
+      "q": "Which is easier for a beginner?",
+      "a": "Mailchimp is often seen as simpler to start, while Klaviyo has more depth for stores."
+    },
+    {
+      "q": "Can I move my list later?",
+      "a": "Yes, subscribers can usually be exported and imported, but check consent records and rebuild automations."
+    },
+    {
+      "q": "How do costs compare?",
+      "a": "Both price by the size of your list or sending volume. Compare the current plans for your numbers."
+    },
+    {
+      "q": "What should a freelancer set up?",
+      "a": "Sign-up forms, a welcome series, abandoned basket or follow-up flows, templates and reports."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "graphics-design/email-design",
+    "programming-tech/shopify",
+    "online-marketing/e-commerce-marketing"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Logo Maker vs Hiring a Logo Designer: Which Is Right?",
+  "h1": "Logo maker vs hiring a logo designer: which is right?",
+  "description": "Online logo makers and hired designers compared: cost, originality, files, rights, brand fit and when each option makes sense for a new business.",
+  "intro": "A new business needs a logo quickly, and online logo makers promise one in minutes. A professional designer takes longer and costs more but creates something made for you. Both have a place. This article compares them honestly so you can decide what fits your stage, budget and ambitions.",
+  "kind": "Comparison",
+  "order": 82,
+  "guides": [
+    "graphics-design/logo-design",
+    "graphics-design/brand-style-guides",
+    "graphics-design/business-cards-and-stationery"
+  ],
+  "faq": [
+    {
+      "q": "Can I trademark a logo made with a logo maker?",
+      "a": "It can be harder, because similar designs may be used by others. Check the terms of the tool and ask a legal professional if trademarks matter to you."
+    },
+    {
+      "q": "What files do I need?",
+      "a": "At minimum, a vector file, transparent versions and color and single-color variants. Check what the tool or designer provides."
+    },
+    {
+      "q": "How long does a designer take?",
+      "a": "It varies, but a few days to a couple of weeks is common, including feedback rounds."
+    },
+    {
+      "q": "Can I start with a simple logo and upgrade later?",
+      "a": "Yes. Many new businesses do. Plan for it by keeping colors and names flexible."
+    },
+    {
+      "q": "Is the cheapest option risky?",
+      "a": "It can be, if the files are limited or the rights are unclear. Always check what you receive and what you may do with it."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "online-marketing/brand-strategy",
+    "graphics-design/social-media-design",
+    "programming-tech/wix"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "No-Code Tools vs Hiring a Developer: What Fits Your Project?",
+  "h1": "No-code tools vs hiring a developer: what fits your project?",
+  "description": "No-code platforms and custom development compared: speed, cost, flexibility, scale, ownership and when to build with tools or hire a developer.",
+  "intro": "No-code tools let you build websites, forms, simple apps and automations by dragging and connecting blocks. Developers write custom code. Each approach has real strengths. This article explains when no-code is enough, when custom development is worth the cost and how a freelancer can help in either case.",
+  "kind": "Comparison",
+  "order": 85,
+  "guides": [
+    "programming-tech/custom-websites",
+    "programming-tech/full-stack-web-apps",
+    "programming-tech/development-and-mvp"
+  ],
+  "faq": [
+    {
+      "q": "Can I start with no-code and move to code later?",
+      "a": "Yes. Many products begin as no-code prototypes, then move to custom code when they need more control or scale."
+    },
+    {
+      "q": "Is no-code only for simple projects?",
+      "a": "Not only, but there are limits. Unusual logic, heavy traffic or special integrations may need custom work."
+    },
+    {
+      "q": "Who owns what I build?",
+      "a": "Check the terms. With no-code you depend on the platform, while custom code is usually yours."
+    },
+    {
+      "q": "Do I still need a freelancer for no-code?",
+      "a": "Often yes, for setup, design and connecting tools, especially if you are short on time."
+    },
+    {
+      "q": "What should I decide first?",
+      "a": "Write down what the product must do and what could go wrong if the platform changes or limits you."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "programming-tech/software-development",
+    "programming-tech/apis-and-integrations",
+    "programming-tech/webflow"
+  ]
+}

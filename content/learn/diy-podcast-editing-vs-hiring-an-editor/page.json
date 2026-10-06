@@ -1,0 +1,41 @@
+{
+  "title": "DIY Podcast Editing vs Hiring an Editor",
+  "h1": "DIY podcast editing vs hiring an editor",
+  "description": "Editing your own podcast or hiring an editor compared: time, sound quality, cost, consistency, workflow and when outsourcing makes sense.",
+  "intro": "Editing takes more time than many new podcasters expect. Cutting mistakes, balancing voices, adding music and exporting files can take several hours for each episode. Some people enjoy it and learn quickly, while others would rather spend that time on content and guests. This article helps you weigh doing it yourself against hiring an editor.",
+  "kind": "Comparison",
+  "order": 84,
+  "guides": [
+    "music-audio/podcast-production",
+    "music-audio/audio-editing",
+    "online-marketing/podcast-marketing"
+  ],
+  "faq": [
+    {
+      "q": "How long does editing take?",
+      "a": "It depends on the recording and your skill. Many beginners spend a few hours per episode, and the time drops with practice."
+    },
+    {
+      "q": "Can an editor fix poor recordings?",
+      "a": "Editors can improve noise and levels, but a clean recording is always better than repairs."
+    },
+    {
+      "q": "What should I send an editor?",
+      "a": "The raw audio files, an episode outline, intro and outro music, and notes about what to cut."
+    },
+    {
+      "q": "Is outsourcing worth it for a small show?",
+      "a": "It can be if your time is limited or you want consistent quality. Many creators start by editing themselves and outsource later."
+    },
+    {
+      "q": "Do editors handle publishing too?",
+      "a": "Some do. Ask whether show notes, uploads and audio files for different platforms are included."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "music-audio/jingles-and-intros",
+    "music-audio/mixing-and-mastering",
+    "writing-translation/transcription"
+  ]
+}

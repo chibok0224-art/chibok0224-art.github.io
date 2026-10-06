@@ -1,0 +1,41 @@
+{
+  "title": "Fixed Price vs Hourly Rate: How to Pay a Freelancer",
+  "h1": "Fixed price vs hourly rate: how to pay a freelancer",
+  "description": "Fixed-price and hourly pay compared for freelance work: budget certainty, flexibility, scope changes, quality incentives and when each model fits.",
+  "intro": "When you hire a freelancer, one of the first decisions is how to pay: a fixed price for a defined piece of work, or an hourly rate for time spent. Each model shifts risk in a different direction. Fixed prices give you certainty about cost but need a clear scope. Hourly rates give flexibility but less certainty. This article explains how each works and how to choose.",
+  "kind": "Comparison",
+  "order": 81,
+  "guides": [
+    "graphics-design/logo-design",
+    "programming-tech/custom-websites",
+    "writing-translation/articles-and-blog-posts"
+  ],
+  "faq": [
+    {
+      "q": "Which is cheaper?",
+      "a": "Neither is always cheaper. A fixed price is cheaper when the scope is clear, and hourly is cheaper when the work is small or uncertain."
+    },
+    {
+      "q": "What if the work grows during the project?",
+      "a": "With a fixed price, changes usually need a new quote. With hourly pay, the cost rises with the time spent."
+    },
+    {
+      "q": "How do I stop hourly costs getting out of hand?",
+      "a": "Set a maximum number of hours or a budget cap, and ask for regular time reports."
+    },
+    {
+      "q": "Can I combine both?",
+      "a": "Yes. Many projects use a fixed price for the main deliverable and hourly rates for extras or ongoing support."
+    },
+    {
+      "q": "What about long-term work?",
+      "a": "A monthly retainer for a set amount of work is a common middle ground."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "video-animation/video-editing",
+    "business/virtual-assistant",
+    "programming-tech/wordpress"
+  ]
+}
