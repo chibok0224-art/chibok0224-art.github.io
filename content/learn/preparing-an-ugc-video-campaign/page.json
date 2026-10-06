@@ -1,0 +1,41 @@
+{
+  "title": "How to Plan a UGC Video Campaign Before Hiring Creators",
+  "h1": "How to plan a UGC video campaign before hiring creators",
+  "description": "Plan a UGC video campaign: goal, product shipping, creator profile, hooks, brief, usage rights, testing, disclosure rules and what to ask creators.",
+  "intro": "User-generated-style content, often called UGC, means short videos made by real-looking people who show or talk about your product in a natural way. Brands use them in ads, on product pages and on social media because they feel more genuine than polished commercials. A good campaign needs a plan: who the videos are for, what they should say, how you will use them and what rights you need. This article explains how to prepare before hiring creators.",
+  "kind": "Start here",
+  "order": 97,
+  "guides": [
+    "video-animation/ugc-videos",
+    "online-marketing/ugc-strategy",
+    "video-animation/social-media-videos"
+  ],
+  "faq": [
+    {
+      "q": "How many videos should I order first?",
+      "a": "A small batch with different hooks and creators is common, so you can see what your audience responds to before ordering more."
+    },
+    {
+      "q": "Do creators need the product?",
+      "a": "Usually yes. Plan shipping, timing and what happens to the product afterward."
+    },
+    {
+      "q": "What usage rights should I request?",
+      "a": "State whether the videos are for organic posts, paid ads or both, for how long and on which platforms, and get this in writing."
+    },
+    {
+      "q": "Do creators have to disclose a connection to my brand?",
+      "a": "Rules in many places require clear disclosure when content is paid or promotional. Ask creators and check the rules that apply to you."
+    },
+    {
+      "q": "Can I edit the videos?",
+      "a": "Ask for raw footage or permission to trim and add captions, since many campaigns need several cuts."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "online-marketing/paid-social-media",
+    "online-marketing/influencer-marketing",
+    "video-animation/e-commerce-product-videos"
+  ]
+}

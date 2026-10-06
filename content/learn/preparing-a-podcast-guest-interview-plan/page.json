@@ -1,0 +1,41 @@
+{
+  "title": "How to Plan Podcast Interviews With Guests",
+  "h1": "How to plan podcast interviews with guests",
+  "description": "Plan podcast guest interviews: show goals, guest research, outreach, questions, recording setup, release permission, editing and promotion with your team.",
+  "intro": "Interview shows depend on good guests and good conversations. The preparation before the recording, from choosing guests to setting up the technology, shapes how the episode sounds and how easily it can be edited and promoted. This article explains how to plan guest interviews so that recordings go smoothly and your editor, producer and promoter have what they need.",
+  "kind": "Start here",
+  "order": 98,
+  "guides": [
+    "music-audio/podcast-production",
+    "online-marketing/podcast-marketing",
+    "music-audio/audio-editing"
+  ],
+  "faq": [
+    {
+      "q": "How many questions should I prepare?",
+      "a": "A short outline of topics with a handful of key questions is usually better than a long script, so the conversation stays natural."
+    },
+    {
+      "q": "What recording setup should guests use?",
+      "a": "A quiet room, wired headphones and a decent microphone make a big difference. Send clear tips ahead of time."
+    },
+    {
+      "q": "Do I need a release from guests?",
+      "a": "A simple written permission to record and publish the interview is common practice. Ask a professional if you need legal advice."
+    },
+    {
+      "q": "Should I record video too?",
+      "a": "It helps for clips and promotion, but it adds work. Decide based on your plans for social media."
+    },
+    {
+      "q": "What do I give my editor?",
+      "a": "The raw audio files, notes on cuts, the episode outline and the intro and outro material."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "writing-translation/transcription",
+    "music-audio/jingles-and-intros",
+    "video-animation/video-repurposing"
+  ]
+}
