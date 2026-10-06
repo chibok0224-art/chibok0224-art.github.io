@@ -519,7 +519,7 @@ BASICS = ("how-to-write-a-brief", "understanding-packages", "checking-a-delivery
 GENERAL = (BASICS + ("how-to-hire-a-freelancer", "giving-feedback-to-freelancers", "freelancer-vs-agency",
                      "collecting-reference-examples", "planning-project-deadlines", "handling-too-many-revisions",
                      "managing-multiple-freelancers", "organizing-project-files-and-handover",
-                     "long-term-work-with-freelancers"))
+                     "long-term-work-with-freelancers", "fixed-price-vs-hourly-freelancers"))
 
 
 def index_learn(articles):
