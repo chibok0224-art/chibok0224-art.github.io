@@ -1,0 +1,41 @@
+{
+  "title": "How to Choose and Cast a Voice Over Artist",
+  "h1": "How to choose and cast a voice over artist",
+  "description": "Choose a voice over artist: define the voice, collect samples, run a short audition, compare readers, agree rights and prepare scripts and direction.",
+  "intro": "The right voice makes a video, ad, course or audiobook feel professional, and the wrong one can undermine it. Choosing a voice is partly taste, but a clear process helps you decide with confidence. This article explains how to describe the voice you need, how to listen to samples, how to run a fair audition and what to agree before the recording.",
+  "kind": "Start here",
+  "order": 94,
+  "guides": [
+    "music-audio/voice-over",
+    "music-audio/audiobook-production",
+    "music-audio/jingles-and-intros"
+  ],
+  "faq": [
+    {
+      "q": "How do I describe the voice I want?",
+      "a": "Use a few words for tone, age range, energy and accent, and share examples of voices you like."
+    },
+    {
+      "q": "Should I ask for an audition?",
+      "a": "A short test read of a few lines from your script is common and helps compare voices fairly. Ask whether it is free or paid."
+    },
+    {
+      "q": "What rights do I need?",
+      "a": "Say where the recording will be used, for how long and in which regions. Ask for the license in writing."
+    },
+    {
+      "q": "How do I give direction?",
+      "a": "Mark emphasis, pace and mood in the script, and give examples of how a line should sound."
+    },
+    {
+      "q": "Can I change the script later?",
+      "a": "Small changes may be allowed. Larger changes usually count as new work, so finish the script first."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "video-animation/animated-explainers",
+    "video-animation/corporate-videos",
+    "music-audio/podcast-production"
+  ]
+}

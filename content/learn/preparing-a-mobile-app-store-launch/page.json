@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare a Mobile App Store Launch",
+  "h1": "How to prepare a mobile app store launch",
+  "description": "Prepare an app store launch: developer accounts, listing text, screenshots, policies, testing, review rules, marketing plan and what to ask your developer.",
+  "intro": "Finishing the code is only part of launching a mobile app. The app stores have their own accounts, rules, listing pages and review steps, and mistakes can delay your launch by days or weeks. A little preparation makes the release smooth. This article explains what to arrange before submitting an app, who should own which accounts and how to plan the first weeks after release.",
+  "kind": "Start here",
+  "order": 93,
+  "guides": [
+    "programming-tech/mobile-app-development",
+    "online-marketing/mobile-app-marketing",
+    "programming-tech/android-app-development"
+  ],
+  "faq": [
+    {
+      "q": "Who should own the developer accounts?",
+      "a": "You should. Create the store accounts in your own business name and give the developer access, so the app stays yours."
+    },
+    {
+      "q": "How long does store review take?",
+      "a": "It varies and can change over time. Allow several days, and more for a first release or if changes are requested."
+    },
+    {
+      "q": "What does a store listing need?",
+      "a": "A name, description, screenshots, an icon, a category, contact details, a privacy policy and answers about what data the app collects."
+    },
+    {
+      "q": "Why might an app be rejected?",
+      "a": "Common reasons include broken features, missing privacy information, misleading descriptions or not following the platform's design and payment rules."
+    },
+    {
+      "q": "Should I test before launch?",
+      "a": "Yes, with real devices and a few real users. Both platforms offer ways to share test versions before public release."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "programming-tech/ios-app-development",
+    "graphics-design/app-design",
+    "online-marketing/web-analytics"
+  ]
+}
