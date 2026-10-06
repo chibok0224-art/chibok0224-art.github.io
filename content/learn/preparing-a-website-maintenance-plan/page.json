@@ -1,0 +1,41 @@
+{
+  "title": "How to Plan Ongoing Website Maintenance",
+  "h1": "How to plan ongoing website maintenance",
+  "description": "Plan website maintenance: updates, backups, security, speed, content changes, monitoring, access, response times and what to ask a maintenance provider.",
+  "intro": "A website needs regular care even when you are not changing anything. Software updates, backups, security checks and small fixes keep it running and safe, while neglected sites slow down, break or get hacked. A maintenance provider can handle this on a schedule. This article explains what the work includes, what to prepare and what to ask before you sign up for a plan.",
+  "kind": "Start here",
+  "order": 100,
+  "guides": [
+    "programming-tech/website-maintenance",
+    "programming-tech/wordpress",
+    "programming-tech/troubleshooting-and-improvements"
+  ],
+  "faq": [
+    {
+      "q": "What does maintenance usually include?",
+      "a": "Software updates, backups, security monitoring, uptime checks, small fixes and sometimes content edits and speed checks."
+    },
+    {
+      "q": "How often are backups needed?",
+      "a": "It depends on how often your site changes. Busy shops may need daily backups, while a small brochure site may need less."
+    },
+    {
+      "q": "Is maintenance different from redesign?",
+      "a": "Yes. Maintenance keeps the current site healthy, while a redesign changes how it looks or works."
+    },
+    {
+      "q": "What response time should I expect?",
+      "a": "Ask for a stated time for urgent problems and for normal requests, and put it in writing."
+    },
+    {
+      "q": "What access does the provider need?",
+      "a": "Administrator access to the site and hosting, set up in a way you can remove later."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "programming-tech/shopify",
+    "programming-tech/wix",
+    "online-marketing/search-engine-optimization-seo"
+  ]
+}

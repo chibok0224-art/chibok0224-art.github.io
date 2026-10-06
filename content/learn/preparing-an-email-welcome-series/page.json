@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare an Email Welcome Series Before Hiring",
+  "h1": "How to prepare an email welcome series before hiring",
+  "description": "Prepare a welcome email series: goal, audience, number of emails, timing, offers, tone, tracking, consent and what to ask a freelancer to set up.",
+  "intro": "A welcome series is a short run of automatic emails sent when someone joins your list or makes a first purchase. These emails are read more than almost any other message you send, which makes them a valuable place to build trust and guide people toward a first action. A freelancer can write and set them up, but you need to decide the goal and share what makes your business worth remembering. This article explains how to prepare.",
+  "kind": "Start here",
+  "order": 99,
+  "guides": [
+    "online-marketing/email-automations",
+    "online-marketing/email-marketing",
+    "writing-translation/email-copy"
+  ],
+  "faq": [
+    {
+      "q": "How many emails should a welcome series have?",
+      "a": "Many series use three to five emails over one to two weeks. The right number depends on your product and how much people need to learn."
+    },
+    {
+      "q": "What should the first email do?",
+      "a": "Thank the person, deliver what you promised, such as a discount or guide, and tell them what to expect."
+    },
+    {
+      "q": "Should the emails include a discount?",
+      "a": "Only if it fits your margins and brand. Some businesses prefer to build trust first and offer a discount later."
+    },
+    {
+      "q": "What do I need to supply?",
+      "a": "Brand details, key products or services, customer questions, reviews, links and any offer details."
+    },
+    {
+      "q": "How do I know it works?",
+      "a": "Track opens, clicks and, most importantly, the actions you want, such as first purchases or bookings."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "graphics-design/email-design",
+    "online-marketing/e-commerce-marketing",
+    "online-marketing/marketing-automation"
+  ]
+}
