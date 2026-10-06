@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare a Dashboard Project Before Hiring",
+  "h1": "How to prepare a dashboard project before hiring",
+  "description": "Prepare a dashboard project: decisions it supports, key measures, data sources, tools, access, refresh schedule, design and what to ask a data specialist.",
+  "intro": "A dashboard turns numbers from many places into one screen that helps people make decisions. A good one answers a few important questions at a glance. A poor one is a crowded page of charts that nobody uses. Most of the difference comes from preparation. This article explains what to decide, what to gather and what to ask before you hire someone to build a dashboard in a tool such as Power BI, Tableau or a spreadsheet.",
+  "kind": "Start here",
+  "order": 78,
+  "guides": [
+    "data/dashboards",
+    "data/data-analytics",
+    "data/data-visualization"
+  ],
+  "faq": [
+    {
+      "q": "What should a dashboard show?",
+      "a": "Only the few measures that help someone decide or act, grouped clearly, with enough context to tell good from bad."
+    },
+    {
+      "q": "Which tool should I choose?",
+      "a": "Choose the tool your team can access and maintain. Ask the specialist for a recommendation based on your data and budget."
+    },
+    {
+      "q": "How often will it update?",
+      "a": "That depends on your data sources. Some refresh automatically each day or hour, others are updated manually."
+    },
+    {
+      "q": "Who owns the dashboard?",
+      "a": "You should. Keep the files, accounts and data connections in your own name."
+    },
+    {
+      "q": "What if my data is messy?",
+      "a": "Tell the specialist early. Cleaning and combining data is often the largest part of the job."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "online-marketing/web-analytics",
+    "finance/financial-modeling",
+    "business/e-commerce-management"
+  ]
+}

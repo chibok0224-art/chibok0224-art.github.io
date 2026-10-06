@@ -1,0 +1,41 @@
+{
+  "title": "How to Brief a YouTube Thumbnail Designer",
+  "h1": "How to brief a YouTube thumbnail designer",
+  "description": "Brief a thumbnail designer: your channel style, video topic, text, faces and images, sizes, testing, revisions and what makes a thumbnail easy to read.",
+  "intro": "A thumbnail is the small picture people see before they decide to watch a video. It works together with the title to promise something worth clicking. A designer can make thumbnails that look professional and consistent, but only if they understand your channel and each video. This article explains what to include in a brief and how to judge thumbnails fairly.",
+  "kind": "Start here",
+  "order": 80,
+  "guides": [
+    "graphics-design/thumbnails-design",
+    "video-animation/video-editing",
+    "graphics-design/social-media-design"
+  ],
+  "faq": [
+    {
+      "q": "What size should a thumbnail be?",
+      "a": "The standard is a widescreen image, 1280 by 720 pixels. Ask the designer to follow the current platform guidance."
+    },
+    {
+      "q": "Should I put text on it?",
+      "a": "Short text can help, but it must be readable at a small size. Three or four large words is a common limit."
+    },
+    {
+      "q": "Do I need to be in the thumbnail?",
+      "a": "Not necessarily. Faces help many channels, but some topics work better with objects or graphics."
+    },
+    {
+      "q": "How many thumbnails should I order?",
+      "a": "Start with one or two to test the style. If it works, order a batch for consistency."
+    },
+    {
+      "q": "Can I test different versions?",
+      "a": "Yes. Many creators compare two designs for the same video and keep the one that gets more clicks."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "video-animation/social-media-videos",
+    "graphics-design/image-editing",
+    "online-marketing/video-marketing"
+  ]
+}

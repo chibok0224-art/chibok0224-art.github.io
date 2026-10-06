@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare a Pitch Deck Before Hiring a Designer",
+  "h1": "How to prepare a pitch deck before hiring a designer",
+  "description": "Prepare a funding pitch deck: story, structure, numbers, slide content, design brief, delivery formats and what a pitch deck designer should provide.",
+  "intro": "A pitch deck is a short presentation that explains your business to investors, partners or customers. Designers can make it clear and polished, but they cannot invent your story or your numbers. The strongest decks begin with a sharp message and honest figures, then use design to make them easy to follow. This article explains what to prepare before you hire a pitch deck designer.",
+  "kind": "Start here",
+  "order": 79,
+  "guides": [
+    "finance/funding-pitch-presentations",
+    "graphics-design/presentation-design",
+    "business/business-plans"
+  ],
+  "faq": [
+    {
+      "q": "How many slides should a pitch deck have?",
+      "a": "Most are short, often around ten to fifteen slides. Fewer, clearer slides usually work better than many dense ones."
+    },
+    {
+      "q": "Should the designer write the content?",
+      "a": "Some do, many do not. Ask whether copywriting and storytelling are included or whether you must supply the text."
+    },
+    {
+      "q": "What numbers do investors expect?",
+      "a": "Typically market size, traction, revenue or usage, and a realistic plan for the money you are asking for. Check expectations for your stage and region."
+    },
+    {
+      "q": "Which format should I ask for?",
+      "a": "A PDF to send and an editable file such as PowerPoint, Keynote or Google Slides so you can make changes."
+    },
+    {
+      "q": "Can I use the deck for different audiences?",
+      "a": "Yes, but adjust the emphasis for each audience. Ask for a layout that makes edits easy."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "finance/financial-modeling",
+    "online-marketing/brand-strategy",
+    "writing-translation/scriptwriting"
+  ]
+}
