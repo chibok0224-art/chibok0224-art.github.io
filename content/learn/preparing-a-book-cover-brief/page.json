@@ -1,0 +1,41 @@
+{
+  "title": "How to Write a Brief for a Book Cover Designer",
+  "h1": "How to write a brief for a book cover designer",
+  "description": "Brief a book cover designer: genre, readers, title and subtitle, comparable covers, size and format, print details, files and what to ask before ordering.",
+  "intro": "A book cover has to do several jobs at once: signal the genre, catch attention as a tiny thumbnail and look good on the printed book. A designer can do all of that, but only with the right information. This article explains how to write a clear brief for a book cover designer, what technical details to confirm and what to ask before you order.",
+  "kind": "Start here",
+  "order": 96,
+  "guides": [
+    "graphics-design/book-covers",
+    "graphics-design/book-design",
+    "graphics-design/illustration"
+  ],
+  "faq": [
+    {
+      "q": "What do I need before hiring a cover designer?",
+      "a": "A final title and subtitle, a short description of the book, the genre and some comparable books."
+    },
+    {
+      "q": "Do covers differ by genre?",
+      "a": "Yes. Readers expect certain styles for romance, thrillers, business books and others, so the designer should know the conventions."
+    },
+    {
+      "q": "What sizes do I need?",
+      "a": "Print size depends on the printer, trim size and page count. Ask for exact specifications from your publishing platform."
+    },
+    {
+      "q": "What files should I receive?",
+      "a": "A front cover for ebooks, a full wrap cover for print with spine and back, and a high-resolution file for marketing."
+    },
+    {
+      "q": "Can I change the title later?",
+      "a": "Changing it after the design is expensive and may count as new work, so decide it first."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "writing-translation/book-and-ebook-writing",
+    "online-marketing/book-and-ebook-marketing",
+    "graphics-design/childrens-book-illustration"
+  ]
+}
