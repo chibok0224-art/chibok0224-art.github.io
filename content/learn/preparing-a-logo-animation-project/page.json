@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare a Logo Animation Project Before Hiring",
+  "h1": "How to prepare a logo animation project before hiring",
+  "description": "Prepare a logo animation: logo files, purpose, length, style, sound, formats, brand rules and what to ask a motion designer before ordering.",
+  "intro": "A logo animation brings your logo to life for a few seconds, for use at the start of a video, on a website, in presentations or on social media. It is short, but small details such as timing, style and file format decide whether it looks professional. This article explains what to prepare before hiring a motion designer, so that your animation fits your brand and works wherever you need it.",
+  "kind": "Start here",
+  "order": 92,
+  "guides": [
+    "video-animation/logo-animation",
+    "video-animation/intro-and-outro-videos",
+    "graphics-design/logo-design"
+  ],
+  "faq": [
+    {
+      "q": "How long should a logo animation be?",
+      "a": "Most are around three to six seconds. Longer ones tend to feel slow when they appear repeatedly."
+    },
+    {
+      "q": "What logo file do I need?",
+      "a": "A vector file, such as SVG, AI or PDF, with layers if possible. A flat image can limit what the animator can do."
+    },
+    {
+      "q": "Should it have sound?",
+      "a": "Sound effects or a short sting add polish, but make a silent version too, since many people watch without sound."
+    },
+    {
+      "q": "Which formats will I need?",
+      "a": "Video files for editing and web, a version with a transparent background and a square or vertical version for social media."
+    },
+    {
+      "q": "Can the animation be updated if my logo changes?",
+      "a": "Ask for the project files so that a designer can adjust it later."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "video-animation/video-editing",
+    "video-animation/social-media-videos",
+    "music-audio/jingles-and-intros"
+  ]
+}
