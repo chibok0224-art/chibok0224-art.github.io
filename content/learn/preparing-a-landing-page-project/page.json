@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare a Landing Page Project Before Hiring",
+  "h1": "How to prepare a landing page project before hiring",
+  "description": "Prepare a landing page project: single goal, audience, offer, page structure, proof, content, tracking and what to ask a designer or developer.",
+  "intro": "A landing page is a single page built to get one action: a purchase, a sign-up, a booking request or a download. It is often the page people reach after clicking an ad or a link. Because it has one job, small decisions about wording, layout and trust make a large difference. This article explains how to prepare before hiring a designer or developer so the page can work from the first day.",
+  "kind": "Start here",
+  "order": 90,
+  "guides": [
+    "graphics-design/landing-page-design",
+    "online-marketing/conversion-rate-optimization-cro",
+    "graphics-design/ux-design"
+  ],
+  "faq": [
+    {
+      "q": "What makes a landing page different from a normal page?",
+      "a": "It has one goal and removes distractions such as extra menus and unrelated links."
+    },
+    {
+      "q": "Who should write the text?",
+      "a": "Ideally someone who understands your customers. Ask whether the designer writes copy or whether you or a copywriter will provide it."
+    },
+    {
+      "q": "Do I need to build several versions?",
+      "a": "Often one page per audience or campaign works best, because the message matches what people clicked."
+    },
+    {
+      "q": "How do I know it works?",
+      "a": "Track the main action and compare the share of visitors who complete it over a fair period."
+    },
+    {
+      "q": "Which platform should it be on?",
+      "a": "Use a platform your team can edit, or ask the freelancer to recommend one and explain the ongoing costs."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "online-marketing/paid-social-media",
+    "online-marketing/search-engine-marketing-sem",
+    "writing-translation/sales-copy"
+  ]
+}

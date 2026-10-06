@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare a Product Video Before Hiring",
+  "h1": "How to prepare a product video before hiring",
+  "description": "Prepare a product video: purpose, audience, key features, shots, sample product, script, formats, revisions and what to ask a product video creator.",
+  "intro": "A product video shows what your product is, how it works and why someone should buy it. It can be filmed, animated or a mix of both, and it may live on a product page, in ads, on marketplaces or on social media. The best results come from a clear plan. This article explains what to decide and what to prepare before you hire a creator, so the video does its job and you pay for the right things.",
+  "kind": "Start here",
+  "order": 89,
+  "guides": [
+    "video-animation/e-commerce-product-videos",
+    "video-animation/video-ads-and-commercials",
+    "video-animation/3d-product-animation"
+  ],
+  "faq": [
+    {
+      "q": "How long should a product video be?",
+      "a": "It depends on where it appears. Short clips of fifteen to thirty seconds suit ads and social feeds, while product pages can use a longer one that shows details."
+    },
+    {
+      "q": "Do I need to send the product?",
+      "a": "For filmed videos, usually yes. For animation or 3D, files, drawings or clear photos may be enough."
+    },
+    {
+      "q": "Should the video have a voice-over?",
+      "a": "Many viewers watch with sound off, so use captions and visuals that work without audio, and add voice or music as a bonus."
+    },
+    {
+      "q": "Which formats should I ask for?",
+      "a": "Ask for the shapes your platforms use, such as vertical, square and widescreen versions, so that one video serves several places."
+    },
+    {
+      "q": "What if my product changes later?",
+      "a": "Ask how easy it will be to update the video and whether source files are included."
+    }
+  ],
+  "updated": "2026-10-06",
+  "also_for": [
+    "video-animation/ugc-videos",
+    "writing-translation/product-descriptions",
+    "business/e-commerce-management"
+  ]
+}
