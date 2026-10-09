@@ -1,0 +1,42 @@
+{
+  "title": "How to Prepare a Data Cleanup Project",
+  "h1": "How to prepare a data cleanup project",
+  "description": "Prepare a data cleanup project: define clean, share samples, set rules for duplicates and gaps, protect personal data and check the result.",
+  "intro": "Messy spreadsheets and customer lists cost time every day: duplicate contacts, mixed date formats, empty fields and typos that break reports. A data cleaning specialist can fix this quickly, but only if you explain what clean means for your data. This article shows what to prepare, which rules to decide in advance and how to check the result before you rely on it.",
+  "kind": "Start here",
+  "order": 101,
+  "guides": [
+    "data/data-cleaning",
+    "data/data-analytics",
+    "data/data-entry"
+  ],
+  "faq": [
+    {
+      "q": "What does data cleaning usually include?",
+      "a": "Removing duplicates, fixing formats such as dates and phone numbers, filling or flagging gaps, correcting obvious errors and making categories consistent."
+    },
+    {
+      "q": "Should I send the whole file or a sample?",
+      "a": "Start with a small sample with personal details removed or masked. Send the full file once you have agreed on the rules and trust the person."
+    },
+    {
+      "q": "Who decides which duplicate record to keep?",
+      "a": "You do. Write a simple rule, such as keep the most recent record, and ask the specialist to list any cases the rule does not cover."
+    },
+    {
+      "q": "Can a specialist clean data that is spread across several files?",
+      "a": "Yes, but say so in the brief and explain how the files relate, for example which column links an order to a customer."
+    },
+    {
+      "q": "How do I know the cleanup worked?",
+      "a": "Ask for a short change log with counts of what was fixed, and spot-check a few records yourself against the original."
+    }
+  ],
+  "updated": "2026-10-09",
+  "also_for": [
+    "data/data-formatting",
+    "data/data-visualization",
+    "data/dashboards",
+    "data/databases"
+  ]
+}

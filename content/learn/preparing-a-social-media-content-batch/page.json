@@ -1,0 +1,40 @@
+{
+  "title": "How to Prepare a Batch of Social Media Content",
+  "h1": "How to prepare a batch of social media content",
+  "description": "Plan a month of social posts with a freelancer: pick themes, gather brand assets, write a simple calendar, set review steps and avoid common mistakes.",
+  "intro": "Posting on social media one day at a time is tiring, and it shows in rushed, inconsistent posts. Ordering a batch of content, such as a month of designed posts with captions, gives you a steady feed and a consistent look. It works best when you prepare the themes, assets and review steps before the designer or writer starts. This article explains how.",
+  "kind": "Start here",
+  "order": 102,
+  "guides": [
+    "graphics-design/social-media-design",
+    "online-marketing/social-media-marketing",
+    "writing-translation/social-media-copywriting"
+  ],
+  "faq": [
+    {
+      "q": "How many posts should one batch include?",
+      "a": "Match it to how often you can realistically post. A batch for two to four weeks is a good start because you can learn from it before ordering more."
+    },
+    {
+      "q": "Do I need both a designer and a writer?",
+      "a": "Not always. Some freelancers do both. If captions matter a lot for your audience, a separate copywriter can be worth it."
+    },
+    {
+      "q": "Should the freelancer post for me?",
+      "a": "Only if posting is part of the agreed service. If so, give them a limited role in your account or scheduling tool rather than your password."
+    },
+    {
+      "q": "Can I reuse posts later?",
+      "a": "Usually yes, if the agreement gives you the rights. Ask for editable templates so you can update text and images yourself."
+    },
+    {
+      "q": "How do I keep the posts on brand?",
+      "a": "Share your logo, colors, fonts and a few example posts you like, and approve the first two or three designs before the rest are made."
+    }
+  ],
+  "updated": "2026-10-09",
+  "also_for": [
+    "video-animation/social-media-videos",
+    "online-marketing/paid-social-media"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare a Localization Project",
+  "h1": "How to prepare a localization project",
+  "description": "Prepare a localization project: choose markets, export text, write a glossary and style notes, give context, plan review and test in each language.",
+  "intro": "Localization adapts your website, app, product or marketing for people in another country, not just by translating words but by adjusting dates, currencies, examples and tone. A localization specialist can do this well, but the quality depends on what you prepare: the text files, context, glossary and a plan for review and testing. This article walks through the preparation step by step.",
+  "kind": "Start here",
+  "order": 104,
+  "guides": [
+    "writing-translation/localization",
+    "writing-translation/translation",
+    "writing-translation/website-content"
+  ],
+  "faq": [
+    {
+      "q": "What is the difference between translation and localization?",
+      "a": "Translation changes the language. Localization also adapts formats, examples, images and tone so the content feels made for that market."
+    },
+    {
+      "q": "Should I localize everything at once?",
+      "a": "Usually not. Start with the pages or screens that matter most to new customers, then expand once you see results."
+    },
+    {
+      "q": "Why do I need a glossary?",
+      "a": "A glossary keeps product names and key terms consistent across pages and translators, which avoids confusion for customers."
+    },
+    {
+      "q": "Who should review the localized text?",
+      "a": "Ideally a native speaker who knows your market, such as a customer or partner, in addition to the specialist."
+    },
+    {
+      "q": "Do I need developers for localization?",
+      "a": "For websites and apps, often yes. Text must be exported and imported, and layouts must handle longer words or different scripts."
+    }
+  ],
+  "updated": "2026-10-09",
+  "also_for": [
+    "programming-tech/website-development",
+    "programming-tech/mobile-app-development",
+    "writing-translation/proofreading-and-editing"
+  ]
+}

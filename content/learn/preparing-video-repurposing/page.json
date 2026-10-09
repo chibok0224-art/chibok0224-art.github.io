@@ -1,0 +1,41 @@
+{
+  "title": "How to Prepare a Video Repurposing Project",
+  "h1": "How to prepare a video repurposing project",
+  "description": "Turn long videos into short clips: choose source videos, mark the best moments, set formats and captions, check music rights and brief the editor.",
+  "intro": "A single long video, such as a webinar, podcast episode or interview, can become many short clips for social media. Repurposing saves filming time and gives your best ideas a second life. An editor can do the cutting, but the results depend on the source material and on clear instructions about formats, captions and style. This article explains how to prepare.",
+  "kind": "Start here",
+  "order": 103,
+  "guides": [
+    "video-animation/video-repurposing",
+    "video-animation/video-editing",
+    "video-animation/social-media-videos"
+  ],
+  "faq": [
+    {
+      "q": "Which videos work best for repurposing?",
+      "a": "Videos where people speak clearly about one idea at a time, such as interviews, talks, tutorials and podcast episodes with video."
+    },
+    {
+      "q": "How many clips can one video produce?",
+      "a": "It depends on the content. A focused hour-long conversation often has several strong moments; a rambling one may have few. Ask the editor to suggest moments before you agree on a number."
+    },
+    {
+      "q": "Do I need to choose the moments myself?",
+      "a": "Not necessarily, but marking a few favorites with timestamps helps the editor understand what you value."
+    },
+    {
+      "q": "Are captions necessary?",
+      "a": "For most social platforms, yes. Many people watch with the sound off, so captions carry the message."
+    },
+    {
+      "q": "Can the editor use music from the original video?",
+      "a": "Only if you have the rights for the new use. Ask the editor to use licensed music or none at all."
+    }
+  ],
+  "updated": "2026-10-09",
+  "also_for": [
+    "video-animation/subtitles-and-captions",
+    "music-audio/podcast-production",
+    "online-marketing/social-media-marketing"
+  ]
+}
