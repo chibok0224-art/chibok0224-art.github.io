@@ -1,7 +1,7 @@
 {
-  "title": "Best Database Consultants (2026): Advice on Design and Performance",
-  "h1": "Best Databases Consultants",
-  "description": "How to hire a database consultant for design reviews, performance advice, migration plans or technology choices: deliverables, how to brief it and red flags.",
+  "title": "Database Consulting (2026): How to Hire a Database Consultant",
+  "h1": "Best Database Consultants",
+  "description": "Database consulting explained: hiring a database consultant for design reviews, performance advice, migration plans or technology choices, and the red flags.",
   "intro": "Database consultants advise on how your data should be stored and managed: reviewing database design, diagnosing slow queries, planning migrations, choosing database technologies and setting up backups and access rules. Expert advice can prevent outages and costly rebuilds. Consulting goes wrong when the consultant needs full production access for a simple review, ignores backups, or recommends technology your team cannot run. This guide helps you get database advice that is safe and practical.",
   "updated": "2026-10-02",
   "featured_count": 5,
