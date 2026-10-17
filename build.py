@@ -267,8 +267,50 @@ def service_link(s, links, *, badge=True):
 
 # ---------- layout ----------
 
+def og_key(path):
+    """static/og/<key>.png for a page path like 'learn/foo' or 'video-animation/video-editing'."""
+    return path.strip("/").replace("/", "--")
+
+
+def og_items(site, pages, articles):
+    """What each link preview image says: {key: (title, label, subtitle)}. Drawn by tools/og_images.py.
+    The subtitle only shows under a one-line title."""
+    items = {"default": (site["tagline"], "Freelance hiring guides", "")}
+    for pg in pages:
+        svc = pg["service"]
+        items[og_key(svc["path"])] = (pg["h1"], f'Hiring guide · {svc["top"]["name"]}',
+                                     "How to choose, what it costs, and what to ask first")
+    for a in articles:
+        items[og_key(f'learn/{a["slug"]}')] = (a["h1"], "Learn", "")
+    return items
+
+
+def draw_og_images(site, pages, articles, warnings):
+    """Redraws changed preview images when Pillow is installed; the CI build just copies the committed ones."""
+    try:
+        sys.path.insert(0, str(ROOT / "tools"))
+        import og_images
+    except ImportError:
+        return
+    drawn = og_images.make(STATIC / "og", og_items(site, pages, articles))
+    if drawn:
+        warnings.append(f"drew {drawn} link preview image(s) in static/og: commit them")
+
+
+def og_image(path):
+    for key in (og_key(path), "default"):
+        if (STATIC / "og" / f"{key}.png").exists():
+            return f"/og/{key}.png"
+    return None
+
+
 def page(site, *, title, description, path, body, schema=None, draft=False):
     url = site["base_url"].rstrip("/") + path
+    img = og_image(path)
+    og_img = (f'<meta property="og:image" content="{site["base_url"].rstrip("/")}{img}">\n'
+              f'<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
+              f'<meta property="og:image:alt" content="{esc(title)}">\n'
+              f'<meta name="twitter:card" content="summary_large_image">') if img else '<meta name="twitter:card" content="summary">'
     banner = ('<div class="draft">PREVIEW: draft gigs are shown. The public build hides them.</div>'
               if draft else "")
     ld = (f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>'
@@ -288,7 +330,7 @@ def page(site, *, title, description, path, body, schema=None, draft=False):
 <meta property="og:description" content="{esc(description)}">
 <meta property="og:url" content="{url}">
 <meta property="og:site_name" content="{esc(site['name'])}">
-<meta name="twitter:card" content="summary">
+{og_img}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/style.css?v={ASSET_V}">
 <script src="/site.js?v={ASSET_V}" defer></script>
@@ -984,6 +1026,7 @@ def main():
     articles = load_articles(services, errors, warnings)
     index_learn(articles)
     gigs = load_gigs(errors)
+    draw_og_images(site, pages, articles, warnings)
     e, w = check_gigs(gigs, services)
     errors += e
     warnings += w
