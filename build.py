@@ -319,7 +319,7 @@ def page(site, *, title, description, path, body, schema=None, draft=False):
                if site.get("contact_email") else "")
     # Cookieless visit counts (Cloudflare Web Analytics). Off until site.json has a token.
     token = site.get("cloudflare_analytics_token")
-    beacon = (f'<script defer src="https://static.cloudflareinsights.com/beacon.min.js" '
+    beacon = (f'<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" '
               f'data-cf-beacon=\'{{"token": "{esc(token)}"}}\'></script>' if token else "")
     return f"""<!doctype html>
 <html lang="{site['language']}">
