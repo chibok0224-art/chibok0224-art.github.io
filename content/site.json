@@ -16,5 +16,6 @@
     }
   },
   "show_gig_images": true,
+  "cloudflare_analytics_token": "",
   "updated": "2026-09-25"
 }

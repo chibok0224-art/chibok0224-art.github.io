@@ -317,6 +317,10 @@ def page(site, *, title, description, path, body, schema=None, draft=False):
           if schema else "")
     contact = (f' · <a href="mailto:{esc(site["contact_email"])}">Contact</a>'
                if site.get("contact_email") else "")
+    # Cookieless visit counts (Cloudflare Web Analytics). Off until site.json has a token.
+    token = site.get("cloudflare_analytics_token")
+    beacon = (f'<script defer src="https://static.cloudflareinsights.com/beacon.min.js" '
+              f'data-cf-beacon=\'{{"token": "{esc(token)}"}}\'></script>' if token else "")
     return f"""<!doctype html>
 <html lang="{site['language']}">
 <head>
@@ -354,6 +358,7 @@ def page(site, *, title, description, path, body, schema=None, draft=False):
     <p><a href="/about/">About</a> · <a href="/disclosure/">Affiliate disclosure</a> · <a href="/privacy/">Privacy</a> · <a href="/how-we-pick/">How we pick</a>{contact}</p>
   </div>
 </footer>
+{beacon}
 </body>
 </html>
 """
@@ -975,6 +980,15 @@ PRIVACY = """
 <p>If we add analytics or any form in the future, we will update this page first.</p>
 """
 
+PRIVACY_ANALYTICS = """
+<p>This site does not use cookies and does not ask you for personal information.</p>
+<p>We count visits with Cloudflare Web Analytics, which does not use cookies or local storage and does not build a profile of you. It tells us things like which pages are read and which sites sent visitors here, so we can see which guides are useful. See Cloudflare's privacy policy for details.</p>
+<p>When you click a link to Fiverr, you leave this site. Fiverr may then set its own cookies, including cookies that record that you came from our link so that a commission can be credited. That is governed by Fiverr's own privacy policy.</p>
+<p>Our hosting provider may keep standard server logs (such as IP address and pages requested) for security and reliability.</p>
+<p>Some guides show a gig widget provided by Fiverr. It is loaded from fiverr.com, and Fiverr may set its own cookies when it loads or when you click it, under Fiverr's privacy policy.</p>
+<p>If we add any form in the future, we will update this page first.</p>
+"""
+
 NOT_FOUND = """<section class="hero"><h1>Page not found</h1>
 <p>That page does not exist. <a href="/">Go to the home page</a> or <a href="/services/">search all services</a>.</p></section>"""
 
@@ -1087,8 +1101,10 @@ def main():
         body_html=DISCLOSURE, draft=draft))
     write("privacy/index.html", text_page(
         site, slug="privacy", title="Privacy policy",
-        description="What data this site collects (none) and how affiliate links work.",
-        body_html=PRIVACY, draft=draft))
+        description=("What data this site collects (cookieless visit counts only) and how affiliate links work."
+                     if site.get("cloudflare_analytics_token") else
+                     "What data this site collects (none) and how affiliate links work."),
+        body_html=PRIVACY_ANALYTICS if site.get("cloudflare_analytics_token") else PRIVACY, draft=draft))
     write("404.html", page(site, title=f'Page not found | {site["name"]}',
                            description="Page not found.", path="/404", body=NOT_FOUND, draft=draft))
     write("sitemap.xml", sitemap(site, tops, pages, articles))
