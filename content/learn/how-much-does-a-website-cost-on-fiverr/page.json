@@ -1,0 +1,42 @@
+{
+  "title": "How Much Does a Website Cost on Fiverr? Prices We Checked",
+  "h1": "How much does a website cost on Fiverr?",
+  "description": "Starting prices of the website developers we checked on Fiverr, by platform, what a starting package really covers, and what adds to the final price.",
+  "intro": "Website packages on Fiverr can look surprisingly cheap, and the final bill can still surprise you. The starting price usually covers a small, clearly defined site, and everything else is an extra. This article shows the starting prices of the website sellers we feature by platform, what those packages tend to include, and how to estimate a realistic budget.",
+  "kind": "Start here",
+  "order": 132,
+  "guides": [
+    "programming-tech/website-development",
+    "programming-tech/wordpress",
+    "programming-tech/shopify",
+    "programming-tech/wix"
+  ],
+  "faq": [
+    {
+      "q": "Can I get a full website for the starting price?",
+      "a": "Sometimes, for a small site with a few pages and content you provide. Stores, booking, custom design and copywriting usually push the price up."
+    },
+    {
+      "q": "Does the price include hosting and the domain?",
+      "a": "Usually not. Hosting, the domain, premium themes and paid plugins or apps are normally separate costs you pay yourself."
+    },
+    {
+      "q": "Which platform is cheapest?",
+      "a": "The platform matters less than the scope. A five-page site costs roughly the same to set up on most builders; stores and custom features cost more anywhere."
+    },
+    {
+      "q": "Who should own the website accounts?",
+      "a": "You. The domain, hosting and site accounts should be in your name, with the developer added as a user."
+    },
+    {
+      "q": "Is there a fee on top of the gig price?",
+      "a": "Fiverr adds a buyer service fee at checkout. Check the total on the checkout page before you pay."
+    }
+  ],
+  "updated": "2026-10-30",
+  "also_for": [
+    "programming-tech/squarespace",
+    "programming-tech/custom-websites",
+    "programming-tech/website-maintenance"
+  ]
+}
