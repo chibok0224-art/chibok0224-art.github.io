@@ -103,9 +103,7 @@ def load_articles(services, errors, warnings):
         for path in a.get("also_for", []):
             if path not in services or not services[path]["page"]:
                 errors.append(f"content/learn/{a['slug']}: also_for {path} does not exist")
-        text = json.dumps({k: a.get(k) for k in ("title", "h1", "description", "intro", "faq")}) + a["html"]
-        if "fiverr" in text.lower():
-            warnings.append(f"content/learn/{a['slug']}: mentions Fiverr in the article text (house style: don't)")
+        # Learn articles may name Fiverr since 2026-10-30 (user decision), e.g. "Is Fiverr good for ...".
         articles.append(a)
     return sorted(articles, key=lambda a: (a.get("order", 99), a["slug"]))
 
@@ -767,8 +765,8 @@ def article_cards(articles):
         f'<p>{esc(a["description"])}</p><span>Read →</span></div></a>' for a in articles)
 
 
-def article_page(site, a, articles, draft):
-    url = f'{site["base_url"].rstrip("/")}/learn/{a["slug"]}/'
+def article_page(site, links, a, articles, draft):
+    url =f'{site["base_url"].rstrip("/")}/learn/{a["slug"]}/'
     faq_html = "".join(f'<details><summary>{esc(f["q"])}</summary><p>{esc(f["a"])}</p></details>'
                        for f in a.get("faq", []))
     faq_section = f'<section class="faq"><h2 id="faq">FAQ</h2>{faq_html}</section>' if faq_html else ""
@@ -800,7 +798,7 @@ def article_page(site, a, articles, draft):
 {DISCLOSURE_NOTE}
 <p class="lead">{esc(a["intro"])}</p>
 <section class="guide">
-{a["html"]}
+{expand_fiverr_links(a["html"], links)}
 </section>
 {faq_section}
 </article>
@@ -1086,7 +1084,9 @@ def main():
     if articles:
         write("learn/index.html", learn_index(site, articles, draft))
         for a in articles:
-            write(f'learn/{a["slug"]}/index.html', article_page(site, a, articles, draft))
+            links.afp = "learn-" + a["slug"]
+            write(f'learn/{a["slug"]}/index.html', article_page(site, links, a, articles, draft))
+        links.afp = ""
     links.afp = "services"
     write("services/index.html", services_page(site, links, services, draft))
     for top in tops:
