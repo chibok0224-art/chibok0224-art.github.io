@@ -209,6 +209,8 @@ class Links:
     A deep link is https://go.fiverr.com/visit/?bta=<id>&brand=<product>&landingPage=<encoded url>.
     brand picks the commission plan: Fiverr Pro gigs use "pro", Logo Maker pages use "logomaker",
     everything else "marketplace". Without a bta, links are plain Fiverr URLs.
+    afp names the page being built (set before each page is written), so the affiliate
+    Media Report can break clicks and sign-ups down by page.
     """
 
     def __init__(self, site):
@@ -217,6 +219,7 @@ class Links:
         self.pattern = aff.get("link", "")
         self.encode_times = int(aff.get("landing_page_encode_times", 1))
         self.brands = aff.get("brands", {})
+        self.afp = ""
 
     @property
     def active(self):
@@ -227,7 +230,7 @@ class Links:
             return "logomaker"
         return "pro" if pro else "marketplace"
 
-    def deep(self, url, pro=False):
+    def deep(self, url, pro=False, afp_suffix=""):
         """url: a full https://www.fiverr.com/... address, or a path starting with '/'."""
         if url.startswith("/"):
             url = FIVERR + url
@@ -237,8 +240,11 @@ class Links:
         for _ in range(self.encode_times):
             landing = quote(landing, safe="")
         brand = self.brands.get(self.brand_for(url, pro), self.brands.get("marketplace", ""))
-        return (self.pattern.replace("{bta}", quote(self.bta, safe=""))
+        href = (self.pattern.replace("{bta}", quote(self.bta, safe=""))
                 .replace("{brand}", brand).replace("{url}", landing))
+        if self.afp:
+            href += "&afp=" + quote(self.afp + afp_suffix, safe="")
+        return href
 
     @property
     def rel(self):
@@ -403,7 +409,7 @@ def gig_cta(g, links, label):
     if g.get("affiliate_url"):
         href, rel = g["affiliate_url"], "sponsored nofollow noopener"
     elif g.get("gig_url"):
-        href, rel = links.deep(g["gig_url"], pro=is_pro(g)), links.rel
+        href, rel = links.deep(g["gig_url"], pro=is_pro(g), afp_suffix="-pick"), links.rel
     else:
         return '<span class="btn btn-off">Gig link missing</span>'
     return f'<a class="btn" href="{esc(href)}" rel="{rel}" target="_blank">{label}</a>'
@@ -1081,12 +1087,16 @@ def main():
         write("learn/index.html", learn_index(site, articles, draft))
         for a in articles:
             write(f'learn/{a["slug"]}/index.html', article_page(site, a, articles, draft))
+    links.afp = "services"
     write("services/index.html", services_page(site, links, services, draft))
     for top in tops:
+        links.afp = top["slug"]
         write(f'{top["slug"]}/index.html', top_page(site, links, top, draft))
     for pg in pages:
         svc = pg["service"]
+        links.afp = svc["path"].split("/")[-1]
         write(f'{svc["path"]}/index.html', service_page(site, links, svc, by_page.get(svc["path"], []), draft))
+    links.afp = ""
     write("about/index.html", text_page(
         site, slug="about", title="About GigCompass",
         description="Who runs GigCompass, why it exists, how the hiring guides are written and how the site is paid for.",
